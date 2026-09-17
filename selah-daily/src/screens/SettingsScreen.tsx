@@ -143,7 +143,10 @@ export default function SettingsScreen({ navigation }: any) {
       <Row>
         <View style={{ flex: 1 }}>
           <Text style={type.body}>Privacy</Text>
-          <Text style={type.small}>No account. No analytics. Nothing leaves this phone unless you export it.</Text>
+          <Text style={type.small}>
+            No account, no analytics. Your prayers stay on this phone unless you export them. Only the membership
+            check talks to the store.
+          </Text>
         </View>
       </Row>
 
@@ -157,6 +160,18 @@ export default function SettingsScreen({ navigation }: any) {
       <Pressable onPress={() => Linking.openURL(`mailto:${config.supportEmail}`)}>
         <Row>
           <Text style={type.body}>Contact support</Text>
+          <Text style={styles.chev}>↗</Text>
+        </Row>
+      </Pressable>
+      <Pressable onPress={() => Linking.openURL(config.privacyUrl)}>
+        <Row>
+          <Text style={type.body}>Privacy policy</Text>
+          <Text style={styles.chev}>↗</Text>
+        </Row>
+      </Pressable>
+      <Pressable onPress={() => Linking.openURL(config.termsUrl)}>
+        <Row>
+          <Text style={type.body}>Terms of service</Text>
           <Text style={styles.chev}>↗</Text>
         </Row>
       </Pressable>

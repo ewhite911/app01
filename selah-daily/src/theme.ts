@@ -35,6 +35,7 @@ export const config = {
   /** Paywall wording: 'A' = support framing (default), 'B' = feature framing. See src/copy.ts. */
   paywallVariant: 'A' as 'A' | 'B',
   supportEmail: 'support@example.com',
-  privacyUrl: 'https://example.com/privacy',
-  termsUrl: 'https://example.com/terms',
+  // Served by GitHub Pages from /docs on main. Enable Pages in the repo settings to make these live.
+  privacyUrl: 'https://ewhite911.github.io/app01/privacy.html',
+  termsUrl: 'https://ewhite911.github.io/app01/terms.html',
 };
