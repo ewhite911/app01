@@ -64,10 +64,7 @@
     ],
     "extra": {
       "rcAndroidKey": "",
-      "rcIosKey": "",
-      "eas": {
-        "projectId": ""
-      }
+      "rcIosKey": ""
     }
   }
 }
