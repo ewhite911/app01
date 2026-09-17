@@ -2,8 +2,10 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Alert, ImageBackground, Linking, ScrollView, StyleSheet, Text, View, Vibration, Pressable } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { Button } from '../components/ui';
-import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount } from '../db';
+import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
 import { verseForToday } from '../verses';
+import { Tree } from '../components/Tree';
+import { useSub } from '../subContext';
 import { colors, config, radius, space, type } from '../theme';
 
 type Step = 'verse' | 'pray' | 'amen';
@@ -16,8 +18,11 @@ const amenBg = require('../../assets/images/amen.jpg');
 
 export default function TodayScreen({ navigation }: any) {
   const verse = verseForToday();
+  const { active } = useSub();
+  const since = memberSince();
   const [step, setStep] = useState<Step>('verse');
   const [done, setDone] = useState(false);
+  const [count, setCount] = useState(0);
   const [prayers, setPrayers] = useState<Prayer[]>([]);
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const [seconds, setSeconds] = useState(TIMER_SECONDS);
@@ -28,6 +33,7 @@ export default function TodayScreen({ navigation }: any) {
     useCallback(() => {
       setDone(routineDoneToday());
       setPrayers(activePrayers());
+      setCount(routineCount());
     }, [])
   );
 
@@ -51,9 +57,11 @@ export default function TodayScreen({ navigation }: any) {
     bumpPrayed([...checked]);
     markRoutineDone();
     setDone(true);
+    const n = routineCount();
+    setCount(n); // the tree grows the moment the routine is finished
     setStep('amen');
     // After the 3rd completed routine, show the paywall once (never on first launch).
-    if (routineCount() === 3) navigation.navigate('Paywall', { fromRoutine: true });
+    if (n === 3) navigation.navigate('Paywall', { fromRoutine: true });
   };
 
   const openYouTube = async () => {
@@ -77,6 +85,9 @@ export default function TodayScreen({ navigation }: any) {
         </ImageBackground>
         <Text style={styles.hint}>Read it slowly. Once is enough.</Text>
         <Button title={done ? 'Pray again' : "I've read it"} onPress={() => setStep('pray')} variant="amber" />
+        <View style={styles.treeCard}>
+          <Tree count={count} size={110} isMember={active} memberSince={since} />
+        </View>
       </ScrollView>
     );
   }
@@ -126,12 +137,14 @@ export default function TodayScreen({ navigation }: any) {
   return (
     <ImageBackground source={amenBg} style={styles.amenBg}>
       <View style={styles.amenVeil} />
-      <View style={styles.amenInner}>
+      <ScrollView contentContainerStyle={styles.amenInner}>
         <Text style={styles.amen}>Amen.</Text>
         <Text style={styles.amenSub}>
           {checked.size} prayer{checked.size === 1 ? '' : 's'} · {Math.round((TIMER_SECONDS - Math.max(seconds, 0)) / 60)} min
         </Text>
-        <View style={{ height: space.xl }} />
+        <View style={{ height: space.lg }} />
+        <Tree count={count} size={150} tone="dark" isMember={active} memberSince={since} />
+        <View style={{ height: space.lg }} />
         <Button title="▶  Close with worship on YouTube" onPress={openYouTube} variant="yt" />
         <Text style={styles.amenNote}>Opens the YouTube app. Music plays there, not here.</Text>
         <View style={{ height: space.sm }} />
@@ -144,13 +157,14 @@ export default function TodayScreen({ navigation }: any) {
             setChecked(new Set());
           }}
         />
-      </View>
+      </ScrollView>
     </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
   container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg, flexGrow: 1 },
+  treeCard: { alignItems: 'center', paddingTop: space.md, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.line },
   eyebrow: { fontSize: 12, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
   card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 240, justifyContent: 'flex-end' },
   cardImg: { borderRadius: radius.lg },
@@ -163,7 +177,7 @@ const styles = StyleSheet.create({
   boxOn: { backgroundColor: colors.navy },
   amenBg: { flex: 1 },
   amenVeil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(15,12,30,0.55)' },
-  amenInner: { flex: 1, justifyContent: 'center', padding: space.lg },
+  amenInner: { flexGrow: 1, justifyContent: 'center', padding: space.lg },
   amen: { fontSize: 48, fontStyle: 'italic', fontWeight: '600', color: colors.white, textAlign: 'center' },
   amenSub: { color: colors.white, opacity: 0.85, textAlign: 'center', marginTop: space.sm },
   amenNote: { color: colors.white, opacity: 0.8, fontSize: 12, textAlign: 'center', marginTop: space.xs },

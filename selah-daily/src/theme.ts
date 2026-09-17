@@ -27,9 +27,13 @@ export const config = {
   appName: 'Selah Daily',
   // Replace with the real playlist ID from the YouTube channel. Only a link is used — nothing plays in-app.
   youtubePlaylistId: 'PLxxxxxxxxxxxxxxxxxxxx',
+  price: '$3.99',
   priceLabel: '$3.99 / month',
   trialDays: 7,
-  freePrayerLimit: 10,
+  /** Free active requests. Raised 10 → 30: what is given free is never taken back later. */
+  freePrayerLimit: 30,
+  /** Paywall wording: 'A' = support framing (default), 'B' = feature framing. See src/copy.ts. */
+  paywallVariant: 'A' as 'A' | 'B',
   supportEmail: 'support@example.com',
   privacyUrl: 'https://example.com/privacy',
   termsUrl: 'https://example.com/terms',

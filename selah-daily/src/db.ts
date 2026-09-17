@@ -127,3 +127,13 @@ export function importAll(data: { prayers?: Prayer[]; routine_log?: { day: strin
     }
   });
 }
+
+/** The date this phone first became a member. Set once; never cleared on cancel. */
+export function memberSince(): Date | null {
+  const v = getSetting('member_since');
+  return v ? new Date(v) : null;
+}
+
+export function markMemberSince(d = new Date()) {
+  if (!getSetting('member_since')) setSetting('member_since', d.toISOString());
+}

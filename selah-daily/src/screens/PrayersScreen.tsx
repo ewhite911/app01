@@ -40,7 +40,7 @@ export default function PrayersScreen({ navigation }: any) {
     <View style={styles.container}>
       <Text style={type.h1}>My prayers</Text>
       <Text style={type.small}>
-        {active ? 'Unlimited requests · answered history kept' : `${activeCount} of ${config.freePrayerLimit} free requests`}
+        {active ? 'Member · unlimited requests, answered history kept' : `${activeCount} of ${config.freePrayerLimit} free requests`}
       </Text>
       <View style={styles.addRow}>
         <TextInput
@@ -56,7 +56,9 @@ export default function PrayersScreen({ navigation }: any) {
       </View>
       {atLimit && (
         <Pressable onPress={() => navigation.navigate('Paywall')}>
-          <Text style={styles.limit}>Free list is full. Unlimited requests are {config.priceLabel}.</Text>
+          <Text style={styles.limit}>
+            The free list of {config.freePrayerLimit} is full. Members get unlimited requests · {config.priceLabel}.
+          </Text>
         </Pressable>
       )}
       <FlatList
