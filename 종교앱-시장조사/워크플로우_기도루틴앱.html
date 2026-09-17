@@ -1,0 +1,168 @@
+<meta charset="utf-8"><title>Selah Daily 워크플로우</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#F4F2EE;--ink:#1B2233;--muted:#5E6577;--line:#DDDAD2;--navy:#1E2A44;--amber:#E9A84B;--card:#FFFFFF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121520;--ink:#EDEAE3;--muted:#A5A9B8;--line:#2C3142;--card:#1A1F2E}}
+:root[data-theme="dark"]{--bg:#121520;--ink:#EDEAE3;--muted:#A5A9B8;--line:#2C3142;--card:#1A1F2E}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;font-size:15px;line-height:1.5;padding-inline:20px;padding-block:28px}
+h1{font-weight:800;font-size:1.7rem;margin:0 0 6px}
+h2{font-size:1.1rem;font-weight:800;margin:36px 0 8px;padding-left:10px;border-left:4px solid var(--amber)}
+.lede,.note{color:var(--muted);max-width:70ch}
+.wrap{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.9rem;background:var(--card)}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--navy);color:#fff;font-weight:600}
+td b{font-weight:600}
+.k{display:inline-block;background:var(--amber);color:#1B2233;border-radius:6px;padding:1px 7px;font-size:.78rem;font-weight:700}
+</style>
+
+<h1>Selah Daily 워크플로우</h1>
+<p class="lede">세 개의 흐름을 한 장에 정리했습니다. ① 사용자가 앱 안에서 매일 도는 루틴 흐름 ② 무료→체험→구독→해지의 결제 흐름 ③ TG가 Windows ARM64에서 Claude Code로 개발해 스토어까지 보내는 개발·출시 파이프라인. 리포트 9·12·13·18장 기준.</p>
+
+<h2>1. 첫 실행 → 첫 기도 (90초)</h2>
+<div class="wrap">
+<pre class="mermaid">
+flowchart LR
+  A[설치·첫 실행] --> B{"아침 / 저녁?<br/>(유일한 질문)"}
+  B --> C["알림 허용 요청<br/>이유 먼저 설명"]
+  C -->|허용| D
+  C -->|거부| D
+  D["① 오늘의 말씀<br/>BSB 1구절 + 2문장"] --> E["② 기도제목 1개 입력<br/>타이머 3분"]
+  E --> F["③ 아멘 화면<br/>스트릭 1일"]
+  F --> G["YouTube 재생목록 버튼<br/>(공식 앱으로 전환)"]
+  F --> H[오늘 마침]
+  G --> H
+  H --> I[홈: 다음 알림·스트릭·기도제목]
+  style D fill:#1E2A44,color:#fff
+  style E fill:#1E2A44,color:#fff
+  style F fill:#1E2A44,color:#fff
+  style G fill:#FF0000,color:#fff
+</pre>
+</div>
+
+<h2>2. 매일 반복 루프</h2>
+<div class="wrap">
+<pre class="mermaid">
+flowchart TD
+  N["로컬 알림 6:20 / 21:30"] --> O{앱 열기}
+  O --> P["① 말씀"] --> Q["② 기도<br/>기도제목 체크·타이머"] --> R["③ 아멘"]
+  R --> S{기도제목에<br/>응답이 있었나?}
+  S -->|예| T["스와이프 → Answered<br/>저널에 자동 기록"]
+  S -->|아니오| U
+  T --> U["스트릭 +1<br/>놓친 날은 주 1회 은혜 패스"]
+  U --> V["YouTube로 마무리<br/>(선택)"]
+  U --> W[종료]
+  V --> W
+  W -.7일마다.-> X["주간 회고 카드<br/>(유료)"]
+  X -.-> N
+  W -.-> N
+</pre>
+</div>
+
+<h2>3. 결제 흐름 (무료 핵심 영구, 함정 없음)</h2>
+<div class="wrap">
+<pre class="mermaid">
+flowchart LR
+  F0["무료 사용<br/>루틴·기도제목 20개·스트릭·알림 1개"] --> F1{3회차 루틴 완료?}
+  F1 -->|아니오| F0
+  F1 -->|예| F2["프리미엄 소개 1회<br/>닫기 가능"]
+  F2 -->|Not now| F0
+  F2 -->|Start trial| F3["스토어 결제 시트<br/>종료일 명시: Oct 1"]
+  F3 --> F4["체험 7일"]
+  F4 -->|5일차| F5["로컬 알림<br/>'체험이 2일 뒤 끝납니다'"]
+  F5 --> F6{사용자 선택}
+  F6 -->|해지| F7["설정 최상단 →<br/>스토어 구독 페이지"] --> F0
+  F6 -->|유지| F8["월 $3.99 / 연 $24.99<br/>기본 선택 = 월간"]
+  F8 --> F9["구독 중<br/>기도제목 무제한·회고·위젯"]
+  F9 -->|언제든| F7
+  F9 -->|기기 변경| F10["구매 복원<br/>계정 없이 영수증으로"]
+  style F0 fill:#2E8B57,color:#fff
+  style F7 fill:#E9A84B,color:#1B2233
+</pre>
+</div>
+<p class="note">노출 규칙: 첫 실행에 결제 화면 없음, 하루 1회 초과 노출 금지, 연간 플랜을 기본 선택하지 않음, 무료 범위는 앱·스토어 설명에 "영구 무료" 서약.</p>
+
+<h2>4. 데이터 흐름 (서버 없음)</h2>
+<div class="wrap">
+<pre class="mermaid">
+flowchart LR
+  U[사용자 입력] --> S[(expo-sqlite<br/>기도제목·루틴 기록)]
+  U --> M[(MMKV<br/>설정·알림 시각)]
+  S --> E["JSON 내보내기<br/>공유 시트"]
+  E --> I["다른 기기에서 가져오기"]
+  RC["RevenueCat<br/>익명 ID + 스토어 영수증"] --> P["구독 상태"]
+  YT["YouTube 재생목록 ID<br/>(앱 내 상수 or 원격 설정 파일)"] --> L["Linking.openURL"]
+  X["서버 · 계정 · 분석 SDK · AI"] -. 없음 .-> S
+  style X stroke-dasharray:5 5,color:#5E6577
+</pre>
+</div>
+
+<h2>5. 개발·출시 파이프라인 (Windows ARM64, Mac 없음)</h2>
+<div class="wrap">
+<pre class="mermaid">
+flowchart LR
+  subgraph W0["주 0 · 준비"]
+    a1["이름 10개 상표·도메인 조사"] --> a2["Apple $99 · Google $25 등록"] --> a3["Node ARM64 · Expo CLI · JDK · adb"] --> a4["Android 실기기 1대<br/>목회자 검수자 1명"]
+  end
+  subgraph W12["주 1~2 · 프로토타입"]
+    b1["Claude Code로 Expo 앱 생성"] --> b2["3단계 루틴 · SQLite · 타이머 · 스트릭"] --> b3["eas build iOS → TestFlight<br/>eas build Android → APK"] --> b4{"본인 7일 연속 사용<br/>지인 5명 첫 기도 60%?"}
+  end
+  subgraph W36["주 3~6 · 베타"]
+    c1["로컬 알림 · 온보딩 1문항"] --> c2["RevenueCat 구독 3종 · 체험 · 해지 딥링크"] --> c3["말씀 365일 · 기도문 100편 검수"] --> c4["TestFlight 30명 · Play 12명×14일"]
+  end
+  subgraph W78["주 7~8 · 지표"]
+    d1{"D7 10% · 체험 시작 15%<br/>크래시 없는 세션 99%?"}
+  end
+  subgraph W911["주 9~11 · 출시 준비"]
+    e1["루틴 변형 · 무드 재생목록 · 테마"] --> e2["스크린샷(사진 촬영) · 서약 문구 · ASO"] --> e3["개인정보처리방침 · EULA · 심사 노트(4.2)"] --> e4["App Store · Play 제출 · 사전예약"]
+  end
+  subgraph W12b["주 12 · 출시·판정"]
+    f1["출시 · ASA $100 실험"] --> f2{"계속 / 수정 / 중단<br/>(리포트 15·16장)"}
+  end
+  a4 --> b1
+  b4 -->|예| c1
+  b4 -->|아니오| b2
+  c4 --> d1
+  d1 -->|예| e1
+  d1 -->|아니오| c1
+  e4 --> f1
+  f2 -->|계속| g1["v1.1: Family Controls<br/>entitlement 프로토타입"]
+  f2 -->|중단| g2["리포트 재작성"]
+</pre>
+</div>
+
+<h2>6. 병렬 트랙: 검증 · YouTube 채널</h2>
+<div class="wrap">
+<pre class="mermaid">
+gantt
+  dateFormat  YYYY-MM-DD
+  axisFormat  %m/%d
+  section 개발
+  준비(주0)            :a0, 2026-09-22, 7d
+  프로토타입(주1~2)     :a1, after a0, 14d
+  베타 구현(주3~6)      :a2, after a1, 28d
+  베타 지표(주7~8)      :a3, after a2, 14d
+  출시 준비(주9~11)     :a4, after a3, 21d
+  출시·판정(주12)       :a5, after a4, 7d
+  section 검증
+  랜딩·사전등록         :b1, after a0, 14d
+  인터뷰 8~10명         :b2, after a0, 14d
+  가격 A/B             :b3, after b1, 14d
+  4주 판정             :b4, after a4, 7d
+  section YouTube
+  채널 개설·재생목록 4개 :c1, after a0, 14d
+  주 2~3편 업로드       :c2, after c1, 70d
+  Shorts 5편(개념 시연)  :c3, after a3, 14d
+</pre>
+</div>
+
+<h2>7. 게이트 요약</h2>
+<table>
+<tr><th>게이트</th><th>통과 조건</th><th>실패 시</th></tr>
+<tr><td>주 2 프로토타입</td><td>본인 7일 연속 사용, 지인 5명 첫 기도 완료 60%+</td><td>루틴 길이·화면 순서 수정 후 1주 재시도</td></tr>
+<tr><td>주 4 검증</td><td>랜딩 사전등록 2%+, 인터뷰 10명 중 4명 이상 "$3.99 내겠다"</td><td>가격·포지션 수정. 둘 다 미달이면 <span class="k">중단</span></td></tr>
+<tr><td>주 8 베타</td><td>D7 10%+, 체험 시작 15%+, 크래시 없는 세션 99%+</td><td>온보딩·알림 수정 후 2주 재측정</td></tr>
+<tr><td>주 11 심사</td><td>Apple 4.2·3.1.2 통과, Play 프로덕션 승인</td><td>위젯·회고 보강 재제출. 4.2 거절 2회면 <span class="k">중단</span></td></tr>
+<tr><td>주 12+4 판정</td><td>체험→유료 20%+, 환불 6% 이하, YouTube 이동 10%+</td><td>16장 중단 기준: 2개 이상 해당 시 <span class="k">중단</span></td></tr>
+</table>
+<p class="note">서버·AI·앱 차단·앱 내 오디오는 전 단계에서 제외. 앱 차단은 출시 후 entitlement 승인이 확인된 뒤에만 v1.1로 진입.</p>

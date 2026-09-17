@@ -1,0 +1,1301 @@
+{
+ "meta": {
+  "app": "YouVersion",
+  "ios_id": 282935706,
+  "gp_package": "com.sirma.mobile.bible.android",
+  "ios_fetched_all_ratings": 2000,
+  "ios_low": 20,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 18,
+  "sample_gp": 82,
+  "sample_date_min": "2026-09-03",
+  "sample_date_max": "2026-09-16",
+  "full_file": "YouVersion_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "3/10/26 This update made the app freeze and crash Update 9/15/26 This update (9/2/26) deletes my reading plan progress. Every time I open a plan I've read \"less\" of it.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-001",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "9.15.2026 My fault bread reading for Bible in a year plan not reflecting readings completed. Please fix.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-002",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "the app glitches way too much. it doesn't complete daily readings like it used, and has missing days even when the days were already completed. 😕 Reading the Bible is impossible, because it keeps freezing up.",
+   "version": null,
+   "id": "YouVersion-003",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "Really buggy the last week or so (probably since the last update). Laggy scrolling and touch response, doesn't track reading completion in plans, unchecks completed readings, overheats my phone, freezes, crashes, excessive battery drain. Long standing annoyance: Can't create a new reading plan to share and read along with our church plan. App is great when it works.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-004",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "I love this app and use it every day; however, since the last update, it causes my phone to overheat and pause, then start over. I've tried all of the troubleshooting and think it may be a bug that needs to be fixed.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-005",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "My experience with this app has been so bad lately. Highlights disappear. Also, when you complete a day in a plan, the ticks disappear and it looks like the reading of the day is not complete. No matter how many times I click for the tick, it doesn't work. Now following plans has become very difficult. Please fix this urgently.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-006",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "JESUS's (--WHO is in Heaven--) is LORD. Amen.",
+   "version": "11.29.0+7094458",
+   "id": "YouVersion-007",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "no longer tracking sad experience this year",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-008",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "rated one star because have searched my favorite swahili version nowhere to be found.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-009",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 2,
+   "title": "",
+   "body": "This is the best bible app in my opinion. However, of late, the bible plan I'm on doesn't tick the boxes when I'm done reading for the day. Or if it does, it somehow, by some malfunction, they all get to untick. It can be discouraging and uncomfortable to see that a day you've struggled to keep by reading somehow disappears. Could you kindly look into this?",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-010",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 2,
+   "title": "",
+   "body": "your app doesn't do right. it's slow.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-011",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 2,
+   "title": "",
+   "body": "Seems nice, but New American Bible (promised) is missing, just Protestant bibles",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-012",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 2,
+   "title": "",
+   "body": "I am sad 😔. This app is all amazing. Every feature is helpful in this app. Keeping track, highlighting verses even adding notes, just to mention the few. Just sad that it started crashing, freezing and not ticking what completed in plans. Tried reinstalling still the same response.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-013",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "Something recently happened that no no longer allows me to track my progress in my plans. great app otherwise. I try and use it every day!",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-014",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "Hello Team, I am enjoying the app and the work you are doing. God bless you. However, for about a week or more, the app has become very buggy for me. It crushes very often and wouldn't load. The Bible study plans I have fail to auto-tick to show I have completed them. Even when I manually tick them off, I return to see them undone. I am currently subscribed to the yearly bible reading plan with Nicky and Pippa Gumble classic version and Job explained.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-015",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "God bless the developers. May people get changed through reaching out & packages in this App what's wrong with the latest updates. issues here & there. some many bible version/translation wiped out. syn difficult what's happening",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-016",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "Offline? Cannot do a simple Bible text keyword search without Internet. This is a step backwards. Focus on the essentials before the socials.",
+   "version": "11.24.0+7091608",
+   "id": "YouVersion-017",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "Having great difficulty. Using the chronological Bible in a year plan and the app won't show my completed verses. I check then off and the checkmarks disappear.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-018",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "I've been using this app since almost the beginning of it. Since it is free, I must give the admins a lot of grace. They must have changed. I could email them in the past & get responses & see change. I assume funding changes have hurt it. I use this app for daily reading only via One Year Plan. Blue Letter Bible is best for actual search & study. Sadly, the OY plan has bugs now. (maybe others as well) It is no longer holding checked boxes for completed reading. Don't know what to do.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-019",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "I love reading the YouVersion Bible for church, lately it has horrible for reading the plans. It doesn't keep track of daily reading of the plans, it will not go forward or remove the completed plan anymore. I cannot seem to get anyone at YouVersion.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-020",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "I am a long time user of the app and sadly have been noticing an increase in how many issues I am running into while using the app. I have noticed quite a few issues while following a daily Bible reading plan. The app freezing and crashing when advancing chapters. Recently it has been next to impossible to get a daily reading to be considered complete. It will uncheck readings I havw completed and will not save comments on the Bible study with other people doing the same reading plan.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-021",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "after reading the section of the Bible for today as an example, when I go back into the app , it says missed a day and if I tick the chapters completed ,the following time I open the app it says incorrect or missed, whats going on",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-022",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "I like that I can read the KJV and NLT side by side. My issue is that the app won’t rotate on an iPad so I can only use my phone. Does anyone else have this problem?",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-023",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 3,
+   "title": "",
+   "body": "Im wondering what's going on with the app lately. It keeps force closing in the middle of a plan and also saying I missed days of reading because it wont check off or let me check off that day. Its still one of the best bible apps available to me but here lately just seems to crash alot.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-024",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "The Rating survey comes up too many times in the same day",
+   "body": "The Rating survey pops-up too many times in the same day! Even though It is a great app with great resources.\nIt would be nicer to have the survey pop up just once a month or every 6 months.",
+   "version": "11.31.0",
+   "id": "YouVersion-025",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "This app is straight cheeks",
+   "body": "Just give me the word and not ads, I don’t want a bible plan",
+   "version": "11.31.0",
+   "id": "YouVersion-026",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "The Bible is perfect. This app is not.",
+   "body": "I keep getting requests to review this app. Even after I have submitted it several times. LEAVE ME ALONE!",
+   "version": "11.31.0",
+   "id": "YouVersion-027",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "Video glitch",
+   "body": "The videos are hard to understand and hear in completion because the stop, freeze and cut out often. Finding a scripture to read is hard to navigate due to the overwhelming options. It’s hard to focus.",
+   "version": "11.31.0",
+   "id": "YouVersion-028",
+   "categories": [
+    "C12",
+    "C15",
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "The Bible is perfect. This app is not.",
+   "body": "I keep getting requests to review this app. Even after I have submitted it several times. LEAVE ME ALONE!",
+   "version": "11.31.0",
+   "id": "YouVersion-029",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "HB",
+   "body": "I love the Holy Bible",
+   "version": "11.31.0",
+   "id": "YouVersion-030",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "Tp",
+   "body": "Could go deeper into the meaning of scriptures keep to the Greek terms of scriptures",
+   "version": "11.31.0",
+   "id": "YouVersion-031",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "Renew",
+   "body": "A special thank you to all the daily speakers highlighting the verse of the day. Your faithfulness refreshes a weary soul and encourages us to go deeper in the word.  Thank you, this APP gives unconditionally.",
+   "version": "11.31.0",
+   "id": "YouVersion-032",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "Will never select a plan from this company/church again",
+   "body": "Too slow talking; horrible accent and intonation; did not appreciate long breaks of silence for prayer within the readings",
+   "version": "11.31.0",
+   "id": "YouVersion-033",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "When I tried to sign in to that app for an account it said Bad request to me back. This app sucks and I would do 0 stars for this if I could; if these developers are reading this than FIX your app I WANT to sign in under MY account's name.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-034",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "is good,emotional.",
+   "version": null,
+   "id": "YouVersion-035",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "Bible plan one year. I'm completely the plan ,but the check mark keeps disappearing.Its aggravating Fix the bugs and errors . It's glitches too much .",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-036",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "The people in charge of this app are trying to manipulate you through their search engine and not show you verses they don't agree with. Sounds like the work of Satan through men to me.",
+   "version": "11.29.0+7094458",
+   "id": "YouVersion-037",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "I am not longer using this app after the narrator has been replaced with 2 options that are both not enjoyable.",
+   "version": "11.30.0+7095069",
+   "id": "YouVersion-038",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "since this app was updated, I am unable to complete my daily reading plan. the daily readings are not completed as read. Therefore, it is showing that I am falling behind. Can this problem be fixed.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-039",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "This is the best app that helps you connect with Jesus Christ 🙏🏻 at a personal level. Study the Bible and know more about God. I surely recommend",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-040",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "at some point my Bible study plan started misbehaving and refused to mark the days I had done. It even unmarked them.",
+   "version": null,
+   "id": "YouVersion-041",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "I was having issues with it staying logged in so that every time I open the app I had to login. I ran an update on the app and it is working better. Now, as a check off days on my reading plan, they aren't staying checked every time I go in I have to recheck days.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-042",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "this app is so glitch it's almost impossible to get into the scripture. its crashes constantly and the daily plans wont check themselves off when you complete the lesson so you spend most of you time trying to figure out where you're at. im constantly loosing my daily streak because I try to open the app and it's not working so I can get my daily study lesson in. horrible app I'm uninstalling it and finding a new bible app. this thing has become completely unusable.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-043",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "it makes me feel more relieved",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-044",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "I've had it for years but recently it is glitching. It won't consistently update when I've read my plans.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-045",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "There is some sort of glitch when I am in the plans and going through day-to-day. It is not saving my progress. I keep going back and checking off each day and as I check them off and it shows me that it's complete when I go to the next day to check it off, it removes the previous days they were already checked off including the one I was currently completing. Pretty frustrating",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-046",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "program stops, pauses, deletes during use. unstable.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-047",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "you e removed a certain scriptures from showing up in searches and you are disgusting for it. this is not a political app this is about the word of God. how dare you try to play politics and remove scriptures.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-048",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "UPDATE: glitches have recently gotten so much worse! I am often several days behind because check marks which were once there are now gone randomly. I'll happily adjust my rating again if this is fixed. ORIGINAL: The plan often has glitches and doesn't check off things I've already done. I'll tap the check button and it will appear and then disappear and so it's regularly telling me I'm off track. Otherwise, I still use this daily and love the rest of it.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-049",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "9/15/26 Update Latest update causing app to freeze. I have been using this app for probably close to 10 years. While there have been glitches there was never a time it was unusable. Today, I may sadly have to uninstall and walk away from years of prayers, plans, and progress. My plans are all blank. The last 2-3 years of changes and updates were absolutely unnecessary. Really hope the developers change things back.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-050",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "It started lagging like crazy some weeks ago. Plus, I use the Bible in one year plan and the days I've passed keep unmarking themselves. Plus, its lagging extremely. (Before you ask, it's not an issue with my phone, no other app on my phone lags) I have over 150gb of space in my home so this should NOT be happening! Even my 2 friends that I'm reading the Bible in one year plan with are complaining of the exact same problem. The app is really good, but this lagging is driving me crazy",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-051",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "the app keeps freezing and restarting",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-052",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "I love using this app daily, but lately it's been crashing. Please fix this ASAP.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-053",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "Have you been hacked or something? I haven't missed a single chapter of a single day, but the app is constantly losing my progress and won't allow me to correct it. it is very disheartening and off-putting. I tried to send a help message and it wouldn't go through or allow me to submit the request. it used to be good, it has definitely got worse recently.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-054",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "The app freezes way too much when reading a plan. My guess is this was because of the latest version.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-055",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "since 2021, this app has been crashing alot, it doesn't always record my daily readings from the whole Bible plan that I'm reading. it's been frustrating to use recently in 2026.",
+   "version": "8.23.6",
+   "id": "YouVersion-056",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "Extremely glitchy lately. Needs an update.",
+   "version": null,
+   "id": "YouVersion-057",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "The app pauses randomly when I am listening and freezes up completely at least once a session",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-058",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "everytime I complete a day, it still says incomplete and is bugging even though I already read them",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-059",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "So I have used this app on and off over the years and this year I have been using one of the Bible Plans to read it through in a year. It has been really great up till the last week or so where it keeps telling me I have missed days but I haven't. And I have to keep marking off the ones I've done repeatedly. it's quite annoying and not sure if it's a bug or if the developers can fix it? other then that it's a great app and very user friendly. Has anyone else had this issue?",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-060",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "the app is great. i hope other Bible versions have audio too",
+   "version": null,
+   "id": "YouVersion-061",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "update: the app experience has degraded in the past couple weeks, the plan progress tracking has always been a little flaky, but is now a lot worse, often when I check things off they don't check off. in the last few days the app has gotten really slow, but the more you use it the more jittery it gets. This is a really fantastic app, reading is simple and easy to navigate, and the plans are great. I like the streak system to give me that extra push and reminder to stay in God's word.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-062",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "Good variety of translations but user interface us lacking. If you miss a day in a plan, like day 1 and you are currently on day 230 you have to scroll all the way to day 230 each time the app closes. The app can be buggy and some buttons don't work. There should be a easier to spot menu for scrolling through the timeline of a chapter in the bible when using the read function.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-063",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "Revising from 5 to 3 stars. App was great, but now it's not working properly. Isn't marking my daily Bible reading in my Plans as complete so I can advance to the next day. Repeating readings and throwing my routine out of whack. I checked for updates and there are none. Need fixed ASAP!",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-064",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "",
+   "body": "I love the 1 year reading plan I chose, however it seems, since the last update on Sept 2nd 2026, I'm having issues with the plan! It is fighting me to complete each day. After I finish reading/listening to the chapters, it doesn't mark them complete. I keep trying to ✔️ them off as complete, and it keeps fighting me. 😤 very, very annoying and frustrating! I pray they fix this glitch!",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-065",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "Switched from Iphone to Samsunf fold z 8 and have not been able to use the Bible app since. It keeps crashing despite all my troubleshooting. Please help",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-066",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "it's glitching a lot the past 2 weeks and it won't check off my days or if I do it, it un checks them later",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-067",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "riddled with bugs lately. it won't save my checks on my daily plan, so I'm having trouble keeping up with how fast I've read in my Bible. very frustrating!",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-068",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "This bible close while busy reading lost guided streaks",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-069",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "I'm So frustrated. With this app, it takes longer for me to get the check marks to go to say that I have read each part of the reading than it does to actually read all of the things that I am to read for that day. I'm so sick of fighting this app. 😥😔😞",
+   "version": null,
+   "id": "YouVersion-070",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "The newest update has caused havoc in the app. Once each day is marked complete. But the next day, at least 4 days of what I'v read is marked incomplete. I have checked off 250+ days of Bible in a year multiple times. I've emailed customer service. The rep keeps telling me to do this multi-step fix and promises it'll work. It doesn't. But he keeps insisting I do it one more time. Customer service is useless.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-071",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "Works brilliantly on my old Huawei but doesn't on the Google pixel 10. It doesn't update (put a tick / check mark next to the chapter that has been completed) in the NEW TESTAMENT 90 DAYS Bible plan",
+   "version": null,
+   "id": "YouVersion-072",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "It's gotten so bad, you read through a bible plan and it tells you that you have days missing, sometimes you highlight something and the highlited page disappears",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-073",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "im doing a bible in 360 days on here and it will just randomly say im several days behind",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-074",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "super buggy recently. always crashes and progress in plans doesnt save.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-075",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "It's so laggy recently. All other apps work flawlessly except for my favorite app",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-076",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "I had to change my review because whatever changes have been made are bad. The bubbles to mark off your days are no longer working. i have cleared out my cache but i am still having issues with them. it is sad because i really enjoy this app. Thanks",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-077",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "I don't know what's going on, but this app is being extremely glitchy. I've been using it for years and have never had issues with it. The days I have read and check off as complete won't stay checked. I've cleared cache, closed it and reopened, restarted my phone and it's still doing that.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-078",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "Glitching adapter 300 days it wants to not track. I have clicked and rechecked chapters i have read and the second I go out and come back in it unmarked itself. Its hard to keep up where you are and what you've read. I hope this gets fixed because I love this app. Praise God",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-079",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "I've been using this app for about 7 years and one thing I dislike about this Bible app is that it always alters and shortens the words of God's Word whenever I want to share or save them that's why I give it 2 ⭐",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-080",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "One of the glitchiest Bible apps available.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-081",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "it's worked beautifully for years but is currently not letting me highlight deuteronomy 4 for some reason or make notes",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-082",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "",
+   "body": "I am using the bible recap plan to read through the Bible in a year and it has stopped allowing me to check off days. i have enjoyed this app up until recently not sure why it started to malfunction. i started my plan on Jan 1.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-083",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 3,
+   "title": "",
+   "body": "I don't know what happened with this last update!!! My app won't let me keep my progress after reading my plan. I am just having a hard time with it all around. It's not loading properly. It worked perfectly before the new update. Any advice on what to do?",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-084",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 3,
+   "title": "",
+   "body": "Great when it works, but it messes up on tracking frequently.",
+   "version": null,
+   "id": "YouVersion-085",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 3,
+   "title": "",
+   "body": "This used to be a fantastic app, but recent updates have made the app increasingly difficult to use. Help is non-existant. You get what you pay for, which in this case is nothing, which is a pity because it had such great potential.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-086",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "The Holy Ghost Bible",
+   "body": "My Family are Christians and we love using the Holy Bible app . It uses my versions like NIV , AMP and NKJV and more",
+   "version": "11.31.0",
+   "id": "YouVersion-087",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "Reading too fast, can’t hear nothing",
+   "body": "How do I change the reading speed?",
+   "version": "11.31.0",
+   "id": "YouVersion-088",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-13",
+   "rating": 3,
+   "title": "Too many feed back requests",
+   "body": "Very disruptive and appearing desperate for human comments.",
+   "version": "11.31.0",
+   "id": "YouVersion-089",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-13",
+   "rating": 3,
+   "title": "Too many feed back requests",
+   "body": "Very disruptive and appearing desperate for human comments.",
+   "version": "11.31.0",
+   "id": "YouVersion-090",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "I don't appreciate the inclusion of pronouns in my Bible. Our father would not appreciate it either.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-091",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "I don't want to sign in. I don't want to give you my personal information. please stop making access to the Bible conditional.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-092",
+   "categories": [
+    "C10",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "⭐ Don't get me wrong I'm thankful for this app but they keep adding so much to it that it doesn't work very well anymore! I'm reading through the Bible and it will not check what I've done, they never fix any of the issues I have. One of the latest changes is their \"highlights\". When you highlight a verse in dark mode it gets so dark. You can't even see it and the colors a really muddy. However, I am very thankful for the app.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-093",
+   "categories": [
+    "C11",
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "the app is having problems loading. I am not able to get into my plans.",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-094",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "uninstalling this app went woke and it's trying to appeal to the inclusivity crowd",
+   "version": "11.31.0+7095881",
+   "id": "YouVersion-095",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "Bugs, bugs, bugs!",
+   "body": "I’ve been using this app for years but it’s become almost unusable. The search feature hasn’t worked for months, and today, when I opened the app, the Bible didn’t load. Get your bugs under control. I’m moving to a different app.",
+   "version": "11.31.0",
+   "id": "YouVersion-096",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "Love it so much",
+   "body": "Love every thing about this app . I can write notes, highlight and make Bible friends",
+   "version": "11.31.0",
+   "id": "YouVersion-097",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-10",
+   "rating": 3,
+   "title": "This app is a bless!",
+   "body": "Keeping up to date on Jesus teachings has never been so easier with this app! Truly a bless!",
+   "version": "11.31.0",
+   "id": "YouVersion-098",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "Bible app transforming life",
+   "body": "the bible app is very useful and transforming life im grateful may God bless you all",
+   "version": "11.31.0",
+   "id": "YouVersion-099",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-09-03",
+   "rating": 3,
+   "title": "pipe andouille",
+   "body": "great news, great education , development",
+   "version": "11.31.0",
+   "id": "YouVersion-100",
+   "categories": []
+  }
+ ]
+}

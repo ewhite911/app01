@@ -1,0 +1,1346 @@
+{
+ "meta": {
+  "app": "Hallow",
+  "ios_id": 1405323394,
+  "gp_package": "app.hallow.android",
+  "ios_fetched_all_ratings": 1182,
+  "ios_low": 282,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2026-06-03",
+  "sample_date_max": "2026-09-16",
+  "full_file": "Hallow_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "cancel my subscription 😒",
+   "version": "13.11.2",
+   "id": "Hallow-001",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 2,
+   "title": "",
+   "body": "didn't even make it to the app because there are too many questions at the beginning. thought this would be a cool app but I didn't download it to fill out a questionnaire",
+   "version": null,
+   "id": "Hallow-002",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "Can't even get past the intro questions. I answered the questions then it showed a quote page with no option to go past it or do anything else. Uninstalled.",
+   "version": null,
+   "id": "Hallow-003",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 3,
+   "title": "",
+   "body": "Great content! Glitchy app! I listen to this app every day and I love the content. The challenge is that I have to clear out the cache and then restart everything almost daily, else the app doesn't work. it's annoying.",
+   "version": "13.11.2",
+   "id": "Hallow-004",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "can't cancel free trial.",
+   "version": "13.11.2",
+   "id": "Hallow-005",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-12",
+   "rating": 1,
+   "title": "",
+   "body": "The app used to be great, but the longer it survives, the worse it gets. There's a lot of great speakers, but the app itself continues a downward spiral. They tried to grow too much too fast and left the patrons in the dust. Now let's talk about THE sin of GREED ... Shameful to charge near $80 for a subscription which content is spread free EVERYWHERE on the internet. I paid for it for the extra content bragged about, but it's just not worth it! HUGE disappointment! Shamful",
+   "version": "13.11.2",
+   "id": "Hallow-006",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 3,
+   "title": "",
+   "body": "Would like to test without the tedious setup",
+   "version": null,
+   "id": "Hallow-007",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 1,
+   "title": "Money n  return for god don’t mix",
+   "body": "I’m no saint but I’d have to pay to learn more ?? Sorry your not helping promote faith  I don’t have money to receive your help in finding god",
+   "version": "13.11.2",
+   "id": "Hallow-008",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 3,
+   "title": "Bible keeps crashing on me",
+   "body": "It’s recently been crashing on me a lot when I’m on the Bible section, it starts off laggy and not responsive and then the app closes , please help",
+   "version": "13.11.2",
+   "id": "Hallow-009",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 3,
+   "title": "add russian please",
+   "body": "add russian please",
+   "version": "13.11.1",
+   "id": "Hallow-010",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 2,
+   "title": "",
+   "body": "Great, however I can not unsubscrbe and keep getting charged. Where can you stop this, please 🙏",
+   "version": "13.10.0",
+   "id": "Hallow-011",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "",
+   "body": "it will take your money before your free trial is up stay clear.",
+   "version": "13.3.0",
+   "id": "Hallow-012",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 3,
+   "title": "",
+   "body": "Great commercials, false advertising. Not Catholic, just wanted the cool audio y'all had on the commercials that seemed way better than anything on Audible. After having to answer a super long survey, y'all presented me with actors and singers as though they were somehow important. The only important person is Jesus. Finally found the actual Bible, not your suggested reading and guess what? No audio. I say again: great commercials, false advertising.",
+   "version": null,
+   "id": "Hallow-013",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "",
+   "body": "please don't install this app if you install this you regret it I already uninstall this app but still deducting Worth 1990php in my gcash without permission. if you don't want to regret don't install this app they only using a prayer.",
+   "version": "13.10.0",
+   "id": "Hallow-014",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 2,
+   "title": "Difficult",
+   "body": "I’m sorry to say I find how difficult to use in navigate trying to spend more time in it to be a better expert but so complicated for me",
+   "version": "13.11.1",
+   "id": "Hallow-015",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 1,
+   "title": "",
+   "body": "Shame on these people for charging money for this! The app is free but you have to pay for the Bible to be read. I'm sure thats exactly what Jesus wants!!!",
+   "version": "13.10.0",
+   "id": "Hallow-016",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 2,
+   "title": "",
+   "body": "I have loved this app, but unfortunately Hallow doesn't really hold a standard for their presenters. I understand why Bishop Barron remains in spite of now being a more political force, but Matt Walsh is actively insulting people and being openly cruel on social media- and for some reason, all content shared among multiple presenters have defaulted to HIM. Hallow allows abusive people to maintain a platform with them and that's a problem.",
+   "version": "13.10.0",
+   "id": "Hallow-017",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "AI influenced",
+   "body": "Used to love this app but I’ve been seeing AI get used more often, then just saw them use an AI video of “Matthew” on instagram. We do NOT want AI involved in our worship and prayer life in anyway. Very disappointing.",
+   "version": "13.11.0",
+   "id": "Hallow-018",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "I had the worst experience for being charged Php1,990 without notifying me first. I signed up for a free trial, afterwhich I was charged for a full annual payment with no notification. As much as I want to increase my prayer time, charging me for a full year is unreasonable. Much more that your telling your subscribers that if we choose to cancel, we won't be refunded! How is that fair? I am really demanding for a refund. THESE ARE SCAMMERS! Watch out! They make it IMPOSSIBLE for you to CANCEL",
+   "version": "13.10.0",
+   "id": "Hallow-019",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "it's very frustrating and opens up with annoying information if you subscribe. Better to use YouTube videos.",
+   "version": null,
+   "id": "Hallow-020",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "You have to pay for this. I was going to sign up to learn the Rosary Prayer as I am not Catholic, oh well, too poor to afford this Temple Marketplace.",
+   "version": "13.10.0",
+   "id": "Hallow-021",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "Wrongfully charged",
+   "body": "I had gotten a subscription it wasn’t what I thought so i immediately cancelled before my free subscription was up. I was charged 128$ for a subscription I don’t even have no emails did I get and on their site I do not have a subscription yet was charged anyway. I am disappointed and hope to recover my money",
+   "version": "13.11.0",
+   "id": "Hallow-022",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "stealing money",
+   "body": "app is great but not when they start stealing my money, it’s been a day ever since they stole $70 on my bank account, never have i ever subscribed for a 1 year subscription at all!!! i have contacted customer support but no help what’s so ever. i’ve asked for a full refund but all they want is to give me 50% my next subscription, all i just want is my money BACK!!!",
+   "version": "13.11.0",
+   "id": "Hallow-023",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 1,
+   "title": "",
+   "body": "⚠️⚠️⚠️THESE ARE SCAMMERS! Watch out! They make it IMPOSSIBLE for you to CANCEL the trial! After collecting proof of scamming and showing it to PayPal, PayPal reached this seller, and THEN they finally refunded me. Without PayPal's help, I only got circular emails with no results and a bank charge. Google is AWARE! idk why they're still active..⚠️ I would NOT recommend this app, nor would I EVER trust this seller. Good luck to other victims. CHECK CRITICAL REVIEWS! - Reporting Again and Again!",
+   "version": null,
+   "id": "Hallow-024",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 2,
+   "title": "",
+   "body": "I tried to join a church on here and was denied.",
+   "version": "13.10.0",
+   "id": "Hallow-025",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 3,
+   "title": "",
+   "body": "I've really enjoyed this app and paid $70 for a 1-year subscription, but it has stopped working and tells me I'm offline even though I'm not. very frustrating.",
+   "version": "13.10.0",
+   "id": "Hallow-026",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "Can't unsubscribe. App and website kept on redirecting me to google play which doesn't have option to cancel. I thought it would be 1 yr subscription turns out it was yearly. Customer service is also unresponsive. It's been more than 24 hrs since I reported but none of the seems to care.",
+   "version": "13.10.0",
+   "id": "Hallow-027",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 2,
+   "title": "",
+   "body": "Home screen says I'm offline but every other tab seems to work and can access non-downloaded content, every other app on my phone has a connection. Restarting the app doesn't fix it. Restarting the phone doesn't fix it. The app just seems to be permanently in offline mode.",
+   "version": "13.10.0",
+   "id": "Hallow-028",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-27",
+   "rating": 1,
+   "title": "",
+   "body": "This is the absolute worst app. I paid 1,990 pesos for a year-long subscription without receiving a single notification; the payment just went through automatically via GCash. What baffles me is that I never provided my GCash number, yet both of my GCash numbers were linked there. I had intended to use that money for something else. You even use the Bible to pull off your scam—disgusting.",
+   "version": null,
+   "id": "Hallow-029",
+   "categories": [
+    "C01",
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-27",
+   "rating": 1,
+   "title": "",
+   "body": "wanted to check out the meditation part of this app. Was turned off by the excessive and unnecessary questions about religion and 'god' when you first launch the app. might be ok for the religious type.",
+   "version": null,
+   "id": "Hallow-030",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "",
+   "body": "I use Hallow many times a day BUT the app is TERRIBLE, I JUST Uninstaller and plan to use the website access ONLY!!! Despite the \"ignore the bluetooth\" setting the app start RANDOMLY, during the business meetings, when I dive in heavy traffic and need voice commands to find exits from hwy..the app start playing loud and overpowers, say, Google maps directions...you cannot stop it without, stopping the car, finding the app, and trying to close it. Even if you close it..it starts on its own.",
+   "version": "13.8.0",
+   "id": "Hallow-031",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-25",
+   "rating": 1,
+   "title": "",
+   "body": "I've cancelled my subscription. I'm tired of using YouTube to pray because your app needs so much internet bandwidth, and your \"support\" just reads a script and lies. Also, who puts the rosary, of all things, behind a paywall? Foolish greed.",
+   "version": "13.8.0",
+   "id": "Hallow-032",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 2,
+   "title": "Help with tech challenges",
+   "body": "Needs work with sign up and payment issues. AI happy.  When they respond multiple people read or don’t read the issue being raised.",
+   "version": "13.10.0",
+   "id": "Hallow-033",
+   "categories": [
+    "C15",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 2,
+   "title": "",
+   "body": "THOUGHT this was a great idea!(their ADs were better than the actual APP.!) ...Tried creating a profile and the damn thing just \"froze' on some quote by Mother Teresa and NEVER progressed further!! SAD WASTE OF TIME! I'M JUST GONNA STICK WITH MY BIBLE, wish y'all all the best!",
+   "version": null,
+   "id": "Hallow-034",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-23",
+   "rating": 1,
+   "title": "Buyer beware",
+   "body": "Very deceptive and disappointing experience. The distinction between the free and premium versions is not made clear enough until it is too late. The overall experience feels less focused on providing a transparent, user-friendly service and more focused on generating revenue. This may be a business first and foremost, but customers still deserve clear information, upfront disclosure, and fair practices.",
+   "version": "13.10.0",
+   "id": "Hallow-035",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-08-23",
+   "rating": 1,
+   "title": "Help please",
+   "body": "Signed up for account but app refuses to let me in says password is incorrect",
+   "version": "13.10.0",
+   "id": "Hallow-036",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-23",
+   "rating": 1,
+   "title": "",
+   "body": "it's really upsetting seeing people profit ling off the word of GOD. this is highly immoral in my most humble opinion. his word was meant to told not sold taught not bought. this is why I don't go to service. the building is not the church the people are. how would you sustain the building without the people. where there are 2 or more gathered touching and agree there will I be in the midst. go out into the highways and byways and between the hedges and teach my word.",
+   "version": null,
+   "id": "Hallow-037",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "You do know it's bad to falsely advertise something right? you can't say something is free and make them pay a monthly subscription for it.",
+   "version": null,
+   "id": "Hallow-038",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "Terrible; i do not know what i am doing!!! Please delete my membership. Thank you, I only want Catholic material. I made a terrible mistake. Please please delete me. Thank you, Joanne MacDonald",
+   "version": null,
+   "id": "Hallow-039",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-18",
+   "rating": 1,
+   "title": "",
+   "body": "Hallow app is scam I got deducted from my e-wallet worth 1990 pesos,which I didn't use the app I just accidentally clicked because of the ads but I didn't subscribe to the app.I asked for a refund, but the AI agent was the one who answered my queries.I need an human agent to respond with me. I've been waiting for days for the hallow representative to respond but I got nothing from them.",
+   "version": null,
+   "id": "Hallow-040",
+   "categories": [
+    "C01",
+    "C02",
+    "C17",
+    "C08"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-17",
+   "rating": 2,
+   "title": "Technology stinks",
+   "body": "I have been trying to renew with the 50% off offer for days with assistance of tech support. Will not work.",
+   "version": "13.9.0",
+   "id": "Hallow-041",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 1,
+   "title": "",
+   "body": "DO NOT GIVE THEM MONEY They hide the unsubscribe option from you. When you unsubscribe via Google I guess it's not real and they charge you anyways. You don't speak to a person, they use AI customer service. Terrible way to treat people and it's sad seeing this app become like the other greedy apps. I was unable to pay my phone bill because this app greedily took a subscription and then I had to wait ALL weekend+ to try and get it sorted.",
+   "version": "13.9.2",
+   "id": "Hallow-042",
+   "categories": [
+    "C02",
+    "C17",
+    "C08"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 1,
+   "title": "",
+   "body": "yeah I did respond to your support group again and gave me the same answer so why don't you be honest and charge me for the month that I used it and nothing further which I doubt that you will do but a good honest Christian that does not like to steal people's money but just considered that a mistake was made and was subscribe to a year when they would like to do the month-to-month so truly people be aware of this kind a business practice",
+   "version": null,
+   "id": "Hallow-043",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 3,
+   "title": "",
+   "body": "the app and ui is nice but the prayers arent very strong and are kind of all over the place",
+   "version": "13.9.2",
+   "id": "Hallow-044",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-14",
+   "rating": 1,
+   "title": "Advertising Tucker!",
+   "body": "The app is great. I’m just making my opinion clear that is it NOT OK to advertise on Tucker Carlson. He’s actively at war with Turning Point, spinning conspiracies that Erika Kirk killed her husband. He’s a disgusting Muslim apologist and the epitome of how Christians should NOT behave.",
+   "version": "13.9.0",
+   "id": "Hallow-045",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 1,
+   "title": "",
+   "body": "I found it on YT. I did not enroll in it, was charged $69, yes $69. I would like a refund, please.",
+   "version": "12.20.0",
+   "id": "Hallow-046",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 2,
+   "title": "",
+   "body": "The app was good. But i have a problem with the subscription. I have overlook it and was accidentally charged for a year subscription. The problem was that tha money deducted was for my sons. They badly needed it and i need a refund. I need an update on the status of my request. Can anyone help me with that??",
+   "version": "13.8.0",
+   "id": "Hallow-047",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-12",
+   "rating": 1,
+   "title": "All they want is money",
+   "body": "I contacted them multiple times about the $70 fee even before the subscription was ip. Told them about it being downloaded by a child for morning prayer and wasn’t ment to be paid for being prayer theough jesus is free. They not only overdrafted my accout. But too more than said.",
+   "version": "13.9.0",
+   "id": "Hallow-048",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-12",
+   "rating": 1,
+   "title": "",
+   "body": "no mention of a charge for this so uninstalled",
+   "version": null,
+   "id": "Hallow-049",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-11",
+   "rating": 3,
+   "title": "",
+   "body": "I wish I could afford this. It's very convenient and helpful when I'm not home or wanting to show someone what I've read. I understand needing to make a living, but I can put that money towards my son's school clothes instead. 3 stars for the large price.",
+   "version": "12.15.0",
+   "id": "Hallow-050",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-10",
+   "rating": 1,
+   "title": "Questionable Practices",
+   "body": "Be mindful trying their “free” trial. I’ve been charged for a full year, never opened the app & absolutely nobody at Hallow will assist.",
+   "version": "13.9.0",
+   "id": "Hallow-051",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-10",
+   "rating": 3,
+   "title": "Good app, could be great",
+   "body": "The app is pretty glitchy. Agree with other posters that it is expensive. I like the daily reflection, and that requires full payment. It’s frustrating when it only work 3 of 7 days of the week.",
+   "version": "13.9.0",
+   "id": "Hallow-052",
+   "categories": [
+    "C11",
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-10",
+   "rating": 1,
+   "title": "",
+   "body": "Honestly speaking, I am not happy with the app from the start. Instead of inspiring me, it frustrates me. Thanks anyway, and God bless. There was an update that fixed the issue. It’s working perfectly now. Thank you! 😊 I love this app—it’s excellent and highly recommended. God bless. 🙏🏻",
+   "version": "13.9.1",
+   "id": "Hallow-053",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-09",
+   "rating": 1,
+   "title": "Cancelled trial, was still charged",
+   "body": "Do not do the free trial, I was charged despite canceling it. Pretty dispointing being the purpose of the app.",
+   "version": "13.9.0",
+   "id": "Hallow-054",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-09",
+   "rating": 1,
+   "title": "",
+   "body": "Dosnt work on a VPN. Should be free. Also, have to pay the full year? no monthly subscriptions? Seems like a scam. Seems alot of people have trouble cancelling subscriptions and getting charged even when it's been cancelled. All I see is excuses by support. Is this app really for Prayers and God? For an app that claims to help people connect with God, their aggressive billing and lack of transparency feel completely unchristian. Look elsewhere for honest, free spiritual resources",
+   "version": null,
+   "id": "Hallow-055",
+   "categories": [
+    "C11",
+    "C03",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-07",
+   "rating": 2,
+   "title": "",
+   "body": "Stuck! Won't load past the 1st 3 questions. Stuck on Mother Theresa page!",
+   "version": "13.9.1",
+   "id": "Hallow-056",
+   "categories": [
+    "C15",
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-05",
+   "rating": 2,
+   "title": "",
+   "body": "Discouragement. I am extremely displeased with recent updates. Daily readings have been locked behind a pay wall, despite previously being free. Not only this, but it was also done haphazardly, with workarounds being present. This was clearly a hasty act in search of profit. I fail to understand why Bible readings have been locked behind a pay wall. Please revert this recent change and consider making general Bible readings free as well.",
+   "version": "13.8.0",
+   "id": "Hallow-057",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 1,
+   "title": "Horrible customer service",
+   "body": "My child downloaded the app.  I unsubscribed the services.  In March Hallow kept stealing money from my debit card.  I could not unsubscribe again because it was already done.  Apple finally put a stop to the recurring charges but refuses to refund the weeks Hallow stole from me.  Stay away from this UN Christlike app who makes it impossible to contact for a refund.  Apple and Hallow should both be ashamed!",
+   "version": "13.9.0",
+   "id": "Hallow-058",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 3,
+   "title": "Rosary",
+   "body": "I like praying the rosary with intention but your rosary prayers are so\nMuch slower, it is hard to follow along at such a slow speed. But I am sure for others it is ok. \nMay God continue to bless you and those who use this app. 💖",
+   "version": "13.8.0",
+   "id": "Hallow-059",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 3,
+   "title": "",
+   "body": "I know you need money, I was in prison and you saved me!!! I love you brother!",
+   "version": "13.8.0",
+   "id": "Hallow-060",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-02",
+   "rating": 1,
+   "title": "",
+   "body": "seems like a scam and the chosen cast seems like AI",
+   "version": "13.8.0",
+   "id": "Hallow-061",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-02",
+   "rating": 1,
+   "title": "",
+   "body": "I need to pay to pray? so sad",
+   "version": "13.8.0",
+   "id": "Hallow-062",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-31",
+   "rating": 1,
+   "title": "",
+   "body": "I've cancelled my subscription, which wasn't action by their system. I've contacted the company and they're refusing my refund. They don't care. about the financial strain on my family. Truly Christian behavior.... If you cancel your trial subscription ends, make sure to screen record you doing so or you might end up with almost £90 gone from your account Hallow's actions are disgrace!",
+   "version": null,
+   "id": "Hallow-063",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-29",
+   "rating": 3,
+   "title": "AI being used in the app",
+   "body": "I really enjoyed Hallow up for about a year. It really helped me get into a routine of prayer. But since they started to incorporate AI within the app I decided to cancel my subscription especially after Pope Leo’s disapproval of AI.",
+   "version": "13.7.1",
+   "id": "Hallow-064",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-29",
+   "rating": 1,
+   "title": "",
+   "body": "I'd rather read a Bible on my own than to pay for help in my faith",
+   "version": null,
+   "id": "Hallow-065",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-28",
+   "rating": 1,
+   "title": "Nope",
+   "body": "I downloaded this and realized that it’s a Catholic Bible. I’m sorry but there is no catholic Bible. That doesn’t make me comfortable to read. There is however The Bible and I guess I will actually stick to reading the actual Bible.",
+   "version": "13.7.1",
+   "id": "Hallow-066",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-28",
+   "rating": 3,
+   "title": "",
+   "body": "Prayer should be free. This app would have been amazing, if I could use it's resources for free. Asking for money to pray a rosary is wrong. I wish I could have used this app longer. I'm disappointed.",
+   "version": null,
+   "id": "Hallow-067",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-22",
+   "rating": 1,
+   "title": "",
+   "body": "Automatic renewal is sneaky Cancelation process isn't easy --- Change in Hallow policy was not approved by me and I was unable to cancel. I do not approve of the new policy.",
+   "version": "13.7.5",
+   "id": "Hallow-068",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-21",
+   "rating": 1,
+   "title": "",
+   "body": "I really hate this app. terrible. I emailed the developer",
+   "version": "13.7.5",
+   "id": "Hallow-069",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-20",
+   "rating": 2,
+   "title": "Pay to Pray",
+   "body": "Used to be a great app for prayer and meditation. Now they just farm money out of good intentioned Christians. Majority of the app is unusable unless you are giving them money. Sad.",
+   "version": "13.7.0",
+   "id": "Hallow-070",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-20",
+   "rating": 1,
+   "title": "",
+   "body": "too many ads. Don't want to pay for what should be free",
+   "version": null,
+   "id": "Hallow-071",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-18",
+   "rating": 1,
+   "title": "Define “free”",
+   "body": "This app intrigued me during lent, so I thought I would try their 90-day free trial. I didn’t care for the app. After logging in a couple of times, I stopped using it. \n\nImagine my surprise when Hallow charged my credit card for a one year subscription that I never asked for. \n\nReligion for profit, I guess. Disappointing.",
+   "version": "13.7.0",
+   "id": "Hallow-072",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-18",
+   "rating": 3,
+   "title": "Great app",
+   "body": "This is such a great app it helps you in ways you didn’t know you need or did know you needed it but didn’t know how to get it.",
+   "version": "13.7.0",
+   "id": "Hallow-073",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-17",
+   "rating": 3,
+   "title": "Love it but…",
+   "body": "Love it but everything on here costs a subscription price. Wish I could access these talks and things without forking over a $70 subscription. I can’t afford it, wish I could.",
+   "version": "13.7.0",
+   "id": "Hallow-074",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-07-14",
+   "rating": 1,
+   "title": "“We’re sorry to see you go!”",
+   "body": "I’m not.\n\nThis app was genuinely harmful for me. I live with scrupulosity OCD, and instead of helping me grow in my faith, it intensified my fears and made me feel as though I could never be good enough, no matter what I did. Every spiritual question I asked left me feeling more condemned, more anxious and more hopeless.\n\nIt felt cold, robotic and sterile, with very little understanding of how obsessive compulsive disorder affects a person’s spiritual life. People with scrupulosity already live under relentless pressure. We do not need more guilt or impossible standards.\n\nI love God and I love Jesus. This review is not about my faith. It’s about an app that, for me, pushed me further into fear instead of drawing me closer to God’s grace.",
+   "version": "13.7.0",
+   "id": "Hallow-075",
+   "categories": [
+    "C08"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-11",
+   "rating": 2,
+   "title": "Payment in return for gods word",
+   "body": "I have been looking for an app that doesn’t make you pay to get help with your religious problems and this  app makes you pay I should not have to pay to get help. Ho, every one that thirsteth, come ye to the waters, and he and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price. Isaiah 55:1.",
+   "version": "13.6.1",
+   "id": "Hallow-076",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-06",
+   "rating": 3,
+   "title": "The Heavenly Father God and Jesus.",
+   "body": "I don’t know what to say.",
+   "version": "13.6.0",
+   "id": "Hallow-077",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-06",
+   "rating": 1,
+   "title": "Just a mess",
+   "body": "Like others I wanted an app that helped me in my journey with God. Unfortunately this app is money hungry! They make it so difficult to cancel! Still cannot figure it out and I am pretty tech-savvy.  Please just make it to where we can cancel in the app regardless of what platform we set up on.  Who has ever heard of such a thing!",
+   "version": "13.6.0",
+   "id": "Hallow-078",
+   "categories": [
+    "C02",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-05",
+   "rating": 1,
+   "title": "Really?",
+   "body": "So as long as you have a credit card and not a prepaid card, that is used to pay bills every month and food on the table for my children being a single mom with disability that don’t allow me to work anymore yet still fighting the state of Florida for disability (hardest state in the country even with dr explaining why I can’t work anymore and they still deny it), and because of that according to your app I don’t deserve to be able to use the app. Sounds super Godly to me",
+   "version": "13.6.0",
+   "id": "Hallow-079",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-02",
+   "rating": 1,
+   "title": "App run by Trump acolytes",
+   "body": "I cancelled my subscription the minute I found out it was ran by unkind people that do not truly follow or love Jesus.  That support the ICE inhuman raids and concentration camps where innocent girls get abuse daily and pregnant against their will. So NO thank you you are NOT Jesus followers nor good Catholics .",
+   "version": "13.6.0",
+   "id": "Hallow-080",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-01",
+   "rating": 1,
+   "title": "Pay to Pray",
+   "body": "Honestly, I really like the purpose of this app, to get yourself closer to God, but I feel like this app does the opposite. I believe that any app should be universally free, and not be locked besides having to pay money at all. God’s word and prayers shouldn’t be locked up beside paywalls. This is the same reason why Christ flipped the tables. It’s just, I don’t see why a poor family has to pay a lot of money to be able to pray. It seems unreasonable, stupid, snd unchristlike.\n\n1/5.",
+   "version": "13.6.0",
+   "id": "Hallow-081",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-06-30",
+   "rating": 1,
+   "title": "Hallow charged you without notifying",
+   "body": "I downloaded the app in 2024 and after few weeks of usage I realized I no longer needed so end the trials and deleted the app from my phone. Today (in 2026) I realized Hallow has been charging from my account for the last two years. I reached out to ask for a refund because I haven’t been using the service for two years and I haven’t received any notification prior their charge. It was rejected. I feel very disappointed with their decision and yes Hallow you can have the two year fee and lose my trust in your organization going forward. Hope this won’t happen to another user. For overall good, please notify your user before charging from their account.",
+   "version": "13.6.0",
+   "id": "Hallow-082",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-26",
+   "rating": 3,
+   "title": "Near impossible to connect with anyone",
+   "body": "I did enjoy using it during lent and found it beneficial, but when I went to cancel my trial subscription, that’s when the problem started. Would not recommend even though I have in the past as it’s too hard to cancel, and they don’t want to return your money\n\n\nIf you have a problem, trying to cancel your subscription good luck talking to anybody. They just keep referring you to an AI assistant. There’s no phone numbers. There’s no ability to talk to a customer service representative. They keep asking for more information you give it it’s not enough and then. At the end, they tell you that you have to go to your app provider not them that is something they should’ve said right at the beginning instead of wasting a week of my time.",
+   "version": "13.5.0",
+   "id": "Hallow-083",
+   "categories": [
+    "C02",
+    "C17",
+    "C08"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-22",
+   "rating": 1,
+   "title": "Scam",
+   "body": "Well as a Christian woman, I downloaded this app to get closer to God as that’s what it’s for. In one month of having said app, they took $120 from me. Keep in mind, I bought a $12 trial and that’s it. Monthly trial. Read the print and everything, was only supposed to take $12 a MONTH. How come I got $120 taken in LESS THAN A MONTH? Not to even mention that when I contacted them multiple times, they told me that they’d look into it and refund me, but never did…. $120 gone over this scam.",
+   "version": "13.5.0",
+   "id": "Hallow-084",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-22",
+   "rating": 1,
+   "title": "SCAM!",
+   "body": "I have canceled the app multiple times and they somehow keep trying to charge me. The app is ridiculously expensive too. Very scammy. Modern day PHARISEES. Terrible experience with this app",
+   "version": "13.5.0",
+   "id": "Hallow-085",
+   "categories": [
+    "C02",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-17",
+   "rating": 1,
+   "title": "Charged $75 without info. Not very Christian",
+   "body": "Charged my card for an entire year subscription without warning. Awful predatory business model. Mockery of the Christian faith",
+   "version": "13.5.0",
+   "id": "Hallow-086",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-06-17",
+   "rating": 3,
+   "title": "Hallow",
+   "body": "I love Hallow. It helps me with questions of my faith and the saint stories inspire me as well. I know that many other people agree with me. ✝️",
+   "version": "13.5.0",
+   "id": "Hallow-087",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-14",
+   "rating": 2,
+   "title": "Weekly mass prep always late",
+   "body": "The weekly mass prep is like never available for if you go to mass early and regularly even late for 1030 mass. What’s the point if you can’t have it ready before mass",
+   "version": "13.5.0",
+   "id": "Hallow-088",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-13",
+   "rating": 1,
+   "title": "The Marky Mark cult app",
+   "body": "The Marky Mark cult app",
+   "version": "13.5.0",
+   "id": "Hallow-089",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-10",
+   "rating": 1,
+   "title": "Charges",
+   "body": "I have canceled this account over two years ago and they keep charging me.. I have to stop payments on my card and with Apple but the app keeps charging! And I don’t even have the app downloaded!! All they want is your money!!!",
+   "version": "13.5.0",
+   "id": "Hallow-090",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-10",
+   "rating": 3,
+   "title": "Hallow",
+   "body": "I love this so but I wish I could do more with out paying",
+   "version": "13.5.0",
+   "id": "Hallow-091",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-09",
+   "rating": 1,
+   "title": "Ummm",
+   "body": "The content is actually decent and honestly it’s probably worth $75 bucks a year but I some how signed up for tríal offer, absolutely forgot about it because it didn’t go through my Apple ID for some reason. Well over a week ago they tried to charge me and it bounced I didn’t even realize it happened, I was too busy busting my back trying to get my account out of the negative. Now at 12:01 am they push the charge through over a week later???? I know it’s not criminal by any means yet with my somewhat limited usage, I honestly thought I was on the free version and surprised by how much content was available but after Pentecost my usage dropped quite a bit and I just can’t do $75 up front I hardly do that with anything. I could do 5-8 dollars a month but no I can’t do that. Not criminal yet I have questions. Oh and: APP DELETED!",
+   "version": "13.5.0",
+   "id": "Hallow-092",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-09",
+   "rating": 1,
+   "title": "Like the all but business side is shady",
+   "body": "Beware of company.  Despite canceling trial within the dates they charged me anyway:\n\nTheir response to an email: “While you did submit your request within the timeframe, our records show that a refund had already been issued to you in the past.”  So basically they charged me anyway even though I cancelled within terms because they arbitrarily decided it was right. \n\nI love their app but they definitely do not practice what they preach",
+   "version": "13.5.0",
+   "id": "Hallow-093",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-08",
+   "rating": 2,
+   "title": "Horrible support",
+   "body": "No refund or phone number WWJD",
+   "version": "13.5.0",
+   "id": "Hallow-094",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-07",
+   "rating": 3,
+   "title": "Great if you’re Catholic",
+   "body": "I am an Episcopal priest and have been enjoying several of the devotions on Hallow, including the Lent challenge in the Brothers Karamazov and the series in detachment, and the daily gospel.  I also have been listening to Jeff Cavins’ daily reflection and for the most part enjoy it.  \n\nUntil today. Today (6/7/2026) Jeff was dogmatic and judgmental about the Catholic understanding of the Eucharist and said that other than the Catholic point of view all others - including Episcopal, I presume - are in error.  It has become clear to me that this app’s purpose is to (a) nurture and develop the faith of Roman Catholics and (b) to convince others, including Episcopal and Orthodox Catholics (yes, Rome is not the only Catholic Church), to repent and come home to the see of Peter, which I am sure you wouldn’t hesitate to call the “one true church.” \n\nJeff Cavins’ pleasant and chatty manner belies the underlying judgment he brings.  Many of his reflections are helpful and uplifting but sometimes he seems to get carried away with doctrinal arrogance.  Is Hallow at all interested in being useful and uplifting to any except Roman Catholics?\n\nI will continue to make use of Hallow as one devotional aid among several, but sadly have been somewhat soured by its conservatism and exclusivist ecclesiology.",
+   "version": "13.4.1",
+   "id": "Hallow-095",
+   "categories": [
+    "C06",
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-05",
+   "rating": 2,
+   "title": "Like the Idea: Uses AI",
+   "body": "This app is mostly Ai, and i don’t know about how the other people feel using the app, it feels wrong and off to me, especially for such a sacred thing.",
+   "version": "13.4.1",
+   "id": "Hallow-096",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-05",
+   "rating": 1,
+   "title": "Predatory Renewal Policies",
+   "body": "Updated review: They will not allow for refund within 24-48 hours of the charge for a year based service. They also try to discourage you from pursuing a credit card chargeback, capturing any and all revenue regardless of someone wanting the paid service is their strategy.\n\nOriginal review: Missed canceling the trial within a couple days requested a refund and they will not honor cancellation for a yearly service a couple days after. At $74 this seems kind of extreme even in their support documentation they try to get customers to not follow through on a charge back with their credit card company. This must be a common occurrence and their pricing model and business model seems to rely on accidental renewals which is immoral and contrary to the content of this app. This has vibes of private equity all over a religious app.",
+   "version": "13.4.1",
+   "id": "Hallow-097",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-04",
+   "rating": 1,
+   "title": "Won’t respond to refund request",
+   "body": "I downloaded this app and participated in a trial. I deleted the app only a couple of days into the app. It wasn’t right for me. They charged me a full year subscription even after deleting the app all within the window.",
+   "version": "13.4.1",
+   "id": "Hallow-098",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-04",
+   "rating": 1,
+   "title": "Crooks!",
+   "body": "Joined a 7 day trail. Automatically deleted the app. Cancelled the subscription through my iPhone subscriptions. They are trying to take out money for this? I didn’t even use this app for more than two minutes! It wasn’t what I thought it was. They make it extremely challenging to delete. What a joke.",
+   "version": "13.4.1",
+   "id": "Hallow-099",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-03",
+   "rating": 1,
+   "title": "At the heart",
+   "body": "Hate to be jaded here. All I ask is be cautious. This is organized religion and money is very important to them. To the point it made me jaded. I hope you all get what you want from it.",
+   "version": "13.4.1",
+   "id": "Hallow-100",
+   "categories": [
+    "C05"
+   ]
+  }
+ ]
+}

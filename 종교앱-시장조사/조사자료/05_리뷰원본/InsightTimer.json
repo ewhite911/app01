@@ -1,0 +1,1348 @@
+{
+ "meta": {
+  "app": "InsightTimer",
+  "ios_id": 337472899,
+  "gp_package": "com.spotlightsix.zentimerlite2",
+  "ios_fetched_all_ratings": 2000,
+  "ios_low": 461,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2026-08-06",
+  "sample_date_max": "2026-09-16",
+  "full_file": "InsightTimer_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-16",
+   "rating": 1,
+   "title": "",
+   "body": "keeps bloody logging me out and then becomes a hassle to.log back in, great stuff but let me at least bloody use the app without having to log in every damn time",
+   "version": "20.34.0",
+   "id": "InsightTimer-001",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "during a mental health crisis I downloaded this app by the advice of my therapist. I didn't understand that I was signing up for a trial to an annual subscription and was charged $70. Post crisis reached out for a refund explaining and got some copy paste answer about their policy and denial for a refund. Not wildly on brand for a mental health company, but okay 👍 as someone who has been meditating for nearly 15 years, the content was mostly poorly made noise anyway. use YouTube.",
+   "version": "20.33.0",
+   "id": "InsightTimer-002",
+   "categories": [
+    "C01",
+    "C02",
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "bloated and over-developed",
+   "body": "the 100 questions you have to answer to use the app—even after having been using it for 10 years—are just ridiculous.  waste of time.\n\nthis used to be the best meditation timer app.  over the years it has bloated. the timer ends sessions with multiple prompts to leave reviews, obsess about track records, and engage in a social media environment. there is no way to opt out of most of these features. if these features were optional, i would give a higher rating.",
+   "version": "20.34.0",
+   "id": "InsightTimer-003",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 2,
+   "title": "Just want to meditate",
+   "body": "This is the typical experience of an app that gets more complicated over time because people associate new with better. I just want to open the app and meditate and instead I get prompted to set intentions, add widgets, commit to streaks, etc e etc etc etc etc.",
+   "version": "20.34.0",
+   "id": "InsightTimer-004",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "Constant unavoidable questions",
+   "body": "The app has added constant, unavoidable questions when setting up and account or finishing a meditation. It would be fine if I could skip these or turn them off, but I can’t. Ruins an otherwise nice and useful app.",
+   "version": "20.33.0",
+   "id": "InsightTimer-005",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "I CANT USE IT",
+   "body": "I am 11 years old and I struggle with intense insomnia so I download this app and I can’t use it.I am genuinely devastated Please can you make people who were born in 2015 able to use it? PLEASE.   :,(",
+   "version": "20.34.0",
+   "id": "InsightTimer-006",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "",
+   "body": "I love this app but since the most recent update nothing is working. I get a quote when I open and then a blank screen. I can't even uninstall to install again. Nothing is working and I'm incredibly frustrated as I pay for this app.",
+   "version": "20.33.0",
+   "id": "InsightTimer-007",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 3,
+   "title": "Stop guilt tripping people",
+   "body": "There are a lot of really nice guided meditations on the app but I absolutely do not like the messages after meditations about keeping up my “streak” and there doesn’t seem to be any way to turn it off. I understand that some people may find them encouraging, but it just comes across as patronizing and hectoring to me. Which sort of defeats the point of meditation, doesn’t it?",
+   "version": "20.33.0",
+   "id": "InsightTimer-008",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 2,
+   "title": "",
+   "body": "this app is a waste of time. most of the meditation guidelines here are paid uneven the sound controls are locked in the free version.",
+   "version": "20.33.0",
+   "id": "InsightTimer-009",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-12",
+   "rating": 3,
+   "title": "Forced Questions",
+   "body": "I have been a user for a long time but the change to their revised, prescriptive meditation app that require numerous inputs prior to “letting” you just meditate, has turned me from a plus user to a non-paid to now avoiding it all together as it’s just frustrating.\n\nIt could be a great app, but dictating to how you should meditate is not the way. You must answer numerous questions and set a goal before you can start your meditation. Can you just let people do their meditation without shaming them into how many days it’s been or extracting how they currently feel just to fill your data needs? \n\nJust Stop.",
+   "version": "20.33.0",
+   "id": "InsightTimer-010",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-12",
+   "rating": 1,
+   "title": "Unnecessary, overwhelming prompts",
+   "body": "It's become a complete POS. Used to be good, now it's just ridiculous amounts of \"clicking\" to get started and even after ending a meditation you have to click a hundred times to get anywhere.",
+   "version": "20.33.0",
+   "id": "InsightTimer-011",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-12",
+   "rating": 1,
+   "title": "",
+   "body": "app is sudeduenly crashing. cannot open and use it. no fix anywhere. Ive tried everything",
+   "version": "20.33.0",
+   "id": "InsightTimer-012",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 3,
+   "title": "Noticed a pattern",
+   "body": "Why do you acknowledge and celebrate every religion’s holidays except Christian?",
+   "version": "20.33.0",
+   "id": "InsightTimer-013",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "I needed help and they didn’t even help me",
+   "body": "Someone will report me a scam and now I can message anyone, but I didn’t do anything like rude",
+   "version": "20.33.0",
+   "id": "InsightTimer-014",
+   "categories": [
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "The worlds largest Free mental health app - for an annual fee of £35",
+   "body": "The listing is misleading because it states that the service is free. In reality, it only includes a 7-day free trial, after which an annual charge applies. This should be made clearer in the description.",
+   "version": "20.33.0",
+   "id": "InsightTimer-015",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 1,
+   "title": "",
+   "body": "Used to be great. The pop-ups are very annoying",
+   "version": "20.29.0",
+   "id": "InsightTimer-016",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 3,
+   "title": "",
+   "body": "They are sneaky and will charge you for a YEAR at one time without notifying or giving a refund. Update: They DID give me a full refund. It really is a lovely app but not for me at $64 a year.",
+   "version": "19.48.1",
+   "id": "InsightTimer-017",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 3,
+   "title": "",
+   "body": "Nice app mostly but I had a streak and missed it because I meditated too late in the night. that's dumb. so, I'll have two for the same day? I should be able to apply it for the day or say I meditated that day and get credit somehow; not start all over again",
+   "version": "20.33.0",
+   "id": "InsightTimer-018",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 1,
+   "title": "Used to be good",
+   "body": "I hate this app. Now you have to answer a bunch of “motivational” questions to get started. It’s manipulative and makes me lose my motivation. Going to use my Tibetan bowls app instead.",
+   "version": "20.33.0",
+   "id": "InsightTimer-019",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 2,
+   "title": "",
+   "body": "Finally fixed the filters and now the app screens keep changing and disappearing. I enjoy the content but this app is so frustrating! It's supposed to be calming not causing stress. 😕",
+   "version": "20.33.0",
+   "id": "InsightTimer-020",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 1,
+   "title": "This app is becoming unbearable...",
+   "body": "My friend and I were recently chatting, having a discussion on meditation and practices that we like. The subject of Insight Timer came up, I told her I liked it, and she said \"yeah but isn't that the one that has so many prompts after the meditation and they make you commit to using it all the time?\"\n\nI just did a meditation and the amount of pop ups after is -there's no better way to put it - absolutely insane. I had to click through about 7 of them to get to the home screen. \n\nThese prompts are an absolute deterrant for me to come back here and use the app more. Which is ironic, considering their begging me to continue using regularly. \n\nInsight timer is not my only meditation practice. I would like to be able to return, as I see fit, without being hounded. \n\nI'm tempted to delete the app.\n\nUpdate: I'm deleting it. I opened the app and literally had to click through 15-20 answers before I could use the app. \n\nAbsolute garbage.",
+   "version": "20.33.0",
+   "id": "InsightTimer-021",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 1,
+   "title": "",
+   "body": "Love the app when it worked, for some reason I can no longer sign in. I also cannot figure out how to fix it.",
+   "version": "20.32.0",
+   "id": "InsightTimer-022",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "A Rite Brief Meditation",
+   "body": "Insight Timer needs to let people listen to her 22 min yoga nidra meditation that gets me to sleep (usually) in 1/3 of the way through.",
+   "version": "20.33.0",
+   "id": "InsightTimer-023",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "Ask WAAAAAAY too many questions",
+   "body": "Am I trying to meditate ?? Or I am being interrogated??? Can’t tell the difference. Asks about 90 unskippable questions just do a simple mediation. CHAAAAAANGE IT",
+   "version": "20.33.0",
+   "id": "InsightTimer-024",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "",
+   "body": "have had to come back and downgrade my 5 star review to a 1 star review. this used to be a reliable app. now they have crammed so many features and data mining elements into this poor thing that it's become totally unreliable. often crashes while the timer is running if I don't leave the screen on. often crashes on startup FOR THE ENTIRE DAY if the opening quote won't give me the option to skip it. I am really sad because I was a part of this app from the very beginning. can no longer recommend.",
+   "version": "20.33.0",
+   "id": "InsightTimer-025",
+   "categories": [
+    "C11",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "",
+   "body": "usually this app is great, I use it every day, but just recently it won't work. I've tried to update it but it won't do that either. I pay for the full version, so its really annoying that its become stressful to use!!",
+   "version": null,
+   "id": "InsightTimer-026",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "",
+   "body": "Multi-year user. Have reviewed MANY meditations. Insight Timer is now deleting my reviews and ratings",
+   "version": "20.32.0",
+   "id": "InsightTimer-027",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 3,
+   "title": "",
+   "body": "Please, stop counting the consecutive days! I'm not using the app to be bullied by it 😡 Give us the option to turn this feature off!",
+   "version": "20.33.0",
+   "id": "InsightTimer-028",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "Stop making me commit to streaks",
+   "body": "I’ve been using and loving Insight Timer for a long time. However, in the last year they have implemented some choices that have really not sat well with me. Primarily, it’s that they keep forcing me to ‘commit’ to streaks or how many days I’m going to meditate. This happens after sessions and sometimes when I load up the app. There’s no way to exit out of it - the app forces you to answer ‘how many days are you committing for?’ This isn’t cool. I’m not inviting or asking for the choice, and I either need to exit the app or make a choice on my commitment length that I don’t actually want to make and that’s not in integrity for me. \n\nIt feels like they’re trying to force engagement and commitment. All they need to do is include a little X button to opt out of those screens. I don’t like feeling forced to put my word behind something that isn’t in integrity just to use the app.",
+   "version": "20.33.0",
+   "id": "InsightTimer-029",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "",
+   "body": "They are constantly making changes to the app. And most not for good. More and more teachers' tracks are 'premium'. So it becomes less accessible if you have free. Too many tracks are metaphysical, psuedoscience under the guise of 'healing'. When you finish listening to a track, you have to click 4 or 5 times, including solicitation to review track, donate to teacher, etc. For an app that should be a simple, calming experience- this is aggravating, burdensome.",
+   "version": "20.33.0",
+   "id": "InsightTimer-030",
+   "categories": [
+    "C04",
+    "C05",
+    "C06",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 2,
+   "title": "",
+   "body": "Every time I open this app, multiple times throughout the day, something has changed. The updates are incessant and keep moving things around, back and forth, making it more confusing. Some days I can't find my Saved stuff, or Teachers, and then some days they're all there. That's really the only two things I ask for on the home page. Stop moving things around!!",
+   "version": "20.33.0",
+   "id": "InsightTimer-031",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 2,
+   "title": "",
+   "body": "wayyyy too many pop ups for quotes/feedback/check-ins/streaks etc. too annoying and too slow too navigate. Would really like this app to get rid of unnecessary screens to tap on for those who don't want it.",
+   "version": "20.32.0",
+   "id": "InsightTimer-032",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 1,
+   "title": "",
+   "body": "Update 9/5/26: still can't open the app completely it starts then it closes itself. I can't get the app to open, it starts then closes immediately, I've updated to the latest version, I'm currently using my new phone a Pixel 11 Pro XL.",
+   "version": "20.33.0",
+   "id": "InsightTimer-033",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 1,
+   "title": "",
+   "body": "No thank you. the only thing that I need for meditation is a timer and a polite bell.",
+   "version": "20.33.0",
+   "id": "InsightTimer-034",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 2,
+   "title": "",
+   "body": "used to be a timer app with ads, now it's an app-shaped ad for itself. good luck, but you'll have to continue your journey without me.",
+   "version": "20.32.0",
+   "id": "InsightTimer-035",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 3,
+   "title": "",
+   "body": "can we turn off streaks?",
+   "version": "20.32.0",
+   "id": "InsightTimer-036",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 1,
+   "title": "Stop",
+   "body": "Why are you ruining your app",
+   "version": "20.33.0",
+   "id": "InsightTimer-037",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 3,
+   "title": "",
+   "body": "please don't make me answer a ton of questions just because I'm logging back in.",
+   "version": "20.32.0",
+   "id": "InsightTimer-038",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "Exhausting",
+   "body": "A lot of good content but if you see an item that you may have the tiniest interest in you better bookmark it because they will obliterate it from your “feed” and it will be gone, eliminated by their next fancy.",
+   "version": "20.32.0",
+   "id": "InsightTimer-039",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "Great meditations, frustrating app",
+   "body": "The sheer number and variety of guided meditations is wonderful. Unfortunately, the app does everything possible to get in its own way. It\nmakes me click through multiple hectoring screens before I can begin and after I finish a meditation. And the database seems broken— it repeatedly tells me a meditation isn’t available moments before letting me play it.",
+   "version": "20.32.0",
+   "id": "InsightTimer-040",
+   "categories": [
+    "C11",
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "customer experience has evolved horribly",
+   "body": "This app has become so frustrating to use. I don’t want to go through an onboarding process of answering numerous questions and setting goals every time I start using the app, and there is no option to skip this process. I used to enjoy using this app, but all of this forced customization makes me so frustrated that when I finally get past the questions, I really just want to exit this app and use another. Ruined a perfectly good resource for relieving anxiety.",
+   "version": "20.32.0",
+   "id": "InsightTimer-041",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-03",
+   "rating": 3,
+   "title": "Langue",
+   "body": "Peu de français même si l’application est en français mais le contenu très très peu",
+   "version": "20.32.0",
+   "id": "InsightTimer-042",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "installed this after searching on Google, as it was supposed to be the best app according to it for my Vipassana meditation 5 minutes timer gong. The initial data collection itself is so tedious and irrelevant for someone established in meditation looking for a simple timer with nice variety of bell sounds - free. simply uninstalled.",
+   "version": null,
+   "id": "InsightTimer-043",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "Useless, unless you pay. This app expects you to know all the lingo before you start. You get tiny samples of many recordings, and provides no value.",
+   "version": "20.26.0",
+   "id": "InsightTimer-044",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "",
+   "body": "glitchy on android. doesn't open consistently. getting frustrated as I love the app",
+   "version": "20.32.0",
+   "id": "InsightTimer-045",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "",
+   "body": "I have used this app for a long time but over the past few months the sound randomly drops out for a few seconds every couple of minutes when on the timer. like how it sounds when you play music and get a notification on silent but I am not getting any. I have tried reinstalling etc but it keeps happening. I wanted to get premium again but don't want to pay if it doesn't work cos the timer is main thing I use. any ideas? I am using pixel 7",
+   "version": "20.32.0",
+   "id": "InsightTimer-046",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 2,
+   "title": "Search is useless",
+   "body": "It’s near impossible to find sleep meditations without long intros and distracting music.  When you ask for sleep meditations no sleep no music it ignores your requests and provides you with unhelpful suggestions.  It’s near impossible to find the best meditation to meet your needs.",
+   "version": "20.32.0",
+   "id": "InsightTimer-047",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "",
+   "body": "“Free“ trial requires payment info. No thanks.",
+   "version": "20.32.0",
+   "id": "InsightTimer-048",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 1,
+   "title": "",
+   "body": "edit lowering to one star. now it just doesnt even load. big black screen. I have to restart my phone every night I want to use this app now. I have emailed tech, I have cleared my cache, I have even deleted the data, which made me loose all my saved music and my running score. I may have to delete it if it keeps doing this. I don't want to keep restarting my phone to use it though.",
+   "version": "20.32.0",
+   "id": "InsightTimer-049",
+   "categories": [
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 3,
+   "title": "",
+   "body": "This app used to be amazing. It was simple and streamlined. Now there are ten million popups and prompts. It's so irritating. Why should I have to answer so many questions just to use a timer? Time for a new app!",
+   "version": "20.32.0",
+   "id": "InsightTimer-050",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 2,
+   "title": "Pretty, annoying",
+   "body": "The new direction is better aesthetically, but it’s often quite annoying — constantly making me tap through multiple screens, logging me out, etc. It’s often an unpleasant experience",
+   "version": "20.30.1",
+   "id": "InsightTimer-051",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "search is hopelessly broken",
+   "body": "the search feature is nearly useless. search for a term, say, \"stoicism,\" for example, and +1000 results will show in number.  Add a filter and the number drops impossibly low, and seemingly randomly, depending on when you search. I searched the term \"stoicism\" a few moments ago and returned the +1000 results, filtered to 16-30 minutes, and the return was 8. I filtered by \"talks\" and returned only 51 results, and can only view 18 of them to choose from. Scrolling through +1000 results is not the meditative practice I was looking for, however, I am indeed, putting stoicism into practice and taking this in stride. This is not in my control, however, I may possibly influence it. Enough time spent on that.",
+   "version": "20.32.0",
+   "id": "InsightTimer-052",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "",
+   "body": "I have found a few favorites for helping fall asleep or relax, but I have found MANY that don't work for me for whatever reason. I wish there was an easy way to mark tracks I have tried but didn't like, even if I was the only one to ever see it. A lot of similar tracks pop up in searches, and it's impossible to remember all of the ones I've previously tried, making for a frustrating time when I want something a little different from my go-tos",
+   "version": "20.32.0",
+   "id": "InsightTimer-053",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 2,
+   "title": "Getting Way Too Invasive",
+   "body": "Used to love this App.  Has a lot of great teachers, etc.  Be sure to read the latest updates to their Privacy Policy and Terms of Service.  I just wanted to meditate, not give you my first born to sell things to, etc.  Bye!  PS Agree with others who say you have to go through to many hoops with the App asking about streaks, suggestions when you just want to finish the meditation and quickly exit the App, etc.",
+   "version": "20.32.0",
+   "id": "InsightTimer-054",
+   "categories": [
+    "C10",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "Should call it Pop up Timer. It was great to just be able to set a timer, a bell and track your progress / streaks and maybe a guided meditation from time to time. But now it's just a combination of eccessive gamification of your personal practice with streaks and badges and whatnot and the CONSTANT pop ups trying to sell you their premium or other stuff. Its value as a mindfulness tool is shifting from helping you set timers to training your patience.",
+   "version": "20.32.0",
+   "id": "InsightTimer-055",
+   "categories": [
+    "C05",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "MoneyGrab!....Uninstalled it!",
+   "version": "20.32.0",
+   "id": "InsightTimer-056",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "",
+   "body": "The app is broken for initial installs on a new phone. There is no option to log into an existing account, even though the site documentation says that you can. Instead, support tells us to create a throwaway account , which requires wading through about a dozen pages of questions. They provide no timeline on when this will be fixed. Bewildering and frustrating. Otherwise, a great app. Nice variety of communities, guided meditations, silent meditation modalities.",
+   "version": "20.31.0",
+   "id": "InsightTimer-057",
+   "categories": [
+    "C11",
+    "C15",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 3,
+   "title": "",
+   "body": "This started life as a great mediation timer app, but it is gradually getting lost in a sea of annoying extraneous features. Did they really ask users what new features they would like and get the answer \"what I really want is for the app to open with an inspirational quote every day\"? I am wasting more and more time each day navigating through features I don't want or need just to get to it. Please keep it simple!",
+   "version": "20.31.0",
+   "id": "InsightTimer-058",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "Invasive",
+   "body": "This used to be a great timer, now you have to answer a million questions to use it. By trying to make it do everything it does nothing well anymore",
+   "version": "20.32.0",
+   "id": "InsightTimer-059",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 2,
+   "title": "Never ending setup with inconsistent controls",
+   "body": "The installation of the software has more forms than an IRS audit. The controls to select continue or make changes are different for every page. Several times I just had a resort to poking around the page to hopefully find what would let me go to the next stage.   I gave up on the 8th setup page",
+   "version": "20.32.0",
+   "id": "InsightTimer-060",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "Where did the original Insight Timer go?",
+   "body": "App needs to be simplified. Less questions and algorithm tactics.",
+   "version": "20.31.0",
+   "id": "InsightTimer-061",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-27",
+   "rating": 1,
+   "title": "",
+   "body": "Years ago this used to be a free timer with sounds for meditation. Then they added premium features. Now you can't even use the timer, the name of the app, without a premium subscription. Meditation does not cost money and paying will not make my experience any better. I will create my own simple timer, with stock sounds, for less than the cost of one premium payment.",
+   "version": "20.31.0",
+   "id": "InsightTimer-062",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-27",
+   "rating": 1,
+   "title": "",
+   "body": "Unlike most subscription services, Insight does not send an email reminder to tell you when your free trial is about to end. Foolishly, I let myself get distracted and failed to remember that I had signed up to a free trial. Subsequently, I have been charged £57.99 and told that I am not able to have a refund, despite not using the service since my accidental payment. The lack of transparency, from a company whose aim is to help people feel better, is disappointing.",
+   "version": "20.31.0",
+   "id": "InsightTimer-063",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-27",
+   "rating": 3,
+   "title": "",
+   "body": "Paid for the premium and generally enjoy IT very much. However, its been crashing and also getting stuck when I first opened the app, it gives the daily affirmation, amd then just a blank screen. It had been doing this last night, so I finally just un/reinstalled the app, amd now ive lost my streak, which isnt a huge deal, but I liked having that momentum. I hope they fix this issue. Also needs better filter options to find content.",
+   "version": "20.31.0",
+   "id": "InsightTimer-064",
+   "categories": [
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 2,
+   "title": "Disappointment",
+   "body": "I have loved this app for years and with recent changes I am disappointed and disillusioned and considering looking for another app. I want my meditation app to be as non intrusive as possible. With recent changes I feel like the app is trying to demand more of my time playing with the app and not connected to my practice. I have been using the daily intention and now it is so much more complicated and my favorites are gone and I only get someone else’s idea of what my intentions should be. Things brings up anger and frustration, the last thing I want!\n8/26/26\nAnd again more updates that make it harder for me to do what I want! Also they have been unable to stop alerts from a challenge I never signed up for. I have tried twice to get resolution to no effect.",
+   "version": "20.30.1",
+   "id": "InsightTimer-065",
+   "categories": [
+    "C11",
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "Triggering",
+   "body": "Therapist and people on here can be very triggering. I would approach with caution.",
+   "version": "20.30.1",
+   "id": "InsightTimer-066",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "",
+   "body": "I used to like insight timer as a resource for accessing mediations and sounds when needed, but now everytime I open the app I have to click through 6-10 different guilt ridden onboarding and welcome back screens because I have not been \"using\" the app enough, as a casual user. Update: I have official uninstalled the app as of result of their enshitification, which is a shame as I have had the app many years used to love it and recommend it. Not now.",
+   "version": "19.23.0",
+   "id": "InsightTimer-067",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 3,
+   "title": "",
+   "body": "Previously had this as 5 stars because I love the app. Recently, it takes several tries for the app to load (it shows the quote and then just closes). It's hard to keep loving an app when you can't access it.",
+   "version": "20.31.0",
+   "id": "InsightTimer-068",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-25",
+   "rating": 3,
+   "title": "Feature Request: Playback Speed Controls",
+   "body": "The ability to adjust playback speed (slowing down or speeding up voices) is standard on almost all audio and podcast platforms, and its absence makes it difficult for me to use your guided meditations effectively. This feature is super important to me, and I will not be renewing my subscription without it.Please consider adding speed controls to the audio player in a future update to improve accessibility for your subscribers.",
+   "version": "20.31.0",
+   "id": "InsightTimer-069",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-25",
+   "rating": 1,
+   "title": "",
+   "body": "app crashes after reinstall",
+   "version": "20.31.0",
+   "id": "InsightTimer-070",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-25",
+   "rating": 2,
+   "title": "",
+   "body": "This app keeps shutting down and freezing every time I open it. It' been very uncomfortable to open any audio of any kind, as it shuts down the app a few mins in. Often it takes 5 trials to then get it to work. It didn't behave this way before so I think it has some bugs. I thought it was my phone, but no other app does this when I open it. I hope it's fixed soon. I'm already a premium payer, that is to say it's not because of using the free version. Else not worth paying if can't use it. 🙏🏽",
+   "version": "20.31.0",
+   "id": "InsightTimer-071",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 2,
+   "title": "Nice to have a timer but…",
+   "body": "The timer portion of this app is great! It’s so helpful when meditating or doing certain practices where you need multiples timers to indicate how much time has passed. Love that! BUT I swear this thing makes you feel super guilty if you miss a day… it pressures you to set and commit to a ‘goal.’ If you miss a day it will ask you about it or if it’s been longer than that it wants you to ‘recommit’ again. It’s weird. Isn’t the point of meditating to relax!? How is it relaxing and therapeutic when you feel pressure to do it? That’s the opposite of what you want lol!",
+   "version": "20.31.0",
+   "id": "InsightTimer-072",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 1,
+   "title": "",
+   "body": "This used to be a wonderful, simple app to aid in meditation. You now have to click through several screens just to start your meditation timer. It defeats the purpose of meditation.",
+   "version": "20.31.0",
+   "id": "InsightTimer-073",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 1,
+   "title": "",
+   "body": "doesn't play with screen off",
+   "version": "20.31.0",
+   "id": "InsightTimer-074",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 1,
+   "title": "",
+   "body": "I love this app but it's constantly crashing lately and it's very frustrating.",
+   "version": null,
+   "id": "InsightTimer-075",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 3,
+   "title": "",
+   "body": "Used to love this timer app. now there is a weird gamification component I do not like and lots of extra layers you are forced to through before and after the timer. I'm finding another one! this does have lots of meditation talks if that's your jam.",
+   "version": "20.31.0",
+   "id": "InsightTimer-076",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 3,
+   "title": "",
+   "body": "it's gone downhill unfortunately. i likely won't be renewing my subscription",
+   "version": "20.31.0",
+   "id": "InsightTimer-077",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-23",
+   "rating": 2,
+   "title": "",
+   "body": "I used to be able to just open this app and meditate with a timer. now it's always making me press through screens committing to goals, say how I'm feeling, blah blah. Just let me meditate without the bloat again please 🙏",
+   "version": "20.31.0",
+   "id": "InsightTimer-078",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-23",
+   "rating": 2,
+   "title": "",
+   "body": "By showing the growth of the pictogram lotus flower through a consecutive streak only, the app motivates only on an idea of perfectionism (which does not exist), and then promoting to come back to the app through a \"demonizing\" experience, of starting from \"Day 1\" each time. Meditation is not about perfectionism - it's about the collective idea of consistency, not through daily practice but through a holistic practice - encorage that instead!",
+   "version": "20.30.1",
+   "id": "InsightTimer-079",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-22",
+   "rating": 2,
+   "title": "",
+   "body": "this app used to be great before 2019 after the update its really difficult to find a free meditations that are really amazing. there are so many pages and prompt you get when entering the app. my suggetion is to make the opening a settings option and allow people to have the tracking system a button in their personal page. lessen the push for subscriptions no one like a pushy sales person in irl and deffinatly not online.",
+   "version": "20.30.1",
+   "id": "InsightTimer-080",
+   "categories": [
+    "C04",
+    "C05",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 1,
+   "title": "",
+   "body": "Opened the app for the first time in a while, simply to put on a sleep meditation... oh no! First I must jump through a million hoops. Question after question after unskippable question about how I'm going to use the app. A whole bunch of self-promotion for the app that I've already downloaded. Forcing me to commit to X amount of days in a row. Why is none of this skippable? What a bunch of nonsense. I'm just trying to sleep.",
+   "version": "19.40.0",
+   "id": "InsightTimer-081",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 3,
+   "title": "WAS A must in this stage of my life.",
+   "body": "New review: I loved this app until it accidentally updated. I always intentionally avoid updates for various reasons, then wait until they work out inevitable bugs, but for all the newer features that are nice…there are a slew of issues that make this near useless for me. For instance… I built many playlists that I listen to often. I could stay in practice seamlessly, study for hours, fall asleep, whatever I chose. The screen would dim but the tracks would continue to play. Now, if the screen dims, or if I try to go dark to try and fall asleep, it illuminates after each track and stops so I have to hit play after every single track…what’s the point of wasting hours of time building playlists that don’t work and function like playlists???\n\nThe preview option is redundant and irritating and I see no way to turn it off. If I tapped a track before, it played 20-30 seconds of the track. That way I could tell if I liked the subject, voice, music, background, recording quality, etc. Now it goes to a different screen with a bunch of other tracks that have nothing in common with the one I want to just hear for a few seconds, and if I’m building a playlist it takes twice as long if I’m focusing on one teacher because I have to exit out of 2screens not just one and now it’s been over an hour of me trying to just meditate when I would’ve completed my nightly routine and been at calm, but it’s essentially useless. \n\nWho wants to snap out of meditation every 10-15, or even 30 minutes to hit play because now there are quadruple redundant steps to do what the old school system did flawlessly. I’m about to cancel my subscription, or..it could just be that instead of this being an easy lovely peaceful app like it has been the last few years for me, it’s turned into a nightmare. \n\nFirst review: Insight Timer has been incredibly helpful while going through difficulties, self reflection, or the little frustrations of everyday life. There are a vast variety of techniques, facilitators, subject matter, and other useful tools that are easily accessible, and for me, have proved to be invaluable. It didn’t take very long to figure out and find what I needed once I started using the app on a regular basis. It has become an integral part of my morning routine and I find myself going back to it more often throughout the day.",
+   "version": "20.30.1",
+   "id": "InsightTimer-082",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 2,
+   "title": "Starts at zero days practice every time it downloads an update!",
+   "body": "This app is good and I have recommended it to many people. However, it has a glitch and starts at zero days practice every time it downloads an update!\nHow can this be my first day using it when I’ve been using daily it for such a long time? Downloading an update for this application. Should not restart you at day one.",
+   "version": "20.30.1",
+   "id": "InsightTimer-083",
+   "categories": [
+    "C11",
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-19",
+   "rating": 2,
+   "title": "Bigger isn’t better",
+   "body": "Still no way to mark the tracks or teachers I don’t like. Bigger isn’t better. Update: Did I just get a pop up about new live yoga right after I started my meditation timer? Yes. Yes, I did. Um, can’t the ads wait until after I’ve done my sitting practice? Updated review: some of the changes are good, but I think now that I've been using guided meditations more I've noticed places for improvement. First - it no longer switches to landscape view on the iPad - that's a small thing but it used to so now it's just frustrating. More importantly, to get to my bookmarked meditations, I have to go through something like 5 screens, many of them with very bright white backgrounds. In the dark morning this is very off putting. Finally, still, no download option means you have to be connected to the internet. I still love Insight Timer. The changes are great! One thing I would change: you can't rate a guided mediation unless you listen all the way thru. This means that 1)of course all the ratings are high bc who's going to sit thru 60 minutes of a bad mediation to rate it? and 2) there's no way to track those I've tried and didn't like. I wish there was some way to track negative ones as well as good ones. Older: This app has really helped me develop a meditation routine. Very dedicated customer service.",
+   "version": "20.30.1",
+   "id": "InsightTimer-084",
+   "categories": [
+    "C12",
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-18",
+   "rating": 2,
+   "title": "Lost its mission",
+   "body": "I’ve used Insight Timer for many years and have always appreciated what the app stood for: making meditation accessible to as many people as possible.\n\nUnfortunately, over the last few years, it feels like the focus has shifted more toward monetization than accessibility. Features that were previously available with the free membership have gradually been removed or placed behind the paid subscription. I completely understand charging for premium content and features, but even some very basic sounds and options now require an upgrade.\n\nWhat’s especially frustrating is the constant pop-ups encouraging you to upgrade while trying to use the free version. It makes the experience feel less peaceful and more like a sales funnel, which seems contrary to the purpose of a meditation app.\n\nI don’t mind paying for a valuable service, but I wish Insight Timer would maintain a genuinely useful free experience while offering additional premium features for those who choose to upgrade. After being a longtime user, it’s disappointing to see the direction the app has taken.",
+   "version": "20.30.1",
+   "id": "InsightTimer-085",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-08-17",
+   "rating": 1,
+   "title": "doesn’t work offline",
+   "body": "No reason for a timer app to not work offline. To use even the basic timer without an internet connection you have to pay for a subscription.",
+   "version": "20.30.0",
+   "id": "InsightTimer-086",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-16",
+   "rating": 2,
+   "title": "It got a update…",
+   "body": "Insight timer got a new update, and it got rid of my almost year streak of doing it daily… I quit… and i loved it..",
+   "version": "20.30.0",
+   "id": "InsightTimer-087",
+   "categories": [
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-08-16",
+   "rating": 1,
+   "title": "Got greedy",
+   "body": "From $52 to $89 disgusting wont be recommending or renewing again and have been using for years!",
+   "version": "20.30.0",
+   "id": "InsightTimer-088",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 2,
+   "title": "Company refused to take off racist author on platform",
+   "body": "I was enjoying insight timer very much and was listening to their sleep stories. I browsing through them one day and saw one of the sleep stories was by a racist named Rudyard Kipling who authored, “The White Mans’ Burden”. The book basically instructs White men how it is their duty to continue with racism and called people of color “half devils.” The sleep story was not a book, but another short story of his. I brought it to the team’s attention, but they concluded that they wont remove the short story. The app is culturally insensitive. As an educated woman of color, I cannot support an app that supports the works of a racist author.",
+   "version": "20.30.0",
+   "id": "InsightTimer-089",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-14",
+   "rating": 3,
+   "title": "The consecutive day timer is glitchy",
+   "body": "When it comes to the music and the selection available, this app wins without question. I use it every night for sleep music in addition to my normal meditation sessions. That said, the consecutive day timer leaves much to be desired. During the latest update, something happened. I went from nearly 600 consecutive days down to less than 150. I remember hearing from a friend (the one who turned me onto this app) around the 100 day mark that something similar happened to them as well. I scrolled back through the history and now there are several holes in it. Not sure what gives there, but if I'm paying for an app/service, I expect it to function properly.",
+   "version": "20.30.0",
+   "id": "InsightTimer-090",
+   "categories": [
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-08-14",
+   "rating": 1,
+   "title": "Price change in less than an hour",
+   "body": "I downloaded this app and it offered me a free trial for a week then if I chose to keep it I would need to pay £35 for the year. I skipped it preferring to just try the free resources. An hour later after using one of the meditations I was offered a free trial for a month, branded as a ‘gift’, however, if I chose this option the yearly payment would be £55! That didn’t do much for my anxiety and stress!!",
+   "version": "20.30.0",
+   "id": "InsightTimer-091",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-13",
+   "rating": 1,
+   "title": "not worth it",
+   "body": "the hoops I have to jump through, every time, just to listen to a single meditation, is truly absurd",
+   "version": "20.30.0",
+   "id": "InsightTimer-092",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-11",
+   "rating": 1,
+   "title": "Way too buggy now, iPhone 15",
+   "body": "Used it for years but now it’s so ridiculously buggy with iOS 26 on my iPhone 15 that I had to remove it. Many times my bells would ring randomly and ruin my meditation space, deleting the settings would not help. Disappointed and will never use again",
+   "version": "20.29.0",
+   "id": "InsightTimer-093",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-10",
+   "rating": 3,
+   "title": "Needs AI transparency",
+   "body": "While helpful in some areas, I really wish there was a way to filter out AI generated or assisted tracks.",
+   "version": "20.29.0",
+   "id": "InsightTimer-094",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-08",
+   "rating": 3,
+   "title": "Be mindful of where this is headed",
+   "body": "I am not excited about the new video update. This is a place we go to meditate and get away from social media. I appreciate the ability to follow  teachers that resonate with so we can see when they post new meditations. But I am bothered by the promotion of videos when I first open the app now, and what the addition of video format could mean for the direction of this app. \nIt already is unpleasant to see the same, likely paid for, promoted teachers when I search for mediations. I don’t want to be advertised to and overstimulated by video clips trying to grab my attention. \nThere’s enough content that’s been transitioned to subscriber only. \n\nKeep in mind the base intentions of the app.",
+   "version": "20.29.0",
+   "id": "InsightTimer-095",
+   "categories": [
+    "C05",
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-08",
+   "rating": 1,
+   "title": "Cluttered",
+   "body": "I use to love this app. It was streamlined and easy to use. Now it’s cluttered with all kinds of roadblocks to getting started with questionnaires and dogma. It’s a huge turn off and I’m looking for a different app to use now. I’ve been on this app since 2014 and have seen it go downhill fast in the last few years.",
+   "version": "20.27.0",
+   "id": "InsightTimer-096",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-07",
+   "rating": 2,
+   "title": "Formerly excellent, now schlocky and gamified.",
+   "body": "I’ve used Insight Timer for about 10 years and paid for the subscription 4 of them. This past year, I’ve become very annoyed with it and I’m actually avoiding it. Despite paying for the premium, I am forced to encounter multiple popups and prompts just to meditate. \n\nNo I don’t want to commit, journal, read random quotes, or tell the app my feelings. I don’t want to follow every teacher, notifications, or the widget. And there are so many meditations I am lost in the content and it’s hard to find what I need. Now it’s hard selling those expensive retreats. I’m going to cancel.",
+   "version": "20.29.0",
+   "id": "InsightTimer-097",
+   "categories": [
+    "C05",
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-07",
+   "rating": 1,
+   "title": "Too much work",
+   "body": "This app used to be very good but with all the new updates and features from the last few years since they updated the UI it became a disconnected mess. Sure there are good guided meditations but to find them it feels like you need to sift through a toxic bog that you will need to meditate to cleanse yourself from. The community used to feel connected but somehow the developers made it difficult to use and there is much less real interaction from the community. With all the clicks I need to shoo away before and after a meditation session I feel less grounded than before I even opened the app. \n\nIf you’re looking for mindfulness you may find it here but at what cost?",
+   "version": "20.29.0",
+   "id": "InsightTimer-098",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-08-07",
+   "rating": 3,
+   "title": "There needs to me some tweaks",
+   "body": "This is a great app, and I’ve learned a lot from it. There’s a massive amount of content available, which I really appreciate. That said, there are a few things that I think would make the app significantly better:\n\n1)Too many steps to get to the content I want. There are too many checkpoints and prompts when opening the app. I don’t think there needs to be a quote and questions every time I open it. I use Insight Timer specifically for anxiety and stress, and when I need the app, I’m often looking for something that will help me right away. Having to navigate through several screens before getting to the content I want can actually add more stress and anxiety.\n\n2)There should be a “Skip Intro” button. I appreciate that many courses and meditations include longer introductions for people who are listening for the first time. However, if I’ve already heard the introduction, I should be able to skip it and get straight to the content.\n\n3)Challenges and courses aren’t saving my progress/location. For some reason, the challenges and courses I’m currently working through aren’t staying easily accessible. Every day, I have to navigate through the app to find the challenge or course I’m working on. It would be much better if these were saved prominently so I could quickly pick up where I left off.\n\nOverall, the content on Insight Timer is excellent, and I really value having so much of it available. The interface is good, but with these relatively simple tweaks, I think it could be WAY better and much easier to use especially for people who are turning to the app when they’re already stressed or anxious.",
+   "version": "20.29.0",
+   "id": "InsightTimer-099",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-06",
+   "rating": 2,
+   "title": "Used to be good but now it’s a pest",
+   "body": "This app used to be great but now all it does is wanna bug you with notifications have you signed up for things before you can get to things like the timer etc. in Insight Timer if you’re reading this, I’m not using your app anymore because of this I feel like you’ve ruined it by trying to monetize it so much",
+   "version": "20.27.0",
+   "id": "InsightTimer-100",
+   "categories": [
+    "C05",
+    "C13"
+   ]
+  }
+ ]
+}

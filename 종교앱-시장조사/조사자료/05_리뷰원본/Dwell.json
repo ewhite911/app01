@@ -1,0 +1,1352 @@
+{
+ "meta": {
+  "app": "Dwell",
+  "ios_id": 1343917374,
+  "gp_package": "com.dwellapp.dwell",
+  "ios_fetched_all_ratings": 873,
+  "ios_low": 139,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2025-12-29",
+  "sample_date_max": "2026-09-15",
+  "full_file": "Dwell_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "I'd give it more Stars if it was completely free (no subscription, no free trials,), just free all the way around. nobody should have to pay for the Bible (on book or online)",
+   "version": "2026.8.2",
+   "id": "Dwell-001",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "Missing the orthodox bible",
+   "body": "I was going to download and give this app a try, but I didn’t even get past the translation selection screen because there was no orthodox Bible translation, which is arguably the most important translation to have so I’m deleting the app because I don’t trust the other translations",
+   "version": "2026.9.1",
+   "id": "Dwell-002",
+   "categories": [
+    "C07",
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "",
+   "body": "Just another scam trying to steal your information.",
+   "version": "2026.8.2",
+   "id": "Dwell-003",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 1,
+   "title": "Why are you making us pay",
+   "body": "Now I’m not trying to be a Karen but why are you making us pay to get closer to God",
+   "version": "2026.9.1",
+   "id": "Dwell-004",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 3,
+   "title": "",
+   "body": "most of the new features they have released in the last 6 months are for IOS only. They said Android is coming but we don't seem to be a priority. They release emails about the cool features like its for all, but after I spend time looking for the new features in the app I realize its not for us again. Other than that, its a great app and I use it multiple times a day. I would just love some of the new features.",
+   "version": "2026.8.2",
+   "id": "Dwell-005",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "",
+   "body": "1.since they want people to get close to God, they should move from payment to free so more people can be saved and changed by Word of God 2.Background music I wish it could be on each chapter am turning to",
+   "version": "2026.8.2",
+   "id": "Dwell-006",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "Very expensive",
+   "body": "Just to read, I need to pay first? Only Genesis and Matthew are free. It’s a shame. And you talk about blessing people.",
+   "version": "2026.8.1",
+   "id": "Dwell-007",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 3,
+   "title": "",
+   "body": "is my data safe",
+   "version": "2026.7.2",
+   "id": "Dwell-008",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-19",
+   "rating": 3,
+   "title": "Some writers use ChatGPT",
+   "body": "I love the this app and some of the devo writers do an amazing job. However, please make it a rule that your writers are not allowed to use AI. We want human voices led by the Holy Spirit, not a robot. That said, some do not and those are fantastic. Thanks for your ministry.",
+   "version": "2026.8.1",
+   "id": "Dwell-009",
+   "categories": [
+    "C08"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-19",
+   "rating": 1,
+   "title": "",
+   "body": "wow you gotta pay for it",
+   "version": "2026.7.2",
+   "id": "Dwell-010",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-17",
+   "rating": 1,
+   "title": "",
+   "body": "Not Free must pay an expensive monthly fee.",
+   "version": null,
+   "id": "Dwell-011",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 1,
+   "title": "",
+   "body": "the app didn't work at all. I couldn't read anything. I just saw a black screen .",
+   "version": null,
+   "id": "Dwell-012",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-12",
+   "rating": 1,
+   "title": "Why can I listen to the bible?",
+   "body": "I have to pay 60$ to listen to the bible. What’s the point of this app if I can’t even listen to the bible. I mean maybe im just stupid and can’t figure it out but still",
+   "version": "2026.8.1",
+   "id": "Dwell-013",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-11",
+   "rating": 1,
+   "title": "The price",
+   "body": "I feel like there shouldn’t be a subscription for listening to the Bible. I want to get closer to God and listen to the Bible, but I have dyslexia so I struggle reading the Bible so I bought this app thinking it would help me learn but right before I got to the part that I really needed to be it said I needed to pay 30 bucks to continue using the app so I really wish this app was free to listen to, but it’s not",
+   "version": "2026.7.1",
+   "id": "Dwell-014",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-09",
+   "rating": 1,
+   "title": "",
+   "body": "really you have to sign up just to read the Bible. Shame on you. Are you doing this to sell people's info?",
+   "version": null,
+   "id": "Dwell-015",
+   "categories": [
+    "C10",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-08",
+   "rating": 2,
+   "title": "No monthly just yearly",
+   "body": "There’s no monthly option. You have to pay for a year. I just wanted to try it. There was no trial.",
+   "version": "2026.7.1",
+   "id": "Dwell-016",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-07",
+   "rating": 2,
+   "title": "Days",
+   "body": "Sometimes the days don’t advance when you’re on a planned reading schedule hopefully they can fix that",
+   "version": "2026.7.1",
+   "id": "Dwell-017",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-05",
+   "rating": 1,
+   "title": "SPIRITUAL GREED",
+   "body": "Profiting off of God’s Word to enrich themselves with extremely high prices is a sin. Anyone who does ought to be ashamed of themselves. It’s that love of money that drives avarice.",
+   "version": "2026.7.1",
+   "id": "Dwell-018",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-05",
+   "rating": 1,
+   "title": "",
+   "body": "This app is awesome. I was so excited to start using it to listen to the Bible, I went straight to buy it so I could get started, expecting maybe $20 to unlock the Bible reading portion only to find out that it's $200!!! It's completely unaffordable for most people. why make such a beautiful app, and completely price people out? Heartbroken.",
+   "version": "2026.7.2",
+   "id": "Dwell-019",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 1,
+   "title": "Recent update",
+   "body": "Recent updated added a ‘Selah button’ to pause the reading but continue background settings. Fitting in this new button removed the AirPlay button to a great detriment for the user. While I understand making this new button readily available it changed entirely my experience with the app and the ability to AirPlay to multiple HomePods",
+   "version": "2026.7.1",
+   "id": "Dwell-020",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 1,
+   "title": "",
+   "body": "no Google sign in, not available while driving in Android auto",
+   "version": "2026.7.2",
+   "id": "Dwell-021",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-02",
+   "rating": 3,
+   "title": "Decent app, awful interface",
+   "body": "The contents of the app are great, the voices are high quality, and there are lots of good features to make use of. \n\nBut the interface is complicated. It’s like every update is designed to make things more difficult to use.  Buttons are made smaller, requiring a more precise tap for the more important things. Need to hit the play button on your playlist? It’s so small that you’re more likely to tap into the playlist than actually hit the play button. Interface components are moved around for seemingly little benefit, requiring you to relearn things just to continue doing what you’ve been doing. Ultimately, convenience and usability is sacrificed for design that has no function other than looking fresh and different.",
+   "version": "2026.7.1",
+   "id": "Dwell-022",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-30",
+   "rating": 1,
+   "title": "Absolute apostacy!!",
+   "body": "This is yet another translation that has totally removed the sacred name of God that appears over 7000 times in the original manuscripts…ps 83:18 is one verse that the old king James kept the name of God….Jesus himself stated in his powerful prayer to his father and God in John 17:6,26 he had made his father’s name known….. in modern English just like the son of God is Jesus in modern English his fathers name in modern English is Jehovah ….ask yourself…. Why do most religions refuse to use the name of the God and father of Jesus…. It’s just like Jesus said in Matthew 7:13-24 that most who called him their lord would not be saved…they would be on the broad road to destruction…why…cause as he told the Samaritan woman  in John 4 because they don’t know who God really is and  do not do the will of Jesus father Jehovah…. Satans primary tool is religion…by hiding the name of almighty God Jehovah…. He is successful using Christian religions to be misdirecting their worship away from God the  father Jehovah….. \n\nseek the truth today go to jw.org and look up why it’s important for our salvation to know and love Jehovah……it means our everlasting salvation!!",
+   "version": "2026.7.1",
+   "id": "Dwell-023",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-24",
+   "rating": 2,
+   "title": "",
+   "body": "Too expensive. I can listen for free online.",
+   "version": null,
+   "id": "Dwell-024",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-18",
+   "rating": 1,
+   "title": "",
+   "body": "The free version of this app is a joke. No wonder the features of it aren't listed. While I expected significantly reduced functionality, you don't even get access to the text of the bible to read unless you pay - only Genesis and Matthew. Not a fan at all.",
+   "version": null,
+   "id": "Dwell-025",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-17",
+   "rating": 1,
+   "title": "",
+   "body": "it looked like such a good app but it won't play past 1s and I cant hear anything",
+   "version": "2026.6.2",
+   "id": "Dwell-026",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-14",
+   "rating": 2,
+   "title": "pay to pray",
+   "body": "it’s so annoying how after genesis you have to pay to read the next parts even though it’s a sin to be greedy",
+   "version": "2026.6.2",
+   "id": "Dwell-027",
+   "categories": [
+    "C03",
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-10",
+   "rating": 2,
+   "title": "Used to Really Love this App",
+   "body": "I used this app every day but now nearly everything is blocked by a pay wall, including the 5 min daily scripture… I have to delete it now because it’s pretty much unusable which really really sucks.",
+   "version": "2026.6.2",
+   "id": "Dwell-028",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-06",
+   "rating": 1,
+   "title": "Scammy app refuses to cancel subscription",
+   "body": "I have been on the app, on my laptop, and emailed support. There is literally no option to cancel. I’ve Googled it and read support articles and tried on different days in case I somehow missed something the first day. “Support” got back to me in days with either a bot answer or a very stupid human saying merely “We think you’re looking for our app! Here’s our link!” and nothing else. This is a scam, it is slimy, and they are committing fraud. Emailed them again. If the support I got an email from was human, I hope she gets fired. I don’t even know what to do now.\n\nAlso, they update the app CONSTANTLY so you can’t even plan to use this unless you’re always data- and battery-ready for a gigantic update. Or feel like waiting for it to update for 5 minutes when you just want to play it and drive/go to sleep.",
+   "version": "2026.6.2",
+   "id": "Dwell-029",
+   "categories": [
+    "C02",
+    "C17",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-03",
+   "rating": 3,
+   "title": "excellent but…",
+   "body": "I have been a happy subscriber to Dwell for years now. I’m giving three stars because I am so tired of being prompted to write a review every single day that I use it.",
+   "version": "2026.6.2",
+   "id": "Dwell-030",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-03",
+   "rating": 1,
+   "title": "",
+   "body": "I've had this app for a few years and use it daily, but I won't be renewing. The same bugs never get fixed. When you pause the audio on a device like your headphones during the reflection, you can't un-pause it by pushing your headphones again. You have to get out the phone and push play. It sucks because the obvious time to pause is between the verses. Stuff like that should get fixed for $40 a year, especially when you have already reported it.",
+   "version": "2026.6.2",
+   "id": "Dwell-031",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-01",
+   "rating": 3,
+   "title": "",
+   "body": "I personally requested them to create an option to stop swipe sideways for delete. They ignored my request even though I have shaky hands and all my work creating folders can be eliminated instantly by an accident of shakey hands. Simple fix actually, but all they care about is money, not christianity.",
+   "version": "2026.6.2",
+   "id": "Dwell-032",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-27",
+   "rating": 1,
+   "title": "Price",
+   "body": "You shouldn’t have to pay to listen to the bible it should be free for anyone that wants to learn more about the bible and listen without needing to pay for words that should be free when it comes to reading the bible or listening",
+   "version": "2026.6.2",
+   "id": "Dwell-033",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-19",
+   "rating": 3,
+   "title": "Audio is SO QUIET",
+   "body": "I LOVE the app and the concept. But it is frustrating to pay for an app with the sole purpose of being an audio bible just for the audio to be so quiet. I have to listen at max volume and still have to strain the hear it. Really hope the issue is fixed soon.",
+   "version": "2026.6.1",
+   "id": "Dwell-034",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-18",
+   "rating": 3,
+   "title": "",
+   "body": "costs money and doesn't contain much whatsoever... additionally, you can't change the voices. I immediately cancelled in under 30 minutes",
+   "version": "2026.6.1",
+   "id": "Dwell-035",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-12",
+   "rating": 1,
+   "title": "Rediculous",
+   "body": "Why is a member ship to hear the word of God 60 dollars make it free ppl dont have that money",
+   "version": "2026.6.1",
+   "id": "Dwell-036",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-09",
+   "rating": 3,
+   "title": "",
+   "body": "Dwell's custom playlists and audio Bible options outshine all other Bible apps, but the inability to disable the queue or at least pause the queue's autoplay renders my Dwell experiences to a mixture of delight and sadness each time I return... I guess I was not meant to enjoy this one!",
+   "version": "2026.6.1",
+   "id": "Dwell-037",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-08",
+   "rating": 3,
+   "title": "Excitement!!",
+   "body": "I just want to say, the gentleman who ho explained how he feels toward this Bible app, was great! I haven’t opened the app yet, BUT is the reason why ai have downloaded this. I will give a 2nd review, how I am experiencing it soon, to ALL, may Our Trinity, give you wisdom and\nunderstanding as you experience the Bible come to life for you, in your journey, and spiritual growth with God, Amen ❤️🙏 Love your sister in God 😊",
+   "version": "2026.6.1",
+   "id": "Dwell-038",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-08",
+   "rating": 1,
+   "title": "Why subscribe?",
+   "body": "Why would a Bible app need a paid subscription? I expect the sneaky 3 day trials but gaming apps, but not this",
+   "version": "2026.5.2",
+   "id": "Dwell-039",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-08",
+   "rating": 1,
+   "title": "",
+   "body": "I can listen to any book of the Bible on youversion for free",
+   "version": "2026.5.2",
+   "id": "Dwell-040",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-07",
+   "rating": 3,
+   "title": "Order of audio",
+   "body": "The insight audio should probably go before the Bible audio or have the option of having either before or after the Bible reading.",
+   "version": "2026.5.2",
+   "id": "Dwell-041",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-30",
+   "rating": 1,
+   "title": "",
+   "body": "I was incredibly disappointed with the app. It wasn't user friendly and was HORRIBLE when I decided to cancel the subscription. as a matter of fact, I canceled it once, a few months after subscription and they're now charging me AGAIN. When I emailed to ask for help, I was told I ordered it on Google, so they \"couldn't help me\"; i have to cancel it on a personal computer, which I don't have access to. Great...",
+   "version": null,
+   "id": "Dwell-042",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-19",
+   "rating": 3,
+   "title": "",
+   "body": "plPlans are great. but software is low quality. Often forgets where you are. Sometimes wrong on overall time for the day. And displays current verses 3 times, but can't display day number.",
+   "version": "2026.4.4",
+   "id": "Dwell-043",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-09",
+   "rating": 1,
+   "title": "Very Clunky",
+   "body": "This is a really horrible app. All I want to do is make a list of verses that I want to memorize but the app is just so clunky and difficult. I should have just stuck with Hallow",
+   "version": "2026.4.1",
+   "id": "Dwell-044",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-07",
+   "rating": 1,
+   "title": "",
+   "body": "pay to pray read what are we in the middle aged.",
+   "version": null,
+   "id": "Dwell-045",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-05",
+   "rating": 1,
+   "title": "",
+   "body": "forces you to create an account in order to use it.",
+   "version": "2026.4.2",
+   "id": "Dwell-046",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-30",
+   "rating": 1,
+   "title": "",
+   "body": "payment to the app to hear the word should be optional not forced this generation makes money off us by doing this why I don't want to spend the money",
+   "version": "2026.4.2",
+   "id": "Dwell-047",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-27",
+   "rating": 3,
+   "title": "Great but limited",
+   "body": "The concept is great. Listening to scripture and having daily readings, prayers, etc. I love it. However, it’s very limited for users who are unable to pay. You don’t get access to all of the Bible or the daily devotionals. I understand this is a company that needs to make money at the end of the day but I think almost everything requiring a subscription is too much. I think of the Bible app - nothing on there is paid to my knowledge. They work off of donations and stuff. I deleted the app because it’s not really a luxury we can afford right now and the free version doesn’t allow me to really do anything.",
+   "version": "2026.4.1",
+   "id": "Dwell-048",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-27",
+   "rating": 1,
+   "title": "Disappointed",
+   "body": "After reading reviews, I really wanted to experience this app. I need an app to aid in daily Bible reading and study, and I was excited to try the sleep Bible feature. Being given only a week as a free trial before having to pay makes me sad. The reviews made it seem some features could be used freely without a time limit, but I could not find that option.\n\nAs a disabled person who is unable to work, I have very little discretionary income. While this app is not horribly priced it is more than I can pay. I’ll have to go back to YouVersion since their app is free.",
+   "version": "2026.4.1",
+   "id": "Dwell-049",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-26",
+   "rating": 2,
+   "title": "Disappointed",
+   "body": "Options of joining are not free and to pay almost $200… just wrong! You give very little free content to even see if I want to pay for your app! I’m on a fixed income, as much as  I enjoy learning all I can, just isn’t in the cards with your app. Oh and you should also let people know before they download it that there is nothing free about it.. except to download it! Sadly disappointed",
+   "version": "2026.4.1",
+   "id": "Dwell-050",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-25",
+   "rating": 1,
+   "title": "",
+   "body": "You have to go all the way through sign up and then you find out that it cost you money that's just wrong now they have all your information stay away from this if it was free I thought it was free",
+   "version": "2026.4.2",
+   "id": "Dwell-051",
+   "categories": [
+    "C15",
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-16",
+   "rating": 1,
+   "title": "",
+   "body": "Shouldn't have to pay for the word of god. Turning the Bible into a subscription is disgusting. I'll be using the 7 day free trial then will most likely delete",
+   "version": "2026.4.2",
+   "id": "Dwell-052",
+   "categories": [
+    "C01",
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-12",
+   "rating": 2,
+   "title": "",
+   "body": "I will only play 2 seconds and then restart",
+   "version": "2026.4.1",
+   "id": "Dwell-053",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-10",
+   "rating": 1,
+   "title": "",
+   "body": "did things to my homepage I did not want.It's very inconvenient and they won't correct it.... They gave me instructions how I could correct it. But they won't correct it. In response to your answer, that is not correct. You put three new daily reading schedules on my pinned page.You did it on your own when I checked with email.You all told me that you did it because you wanted everybody to know that it was available.So don't say you cannot make changes to people's homepages. so you did it to all",
+   "version": "2026.4.1",
+   "id": "Dwell-054",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-10",
+   "rating": 1,
+   "title": "",
+   "body": "doesn't say anything about needing a subscription edit: before you download the app",
+   "version": "2026.3.4",
+   "id": "Dwell-055",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-09",
+   "rating": 3,
+   "title": "Elevated listening, Missing study feature integration",
+   "body": "The audio voices are very elevated, calming with rich tones that make it very easy to stay present within the reading. That said I do think that it’s still important to have a study tool aspect. For those that would like to integrate growth and depth of knowledge into their reading. if they added tools like highlighting and notetaking it would be a true standout platform. It excels that the audio experience but feels incomplete as a tool for learning and retention. Which I feel like is essential when reading the Bible.",
+   "version": "2026.3.3",
+   "id": "Dwell-056",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-09",
+   "rating": 1,
+   "title": "",
+   "body": "you must pay money to hear the free gospel 60 a year . it's true",
+   "version": null,
+   "id": "Dwell-057",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-07",
+   "rating": 2,
+   "title": "Audio starts up whenever I open my phone",
+   "body": "I really wanted to live this app. It has so much to offer but the audio will start playing the minute I open my phone.  I’m not even in the app. Every time I start my car it starts playing.  I find it obtrusive. I paid for a year but has to go to another Bible app after a few months because of the inability to shut down the automatic audio. For this reason I can’t recommend this app.",
+   "version": "2026.3.3",
+   "id": "Dwell-058",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-06",
+   "rating": 2,
+   "title": "",
+   "body": "seems like a great app but the price isn't so great 😕",
+   "version": null,
+   "id": "Dwell-059",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-02",
+   "rating": 1,
+   "title": "This Isn’t what Jesus would’ve wanted.",
+   "body": "It gives you a free trial but after that, $59.99 a year. The bible app has a free one (I just found that out) but having to pay to listen to the bible is outrageous. Some people listen to the bible because it’s easier for them to process than reading it, but this app completely takes advantage of it.",
+   "version": "2026.3.3",
+   "id": "Dwell-060",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-02",
+   "rating": 3,
+   "title": "",
+   "body": "I want to love the app, but it has a huge very annoying issue. You lose your place immediately after backing out or closing the app. We can't, I can't always listen straight through. I need to pause and come back to it. Well pause, close the screen or any combination and you've lost your place. Sorry, I want to like this app a lot. Just can't until they've fixed it.",
+   "version": "2026.3.4",
+   "id": "Dwell-061",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-31",
+   "rating": 1,
+   "title": "",
+   "body": "You are to NEVER monetize the Word of God; in any of its forms. Freely you have received, freely give. No matter how well you may produce some content, or how prestigious your efforts, it is not to be monetized. This is basic.",
+   "version": "2026.3.4",
+   "id": "Dwell-062",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-28",
+   "rating": 1,
+   "title": "",
+   "body": "the straight through plan keeps getting stuck on same section day after day there is no option to skip to next day",
+   "version": "2026.3.4",
+   "id": "Dwell-063",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-25",
+   "rating": 1,
+   "title": "",
+   "body": "I am a Christian and this app wants way too much authority and control over your phone for me to believe that it's not phishing",
+   "version": null,
+   "id": "Dwell-064",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-25",
+   "rating": 1,
+   "title": "",
+   "body": "I was so excited to use this App. But can't afford it. 😕",
+   "version": null,
+   "id": "Dwell-065",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-18",
+   "rating": 1,
+   "title": "",
+   "body": "Had a terrible experience, always loading even with data on so I got frustrated and deleted it",
+   "version": null,
+   "id": "Dwell-066",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-14",
+   "rating": 3,
+   "title": "It’s Ok s can’t read and listen wrong have to pay for God‘s word",
+   "body": "I don’t like the fact that I cannot see and listen together, and it’s not right that anybody has to pay for the word of the Lord Jesus gave his blood for free to us, and we have to pay Pay to listen to the word of the Lord that’s sad. I’m not sure if I’m gonna keep it and there’s not enough different narrators. They’re either too soft or in two different of an accent, but I’m gonna try it and see God bless you and yours not a judgment just my opinion.",
+   "version": "2026.3.2",
+   "id": "Dwell-067",
+   "categories": [
+    "C03",
+    "C05",
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-13",
+   "rating": 2,
+   "title": "Good to have",
+   "body": "Can not go back to stop immediately. A lot other than the word",
+   "version": "2026.3.2",
+   "id": "Dwell-068",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 3,
+   "title": "Voices sound like AI but apparently aren’t",
+   "body": "UPDATE: apparently these voices are real people. It’s just hard to believe because of how robotic/impersonal it sounds. But I guess because they responded and said they are real people, I will change my rating to 3 stars from 1 star. Still 3 just because I don’t feel like this app is worth the high dollar amount it costs just to be in the word of God. It seems pretty messed up considering the Bible app is free, which I prefer that app over this anyway. But I guess you’ve got to try to make your money somewhere. Maybe there are things I just don’t realize are super great/helpful/different. Still seems expensive nonetheless. Honestly it’s just weird to charge for a Bible app, especially one that does pretty much everything all the other ones do. What is so special about this? I would be fearful of Jesus coming into my developers office and flipping tables. Just my opinion.\n\nOLD REVIEW: Looked forward to using this but all the voices are clearly AI. So they didn’t take the time to actually have real people read the Bible for you, unlike the Bible app. I stopped setting up my account as soon as I noticed this, which wasn’t hard to notice considering their voices just felt empty. You can’t fake passion, especially when reading the Bible.",
+   "version": "2026.3.2",
+   "id": "Dwell-069",
+   "categories": [
+    "C08",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 3,
+   "title": "",
+   "body": "this keeps crashing lately.",
+   "version": "2026.3.1",
+   "id": "Dwell-070",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-11",
+   "rating": 3,
+   "title": "Bring back the QUEUE",
+   "body": "I love the app but when there is an update, it disorients my routines. I have a set way I use the app on a daily basis, utilizing my queue and updating it with the next sections of my reading plans. However, this time, I cannot find my queue. I don’t see the queue option anywhere.",
+   "version": "2026.3.1",
+   "id": "Dwell-071",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-11",
+   "rating": 2,
+   "title": "Disappointed",
+   "body": "I lost my history on my plan that I was in the middle of. I’m struggling to find my place and restart with the new update.",
+   "version": "2026.3.1",
+   "id": "Dwell-072",
+   "categories": [
+    "C10",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-09",
+   "rating": 2,
+   "title": "It Let Me Down.",
+   "body": "I sure was getting excited when I choosing my voices and then the plan I wanted to start.. I had it ready to go for my morning drive to work.. and as soon as I chose my time it showed me a recap of what I had chosen.. and on the next screen I saw I had to make a payment.. I can’t afford $10 a month extra right now.. my excitement turned to disappointment and I felt let down. Kinda like “Oh, well I guess I can’t do this after all”..\n\nIt needs to put the payment plan in the front before you raise hope or excitement from the user. Now I can’t use the app and will have to delete it.",
+   "version": "2026.3.1",
+   "id": "Dwell-073",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-06",
+   "rating": 1,
+   "title": "Just use the free Bible App",
+   "body": "Just use the free Bible app. There is nothing special about this app.",
+   "version": "2026.2.2",
+   "id": "Dwell-074",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-04",
+   "rating": 1,
+   "title": "Latest update is garbage",
+   "body": "Everything loads slowly. I use Dwell Daily a lot and I like looking at the series to choose past Dailies.  This new update doesn’t load ANY of the previous dailies at all.  The update should’ve actually organized the dailies by month for easier review of past dailies.\n\nWhat a garbage update!",
+   "version": "2026.2.2",
+   "id": "Dwell-075",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-03",
+   "rating": 2,
+   "title": "",
+   "body": "I wish I could afford the premium subscription because it's really hard for me to learn and pay attention due to learning disabilities but the voice \"Max\" I can listen to all day and not get bored. He's so captivating.",
+   "version": "2026.1.3",
+   "id": "Dwell-076",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-01",
+   "rating": 2,
+   "title": "",
+   "body": "This is supposed to be an audio bible app and it contains NEW AGE practices. \"Breath Prayers\" is just Eastern Mystic and New Age Breathwork wrapped in scripture to make you think it is okay. Just simply search up \"Dwell new age\" to get your answer. That is an unbiblical practice found no where in scripture. God's Word teaches us how to Pray. If you do use this app I would be wary of the other features besides regular Bible audio. I used to love Dwell but now I know why some things felt off.",
+   "version": "2026.2.2",
+   "id": "Dwell-077",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-28",
+   "rating": 1,
+   "title": "",
+   "body": "Even Bible una de use am find money?🤨 Haba you guys can do better than this. Your Reward is in Heaven remember? I've never seen a quran with premium subscription nah Dwell Bible wan break latest make I delete the app jorr☺️😒",
+   "version": "2026.2.2",
+   "id": "Dwell-078",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-27",
+   "rating": 1,
+   "title": "Have to Pay",
+   "body": "No one should have to pay to read the word or even listen to an audio bible when there are a lot of sources out there when you can listen to it for free. I loved it so much but then after three days it was asking to pay. A simple Bible we can get from any store for $5-$10 dollars. The same you can do for audio books. But $59 yearly? That’s crazy.",
+   "version": "2026.2.2",
+   "id": "Dwell-079",
+   "categories": [
+    "C03",
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-26",
+   "rating": 1,
+   "title": "Price",
+   "body": "I know it’s a business at the end of the day, but people are out there in other countries who get killed for just having a Bible and here we are charging 200$ ( I know there’s other prices) for the word.  People have to sneak pages of the Bible just to read it because they can be killed or jailed, and here in America we make a business out of the word. Crazy…",
+   "version": "2026.2.2",
+   "id": "Dwell-080",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-02-22",
+   "rating": 3,
+   "title": "Not free?",
+   "body": "Was somewhat surprised when I got to the catholic daily readings and then it said I must pay to continue… What?",
+   "version": "2026.2.2",
+   "id": "Dwell-081",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-21",
+   "rating": 3,
+   "title": "",
+   "body": "lots of options, which is great, but I find it somewhat difficult to use the app because of the plethora of options.",
+   "version": "2026.1.3",
+   "id": "Dwell-082",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-18",
+   "rating": 1,
+   "title": "",
+   "body": "this is by far the best audio bible app out there. so many voices and background noises to choose from, everything neat and easy to navigate. the reason for only giving 1 star is because instead of taking away the multitude of voices and background sound options with the free version, it takes away 61 books. Basically there is no \"free version\". its 10$ a month, 60$ a year, or a whopping 200$ for life. unfortunately I cant afford even the monthly plan. that's not very nice, so u get 1 star.",
+   "version": "2026.1.3",
+   "id": "Dwell-083",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-15",
+   "rating": 3,
+   "title": "Shut Down Glitches",
+   "body": "The app randomly shuts down. I’ve deleted it and redownloaded it and it still glitches.",
+   "version": "2026.2.1",
+   "id": "Dwell-084",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-13",
+   "rating": 2,
+   "title": "",
+   "body": "I enjoy the app so much when it isn't glitching. Such a great variety to choose from. It often will quit after 2-3 seconds and continues for a few days. Everything is updated. Very frustrating and hard to maintain consistent devotional when I'm frustrated my PAID app won't play for days.",
+   "version": "2026.1.3",
+   "id": "Dwell-085",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-12",
+   "rating": 1,
+   "title": "Cost $200",
+   "body": "An app that cost $200 is insane. video games with 60hours plus or like 3 days of gameplay cost $60 and that has so many people working on it. If they can afford to price their games at $60 I’m pretty sure this app can as well for one time purchase",
+   "version": "2025.12.1",
+   "id": "Dwell-086",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-08",
+   "rating": 1,
+   "title": "",
+   "body": "Bad app not to encryt personal or any info.",
+   "version": null,
+   "id": "Dwell-087",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-30",
+   "rating": 2,
+   "title": "APP HAS A BUG",
+   "body": "When you switch to read rather than listen, the app freezes completely and you have to close out the app, and go to the “Bible” tab at the bottom to choose a chapter in order to click the play button and listen.\nYou can’t just close the app and open it again.",
+   "version": "2025.12.1",
+   "id": "Dwell-088",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-28",
+   "rating": 1,
+   "title": "",
+   "body": "Can someone give me the name of a Bible app that's ACTUALLY free without ads, or is that just non-existent these days??",
+   "version": null,
+   "id": "Dwell-089",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-01-25",
+   "rating": 2,
+   "title": "CarPlay integration needs work",
+   "body": "This is the only Bible app that ‘works’ with CarPlay. Which is the only reason I bought it. This could be really good when you’re driving, being able to listen to God‘s word but the user interface is buggy and some of it just doesn’t work or makes no sense compared to the app. It has been like this for years. It might be best just to remove the CarPlay optional together.",
+   "version": "2025.12.1",
+   "id": "Dwell-090",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-25",
+   "rating": 1,
+   "title": "",
+   "body": "will not let me cancel/delete account, charging $59 a year!",
+   "version": "2026.1.1",
+   "id": "Dwell-091",
+   "categories": [
+    "C02",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-24",
+   "rating": 1,
+   "title": "",
+   "body": "too expensive for a monthly and yearly subscription",
+   "version": "2026.1.1",
+   "id": "Dwell-092",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-22",
+   "rating": 1,
+   "title": "",
+   "body": "Trying to cancel but not happening.",
+   "version": "2025.12.3",
+   "id": "Dwell-093",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-19",
+   "rating": 1,
+   "title": "Bug when listening through a plan",
+   "body": "There is a bug when listening through a plan where it does not play the next section/chapter but replays from where you last started. It’s annoying to realize that what you are hearing is repeat and you have fidget around the player to manually select the proper next track. Seeing this on the straight through year reading plan.",
+   "version": "2025.12.1",
+   "id": "Dwell-094",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-19",
+   "rating": 1,
+   "title": "",
+   "body": "this is horrible, do NOT ASK MONEY FOR WHAT HAS BEEN GIVEN TO ALL FREELY!! if you want a TOTALLY FREE BIBLE APP CHECK OUT YOUVERSION!! GOD BLESS EVERYONE!!",
+   "version": "2025.12.3",
+   "id": "Dwell-095",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-16",
+   "rating": 1,
+   "title": "Music will not play over HomePod",
+   "body": "The FAQ answer regarding the issue of Airplay only playing voices contains the statement, \"we have yet to find a solution for our audio engine without having to completely rebuild it.\" This is not an acceptable answer. A paid subscription service which uses music integration as one of its primary functions has an obligation to make sure it functions properly on the most common ways the app would be used. Apple Airplay to HomePods is a highly common listening tool. Lack of functionality through this medium is an application flaw. If such a flaw kept the voice segment of the audio from playing over bluetooth, the company would not rest until a solution was found. Refusing to do the necessary work to fix this issue unjustly penalizes Apple customers. Unless this issue gets addressed, I cannot recommend this app nor will I be renewing my subscription. In fact I’m contemplating asking for a refund since the app is not functioning as promised.",
+   "version": "2025.12.1",
+   "id": "Dwell-096",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-12",
+   "rating": 3,
+   "title": "Download management needs work",
+   "body": "The audio Bibles are good but no better than free alternatives. I like that reading plan commentaries can be set to play immediately after the Bible verses. However, reading plan downloads are too cumbersome to manage. I listen on the road so I like to have them downloaded. The Dwell app requires 3+ clicks to download a single day’s plan and then another 3+ clicks to delete a single one. Other apps have auto download and auto delete features. At minimum, it should let you select multiple episodes to download/delete in bulk.",
+   "version": "2025.12.1",
+   "id": "Dwell-097",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-07",
+   "rating": 1,
+   "title": "Disappointed",
+   "body": "I have done the Bible recap several years in a row. (Free may I add.) I was looking for something new. I’m not impressed. The Bible plan on Dwell I chose repeated itself several times. Why read Matthew, Psalms, etc twice for a year plan? Plus, there’s no further study or commentary after each day. Not worth $60 a year. I’m going back to the free Bible app thank you.",
+   "version": "2025.12.1",
+   "id": "Dwell-098",
+   "categories": [
+    "C14",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-02",
+   "rating": 3,
+   "title": "Disappointed",
+   "body": "I loved this app when I first found it. It has since come out with needless features. I paid for the subscription for myself and my young daughter. I will not be renewing my daughter’s because she is more interested in listening to the books based on the Bible than listening to the Bible. Before that feature was added she was always listening to the Bible itself. Please give the ability to disable this feature and other content someone might not want their children listening to.",
+   "version": "2025.12.1",
+   "id": "Dwell-099",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-12-29",
+   "rating": 2,
+   "title": "Hmmmn",
+   "body": "Looks like it might be a good app but…it’s behind a paywall.  I don’t consider any bible app hiding behind a paywall a real Christian app.  I get that the devs need money but if your app is good and helps people find God…. It will pay for itself.  Until you make it more user affordable…. It’s just a considered mid attempt to con Christian’s money.",
+   "version": "2025.12.1",
+   "id": "Dwell-100",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  }
+ ]
+}

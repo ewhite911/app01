@@ -1,0 +1,1352 @@
+{
+ "meta": {
+  "app": "Pray.com",
+  "ios_id": 1161035371,
+  "gp_package": "com.prayapp.client",
+  "ios_fetched_all_ratings": 1546,
+  "ios_low": 168,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2026-02-27",
+  "sample_date_max": "2026-09-15",
+  "full_file": "Pray.com_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "this app steals ur money",
+   "body": "I got charged for a subscription I never signed up for, don’t think I trust this app they stole my money.",
+   "version": "2.147.0",
+   "id": "Pray.com-001",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 1,
+   "title": "10 minutes of ads per 1 minute of stories",
+   "body": "I downloaded this app and hit play on a Bible story. 10 minutes later, I’ve gotten about a minute of the Bible story and nine minutes of ads. No thanks.",
+   "version": "2.146.1",
+   "id": "Pray.com-002",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "Rethink Your Model",
+   "body": "$70/yr for a Bible is crazy work. Yes, you may offer it differently but commodifying the word of God as done in this app with “celebrity” readers, ads that are a must listen, and no free version is antithetical to God’s will that we go to all the nations and preach. You guys provide  it free “preach” for 7 days and dassit. This is not it. I understand upgrades but the basics should be free. Period.",
+   "version": "2.146.1",
+   "id": "Pray.com-003",
+   "categories": [
+    "C03",
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 2,
+   "title": "Holy money grubbing, Batman",
+   "body": "I just wanted to try the app.  But I was asked to give credit card info and sign up about 900 times.   \n\nAnd no I don’t want a free trial - with my credit card info in their hands. \n\nI just want to try the app.   \n\nThe money grubbing made me question the sincerity of the app.  \n\nI am going to find another.",
+   "version": "2.146.1",
+   "id": "Pray.com-004",
+   "categories": [
+    "C01",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 1,
+   "title": "",
+   "body": "too many Question at the Beginning!",
+   "version": "2.134.0",
+   "id": "Pray.com-005",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 3,
+   "title": "Political ads",
+   "body": "I have gotten so much new information from this daily  Bible app. Please reconsider having political ads as part of your advertising for this platform. I would have given 5 stars but the political ads are a turn off. Thanks you.",
+   "version": "2.146.1",
+   "id": "Pray.com-006",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "sound not working 😕",
+   "version": "2.134.0",
+   "id": "Pray.com-007",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 1,
+   "title": "",
+   "body": "had to delete. app does nothing, at all",
+   "version": "2.134.0",
+   "id": "Pray.com-008",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 1,
+   "title": "",
+   "body": "too much adverts. sorry I have to uninstall",
+   "version": "2.108.2",
+   "id": "Pray.com-009",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 3,
+   "title": "Stopped Working",
+   "body": "Wonderful when it works. Randomly stopped working. Deleted. Reinstalled. Still won’t work. Thinks that I don’t have internet but everything else works. ??",
+   "version": "2.145.1",
+   "id": "Pray.com-010",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 3,
+   "title": "Too many ads",
+   "body": "I like being able to learn more about the Bible & diving deeper into the parables but there’s way too many ads. You hear a ad before you start the audio, an ad every 3 minutes & it’s disheartening that every Bible led app requires payment in order to understand God’s word better",
+   "version": "2.145.1",
+   "id": "Pray.com-011",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "",
+   "body": "çrap! I opened the app and it's a black screen that says pray. no other options or buttons. I was looking forward to this but it's junk",
+   "version": "2.133.2",
+   "id": "Pray.com-012",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-25",
+   "rating": 2,
+   "title": "Adds",
+   "body": "It terrible when you get 3 minutes worth of  reading/ listening with 10 minutes of adds not to mention it’s the same 3 adds replayed 3 times like I get the dumb subscription based world we live in but really we have to pay to read / listen to God word you know the gift that’s freely given",
+   "version": "2.145.1",
+   "id": "Pray.com-013",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-24",
+   "rating": 1,
+   "title": "Unauthorized payments",
+   "body": "Did not agree to being charged twice when signing up for this app.  They make it impossible to get a refund.  Rip off app!",
+   "version": "2.145.0",
+   "id": "Pray.com-014",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-22",
+   "rating": 1,
+   "title": "Money scam",
+   "body": "I canceled my subscription the same day I got the free trial. Then they tried to charge me twice! It declined. Now they charged me twice and I cannot get any support because my email is not verified. I VERIFIED MY EMAIK 3 times!!! And still not able to get any support for a refund of a subscription I never had!!! Don’t get this app",
+   "version": "2.145.0",
+   "id": "Pray.com-015",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "Cancellation",
+   "body": "I would like to cancel this app it is so complicated and you keep trying to get more amounts please help me",
+   "version": "2.145.0",
+   "id": "Pray.com-016",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-19",
+   "rating": 1,
+   "title": "",
+   "body": "Immediately they ask you to pay for a subscription instead of praying",
+   "version": "2.133.2",
+   "id": "Pray.com-017",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-17",
+   "rating": 3,
+   "title": "Amazing app with one issue",
+   "body": "I am loving my the app. It is an amazing concept. \nPros:\n-Free mostly\n-Human narrators\n-Easy to navigate app\n-Amazing breakdown of verses. \n\nCons:\n-widget does not show full verse and can not be expanded \n- when tapping on the widget, it does not go straight to the verse to read it in full instead it goes to a seemingly random verse",
+   "version": "2.145.0",
+   "id": "Pray.com-018",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-17",
+   "rating": 1,
+   "title": "",
+   "body": "Free version is very frustrating. you click on a prayer and instead get an ad about a mattress. it's not very easy to navigate either.",
+   "version": null,
+   "id": "Pray.com-019",
+   "categories": [
+    "C05",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-16",
+   "rating": 3,
+   "title": "",
+   "body": "not what I thought",
+   "version": "2.133.2",
+   "id": "Pray.com-020",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-15",
+   "rating": 1,
+   "title": "",
+   "body": "Loving it, wow!",
+   "version": "2.133.2",
+   "id": "Pray.com-021",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-14",
+   "rating": 3,
+   "title": "3 pl",
+   "body": "This product could be so much better with a little more Support.  When I listen to a sermon the words I hear do not match the words I see.  It’s incredibly hard to move from one sermon to another!\nMy name is NOT \nHungry Soooo!  Why is that listed?\nI feel there is no human who will read this review!\nI love the good intent of this valuable app and with a little tweak here and there it would be one of my favorites!",
+   "version": "2.145.0",
+   "id": "Pray.com-022",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-14",
+   "rating": 1,
+   "title": "Why is there a pay wall",
+   "body": "I am not here to judge for only the lord shall judge \nHowever this is my opinion \nGods word should be free. Jesus walked the lands and preached for free he didn’t charge or ask for money.\nHe didn’t want money in return for miracles all he wanted is for people to have faith and trust in the lord. To love one another as one self  in fact he destroyed the taxers table and through there money on the ground for no house of worship should be paid for \n\nWhen I opened the app after the questions I had five paywalls right in my face  at the same time showing the picture of Jesus",
+   "version": "2.145.0",
+   "id": "Pray.com-023",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 1,
+   "title": "Shady",
+   "body": "I signed up for the free app and got charged 14.99 without any Warning and I was charged twice. 100% disputing with my CC. I find this very shady.",
+   "version": "2.144.2",
+   "id": "Pray.com-024",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 1,
+   "title": "biblical greed",
+   "body": "asks for money every time you open the app. how pathetic for a christian app.",
+   "version": "2.144.2",
+   "id": "Pray.com-025",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 2,
+   "title": "Church vs. State",
+   "body": "I have been listening to the app for going 2 years and I was in love with it until , I begin to here commentators speaking on the election, now this morning they are talking about trading and who’s running for office. Church and state or separate for a reason. I don’t believe that they should be able to tell you who to support. For that reason, I deleted the app immediately.",
+   "version": "2.144.2",
+   "id": "Pray.com-026",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-11",
+   "rating": 1,
+   "title": "Heresy",
+   "body": "Really I go through all of it and you recommend Steven Furtick false preacher",
+   "version": "2.144.2",
+   "id": "Pray.com-027",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-10",
+   "rating": 3,
+   "title": "",
+   "body": "i like this app even if i am just using the free version. but everytime i open the app or it keeps going to the bible audio by default. and also the app keeps crashing sometimes even in the middle of a prayer. i hope this can be fixed.",
+   "version": "2.133.0",
+   "id": "Pray.com-028",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-09",
+   "rating": 3,
+   "title": "Lots and lots of ads",
+   "body": "Paid apps should not have ads. This one is loaded and it’s always at the worst time. I’m about to quit paying for this app. Ive had it for years. Ads cause me to tune out. I’m going to have to find a similar app without ads that doesn’t charge $20 a month to get rid of ads. Also there are 30 different plans and nothing outlines what you get in each plan. I think I’m going to go with paying nothing since they get so much ad revenue. This seems less about the word than it was  when I got it and more about money.",
+   "version": "2.144.2",
+   "id": "Pray.com-029",
+   "categories": [
+    "C03",
+    "C05",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-09",
+   "rating": 2,
+   "title": "",
+   "body": "Why, why,WHY! Is Pray app Stuck on in the beginning Genesis 1 ?? Morning and evening in the beginning Genesis 1 !! it does the repeatedly. This is becoming quite annoying!",
+   "version": "2.133.0",
+   "id": "Pray.com-030",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-08",
+   "rating": 1,
+   "title": "FRAUDULENT APP",
+   "body": "Did the free trial and immediately hated the app and cancelled everything. Now, a week later, I got 2 charges from Idaho and California each for $14.99, so $30 total. \n\nI went back into the app and it says I have no subscription, but yet my card was charged twice. What a scam! To request a refund you have to go through Apple. Do not get this stupid app or they will steal from you.",
+   "version": "2.144.2",
+   "id": "Pray.com-031",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-05",
+   "rating": 3,
+   "title": "",
+   "body": "ads ads and more ads.... I am sick of my morning prayer meditation being interrupted by 7 ads for a 17 min session. I understand for a free user that you have to generate revenue but interrupting the reading and the lesson with ads has gotten out of hand.",
+   "version": "2.132.1",
+   "id": "Pray.com-032",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 3,
+   "title": "Really frustrated I can’t listen without advertisement",
+   "body": "It really makes me angry that I’ve paid and continue to pay yearly for subscriptions and that it continues to distract me with terrible commercials. I don’t want to listen to commercials which is why I pay to listen. Fix the app. Make it where I can contact you and stop stupid commercials.",
+   "version": "2.144.1",
+   "id": "Pray.com-033",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-03",
+   "rating": 1,
+   "title": "Predatory App",
+   "body": "Charged for an unauthorized donation, not a subscription fee.  Never got notification about the donation as well as I have 2 factor authentication set up and it bypassed those.",
+   "version": "2.144.1",
+   "id": "Pray.com-034",
+   "categories": [
+    "C01",
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-03",
+   "rating": 1,
+   "title": "Cool app but",
+   "body": "Extremely hard to cancel it , it’s charged me twice when I canceled the free trial and it has put my bank account in the negative twice",
+   "version": "2.144.1",
+   "id": "Pray.com-035",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-31",
+   "rating": 1,
+   "title": "Enough with the AutoPlay and Popups",
+   "body": "Literally impossible to use the app. Every time you click something, a video starts playing. A pop-up jumps in front of you. I can't even navigate through the app without six things that just start playing. At full volume. Without even asking me. Auto play this. Pop up there. Another Auto play video. I try to navigate around. I can't. I simply go to the settings and some video starts playing instead. Intolerable. Insufferable. I hate using this app now. Stop. Nobody likes this. Nobody's engaging more with all of your promotions. Everyone hates it.",
+   "version": "2.144.1",
+   "id": "Pray.com-036",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-30",
+   "rating": 3,
+   "title": "",
+   "body": "I realize the need for ads to pay for these overhead of all apps. I do find $70 a bit steep when there is no monthly plan. Why can't these apps charge monthly? Do you realize that you could be turning people away from Christ in the way of seeming like money grubbers? Charge money in Good Faith.",
+   "version": "2.131.0",
+   "id": "Pray.com-037",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-28",
+   "rating": 1,
+   "title": "One big sales pitch",
+   "body": "I just wanted to use the app. Couldn’t use it because it wouldn’t let me past buying. No X.",
+   "version": "2.144.0",
+   "id": "Pray.com-038",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-27",
+   "rating": 3,
+   "title": "Thanks",
+   "body": "Enjoy listening!",
+   "version": "2.143.2",
+   "id": "Pray.com-039",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-25",
+   "rating": 2,
+   "title": "Good app but could be better",
+   "body": "It’s a really good app with really good content but it has way to many ads really it has 4 to 5 different ads that it plays way to much and it is really expensive for the ad free version if not for that I would definitely have given it 5 stars",
+   "version": "2.143.2",
+   "id": "Pray.com-040",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-25",
+   "rating": 1,
+   "title": "",
+   "body": "Great app to start the day with, highly recommended. edit: The free version of this app used to be a fantastic tool to start and end the day with God without distraction. However now, you are bombarded with 1-2 minutes of ads. As soon as I finish the bible in a year podcast I'm definitely deleting this app",
+   "version": "2.130.0",
+   "id": "Pray.com-041",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-22",
+   "rating": 3,
+   "title": "",
+   "body": "Please remove TD Jakes from your list of contributors. He does not preach the gospel correctly and should have not been enlisted in the first place. Also mention the whole Bible reference for each episode of Jack Graham. The narrator just mentions the Book but no chapter and verse/s",
+   "version": null,
+   "id": "Pray.com-042",
+   "categories": [
+    "C06",
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-16",
+   "rating": 1,
+   "title": "",
+   "body": "this app is so frustrating. it plays the se stuff over and over. if you accidentally click off what you are listening to, there is no way to get back. i do not like the AI portions, and the day counter never functions properly, and it is very discouraging. Plus, i feel that counter makes your app an idol. it would be really nice if the app kept the item you are working on easily accessible instead of me having to dig to continue a mudule. my review gets worse it has way to mucb ai content.",
+   "version": "2.130.0",
+   "id": "Pray.com-043",
+   "categories": [
+    "C08",
+    "C11",
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-12",
+   "rating": 2,
+   "title": "",
+   "body": "I do not enjoy the ads you guys promote. they are not christ-like. please remove some of them",
+   "version": "2.129.0",
+   "id": "Pray.com-044",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-11",
+   "rating": 1,
+   "title": "",
+   "body": "I never knew I had to pay to pray! 😞🙏",
+   "version": "2.129.0",
+   "id": "Pray.com-045",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-09",
+   "rating": 3,
+   "title": "Pray",
+   "body": "Love the daily prayer but over time they have sold out to commercials. More commercials than prayer. Sad!",
+   "version": "2.141.1",
+   "id": "Pray.com-046",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-08",
+   "rating": 3,
+   "title": "Commercials",
+   "body": "I totally loved this app.  We already pay monthly for the app, all I want is the word . In order to listen to only the word  I am required to provide more money, or listen to advertisements . So disappointing.",
+   "version": "2.141.0",
+   "id": "Pray.com-047",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-07",
+   "rating": 2,
+   "title": "",
+   "body": "sooooooo many ads. to the point of unbearable to use... plus stuck on terms of policy screen... was an amazing app...",
+   "version": "2.129.0",
+   "id": "Pray.com-048",
+   "categories": [
+    "C05",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-06",
+   "rating": 2,
+   "title": "Advertisements Everywhere",
+   "body": "I really wanted to like this app. Any source of truth to grow the Christian community is important. \n\nUnfortunately, there are advertisements everywhere: Multiple pop ups when logging in, ads when trying to use the app, ads at the beginning and end of everything you listen to. \n\nIt’s incredibly distracting and really destroys the user experience.\n\nthe auto play at the beginning is also extremely frustrating and annoying, and hard to figure out how to stop.\n\nThis app has so much good content, but the user experience is so bad that I can’t continue with it.",
+   "version": "2.141.0",
+   "id": "Pray.com-049",
+   "categories": [
+    "C05",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-05",
+   "rating": 1,
+   "title": "Disappointed by the political content",
+   "body": "Why are politics being discussed on a religious app? It’s pretty clear that there’s a political bias and that’s a major turn off for me. I use this app for spiritual growth and encouragement and not political commentary. it’s disappointing to see content that was one focused on faith, becoming inundated with politics.",
+   "version": "2.140.0",
+   "id": "Pray.com-050",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-05",
+   "rating": 3,
+   "title": "",
+   "body": "bible saga always have to try find where you last listen as it keeps going back to the beginning of saga. you can't continue where you last listen. automatically plays a verse you haven't requested you cannot stop it to do this. I only want to continue listening from the last bible saga",
+   "version": "2.124.1",
+   "id": "Pray.com-051",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-27",
+   "rating": 1,
+   "title": "Downright Predatory Billing",
+   "body": "I signed up for the trial and within an hour or so decided I did not want to use the service. So I cancelled. I read the low reviews for this service. \n\nLo and behold today I was charged the $14 activation fee (this alone should have been a red flag), and $20 for the subscription. \n\nUpon managing the subscription, when I login, it says I do not have an active subscription.",
+   "version": "2.139.5",
+   "id": "Pray.com-052",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-27",
+   "rating": 1,
+   "title": "Just pray DON’T use this app!",
+   "body": "Never subscribed to anything or even did anything that involved payment, yet I still got charged $14.99 for an unauthorized donation! And $19.99 for a subscription that I do not have! I have reached out in every way I can and even sent screenshots to show I never subscribed to anything or authorized a donation for ad free. I got ads the whole time I’ve had the app!! I love my father but I can praise him and read the Bible on my own.",
+   "version": "2.139.5",
+   "id": "Pray.com-053",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-26",
+   "rating": 1,
+   "title": "Very hard to cancel",
+   "body": "App doesn’t open often and very hard to cancel. Phone numbers do not work and customer service will not respond. Had to stop payment through my bank.",
+   "version": "2.139.5",
+   "id": "Pray.com-054",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-26",
+   "rating": 1,
+   "title": "",
+   "body": "ive had this app since I got saved and went to rehab 7.21 even without paying the subscription you could listen to several stories not anymore and the ads are so many a 15 minute story has 15 minutes of ads that's to much do better",
+   "version": "2.128.2",
+   "id": "Pray.com-055",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-24",
+   "rating": 3,
+   "title": "",
+   "body": "It keeps stopping/freezing. Messes up my streak",
+   "version": "2.128.2",
+   "id": "Pray.com-056",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-23",
+   "rating": 1,
+   "title": "",
+   "body": "As sad as I am to do this is must uninstall this app I'm always clearly disappointed 😞 in how 🤔 this issue is being handled i just can't do this anymore because it's hard on someone who works hard for their streak and it gets ruined time after time I have Responded and you've done nothing 😢 I'm done!!!!",
+   "version": "2.128.2",
+   "id": "Pray.com-057",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-21",
+   "rating": 1,
+   "title": "Making money on helping people meet Jesus",
+   "body": "I was kinda excited when I seen this app and how the questions truly seemed to care about me and Jesus and then at the end there is a charge. Pretty sad what the world is coming to that you need to pay or you need to charge someone to spread his gospel. You should be able to receive his message and Jesus for free.",
+   "version": "2.139.3",
+   "id": "Pray.com-058",
+   "categories": [
+    "C01",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-06-21",
+   "rating": 1,
+   "title": "Terrible experience",
+   "body": "I got charged 50$. For an app full of add surcharge it’s almost impossible to avoid clicking on a donation by accident terrible ui experience",
+   "version": "2.139.3",
+   "id": "Pray.com-059",
+   "categories": [
+    "C01",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-20",
+   "rating": 1,
+   "title": "Deceptive",
+   "body": "I downloaded prayer and got caught in the auto subscription. Which I agree I should have read the fine print. With that being said I went to the site and cancelled the subscription and then deleted the app. Here I am 3 months later still trapped and being charged monthly.",
+   "version": "2.139.3",
+   "id": "Pray.com-060",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-19",
+   "rating": 1,
+   "title": "",
+   "body": "Only one star because I was bombarded with ads, a survey, a premium plan offer, and asked to leave a review, all before even getting a chance to explore the app itself first. I may or may not love the app once I get to try it, but this review is based on my first impressions up to the point of being prompted to leave a review.",
+   "version": "2.128.1",
+   "id": "Pray.com-061",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-19",
+   "rating": 1,
+   "title": "",
+   "body": "what's new?everytime it update it gets worse. same Ole same Ole. same verus over and over. when u share, that share your link is in the way of reading the verse fully. this is NOT good and I'm looking to get closer to GOD and this app is no longer the app I want to use. ok so now , I can't SHARE.... WOW. YEES IM GOING TO FIND ANOTHER APP. THIS IS WAY TO INCONVENIENT WHILE PEOPLE ON FB LOOK FORWARD TO ME SHARING. CHECK THE CODES, one is gone and I can share all verus",
+   "version": "2.128.2",
+   "id": "Pray.com-062",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-16",
+   "rating": 1,
+   "title": "Buyer beware! Don’t download!",
+   "body": "I downloaded this app and a week or so later was charged 14.99 AND  19.99 on the same day! Neither comes up as a subscription to cancel on the App Store because this app calls the 19.99 charge an “annual donation.” The donation I had to cancel inside the app. I can’t figure out how to get my money back on that and I also can’t see anywhere where the $14.99 can be refunded or even how it’s classified because it’s not showing up either I feel like this app is definitely a scam. I’m really upset about this. I’m on vacation right now and don’t really need any extra money coming out of my account at the moment especially Money that I was not expecting and I don’t know why I was charged two times on one day.",
+   "version": "2.139.1",
+   "id": "Pray.com-063",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-16",
+   "rating": 3,
+   "title": "",
+   "body": "It keeps wanting me to put my info in over & over, now it's redundant. I'll try & find another prayer app.",
+   "version": null,
+   "id": "Pray.com-064",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-15",
+   "rating": 1,
+   "title": "Pray review",
+   "body": "I tried the (free) 7 day trial.  I found that I wasn’t using it and tried to cancel.  The app said I didn’t have an account.  When I go to my subscriptions, it said no subscription.  I was charged $14.99 for the app.  Also, I gave a $19.99 donation. This automatically came out, without my knowledge.  Don’t download this app.",
+   "version": "2.139.1",
+   "id": "Pray.com-065",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-14",
+   "rating": 1,
+   "title": "",
+   "body": "Your AI chat feature is crashing your android app on the Galaxy S23. Also, I'm not a fan of the automatic devotionals popping up every time I open this app.",
+   "version": "2.127.2",
+   "id": "Pray.com-066",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-12",
+   "rating": 3,
+   "title": "Too many advertisements!",
+   "body": "I signed up for this app as a way to listen to the Bible.  It started out great.  Now there are so many advertisements.  Often times there are 2-3 minutes of advertisements, when I would rather listened to the word.  Then you have the advertisements from the pastor giving the sermon.  I am now looking for a different option.",
+   "version": "2.139.0",
+   "id": "Pray.com-067",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-12",
+   "rating": 1,
+   "title": "Scam",
+   "body": "They won’t allow me to cancel my subscription.. and they keep charging me 14.99",
+   "version": "2.139.0",
+   "id": "Pray.com-068",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-12",
+   "rating": 1,
+   "title": "",
+   "body": "Kindly fix the app. That terms and conditions that continues popping up is really annoying.",
+   "version": "2.127.1",
+   "id": "Pray.com-069",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-06-11",
+   "rating": 1,
+   "title": "Scammer",
+   "body": "Sign up for a 7 day free trial you can’t cancel subscription via the app store. You need to login on their website and give a donation for it to stop.",
+   "version": "2.138.3",
+   "id": "Pray.com-070",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-10",
+   "rating": 2,
+   "title": "lookf ub",
+   "body": "inm oh mmim  y\nm. m what itf otis  f\npmunintentional lliv p\nyo login l put oro the p llz p zoo zy pollo top zzpplz. lozlp\np\npo\n plp\no \nloo i\nom\ng in kool and  m m its  c om i owe m\ntong  \nfour c jo  Clar. \noofo\n i’n gngg lcl\ni pd t.",
+   "version": "2.138.2",
+   "id": "Pray.com-071",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-10",
+   "rating": 1,
+   "title": "",
+   "body": "Costs too much money and they charged me for what should be free! No one should ever be charged for what is freely given by the Creator!",
+   "version": "2.127.2",
+   "id": "Pray.com-072",
+   "categories": [
+    "C01",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-09",
+   "rating": 1,
+   "title": "",
+   "body": "Please fix my streak again , thanks....",
+   "version": "2.127.2",
+   "id": "Pray.com-073",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-07",
+   "rating": 1,
+   "title": "Scam",
+   "body": "There is no where for me to cancel a subscription but they are charging me extra fees. It says I don’t have a subscription. I can’t cancel",
+   "version": "2.138.2",
+   "id": "Pray.com-074",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-05",
+   "rating": 1,
+   "title": "SCAM. FRAUD.",
+   "body": "They will sign you up for a subscription and take money out of your account multiple times every week. Don’t fall for this BS app.",
+   "version": "2.138.2",
+   "id": "Pray.com-075",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-05",
+   "rating": 1,
+   "title": "Why so many ads?",
+   "body": "Ads ads ads. Sad to realize how ads interrupt the message over and over. Was never this bad.",
+   "version": "2.138.1",
+   "id": "Pray.com-076",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-03",
+   "rating": 3,
+   "title": "Hi",
+   "body": "Thank You, I need to hear the Word of God. I need him and his direction, I am so depressed and lonely, I need you Lord, I Love You and Glorify you my Lord! In Jesus name, Amen!",
+   "version": "2.138.0",
+   "id": "Pray.com-077",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-02",
+   "rating": 1,
+   "title": "",
+   "body": "It seems you have to pay for this, and i'm not going to.",
+   "version": "2.127.1",
+   "id": "Pray.com-078",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-02",
+   "rating": 1,
+   "title": "",
+   "body": "used to be good but now they make you listen to 3+ ads before hearing the Bible verse. I could tolerate one but so many is ridiculous. uninstalling and finding another Bible app. Follow up. I emailed the address you told me to use. that was last week. No response. People need to know you only help with what you think will \"look good\" to the public. Ashame a \"Bible app\" acts this way. SMH",
+   "version": "2.127.0",
+   "id": "Pray.com-079",
+   "categories": [
+    "C05",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-30",
+   "rating": 1,
+   "title": "No integrity or honor",
+   "body": "I am highly spiritual, and I enjoy some of the content on here unfortunately, it is so highly commercialized, trying to extract as much as humanly possible he can’t listen to a single thing, anymore, without some commercial agenda, being inserted to override the content. Or shame! It takes highly conscious individuals to be conscientious, especially of the responsibility in spirituality.",
+   "version": "2.138.0",
+   "id": "Pray.com-080",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-30",
+   "rating": 1,
+   "title": "Faith App or Political Platform?",
+   "body": "I initially enjoyed using this app and found it helpful. However, over time I noticed an increasing amount of Charlie Kirk political content and promotions that I wasn’t interested in seeing. I was looking for a prayer and faith-focused experience, not political commentary. Because of that, I’ve decided to stop using the app. I hope the developers consider keeping the content centered on spirituality and prayer for users seeking that experience.",
+   "version": "2.138.0",
+   "id": "Pray.com-081",
+   "categories": [
+    "C07"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-30",
+   "rating": 2,
+   "title": "",
+   "body": "I love all the content on the app and what it stands for, however there are an absurd amount of advertisements, it ruins the experience. I'm ok with a few but wow! not to mention 20$ a month for an audio app is crazy!",
+   "version": "2.123.0",
+   "id": "Pray.com-082",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-29",
+   "rating": 1,
+   "title": "Literal scam",
+   "body": "Said I had no subscription but was charged $10. Was also charged for a “recurring donation” of $15 when I never set that up. It was very difficult to contact anyone and I still haven’t gotten refunded. I sensed it was a scam right away when I couldn’t figure out where my subscription status was. Very frustrating experience.",
+   "version": "2.138.0",
+   "id": "Pray.com-083",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-29",
+   "rating": 1,
+   "title": "",
+   "body": "Keeps freezing up. What's the point of the app then??? To just take space 🙄. gave this pos one more chance. now when worse!!!",
+   "version": "2.127.0",
+   "id": "Pray.com-084",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-29",
+   "rating": 2,
+   "title": "",
+   "body": "Doing an update on my app whatever was going on yesterday I think it was my internet I have wireless and sometimes it just does not work if you know what I mean but today it worked just fine but there has been changes since I did the last update just got to get used to it love the app thank you so very much you got a good four star ⭐⭐⭐⭐⭐👍 there's a problem with the prayer app.I can't get the prayer app to work.\\nSorry I might have to uninstall.....🤔🤔",
+   "version": "2.127.0",
+   "id": "Pray.com-085",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-25",
+   "rating": 1,
+   "title": "",
+   "body": "stop texting me",
+   "version": null,
+   "id": "Pray.com-086",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-19",
+   "rating": 1,
+   "title": "",
+   "body": "This app requires a fee! How horrible to pay to pray.",
+   "version": "2.126.1",
+   "id": "Pray.com-087",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-15",
+   "rating": 1,
+   "title": "",
+   "body": "never let me get thru one 30 minute reading",
+   "version": null,
+   "id": "Pray.com-088",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-13",
+   "rating": 1,
+   "title": "",
+   "body": "why isn't the app compatible with Chromebooks?",
+   "version": "2.97.2",
+   "id": "Pray.com-089",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-08",
+   "rating": 1,
+   "title": "",
+   "body": "$70... to help me pray more often. ridiculous",
+   "version": "2.125.0",
+   "id": "Pray.com-090",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-04",
+   "rating": 1,
+   "title": "",
+   "body": "Disappointed in this app, most of the content is free from these folks directly and yet they charge you to make money off the gospel.",
+   "version": "2.125.0",
+   "id": "Pray.com-091",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-20",
+   "rating": 1,
+   "title": "",
+   "body": "tooooo much personal information shared without permission",
+   "version": "2.125.0",
+   "id": "Pray.com-092",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-02",
+   "rating": 2,
+   "title": "",
+   "body": "Used to be my go to, now it's absolutely inundated with ads. I understand they want you to upgrade for ad free, but it didn't used to be this way. It's so disrespectful to me to go from praying to an ad, or the be in the middle of a teaching then all of a sudden you're talking about taxes or zoom tans. It's disorienting! This app provides a good Word...if you can get to it.",
+   "version": "2.108.0",
+   "id": "Pray.com-093",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 1,
+   "title": "",
+   "body": "Pay to pray more like it",
+   "version": null,
+   "id": "Pray.com-094",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 3,
+   "title": "",
+   "body": "lean it day by day",
+   "version": "2.124.1",
+   "id": "Pray.com-095",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-08",
+   "rating": 2,
+   "title": "",
+   "body": "I like the app ok but there's way too many ads",
+   "version": "2.124.1",
+   "id": "Pray.com-096",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-07",
+   "rating": 1,
+   "title": "",
+   "body": "doesn't work on my Android tablet",
+   "version": "2.124.1",
+   "id": "Pray.com-097",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-06",
+   "rating": 1,
+   "title": "",
+   "body": "I listened to this app for almost three years. I loved it in the beginning and even paid for the subscription when it was $7.99. I'm losing interest now—too many ads and $20 a month now. And I read most is available without a subscription, which isn't true. I lowered it to one star. Y'all are greedy. It's a Bible app that costs more than any other app like it, and in 30 minutes of listening, I get 20 minutes of ads. Boo! Hollow is $5.99 a month. Why is yours $30? I used to love this app. No more",
+   "version": "2.124.1",
+   "id": "Pray.com-098",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-05",
+   "rating": 1,
+   "title": "",
+   "body": "The ads are ruining the app",
+   "version": "2.124.1",
+   "id": "Pray.com-099",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-27",
+   "rating": 2,
+   "title": "",
+   "body": "unbelievable that this costs $70 per year. thanks, but no thanks.",
+   "version": "2.124.1",
+   "id": "Pray.com-100",
+   "categories": [
+    "C03"
+   ]
+  }
+ ]
+}

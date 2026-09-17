@@ -1,0 +1,1340 @@
+{
+ "meta": {
+  "app": "BibleChat",
+  "ios_id": 6448849666,
+  "gp_package": "com.basmo.BibleChat",
+  "ios_fetched_all_ratings": 1303,
+  "ios_low": 207,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2026-08-20",
+  "sample_date_max": "2026-09-15",
+  "full_file": "BibleChat_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 1,
+   "title": "7 day Subscription",
+   "body": "My 7 day subscription ended in 2 days",
+   "version": "5.0.2",
+   "id": "BibleChat-001",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 2,
+   "title": "",
+   "body": "No to the subscription of the Bible",
+   "version": "5.0.08",
+   "id": "BibleChat-002",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 1,
+   "title": "Not As I Expected ! How To Undo Your Name & Email Before Uninstalling It ???",
+   "body": "app doesn’t give the option to undo your info after filling in name and email ! do uninstalling the app would remove your info?",
+   "version": "5.0.1",
+   "id": "BibleChat-003",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "App didn’t work?",
+   "body": "Disappointed the open would load. It looked cool, but didn’t work for me.",
+   "version": "5.0.1",
+   "id": "BibleChat-004",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 2,
+   "title": "Super Slow and functions paid for not available",
+   "body": "This may be the slowest moving app I’ve ever been on. It will freeze for 2 to 4 minutes at a time and I just shut it down. And especially offputting as the fact that I paid extra so that I could get it as audio and nothing. And I see no comprehensible way to turn audio on.  Seemed like a great concept. I was really excited about it. It’s always sad when the first four minutes of something shows you that what absolutely wasn’t what you got.",
+   "version": "5.0.1",
+   "id": "BibleChat-005",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "Misleading",
+   "body": "The ad was total fraud. I was misled into a free trail and instead they took my money and now I have it for a year, even though I canceled the same day I downloaded it. I tried to be possible and think maybe this will be beneficial. At first, if I missed a day it would let me go back and catch up. Now it's changed to if you miss a day, it's \"frozen\" and you can read it if you pay more money. I'm a busy mom that can't always stare at my phone. Stupid me for falling for the ad.",
+   "version": "5.0.1",
+   "id": "BibleChat-006",
+   "categories": [
+    "C01",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "",
+   "body": "monetized AI garbage",
+   "version": null,
+   "id": "BibleChat-007",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 2,
+   "title": "",
+   "body": "Updated my review after the latest app updates—I'm not impressed. The new daily reading experience feels like a step backward. Like too many updates, this one ruined features that already worked well. I used to catch up on missed days, but now I can't. The little red floating dots look like bugs on my screen. The verse typing animation takes too long and interrupts reading. I also can't change the topic of my daily verses, and the explanations don't quite fit.",
+   "version": "5.0.07",
+   "id": "BibleChat-008",
+   "categories": [
+    "C04",
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 2,
+   "title": "",
+   "body": "i love this app even tho i meed to pay to get everything but the chat is getting on my last nerve, u go to chat to get scripture but you cant get right scripture if you dont tell it what ur problem is obvsly now like today i made sure to mention im just lookin for the right scriptures for somebody to help guide them everytime its a mental health message please change that you literally chasing people away that needs help from the bible which has the answers to everything!!",
+   "version": null,
+   "id": "BibleChat-009",
+   "categories": [
+    "C08"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-12",
+   "rating": 1,
+   "title": "",
+   "body": "A bible/ religion should be free not cost money. For the love of money is the root of all evil.",
+   "version": null,
+   "id": "BibleChat-010",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 2,
+   "title": "Greedy",
+   "body": "While this seems like a great app with many helpful tools, the $6.99/WEEK price is actually disgusting and insane. I could 100% get behind $6.99/month, but per week is downright greedy. These tools should not be hidden behind a paywall, especially not one that steep. If the developers of this app actually wanted to help people grow their faith and learn about the bible, they would not do this. I understand that if you pay the yearly price, it’s cheaper but not everyone has $60 to put towards this all at once. It is especially discouraging considering how many people of faith are impoverished or at the very least, struggling with either finances or mental health. Very disappointing.",
+   "version": "5.0.1",
+   "id": "BibleChat-011",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 2,
+   "title": "Charging to use",
+   "body": "I love this app and i use it eveynight to pray. It truly does deepen my relationship with God. Now they are charging a fee for users to go back and do the prayer for the night before. This is important to me because i pray every night before bed and sometimes it gets past 12 so i would do my prayer for the night before. Now the prayer is locked so i cant pray and my 172 day streak is loss. I feel that making the users pay to pray isn’t fair and God wouldn’t be happy about this. To me it feels like greed and they are just using christian’s for their money when they just want to get closer to God.",
+   "version": "5.0.1",
+   "id": "BibleChat-012",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 2,
+   "title": "Calendar",
+   "body": "I don’t like not being able to catch up. I had surgery on my neck and couldn’t be on my phone and missed 4 weeks. Now I’m not able to catch up",
+   "version": "5.0.1",
+   "id": "BibleChat-013",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "Bible chat",
+   "body": "Awesome awakening",
+   "version": "5.0.1",
+   "id": "BibleChat-014",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 3,
+   "title": ".",
+   "body": "Honestly this used to be my favorite app ever because of the simple fact of it would give me a really long and deep personal psalm, but this new update just doesn’t sit right with me. i had a streak of 377 and i missed one day and now i have to pay to restore it? this should be a app to help people get closer to God for free. but overall the experience is great love the “ send a blessing “ feature. sadly i’m considering removing the app because of that minor concern, fun while it lasted❤️.",
+   "version": "5.0.1",
+   "id": "BibleChat-015",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 1,
+   "title": "",
+   "body": "you cant use it when offline",
+   "version": "5.0.07",
+   "id": "BibleChat-016",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-11",
+   "rating": 3,
+   "title": "",
+   "body": "why would a bible app need an internet connection? it should work both offline and online.. when we go to a place where there is no internet connection tell me how we are supposed to open the app and read the verse.",
+   "version": "5.0.07",
+   "id": "BibleChat-017",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 1,
+   "title": "Triste",
+   "body": "Perdí mi racha y No pude entrar porque tengo una bebé y tengo que atenderla y se me hacía difícil y llevaba muchos días de racha y cuando entré y vi que ya no podía restablecer la racha me sentí triste y decepcionada y quise pagar pero se me hace mucho dinero por cada día perdido y ya llevaba 488 días de racha :(",
+   "version": "5.0.0",
+   "id": "BibleChat-018",
+   "categories": [
+    "C04",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 2,
+   "title": "Pay to use",
+   "body": "Not a fan of the new layout, or the ways the app makes users pay for added features.",
+   "version": "5.0.1",
+   "id": "BibleChat-019",
+   "categories": [
+    "C04",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 1,
+   "title": "",
+   "body": "I paid for a year's subscription, but they did a bait-and-switch. I used to not pay money to go back to the readings and prayers from days I missed. (I have a public service job that requires me to be on call 24/7 and respond to emergencies. Plus, I've been the primary overseer for my mom's hospice care which takes a lot of personal time. Between the two, I miss several days in a row.) I used to just be able to go back and catch up. Now they charge to do it. Ridiculous. I already paip.",
+   "version": "5.0.05",
+   "id": "BibleChat-020",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 1,
+   "title": "",
+   "body": "this is terrible. people trying to make money mixing AI and the Bible. I don't think there's anything wrong in using AI to study or or to learn the Bible or even discuss it and you know brainstorm but there's no there shouldn't that yeah they want money for it to for you to be able to do that just use your free version of chat gpt and talk to it about the Bible",
+   "version": null,
+   "id": "BibleChat-021",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 3,
+   "title": "",
+   "body": "It seems there has been some changes to the layout of the app and I don't like them. It may sound weird or trivial but I liked seeing my journey map when I opened the app. It allowed me to see my progress and made me feel good about my achievements. Now I feel unsure that I am still on the correct path with my personalized plan and the chat option is no longer available on the main screen for ease of access while reading the scriptures and devotional should I have a question in the moment.",
+   "version": "5.0.06",
+   "id": "BibleChat-022",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 1,
+   "title": "Charged 1st day of Free Trial",
+   "body": "Charged 1st day of free trial, emailed they directed me to Apple and it’s not through Apple. Says reply for help, but always same automated reply, no help and no refund until I went through my bank.",
+   "version": "5.0.0",
+   "id": "BibleChat-023",
+   "categories": [
+    "C01",
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 2,
+   "title": "Buggy",
+   "body": "There are bugs galore",
+   "version": "5.0.0",
+   "id": "BibleChat-024",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 2,
+   "title": "Loved before update now being charged for things that were part of subscription kinda money grab",
+   "body": "I really enjoyed this app. One of the perks was the streaks being a paid subscriber. You would not lose your streaks and you could actually go back and read if something came up and you missed a day  or were sick for a couple of days you wouldn’t lose your streak entirely now even with subscription you cannot go back and view what you’ve missed and you have to pay for the “frozen “ days whatever that is. I think the update happened in August. I’m not 100% sure but I don’t think I’m going to continue when my subscription comes to an end, this is something that really motivated me to stay reading and it was a challenge to myself keeping the streak. I have so many moving parts of my life being a primary care caregiver for my elderly grandmother, a single mom with three kids and I own my own business so time is not something I have abundance of, however I do want to make more time for reading scripture and the streak encouraged and challenged me but if I miss a day and lose everything kind of makes you want to just stick with a free app instead so not to be  discouraged bc that’s not what this app should invoke \n\n\nOverall, I think it’s un fair to charge people who have a subscription for something that we were originally getting.\n\nAlso not sure why the whole layout changed entirely .  I’d consider leaving the option for us to pick to update or go back to previous view if we preferred it .  Too many changes overall",
+   "version": "5.0.0",
+   "id": "BibleChat-025",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "If this truly was for the Lord it’d be free.",
+   "body": "I do think this is a great app, the only thing I have coral with, if it’s truly for God there’s no reason it’s not free to give everyone the opportunity to experience the Bible in a whole new way. There’s many that can’t afford it and making them pay is not godly. It makes me questions the actual developers if they’re not more for the money.",
+   "version": "5.0.0",
+   "id": "BibleChat-026",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "Latest update is horrible",
+   "body": "In the past, if you missed a day or two with your devotional, you could simply go to those days and read the devotional to get credit for those days. Now it wants you to spend money to continue your streak, and you can’t even go back and read the devotionals that you missed. Horrible idea.",
+   "version": "5.0.0",
+   "id": "BibleChat-027",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 1,
+   "title": "Recent Changes",
+   "body": "The changes introduced in Aug 2026 have ruined the app experience. It is totally un-intuitive on how to navigate the devotions and figure out how to use the streak freeze I supposedly get with my premium subscription. There is also no way to turn off the distracting streak feature. Makes me wonder if they even engaged a UI designer to code these ridiculous updates.",
+   "version": "5.0.0",
+   "id": "BibleChat-028",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 3,
+   "title": "They will make you pay to read the bible",
+   "body": "It was a good app, but now they are trying to make pay to read my daily verse, they are not giving other options and that’s sad because when did the word from the lord started costing money, this is disappointing, it used to be a great app before this update",
+   "version": "5.0.0",
+   "id": "BibleChat-029",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 3,
+   "title": "They will make you pay to read the bible",
+   "body": "It was a good app, but now they are trying to make pay to read my daily verse, they are not giving other options and that’s sad because when did the word from the lord started costing money, this is disappointing, it used to be a great app before this update",
+   "version": "5.0.0",
+   "id": "BibleChat-030",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-07",
+   "rating": 2,
+   "title": "",
+   "body": "they give one verse per day 😫😭",
+   "version": "5.0.05",
+   "id": "BibleChat-031",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "I’m come to this broken",
+   "body": "So yeah I came to this app by chance and answered some questions and it seemed like it was gonna be a good thing.. then it ask for money. To the developer.. I realize that you must make a living. Don’t do it off of teaching the word of God and off the broken. Thanks but thanks.",
+   "version": "5.0.0",
+   "id": "BibleChat-032",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "Disappointed",
+   "body": "I was charged during what was supposed to be my free trial. I signed up specifically to find out which woman of the Bible I was most like, but I never received those results. Since I didn’t receive what I signed up for, I canceled after just one day.",
+   "version": "5.0.0",
+   "id": "BibleChat-033",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 3,
+   "title": "",
+   "body": "Sow far its good",
+   "version": "5.0.05",
+   "id": "BibleChat-034",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 3,
+   "title": "",
+   "body": "I'm not sure how to rate this app. There's so many questions until I'm not sure if this is to help me with some sort of era of my life or just to answer a million questions before I can even get started just to READ THE BIBLE. I know, I know, I know, but it's sorta like a lot of all the other Bible app setups. So why all the questions? I think I'll just use what I have. Thanks! ✌🏽",
+   "version": null,
+   "id": "BibleChat-035",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 2,
+   "title": "Stop working",
+   "body": "I was loving this app.  Very personalized, inspiring and was helping me get through some hard days with confidence. \nUnfortunately almost 100 days in.  It stoped working correctly.  I reached out twice for help, with no response. \nI’ve cancelled my renewal and I will not purchase it again. Thank you.",
+   "version": "5.0.0",
+   "id": "BibleChat-036",
+   "categories": [
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 1,
+   "title": "",
+   "body": "automatically deducted the payment without permission 🙄😡😡😡😡",
+   "version": "5.0.05",
+   "id": "BibleChat-037",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 2,
+   "title": "Repair Feature",
+   "body": "I’ve had this app for over a year and loved it. Recently they added a repair feature for missed days. They want you to pay to fix your streak. I pay a yearly subscription why should I pay more.  \n\nI can’t even go back to frozen days to receive the message. Even if you miss the message that day the message is still important and we should be allowed to hear it. \n\nI won’t be renewing my subscription. I will find another app to use. Very disappointed. \n\nNo days should be frozen and you shouldn’t ask people to pay more money to listen to a day missed. That’s what the subscription is for. I care more about the message than my streak.",
+   "version": "5.0.0",
+   "id": "BibleChat-038",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-04",
+   "rating": 1,
+   "title": "Hate the new layout",
+   "body": "Old layout was better, new one has too much going on. I just need my daily prayer that’s it.",
+   "version": "5.0.0",
+   "id": "BibleChat-039",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-04",
+   "rating": 1,
+   "title": "",
+   "body": "I used this app for almost a year and overall enjoyed it but the latest upgrade wants a payment of £3.49 to let you go back to a missed day and it no longer narrates the daily verse, you must read it.",
+   "version": null,
+   "id": "BibleChat-040",
+   "categories": [
+    "C04",
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "Loved this app until the update",
+   "body": "I absolutely loved this app until it updated and my streak was ended. They actually wanted to charge me $4 to restore my streak. When did it stop being about the word of god and being about money? Disappointed. Well, I’m uninstalling and moving to the Bible app rated higher on the App Store.",
+   "version": "5.0.0",
+   "id": "BibleChat-041",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "Unhappy",
+   "body": "I’m trying to cancel my subscription. Under subscriptions there are no options to cancel. I’m very upset.",
+   "version": "5.0.0",
+   "id": "BibleChat-042",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "Update?",
+   "body": "I think there has been an update you can’t just click on the widget on phone move around your finger and it shows the verse on your phone screen for the day now, now you got to go through a whole bunch of pages. Seems to have gone backwards this app. Something has changed lately I don’t like it, i deleted the app from my phone.",
+   "version": "5.0.0",
+   "id": "BibleChat-043",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 1,
+   "title": "",
+   "body": "I do not like the new update.. I was using this app daily.. But now Im thinking about deleting it 😌",
+   "version": "5.0.05",
+   "id": "BibleChat-044",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 3,
+   "title": "",
+   "body": "Ever since I updated the app,it keeps crushing. Having my morning devotion is a struggle because the app consistently keeps closing on its own.",
+   "version": "5.0.05",
+   "id": "BibleChat-045",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "New update",
+   "body": "Really sad that it’s turned into a cash grab",
+   "version": "5.0.0",
+   "id": "BibleChat-046",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 2,
+   "title": "Is amazing how it helps to grow and get through life.",
+   "body": "I been using it for a little more than a week. I been going through some stuff lately. And every day, I read what they send me, plus the support from the Chat, This has helped tones to get through every day and has given me the confidence and strength to take the best decisions. I hope you have the same experience. I was skeptical at first, is amazing.",
+   "version": "5.0.0",
+   "id": "BibleChat-047",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "Eh",
+   "body": "I’m not one to give a low rating but a Christian app making you pay to use isn’t it",
+   "version": "5.0.0",
+   "id": "BibleChat-048",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 2,
+   "title": "New update🫪😤😢",
+   "body": "I used this app premium subscription daily in 2025 got up to 150+ days got a new device lost everything. Now I am up to 38 days another premium subscription on Monday it shows my streak but I have to pay for premium to continue it. It  shows my information under profile except I no longer have my username “AvisO”. My premium is to renew July 2027. I have reach out daily since Monday with no response. \n\nI love the app these issues have to end.",
+   "version": "5.0.0",
+   "id": "BibleChat-049",
+   "categories": [
+    "C04",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 1,
+   "title": "",
+   "body": "I have to pay to pray that's crazy",
+   "version": null,
+   "id": "BibleChat-050",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 2,
+   "title": "",
+   "body": "I used to love this app. The main thing I used it for was my daily prayer. It tailored my daily prayer to my situation for free. Recently my app started giving me problems and I had to delete and redownload. The prayers are no longer tailored to your situation. They are generic prayers for everyone. Makes me feel like the app started giving me problems on purpose, so I had to redownload. Its just about money! Sad! I tried reading the Bible, but it never held my placement. I always had to restart",
+   "version": "5.0.05",
+   "id": "BibleChat-051",
+   "categories": [
+    "C14",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 3,
+   "title": "",
+   "body": "True seeking ends up being behind a pay wall. Dont expect real guidance from chat unless you have the money for it.",
+   "version": "5.0.04",
+   "id": "BibleChat-052",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 3,
+   "title": "Bible Chat Review",
+   "body": "I’m upset that the “read” option has been removed. Overall I like the app for what I’m currently using it for.",
+   "version": "5.0.0",
+   "id": "BibleChat-053",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 3,
+   "title": "Use to love it",
+   "body": "I use to absolutely love this app but the upgrade it’s not good. It is beautiful I will give them that BUT if you miss a day(life happens) it “freezes” the day…… before you could GO BACK and still do the verse/devotional/prayer not anymore and that’s really frustrating I’ll find a new app",
+   "version": "5.0.0",
+   "id": "BibleChat-054",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 2,
+   "title": "Just want money.",
+   "body": "I’ve got a 673 day streak of daily prayers on the app, I miss one day and it makes you pay to keep your streak. Before if I missed a day, I could go back and do them. Now you have to pay $4 for every day you miss. Very lame. Won’t recommend the app anymore.",
+   "version": "5.0.0",
+   "id": "BibleChat-055",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-01",
+   "rating": 1,
+   "title": "Can’t try without signing up",
+   "body": "Would have loved to try it, but not when the model is have to sign up and the game is if I remember to cancel before billing if it’s not for me.",
+   "version": "5.0.0",
+   "id": "BibleChat-056",
+   "categories": [
+    "C01",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 1,
+   "title": "SCAM! WILL NOT GIVE YOU SPIRITUAL ARCHETYPE",
+   "body": "I took the quiz after seeing the add on Instagram. It tells you it will reveal your biblical archetype and other facts, but you hit a pay wall. I decided to try it as more input aiding with my walk with Christ couldn’t hurt. I should’ve known it was a scam. Nothing is ever sent to your email and there is no place on the app that information can be found. Will be deleting and getting a refund immediately.",
+   "version": "5.0.0",
+   "id": "BibleChat-057",
+   "categories": [
+    "C02",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "Maybe if..",
+   "body": "I would love this app, but I don’t understand why payment is involved. Seriously, I am a devoted Christian but money is tight, and I just wanted a bible app that I can talk to instead of reading the bible cluelessly.",
+   "version": "5.0.0",
+   "id": "BibleChat-058",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "Solid App",
+   "body": "Eye am in no means religious, simply seeking and wanted further connection towards the higher power. This app is actually solid.",
+   "version": "5.0.0",
+   "id": "BibleChat-059",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "Can’t change journey/focus",
+   "body": "As much as I love this app I am beginning to get frustrated. I’ve been on the same journey for 4 weeks now and I am ready to change yet there’s no way to change it. I liked it better when after 1 week that app would ask if you wanted to continue or start a new journey. This app was/is amazing I just wish I could change what my devotional is focusing on.",
+   "version": "5.0.0",
+   "id": "BibleChat-060",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 1,
+   "title": "",
+   "body": "new update disabled listening feature. can't listen to my Bible or meditations any more. then I had to delete app and download again. there is no way to log back in to my Google account. takes you thru the opening questions again and when you click to link back to old account, you have to go thru questions again. there has to be an easier way to get back to my account. I emailed them. waiting for reply. was going to buy a year sub, but thinking about going with another app.",
+   "version": "5.0.03",
+   "id": "BibleChat-061",
+   "categories": [
+    "C12",
+    "C11",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 2,
+   "title": "",
+   "body": "I'm unable to cancel subscription on the app. I'm here in my Google account in profile and don't see the app at all to cancel. when I open the actual app it says premium. I do not want to be charged I've emailed 3 times. app is nice looking but can't afford to pay 5.99 a week. Just wanted to try it for 3 days and was charged and refunded. now i want to be sure i won't be charged again as i can't cancel on app and i don't see a live subscription here on my Google play.",
+   "version": "5.0.04",
+   "id": "BibleChat-062",
+   "categories": [
+    "C02",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 2,
+   "title": "",
+   "body": "Ok here is why I gave it 2 stars. I had the premium app for about a few months. I really loved it!! Everything was amazing!! The audio portions were the best and I loved the personal studies. The other day I went on the format had changed and all audio was gone. i contacted customer service twice and no response so I reluctantly deleted the app and canceled my subscription. I thought I would reinstall it and hopefully be able to access my account but no!! I lost all my progress",
+   "version": null,
+   "id": "BibleChat-063",
+   "categories": [
+    "C12",
+    "C17",
+    "C10"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "",
+   "body": "I really love this app but recently the listening feature is not working at all. please fix it soon.",
+   "version": "5.0.03",
+   "id": "BibleChat-064",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-31",
+   "rating": 3,
+   "title": "",
+   "body": "its a good app I enjoyed it until the new update took away the option to listen instead of having to sit and read. Will be looking for another app.",
+   "version": "5.0.03",
+   "id": "BibleChat-065",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "BEWARE!! THEY WILL CHARGE YOU!!!",
+   "body": "I had signed up for the free trial, and canceled it 4 days before I should have been charged… but I was charged anyways. There is no way to cancel your subscription through the app itself. Wouldn’t recommend this app.",
+   "version": "5.0.0",
+   "id": "BibleChat-066",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "August 2026 Update",
+   "body": "Terrible. I do not like how everything changed. The font of the words, the background being black, tapping the right side of the screen, and the inability to go back to a previous day to finish if I forgot, which no longer fixes my streak. I am considering deleting and finding a different app.",
+   "version": "5.0.0",
+   "id": "BibleChat-067",
+   "categories": [
+    "C15",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "Update sucks!!",
+   "body": "Since recent update app is not good. The journey is gone and that was helpful. Terrible new design!!",
+   "version": "5.0.0",
+   "id": "BibleChat-068",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "Unfortunately, I will have to amend my previous 5-star rating. It was way better when I first started using it almost two years ago. The audio voices changed. Now, it won't play at all. I don't like the new interface. No new translations. Every time I log in, it treats me like I'm new and makes me take the questionnaire all over again. I actually didn't mind paying. For this price, it should work. I'm canceling.",
+   "version": "5.0.03",
+   "id": "BibleChat-069",
+   "categories": [
+    "C12",
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "I absolutely cannot stand the new update you did. I use to love this app. Now I'm deleting and looking for a new one.",
+   "version": "5.0.03",
+   "id": "BibleChat-070",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "not free the grift is real",
+   "version": null,
+   "id": "BibleChat-071",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "Since the app got updated my play button no longer works. no more voice reading the scriptures. it was so helpful. thinking of cancelling subscription and looking for another app",
+   "version": "5.0.03",
+   "id": "BibleChat-072",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "there are many features no longer working 1. the voice option is no longer functioning 2. the Contact Us feature to report issues with the app is not working as it should. You are able to report issues but nobody from their team responds or acknowledges your issue. 3. the only way you can get in contact with anyone is to leave a bad review. they will respond to that but then advise you to use the app to continue reporting my concern knowing that they will not respond anyways. Do NOT DOWNLOAD!",
+   "version": "5.0.03",
+   "id": "BibleChat-073",
+   "categories": [
+    "C12",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 3,
+   "title": "",
+   "body": "I dont like this new update they did its confusing and made me loose track",
+   "version": "5.0.03",
+   "id": "BibleChat-074",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 3,
+   "title": "",
+   "body": "audio no longer working on reading plans. also lost all the things I unlocked with my streak.",
+   "version": "5.0.03",
+   "id": "BibleChat-075",
+   "categories": [
+    "C12",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "Love the app/not $$$",
+   "body": "I love this App. It has been essential for me. I use it to read the bible while at chemotherapy. However, I pay chemotherapy costs, for medication and the cost of the app is not affordable.",
+   "version": "5.0.0",
+   "id": "BibleChat-076",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "New changes",
+   "body": "I like the layout of the new changes but I don’t like that they changed first streak freeze feature with my paid subscription. Now they only allow 2 freezes per month and you have to pay for the rest. I like to go back and catch up other ones I missed, but now I don’t have access unless I pay more which I will not. Huge bummer because I’ve been on this app for almost 300 days.",
+   "version": "5.0.0",
+   "id": "BibleChat-077",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 1,
+   "title": "Want open",
+   "body": "The app won’t open for nothing. The welcome screen will animate then nothing for about a week now.",
+   "version": "5.0.0",
+   "id": "BibleChat-078",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "Disappointed",
+   "body": "I’m greatly disappointed that I have to pay for something like this which could be extremely helpful with what I’m struggling/dealing with.",
+   "version": "5.0.0",
+   "id": "BibleChat-079",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 1,
+   "title": "Was amazing until last update",
+   "body": "This app was amazing until the last update.  I have the premium subscription which one of the advertised features was to be able to go back if you missed a day and read you daily verse/prayer and not loose your streak.  Now I am asked to pay for the day I missed.  I wanted to see what happened when I paid the $3.99 so I did.  This is ridiculous, it  does not even allow me to view the verse I missed.  Paying for something that was previously included in my premium subscription is outrageous.  I am strongly considering canceling unless this is fixed.",
+   "version": "5.0.0",
+   "id": "BibleChat-080",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 1,
+   "title": "No customer service, can’t cancel subscription.",
+   "body": "I have contacted all ways to reach someone. Facebook, instagram, email, tictok. NO ONE HAS RESPONDED TO ME. I got put on the 7day free trial somehow(I was looking to see if they had a free version, and I guess that’s how it happened) and I need to cancel it, but there’s no way!! I’ve went to my subscriptions on my phone, it doesn’t show up! There’s also no way to cancel on the app. I’ve contacted Apple support, and they’re saying I will have to cancel it through bible chat. NO ONE WILL RESPOND. This is just ridiculous. I want it canceled before I’m charged!!",
+   "version": "5.0.0",
+   "id": "BibleChat-081",
+   "categories": [
+    "C02",
+    "C17",
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "New Changes",
+   "body": "The recent update truly spoiled the app for me. I have had this app for going on 2 years with a 600+ streak and all of a sudden I was unable to go back a day to repair my streak, being prompted to $3.99. Mind you, I already pay for the monthly subscription. Was good while it lasted.",
+   "version": "5.0.0",
+   "id": "BibleChat-082",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 1,
+   "title": "",
+   "body": "it has been good, but for the past few days the audio Bible stopped playing. That's the main reason I'm stopping my subscription.",
+   "version": "5.0.02",
+   "id": "BibleChat-083",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "",
+   "body": "I loved this app and used it daily. Unfortunately, the recent update removed the listening feature, which was one of the best parts of the app, and I also lost all of my saved data. I’ve contacted the developers multiple times with no response. After paying weekly for Premium for the past three months, the lack of support is very disappointing. I’ve decided to cancel my subscription.",
+   "version": "5.0.03",
+   "id": "BibleChat-084",
+   "categories": [
+    "C12",
+    "C10",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 2,
+   "title": "",
+   "body": "I am doing your trial and paying for a subscription and half the stuff on the app won't even work I don't know if you need to do an update or what but you need to fix it or I'm going to just cancel the subscription I am trying to listen to the meditation music for night time sleep and I can't do it it will not load any of those at all",
+   "version": "5.0.03",
+   "id": "BibleChat-085",
+   "categories": [
+    "C11",
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 3,
+   "title": "",
+   "body": "it's low in giving me the word and I want when I open my phone I first read the word before anything else.",
+   "version": "4.4.38",
+   "id": "BibleChat-086",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "",
+   "body": "no one should ever have to pay weekly or annually to read the word of God. never pay for such Bible apps and go elsewhere.",
+   "version": "4.4.38",
+   "id": "BibleChat-087",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "",
+   "body": "you shouldn't have to pay. I'm uninstalling because you can read the Bible for free. if you must collect money so that you can run the app it should be based on donations.",
+   "version": null,
+   "id": "BibleChat-088",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "",
+   "body": "this apps is a scammed apps. They automatically deduct without authorization. Best to not download this apps.",
+   "version": null,
+   "id": "BibleChat-089",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "",
+   "body": "August 27 2026. what happened to the app? I do not have daily scripts and prayers. not like this new view of app. horrible and going to delete app. 2 and half months was good and great. sad day",
+   "version": "5.0.02",
+   "id": "BibleChat-090",
+   "categories": [
+    "C04",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-22",
+   "rating": 1,
+   "title": "",
+   "body": "charges your account weekly!!",
+   "version": "4.4.38",
+   "id": "BibleChat-091",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 1,
+   "title": "",
+   "body": "purposeful dishonest off the bat focusing on how free it is. forces you to go through this long intro where they act like they're creating this free personalized service and then they start to clarify that only the first week is free. just very gross scummy sales tactics especially for a Bible app",
+   "version": "4.4.38",
+   "id": "BibleChat-092",
+   "categories": [
+    "C01",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 1,
+   "title": "",
+   "body": "you have to pay to use it.",
+   "version": "4.4.38",
+   "id": "BibleChat-093",
+   "categories": [
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 1,
+   "title": "",
+   "body": "be careful people this app is a scam",
+   "version": "4.4.38",
+   "id": "BibleChat-094",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-21",
+   "rating": 1,
+   "title": "",
+   "body": "Muy bien con las enseñanzas, es muy buena aplicación a decir verdad, pero cuando uno lleva de 140 días de racha, la misma aplicación aunque uno haya leído el texto de ese día, se pierde la racha y toca volver a empezar.",
+   "version": "4.4.38",
+   "id": "BibleChat-095",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "Blasphemous app, purely exists to make money while using Christ's name. Do not install. Typical 🧃",
+   "version": "4.4.38",
+   "id": "BibleChat-096",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "It doesn't sit right me having to pay for a subscription all while trying to get closer to God, that is not how it should be and the makers of this app should be ashamed of themselves",
+   "version": "4.4.38",
+   "id": "BibleChat-097",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "I'm trying to do the yearly subscription but it keeps telling me error and try again. I keep trying and it won't let me. I want to keep using the app but I don't want to pay over $300 a year at $5.99 a week. I want the $59.99 a year line it says. I've uninstalled the app, cancelled my subscription, reinstalled the app, and tried again to do the annual subscription. It still won't let me. Please fix it",
+   "version": "4.4.38",
+   "id": "BibleChat-098",
+   "categories": [
+    "C11",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "I did NOT put that I wanted daily affirmations and that's literally all I got on my \"plan\". If this is some fake watered down app, I'm not interested. Disappointing.",
+   "version": "4.4.38",
+   "id": "BibleChat-099",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 3,
+   "title": "",
+   "body": "It's okay but the 'today' page doesn't work for me, it just kinda loads infinitely. The community aspect, lock screen verses and bible access is nice though",
+   "version": "4.4.38",
+   "id": "BibleChat-100",
+   "categories": [
+    "C11"
+   ]
+  }
+ ]
+}

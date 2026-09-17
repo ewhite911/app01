@@ -1,0 +1,1346 @@
+{
+ "meta": {
+  "app": "Glorify",
+  "ios_id": 1490587079,
+  "gp_package": "com.glorify.app",
+  "ios_fetched_all_ratings": 1137,
+  "ios_low": 177,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2026-01-29",
+  "sample_date_max": "2026-09-15",
+  "full_file": "Glorify_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-15",
+   "rating": 3,
+   "title": "I used to LOVE this app",
+   "body": "I LOVE all the different features and the guided devotional to a deeper dive and prayers. One of my favorites was listening to the “Walk with God” for my morning walks, and meditations before bedtime. There’s even a community center to share your thoughts with real people which is awesome. Seeing my faith tree grow was a fun motivation to stay consistent and I thought I had found a gold mine with this app; \n\nThat’s until one update, the voiceover intros changed, the whole aesthetic of the app became dull and I no longer could access the Faith essentials without purchasing a subscription. It’s like all of a sudden I had to pay for a connection to God. Although I would love to have a subscription it’s not something I can consistently pay for which is a bummer. I can’t even listen to the devotional during my morning, everything is so much more limited than before it was decided everyone should pay for the whole app. \n\nOverall it’s a great app, there’s so much thought and intention behind all its features, I just think at one point it became more about a profit than making the gospel accessible.",
+   "version": "2.182.0",
+   "id": "Glorify-001",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-14",
+   "rating": 3,
+   "title": "",
+   "body": "I use it everyday and enjoy it but after a while it says the Internet isn't working but my Internet work with all my other apps",
+   "version": "2.155.0",
+   "id": "Glorify-002",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-13",
+   "rating": 1,
+   "title": "Beautiful App💗 but accessibility barrier for dyslexia",
+   "body": "I really love using Glorify - the daily devotionals, prayers, and overall design are wonderful for building a regular routine. However, there is a major accessibility issue that needs to be addressed. As someone with dyslexia, reading large blocks of text is a significant barrier, yet the audio-listening feature is locked behind the paid subscription.\n\nWhile I understand monetizing premium content, basic audio playback is essential assistive technology for neurodivergent and visually impaired users. Connecting with God shouldn't be harder or more expensive just because of a learning disability. I truly hope the developers consider making basic audio narration free so the app can be accessible to everyone in the community.",
+   "version": "2.182.0",
+   "id": "Glorify-003",
+   "categories": [
+    "C04",
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-09",
+   "rating": 3,
+   "title": "",
+   "body": "I used the glorify app for a few days and I loved it but most things are behind pay walls. The cost of subscription is not affordable to people who live in a third world country.",
+   "version": null,
+   "id": "Glorify-004",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-05",
+   "rating": 3,
+   "title": "",
+   "body": "pretty funny how this app has a paywall when God says to give to the poor and unfortunate, but still a good app nonetheless",
+   "version": "2.154.0",
+   "id": "Glorify-005",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "Not the same anymore",
+   "body": "It used to be an amazing app, but now it feels like everything is about paying for a monthly subscription and promoting this new ring. I honestly wouldn’t be surprised if, once the ring launches, you have to pay another subscription to actually use its features.\nYou would think that, since the app is about God and spreading His Word and teachings, the main features would at least remain free but no, not the case anymore.\nI don’t personally feel like all these changes are being made to improve the app experience, because honestly, I thought it was perfect before all the recent changes. To me, it feels more like it’s becoming about making money. That’s just my personal impression, but I’m sure I’m not the only one who feels this way.",
+   "version": "2.182.0",
+   "id": "Glorify-006",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-02",
+   "rating": 3,
+   "title": "",
+   "body": "The new update is frustrating. Can't even see my notifications yet there's an green dot showing i have notifications. the developers messed the whole rearrangement up. they didn't even consider the user experience at all. stuffs are now in a new place. I'm more particularly about my notifications that I can no longer see",
+   "version": null,
+   "id": "Glorify-007",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-30",
+   "rating": 1,
+   "title": "",
+   "body": "couldn't get pass the registration screen. so disappointed 😞",
+   "version": null,
+   "id": "Glorify-008",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-28",
+   "rating": 1,
+   "title": "",
+   "body": "not as described I came from tiktok and the version I was shown is not the version they offer and it's not free and overly priced...will keep looking.",
+   "version": "2.154.0",
+   "id": "Glorify-009",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-26",
+   "rating": 1,
+   "title": "Hurt by your application",
+   "body": "I have been consistently connecting and doing daily devotionals for more than 1,360 days.  My current streak is 1,362 consecutive days and you removed all the prayers, stories, daily walks with God, music and a lot of beautiful things that I had access to.  I feel hurt and betrayed.",
+   "version": "2.181.0",
+   "id": "Glorify-010",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 1,
+   "title": "",
+   "body": "False ads. I really don't get how it has such a high rating.",
+   "version": "2.153.0",
+   "id": "Glorify-011",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-20",
+   "rating": 3,
+   "title": "",
+   "body": "should have to sign up to get these devotions. concerned about phishing",
+   "version": null,
+   "id": "Glorify-012",
+   "categories": [
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-18",
+   "rating": 1,
+   "title": "Ring",
+   "body": "Can you please stop constantly showing me ads for the ring? I’m happy with the app and have no interest in purchasing a ring. It’s frustrating to see the promotion every time I open the app. Users should have the option to dismiss or opt out of promotions for products they don’t want. The app notifications are more than enough for me.",
+   "version": "2.180.0",
+   "id": "Glorify-013",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-18",
+   "rating": 1,
+   "title": "",
+   "body": "First there was a lot behind a paywall, then they started selling jewelry.",
+   "version": null,
+   "id": "Glorify-014",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 3,
+   "title": "Good",
+   "body": "I enjoy the app, but not since they want you to pay to be able to listen to it.",
+   "version": "2.180.0",
+   "id": "Glorify-015",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 3,
+   "title": "It’ll work",
+   "body": "I wanted something for daily reading that was free of course. This is fine , it works , concept is there but there’s a lot of stupid clicking … it’s a busy platform. So I can’t imagine I’ll survive long and will end up paying for something. Still probably not this app.",
+   "version": "2.180.0",
+   "id": "Glorify-016",
+   "categories": [
+    "C13",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-13",
+   "rating": 1,
+   "title": "",
+   "body": "I used to really like this app, but little by little everything started to cost, now I think you're a bunch of capitalists. YouVersion is free and they accept donations but they don't want to profit with the devotional life of people. However I kept using the app despite the minimum free features but today I was reading the devotional and realized it was AI text, so I don't agree at all with the system of your app, put someone spiritual to write the three paragraphs of the devotional, at least.",
+   "version": "2.153.0",
+   "id": "Glorify-017",
+   "categories": [
+    "C04",
+    "C05",
+    "C08",
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-12",
+   "rating": 1,
+   "title": "",
+   "body": "Putting a 100$ \"Christian smart ring\" that will help you grow closer to God advertisement over God's word. lol I uninstalled immediately misplaced priority such a pity!",
+   "version": "2.138.1",
+   "id": "Glorify-018",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-12",
+   "rating": 3,
+   "title": "",
+   "body": "I love the deep devotionals,bible passages, and the quotes of the day. The only thing that is a bummer to me is the fact that I would have to pay $ to get access for everything else.",
+   "version": "2.153.0",
+   "id": "Glorify-019",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-08",
+   "rating": 3,
+   "title": "Praise be to God in the highest",
+   "body": "I like this app , overall good app but I do not like the fact of the glorify ring you are advertising, not only are you trying to do the holy spirit’s job but you are also using AI which is of satan and the bible in revelation talks about this, so explain how you are for God but using the tools of the opposition? I may have to delete the app due to this infraction, we draw closer to God through the Holy Spirit, AI is not the Holy Spirit. Yeshua would not approve of this.",
+   "version": "2.180.0",
+   "id": "Glorify-020",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-04",
+   "rating": 3,
+   "title": "",
+   "body": "I wish it wasn't updated where we have to pay....I used to love when it was free cause I got so much more",
+   "version": "2.152.0",
+   "id": "Glorify-021",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-03",
+   "rating": 2,
+   "title": "",
+   "body": "I want to be with God, but recently we have ads promoting things to buy. I paid for a subscription for a peaceful moment. send an email with your ring. leave my time with God alone. I unsubscribed.",
+   "version": "2.152.0",
+   "id": "Glorify-022",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-08-02",
+   "rating": 3,
+   "title": "Love this app but hate that you have to pay for a “glorify plus” option",
+   "body": "I use this app often but I hate that in order to have more, you have to pay.",
+   "version": "2.179.1",
+   "id": "Glorify-023",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-02",
+   "rating": 1,
+   "title": "",
+   "body": "99 smart ring feels like a scam and the bible studies werent really good anyway.",
+   "version": "2.152.0",
+   "id": "Glorify-024",
+   "categories": [
+    "C05",
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-30",
+   "rating": 1,
+   "title": "",
+   "body": "They've prioritized selling their wearable ring product over providing a place to honorably worship God. Essentially, going against Christ by selling a product HARD in a digital temple of God. After you set everything up, and open up the app the first normal time: it gives you a pop-up ad for the ring. The sole purpose of this app is monetary, business gain. Religion is just the hook, the bait.",
+   "version": null,
+   "id": "Glorify-025",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-29",
+   "rating": 2,
+   "title": "Enjoying updates, except…",
+   "body": "Enjoying the new updates, but do not like the push to reserve the Christian smart ring. I want to get away from that when I am using the app.",
+   "version": "2.179.1",
+   "id": "Glorify-026",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-29",
+   "rating": 1,
+   "title": "Glorify Ring????",
+   "body": "I enjoy having a quick devotional in the morning that’s makes it succinct and easy to get to amidst a busy day. I opened it this morning and saw an ad for the Glorify Ring. It feels like such a gimmick. A lot of the things that they advertise its use for, can be done on the phone in a voice notes app (recording a prayer or sermon, reminders for devotional). Nudging a friend? Send a text or call if led, if you’re praying for someone!! This feels so dystopian to create a “need” for things that doesn’t exist. While it may help with faith habits, it just feels like a cash grab :(",
+   "version": "2.179.1",
+   "id": "Glorify-027",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-29",
+   "rating": 2,
+   "title": "",
+   "body": "new version has a bug. Am I going to lose my 1389-day streak?",
+   "version": null,
+   "id": "Glorify-028",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-28",
+   "rating": 1,
+   "title": "Update 🤔",
+   "body": "I like it the way it was, I don’t want an update but it want let me sign on without it",
+   "version": "2.179.1",
+   "id": "Glorify-029",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-28",
+   "rating": 1,
+   "title": "basically a marketplace",
+   "body": "it is absolutely insane to have an advertisement for an AI smart ring the very second you open the app… and then for it to continue to display in your face before you read a single word of scripture. and on top of that the app is so subscription heavy that you have to pay money in order to hear the prayer audio? what are we doing?",
+   "version": "2.179.1",
+   "id": "Glorify-030",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-27",
+   "rating": 3,
+   "title": "Have to pay to have it read to you",
+   "body": "I am unhappy about having to pay simply to have the daily messages read out loud. Didn’t used to be this way and I wish it would come back. I do understand the yeast of the app charging more to unlock but to have things read to you? That is a disability advantage and I cannot believe it was taken away for profit.",
+   "version": "2.179.0",
+   "id": "Glorify-031",
+   "categories": [
+    "C04",
+    "C16"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-07-23",
+   "rating": 3,
+   "title": "Morning Joy",
+   "body": "Its my morning start to a new day , enables me to focus & be thankful that God is my Heavenly Father & Jesus is the Joy of my heart . 💜",
+   "version": "2.178.1",
+   "id": "Glorify-032",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-23",
+   "rating": 1,
+   "title": "",
+   "body": "I'm devotional it keeps cutting off after let's pray when you do the listen option at the end of devotional the narrator says let's pray and it just cuts off",
+   "version": "2.150.0",
+   "id": "Glorify-033",
+   "categories": [
+    "C12"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-23",
+   "rating": 1,
+   "title": "",
+   "body": "I would love to give this 5 stars but you are limited from the best options unless you pay. I must uninstall.",
+   "version": "2.151.1",
+   "id": "Glorify-034",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-22",
+   "rating": 3,
+   "title": "",
+   "body": "A good free devotion app, HOWEVER, there are a number of users who do not use the devotional as intended, instead promoting financial assistance scams, using expletive language and clearly not using the site to bless and edify others . The app designers need to take this more seriously when these particular users are reported. The feedback regarding this when someone reports these people is nil and nothing seems to change. These users who continuously do this need to be blocked from the site.",
+   "version": "2.151.1",
+   "id": "Glorify-035",
+   "categories": [
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-19",
+   "rating": 1,
+   "title": "They went form free feature to expensive subscription to glorify God",
+   "body": "I can’t believe that an app that was supposed to be there to help people connect either Jesus went to a free daily walk to a $70 dollar annual membership to be able to meditate and connect with God. Ridiculous!",
+   "version": "2.178.1",
+   "id": "Glorify-036",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-16",
+   "rating": 2,
+   "title": "",
+   "body": "I originally gave this app 5 stars because I was so happy with it. I recently resubscribed to it because I previously enjoyed it so much. I've paid almost $60 to use this app and unable to use it because I receive an error notification that I don't have an internet connection every time I try to use it and that's simply not true. I have many apps on my phone, and this is the only app that I have a problem using. I've asked for a refund and didn't receive it nor has the problem been resolved.",
+   "version": "2.150.0",
+   "id": "Glorify-037",
+   "categories": [
+    "C02",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-12",
+   "rating": 1,
+   "title": "Eye sore",
+   "body": "Unfortunately I lost track of this app and finally rediscovered it.. only for it to be overly saturated and harsh looking. It seems almost like not good ai. I miss the old style.  Disappointed to say the least. As someone who wants to step away from the instant gratification scene I was looking forward to this app—until I discovered it’s changed dramatically.",
+   "version": "2.177.0",
+   "id": "Glorify-038",
+   "categories": []
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-06",
+   "rating": 3,
+   "title": "Glorify review",
+   "body": "This helps me get closer to god when I’m on the go, or even away from my bible. Everyone in my family uses this app now, it’s a game changer!",
+   "version": "2.177.0",
+   "id": "Glorify-039",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-03",
+   "rating": 2,
+   "title": "",
+   "body": "good app but it keeps making me lose my streak even when I did everything",
+   "version": "2.150.0",
+   "id": "Glorify-040",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-30",
+   "rating": 3,
+   "title": "Was my favorite bible app",
+   "body": "Was my favorite bible app until you had to pay a monthly membership for the additional devotionals and prayers .",
+   "version": "2.177.0",
+   "id": "Glorify-041",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-26",
+   "rating": 1,
+   "title": "It Used to Be Accessible",
+   "body": "I’ve used this app for a long time and absolutely loved it. Every morning I’d listen to the devotionals with my kids because, as a busy mom, I don’t always have time to sit down and read everything. The audio teaching was what made this app so special.\n\nNow I can’t even listen to the daily devotional without paying. It feels like almost everything meaningful has been locked behind a paywall. Charging $70 a year or $10 a month for a devotional app feels excessive, especially when the content used to be freely available.\n\nAnd the cherry on top? A waitlist of 29,000+ people hoping someone else will pay for their subscription. That should probably tell you something.\n\nIt’s disappointing because this app used to feel like it was about making God’s Word accessible to everyone. Now it feels more like it’s about maximizing subscriptions.",
+   "version": "2.177.0",
+   "id": "Glorify-042",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-25",
+   "rating": 3,
+   "title": "Pay for God",
+   "body": "When I first downloaded this app, I did not have to pay for any feature. Now that you have to pay for certain things there are parts of this app that I can’t access the same way. I also can’t utilize the Bible feature on my own without having to see all the other community thoughts, and feelings if I want to highlight things, I have to see what everyone else on the app also highlighted",
+   "version": "2.177.0",
+   "id": "Glorify-043",
+   "categories": [
+    "C04",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-22",
+   "rating": 3,
+   "title": "",
+   "body": "The app itself is great, the devotionals are wonderful. The only thing that I wish would change is to be able to have the KJV in the daily scripture and devotionals.",
+   "version": "2.149.0",
+   "id": "Glorify-044",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-21",
+   "rating": 1,
+   "title": "",
+   "body": "deceptive billing.",
+   "version": null,
+   "id": "Glorify-045",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-19",
+   "rating": 3,
+   "title": "Changes are hard",
+   "body": "When I first got Glorify, I was beginning my journey in my path with Jesus and Glorify has helped me strengthen my faith and the trust that I have in him. With the new changes that came with the app not being able to listen to my devotional free has made it a little hard for me to read consistently. I had a routine of listening to it on my way to work or on my way home from work and that helped me stay connected and focused on my path every day. Even though I still pray and listen to god’s word in other formats I did love Glorify the most, and I still do.",
+   "version": "2.176.3",
+   "id": "Glorify-046",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-15",
+   "rating": 2,
+   "title": "Decepción",
+   "body": "No se porque ahora cobran todo, tengo años con esta App y ahora hasta para escuchar la oración cobran que triste, el evangelio es gratis Jesús jamás cobró por sus sermones mucho menos por sus milagros!!!!!",
+   "version": "2.176.3",
+   "id": "Glorify-047",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-14",
+   "rating": 3,
+   "title": "",
+   "body": "I wish it was free like Youversion",
+   "version": "2.149.0",
+   "id": "Glorify-048",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-11",
+   "rating": 3,
+   "title": "",
+   "body": "I think its a great app. I just cant afford the plus yet.",
+   "version": "2.149.0",
+   "id": "Glorify-049",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-10",
+   "rating": 3,
+   "title": "Una bendición",
+   "body": "Es un devocional maravilloso, veo el cambio en mi vida y en mis días cuando lo hago o cuando no….  Dios es fiel y es una aplicación bastante dinámica y fácil de usar. \n\nLo único que ya no me gusta es que lo han monetizado mucho…. Después de ahí todo bien!",
+   "version": "2.175.0",
+   "id": "Glorify-050",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-06",
+   "rating": 3,
+   "title": "Free",
+   "body": "Why does it cost so much to learn about god from glorify,you all don’t have any option for someone who can’t afford access to the speaker on this app ,so if you can’t pay the $29 or however much you charge then you don’t deserve to know god,I thought the bible said maybe take a offering according to what a person can afford to give,I love this app but te money part ain’t right,are you taking care of orphans and widows or trying to by mansion and private planes? The word is meant to be free to all who want a relationship and to learn about God.",
+   "version": "2.175.0",
+   "id": "Glorify-051",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-03",
+   "rating": 2,
+   "title": "Paying to read the bible atp…",
+   "body": "I just don’t understand I’ve loved this app for years. As years have passed they have made almost everything a Glorify plus feature. I can’t even listen to the audios that got me through hard times without having to pay now… really upsetting on their part.",
+   "version": "2.175.0",
+   "id": "Glorify-052",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-01",
+   "rating": 1,
+   "title": "The love of money is the root of all kinds of evil",
+   "body": "I am so disappointed over this app now charging to listen to the devotional and the Daily Walk with God. How hypocritical, to teach the word of God but have the greed of money as well. It’s a good thing that I follow Jesus and not man. So so sad but not surprising either.",
+   "version": "2.175.0",
+   "id": "Glorify-053",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-01",
+   "rating": 1,
+   "title": "Greedy- a review from a user who had this app for years.",
+   "body": "This app could be useful however those in charge valued money over spreading God’s word.",
+   "version": "2.175.0",
+   "id": "Glorify-054",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-01",
+   "rating": 1,
+   "title": "",
+   "body": "suddenly paywalled for all content.",
+   "version": "2.147.0",
+   "id": "Glorify-055",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-05-28",
+   "rating": 3,
+   "title": "Was great now limited unless a subscription",
+   "body": "I started using glorify when it was relatively new and found it fantastic.  Then they introduced a “mindful walk” type of thing that I didn’t really enjoy especially as they took out or hid the main devotional.  This was re introduced and additional devotions were added.  I tried the subscription service but didn’t really find the additional bits useful to me, others may find them really useful.  Now over the last year, other core bits ( like catching up on missed sessions, listening rather than reading) have migrated to the subscription service.  I suppose this isn’t uncommon, but is making it harder to maintain the themes.  \nStill think it of a good app, I suppose I am tainted by it being better for me in the past.",
+   "version": "2.174.0",
+   "id": "Glorify-056",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-24",
+   "rating": 2,
+   "title": "",
+   "body": "The app interface is great. The content is great. Just make all the content free.",
+   "version": "2.147.0",
+   "id": "Glorify-057",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-24",
+   "rating": 3,
+   "title": "",
+   "body": "App doesn't alway work correctly",
+   "version": "2.147.0",
+   "id": "Glorify-058",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-19",
+   "rating": 1,
+   "title": "Use at your risk- Developers are indifferent to issues",
+   "body": "Like everything, this has good and bad elements. The good are the messages, and being able to help others with encouragement and prayer. Though to enjoy the entire app, you have to pay.\n\nThe bad are: \n1) Reports of scammers to the Developer, who are blatantly victimizing desperate people , go unheeded. Emails to them go unanswered and people continue to be robbed. Christian sites are prime target for scammers and identity thieves, people are trusting, many are young and too many people believe everyone else there is a Christian with morals. A small group is trying to warn others of the predators, but people still report being victimized. If the developers would ban them, this wouldn't happen. I hope they realize they're liable for failure to act on reports of thieves.\n\n2) There's no instructions on use, rules of conduct, how to report, or repercussions for those who rob or abuse others on this Christian site. \n\n3) Reports of members posts, who are abusive to others and use profanity, including F bombs, also go unheeded, and they are allowed to continue. Many have left due to how offensive some insist on being and are allowed to continue to. \nIt's becoming more like certain social media sites every day, where people forget where they are and why they are there.\n\n4)Too many tech issues! You cannot correct a message to someone or statement, without completely deleting it and starting over. Nor go back to any of your messages or posts easily. I was at the end of answering a persons question, when a pop-up interrupted, telling me an update is available. I refuse to write that message for a third time!  If you run out of alloted characters when pasting scripture to a comment, instead of letting you know, it deletes your entire message and closes the app!! \n\n5) The NIV Recently removed a verse from Bible. The developers in their lack of wisdom, removed it from every Bible on their site, though they aren't NIV Bibles!!\n\nIf you just want to read a quote, some scripture, a devotional that seems to always describe Jesus as cosmic or radical, two of their favorite words, and presumes that everyone has a busy, hectic, strapped for time life (because that's who they speak to the majority of the time ) , and a prayer, then go about your day, this is for you. \n\nIf you want depth of meaning, a closer walk with God, without having to pay for it, to easily contact specific people you want to check on or have over time, developed a relationship with and want to reach them,  to not spend half of your day fighting a system, to wind up giving up out of frustration, look elsewhere, as I've just decided to do.",
+   "version": "2.174.0",
+   "id": "Glorify-059",
+   "categories": [
+    "C10",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-19",
+   "rating": 1,
+   "title": "",
+   "body": "I put myself on the waiting list so I can get my subscription paid by someone from the app and 2 days later I get a message saying my subscription is almost up and then they are trying to take money from my card. I think I'm going to delete the app",
+   "version": null,
+   "id": "Glorify-060",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-05-14",
+   "rating": 3,
+   "title": "My opinion",
+   "body": "Some years ago this app was the best, you could choose option to listen and now you can do just some things but if you pay for it.",
+   "version": "2.173.2",
+   "id": "Glorify-061",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-09",
+   "rating": 3,
+   "title": "",
+   "body": "i don't understand the ads the pop up. smh.",
+   "version": "2.146.0",
+   "id": "Glorify-062",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-08",
+   "rating": 1,
+   "title": "",
+   "body": "charging people to help them with prayer. ridiculous",
+   "version": "2.146.0",
+   "id": "Glorify-063",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-08",
+   "rating": 3,
+   "title": "",
+   "body": "App is good. customer service not so good. I've emailed them for a couple weeks now trying to figure out why I can't upgrade to a yearly plan. no response. I like the community, but the customer service not so much. does anyone actually check the emails?",
+   "version": "2.146.0",
+   "id": "Glorify-064",
+   "categories": [
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-05",
+   "rating": 1,
+   "title": "Updating my review app now satanic... \"as above so below\" being said in daily prayer.",
+   "body": "Updating: to say to the devs that the saying “as above so below” is not Biblical at all. It is not in the bible and this proves how far you have fallen from using this app to bring Gods glory to earth. That saying is literally a witchcraft mantra. It’s used mostly by the Satanic church and is also closely tied to astrology which is also witchcraft. Stop lying to people stop misrepresenting God and repent. \n\nToday is 10/11/2024\n\nI was a user of this app since it first came out. I loved the previous version of the app. It was the best. Simple straight forward and felt good to start my day with. \n\nToday I just listened to a pray being lead by voice actor Ross Huguet. It was called \"Prayer for those affected by natural disasters\". It was completely unbliblical. He states all kinds of false doctrine throughout the prayer and towards the end he literally says the satanic saying: \n\"As above, so below\". Look it up. \n\nIm not joking. That was enough \"Glorify\" for me. There is no way the current team whoever they are glorify God if they as mixing satanic rituals with Christianity. \n\nBe gone evil app. \n\n(Below is my previous review before the app went satanic).\n-----------------------------\nLove the app. The daily walk is the highlight of my day. But my streak keeps resetting even if I’m active that day or use water to repair my streak. It’s just something I noticed that the developers might want to fix. Also, fruit never grows on my tree no matter how many days of a streak I have. Again, a small bug that shouldn’t take away from the real sustenance of the app. THE OVERALL MESSAGE.",
+   "version": "2.173.1",
+   "id": "Glorify-065",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-05",
+   "rating": 1,
+   "title": "Won’t load",
+   "body": "After a recent update I can no longer go back to different dates to read verses or any of my favorite quotes I saved and I paid for membership to allow me to do so. I even get an error trying to load the glorify community. So I will be deleting the app sadly.",
+   "version": "2.173.1",
+   "id": "Glorify-066",
+   "categories": [
+    "C04",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-01",
+   "rating": 3,
+   "title": "Escuchar",
+   "body": "Me gusta mucho pero le quitaron la opcion de escuchar gratis",
+   "version": "2.173.0",
+   "id": "Glorify-067",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-01",
+   "rating": 3,
+   "title": "",
+   "body": "I've been getting errors on the app all week. most of it loads but getting errors on the daily devotional page. just a fyi",
+   "version": "2.145.0",
+   "id": "Glorify-068",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-29",
+   "rating": 2,
+   "title": "",
+   "body": "This app is beautifully catered and the messages are truly inspiring. However I am quite sad that the read aloud option is only available if you pay. Being someone that needs the read aloud options but can't pay makes me really sad. I can understand additional content, being asked to be paid for. But now people with visual disabilities can't fully enjoy the true meat of the app which is the devotional.",
+   "version": "2.145.0",
+   "id": "Glorify-069",
+   "categories": [
+    "C04",
+    "C16"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-27",
+   "rating": 1,
+   "title": "Encouraging",
+   "body": "I enjoy the daily all the features and learning opportunities and daily encouragement.  I anticipate continuing to grow as a result of daily time.",
+   "version": "2.172.0",
+   "id": "Glorify-070",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-25",
+   "rating": 3,
+   "title": "",
+   "body": "my comfort zone",
+   "version": "2.144.0",
+   "id": "Glorify-071",
+   "categories": []
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-22",
+   "rating": 2,
+   "title": "",
+   "body": "I used to use this app daily about a year ago. I uninstalled it so I could go another direction with my daily devotionals. Today I reinstalled it for a connection with other Christians and found that it would cost me $69.99 a year to get what I was looking for. I uninstalled it again. I'm not sure why it cost so much. You all don't send tracking material or have upkeep on a church(building) etc. It's an app. so not sure exactly why it would take so much money to listen to the Bible. God bless.",
+   "version": null,
+   "id": "Glorify-072",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-10",
+   "rating": 1,
+   "title": "Foolishness",
+   "body": "Yall are just like the people Jesus drove out of the temple. Who asked you to update the experience and make things modern. God isn’t a modern God. He’s the ancient of days, rock of ages. The Bible should be free for all. Figure out a way like the you version app to make everything free.and stop trying to modernize and update the app. No one cares about the new features and celebrity endorsed courses. The love of money is the root of all evil.",
+   "version": "2.171.0",
+   "id": "Glorify-073",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-06",
+   "rating": 1,
+   "title": "Money",
+   "body": "I was a huge fan of Glorify before they made it cost money. It’s almost like people want you to pay to get closer to God. It shouldn’t be like that. That is why I’m leaving a one star review. Not everyone has $70 to spend. This app should be free. It was before and helped me grow closer to God. (Not that God is in the app and without it I can’t grow closer to him) But now that it costs $70 a year I’m forced to stop using this helpful tool and move on to another app. Which is also probably going to charge and insane amount of money.\n\nPs. You can bless more people if you make it free. Don’t love money. Love people.",
+   "version": "2.171.0",
+   "id": "Glorify-074",
+   "categories": [
+    "C03",
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "au",
+   "date": "2026-04-02",
+   "rating": 1,
+   "title": "Grow With God (for $6.66/month)",
+   "body": "Almost everything on this app used to be free to use, and I loved the deviation from the subscription model. Then they paywalled most of the extra content, okay, sure, gotta pay the content makers. Now, after about a year I’ve come back and hey! Subscribe to Glorify PLUS to unlock…listening to your daily devotional.\n\nShout out for paywalling what is essentially an accessibility feature. Instead of seeking advertising or sponsorship or any other alternative model to help meet your bottom line, you have succumbed to the greed of the subscription model (very Christlike). Good luck trying to delve any further into this app without paying for it, I forgot the only way to grow closer to God is to pay $79.99/year (my bad)\n\nI suggest using an alternative worship app that does not try to make profit off God and force people to pay to learn about God.\n\nI look forward to getting a response from the team telling me they NEED to paywall everything so they can afford to run the app and that they actually also gift subscriptions (how generous of them)\n\nCongratulations on pushing me to write my first ever app review, enjoy your Easter with (probably) Hillsong Church",
+   "version": "2.171.0",
+   "id": "Glorify-075",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-31",
+   "rating": 1,
+   "title": "",
+   "body": "I used to use Glorify every single day! It was amazing and so helpful with my faith journey but I am so sad to see that you need to pay for all access. All daily devotions, with daily walk with God and Prayers were free. Now you can only access it if you pay. Such a shame to see that yet another Christian app just wants money. Will be deleting the app, not all of us can afford money subscriptions. the whole point of the app was to help Christians grow, thats why it was free, now its just money.",
+   "version": "2.143.0",
+   "id": "Glorify-076",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-29",
+   "rating": 1,
+   "title": "What Happened?",
+   "body": "Glorify was one of my favorites: I could read AND listen to the Bible verses and devotionals (I have ADD/ADHD, so having something to listen to while I read helps me focus). I loved the courses, the music, everything…until they put it behind a paywall.\n\nWhy would you make me pay for something that used to be free? And having to pay for the AUDIO verses and devotionals? What about people who have vision issues or any other impairment that would benefit from using the audio? You’re seriously putting an accessibility feature behind a paywall? That rubs me the wrong way as a consumer who cares about other people and not just myself.\n\nThe BIGGEST thing is that it’s sending a message to nonbelievers: The money in your wallet dictates how close you can get to Christ. THIS is why Christianity gets a bad rap. Putting God behind a paywall doesn’t encourage people to seek His face. And I mean, hell, why would I wanna pay for a Bible app when I can just go watch porn for free? MAKE IT MAKE SENSE.\n\nGlorify USED to be my favorite. But now? I’m gonna recommend YouVersion Bible App from Life.Church. It’s more expansive and…ITS FREE.\n\nSTAY AWAY FROM GLORIFY",
+   "version": "2.170.0",
+   "id": "Glorify-077",
+   "categories": [
+    "C04",
+    "C05",
+    "C16"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-14",
+   "rating": 1,
+   "title": "Used to be a great app",
+   "body": "I used to love this app. Now, everything I loved about it requires you to pay for it. Something as simple as listening instead of reading??That’s absurd. I can read the Bible and other devotionals for free. There used to be a way to obtain benefits, the more you use it. That made so much sense. Now you have pay for such basic features. No, thank you.\n\nUpdate: Joining a waitlist for sponsorship that already has over 40,000 people is not a reasonable alternative.",
+   "version": "2.169.0",
+   "id": "Glorify-078",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-14",
+   "rating": 3,
+   "title": "",
+   "body": "you should not have to have a membership for Bible access. shame. edit- after a kind reply and having access to the Bible which is the most important part I retract my previous review and want to thank you for providing that free of charge. May God Bless yall.",
+   "version": "2.142.0",
+   "id": "Glorify-079",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-11",
+   "rating": 1,
+   "title": "",
+   "body": "I liked this app and how it breaks down for devotional but the fact it follows along the others and omits verse is wrong. it will be uninstalled.",
+   "version": "2.142.0",
+   "id": "Glorify-080",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-11",
+   "rating": 2,
+   "title": "",
+   "body": "i had been a huge fan but for the past 2+ months I am only sent old testament verses and I do not understand why, especially during lent. the idea is to learn about Jesus and I feel I am being pushed a different way.... disappointed by the app.",
+   "version": "2.142.0",
+   "id": "Glorify-081",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-09",
+   "rating": 1,
+   "title": "",
+   "body": "You should mention upfront that this isn't free it cost $9.99 a month or a yearly fee!!",
+   "version": null,
+   "id": "Glorify-082",
+   "categories": [
+    "C01",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-05",
+   "rating": 1,
+   "title": "",
+   "body": "I did love this app, I had given it 5 stars In 2023. Now its just a pay wall, no thank you. Nothing that u used or enjoyed about this app is available without pay. paying for application on a phone is not godly stewardship. The could make an option for people to support or one time buy, they dont. subscriptions are not wise. 🙏🏽",
+   "version": "2.136.0",
+   "id": "Glorify-083",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-04",
+   "rating": 1,
+   "title": "",
+   "body": "I've been using Glorify faithfully for over 300 days. I just tried to do my study for today and found yesterday has been locked and I can't unlock it unless I buy a subscription!!! If I can't get in that day and repair my streak, I lose all the days I've already completed, something over 300! It was a THRILL for me to see how many days in a row I could do something! PLEASE HELP ME get back to where I was. I DON'T WANT TO BUY A SCHOLARSHIP FOR SOMETHING THAT WAS FREE FOR ALMOST A YEAR!",
+   "version": "2.141.0",
+   "id": "Glorify-084",
+   "categories": [
+    "C04",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-27",
+   "rating": 2,
+   "title": "It was until it wasn’t…",
+   "body": "I was enjoying the app, then came the upgrades.  The upgrades weren’t to improve the app, each upgrade was to make the app less user friendly for those who just wanted to utilize the options on the free version.  Just advertise it for what it is, a paid app.",
+   "version": "2.168.0",
+   "id": "Glorify-085",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-27",
+   "rating": 1,
+   "title": "Glorify-Lite",
+   "body": "This is a great example of ‘theory of inevitable gradualism’. With each update, the product became less than, and the ‘gradual’ drive towards ‘pay us’ for this product! Until the ‘inevitable’ conclusion of what the entire app was created for. Money! If this were not true, why not offer a Family Plan? How many subscriptions in one family will satisfy this now Glorify-Less-pay more? Yes, there is already one paid subscription in this family and was happy with my free version for 785 days in a row. I do know where this began and have sadly watched this happen. Would I pay if it still had the Glorious deep scriptural devotions? In a heartbeat! I will NOT be forced to pay for the level of writing I could write. By the way, the free content compared with the paid subscription, is exactly the same! I have written them after each update, this is not news to them. Each reply is an acknowledgment of what I said and an justification of what they’re doing. I feel they have driven me to a point of bad review by telling me, ‘they will give my suggestion of a family plan to the team.’ And what? Gradually putting me here and inevitably making me pay? For what? Other free Biblical publications start offering MORE if you pay! Not manipulations to pay for LESS! Thank you for making this dishonest decision for me! JC",
+   "version": "2.168.0",
+   "id": "Glorify-086",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-26",
+   "rating": 3,
+   "title": "No longer FREE?",
+   "body": "I’ve had this app for a while now and recently shared it with a friend. Together we just found out that it’s no longer free. This is disappointing, I really enjoyed this app but can’t afford what they are asking for the fee.",
+   "version": "2.168.0",
+   "id": "Glorify-087",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-18",
+   "rating": 1,
+   "title": "Discriminatory Pricing for Disabled Folks",
+   "body": "I used to listen to the daily devotional every morning. Now Glorify charges a fee to be able to listen. What about those of us who have trouble reading because of vision impairment, dyslexia, etc? Why should disabled people have to pay more to hear the word of God? Very disappointed that this app no longer reflects the values that the Bible itself teaches. The Bible says to help the blind, not charge them more :(",
+   "version": "2.166.0",
+   "id": "Glorify-088",
+   "categories": [
+    "C04",
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-17",
+   "rating": 1,
+   "title": "",
+   "body": "I was added to a family plan and then charged for a single user plan. If you want to be doubled charged for the same services go ahead and use this app.",
+   "version": "2.140.1",
+   "id": "Glorify-089",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-16",
+   "rating": 3,
+   "title": "",
+   "body": "commercial ruins the learning",
+   "version": null,
+   "id": "Glorify-090",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-02-15",
+   "rating": 1,
+   "title": "I didn’t like when they suddenly put a subscription to listen to",
+   "body": "I used to love  this App and help me through my lows. I will listen to it in the morning on my way to work but suddenly they want to pay for subscription. Which make me really sad and deleted the app.",
+   "version": "2.166.0",
+   "id": "Glorify-091",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-15",
+   "rating": 2,
+   "title": "",
+   "body": "this app has potential, but every piece of content is locked behind the paywall. it's another version of hallow. no content feedback, it's all pay for play.",
+   "version": "2.140.1",
+   "id": "Glorify-092",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-13",
+   "rating": 2,
+   "title": "Payments?",
+   "body": "I’m so upset that this app has gone to buying subscriptions. The Glorify app was a part of my daily commute to work, I would listen to the scripture, devotion and prayer every morning while driving. I loved starting my day this way. I loved pushing myself everyday to keep my streak going and to grow as many trees as possible. I loved that I didn’t have to pay to listen to a devotional like most apps. Until the newest update. I truly pray that this app continues to reach as many people as possible and plant the seed of the Holy Spirit into people’s hearts like it did to mine. But I’m truly disappointed that in order to listen to a daily devotional, I am forced to pay a monthly subscription.",
+   "version": "2.166.0",
+   "id": "Glorify-093",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-02-12",
+   "rating": 1,
+   "title": "Everything now is money",
+   "body": "Im upset because the app used to be better and now e everything is extra cost . You need to pay if you want to watch a video . The Jesus message it was supposed to be free for everybody.",
+   "version": "2.166.0",
+   "id": "Glorify-094",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-10",
+   "rating": 3,
+   "title": "Good App, but struck with disappointment",
+   "body": "This app is amazing for daily worship and prayer sessions. I loved listening to the sessions everyday but I am rather disappointed that now I need to pay a subscription fee for worship services that used to be free and available. That’s sucks because that’s not in my budget.🫤",
+   "version": "2.166.0",
+   "id": "Glorify-095",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-10",
+   "rating": 1,
+   "title": "",
+   "body": "Ads, data stealing, company goes against real Christian values, this app needs to go away. I don't want to hear their ads in my secular podcasts or any other podcasts.",
+   "version": null,
+   "id": "Glorify-096",
+   "categories": [
+    "C05",
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-02-06",
+   "rating": 3,
+   "title": "You’ll be paying for everything",
+   "body": "I first got Glorify when you could have access to multiple feature but soon enough, I fear some will her to pay just to download this app!! I noticed things slowly being put behind a pay wall and now the last thing that is left free is reading the daily devotional. I loved having it read to me and just meditate on the word. But it’s a luxury now to have this feature. It’s a great app. It’s just disappointing to see how quickly it blew up in popularity and how developers saw that as an opportunity for profit rather than for discipleship. I understand some feature need to be paid for just for sustainability of the app. Great! Make features that warrant payment from users. But soon enough, this app will be a “try free for 7 days”… disappointing",
+   "version": "2.166.0",
+   "id": "Glorify-097",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-06",
+   "rating": 1,
+   "title": "",
+   "body": "gotta pay now upwards of 70$. shame on you putting a price on faith. this is why druskis skit went viral.",
+   "version": "2.55.0",
+   "id": "Glorify-098",
+   "categories": [
+    "C03",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-04",
+   "rating": 1,
+   "title": "App Update requires payment for basic service (that is required for individuals with disabilities)",
+   "body": "I’m honestly very upset. My husband and I use to listen to this app every day together and it was great for our faith. Then glorify updated the app and now you could only listen to the passage and devotion if you pay for it. My husband is dyslexic and I drive us to work so neither of us can listen to it and discuss in our normal morning routine anymore. I understand needing people to pay for an upgrade so the developers can get paid, but there are plenty of other nicer perks people can pay for rather than changing a basic level thing like a listening option. This isn’t ok and it’s certainly not ADA compliant so we will be deleting the app since it’s not usable for us anymore.  Please fix this!!",
+   "version": "2.165.0",
+   "id": "Glorify-099",
+   "categories": [
+    "C04",
+    "C16"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-29",
+   "rating": 1,
+   "title": "",
+   "body": "Wow. Starts hitting you up for subscription costs before you can even see what content they have. Really disappointed. UPDATE: Developer response didn't address what I wrote. Shouldn't be listed as a \"free\" app when there is zero functionality without a subscription.",
+   "version": null,
+   "id": "Glorify-100",
+   "categories": [
+    "C01",
+    "C04"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# This repo tracks only the prayer-app project. Other folders in D:\디자인\etsy are separate projects.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/selah-daily/
+!/종교앱-시장조사/
+
+# app
+selah-daily/node_modules/
+selah-daily/.expo/
+selah-daily/dist/
+selah-daily/web-build/
+selah-daily/android/
+selah-daily/ios/
+**/.claude/settings.local.json
+*.log
+.DS_Store
+Thumbs.db

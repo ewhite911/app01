@@ -1,0 +1,1353 @@
+{
+ "meta": {
+  "app": "Abide",
+  "ios_id": 726031617,
+  "gp_package": "is.abide",
+  "ios_fetched_all_ratings": 1221,
+  "ios_low": 278,
+  "gp_low": 300,
+  "collected": "2026-09-17",
+  "sample_size": 100,
+  "sample_ios": 50,
+  "sample_gp": 50,
+  "sample_date_min": "2025-06-26",
+  "sample_date_max": "2026-09-10",
+  "full_file": "Abide_full.json"
+ },
+ "reviews": [
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-10",
+   "rating": 1,
+   "title": "",
+   "body": "I didn't know that Abide is a money-making scheme. Uninstalled.",
+   "version": null,
+   "id": "Abide-001",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 1,
+   "title": "",
+   "body": "I tried to get a trial it charged me 42.79 and didn't even upgrade me to premium.. a lil disappointed with that and I can't find anywhere to discuss this issue with customer service..",
+   "version": "3.76.0",
+   "id": "Abide-002",
+   "categories": [
+    "C01",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-08",
+   "rating": 2,
+   "title": "",
+   "body": "We love the app and would have given it it 5 stars, BUT now we only have limited access as there are features we are unable to use without payment. Our concern is: how are the unsaved supposed to hear about God and hear His word if they have to pay for Christian material? Please reconsider the subscription.",
+   "version": null,
+   "id": "Abide-003",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2026-09-07",
+   "rating": 3,
+   "title": "Verses need context",
+   "body": "I have been using the app for a while.  \n\n It has helped me to slow down and see how it’s possible to enjoy the bible in a different way by meditating on verses.  I still have my Bible open when I use the app so that I can see the context of the verses and make notes.  I think that is important. \n\n\nI have noticed that sometimes the verses picked to meditate on are completely out of context.  When you read the surrounding verses they are not always appropriate to use in the context intended on the app.  That does spoil it for me.  I think the choice of verses used is important.  More consideration should be given to this.    It’s why I have given it only 3 stars as we have to be carefully about bending the word of God into what we want it to mean.",
+   "version": "3.92.0",
+   "id": "Abide-004",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-09-06",
+   "rating": 1,
+   "title": "",
+   "body": "FREE. Im going to keep it plain and simple. This app needs to be FREE and everything within it. And the ads have to go as well. Gods Word and other helpful meditations and such SHOULDN'T have a price tag and be LOCKED if you're not a member. I'm a member of God's Eternal Kingdom and his Word is always open to me NEVER LOCKED.",
+   "version": "3.76.0",
+   "id": "Abide-005",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-09-03",
+   "rating": 2,
+   "title": "Illegal charges.",
+   "body": "I signed up for the free 7 day trial. The app stated I’d be charged $39.99 on September 4th for the subscription if I didn’t cancel. It is September 3rd and I’ve already been charged. Haven’t even made it to the full 7 days. That isn’t honorable or moral for a “Christian” app. I will never renew my subscription just for that. The app cannot be trusted.",
+   "version": "3.92.0",
+   "id": "Abide-006",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 1,
+   "title": "",
+   "body": "I paid for a yearly subscription and the app is no longer opening 😞 addition to my complaint: so is the app not free anymore because I've been having this app for more than 5 years and it's always been free now I'm trying to listen to it before I go to sleep and it's asking me to subscribe?",
+   "version": "3.76.0",
+   "id": "Abide-007",
+   "categories": [
+    "C04",
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-08-29",
+   "rating": 3,
+   "title": "",
+   "body": "I love this app! Use it multiple times a day. An easy 5 star rating. But minus 2 stars is a huge deal because it's very glitchy during the meditation videos. Even if I have to go back and play them to complete a day or whatnot, I have to rematch them, or if automatically goes to the next one leaving them in the unfinished category. I could use the organization and have them work properly. Thank you. Restarting the phone or cleary cache doesnt solve this issue.",
+   "version": null,
+   "id": "Abide-008",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-20",
+   "rating": 1,
+   "title": "",
+   "body": "abide should be free but it's subscription. shame on them. where's the peace in forcing someone to pay? the Bible is free. why are you so greedy",
+   "version": null,
+   "id": "Abide-009",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-20",
+   "rating": 3,
+   "title": "",
+   "body": "I have had this app for years on my phone but the last few years I have not gotten any new nightly sunday sleep stories so please cancel my subscription. Thank you. Janet",
+   "version": "3.72.4",
+   "id": "Abide-010",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-16",
+   "rating": 1,
+   "title": "Grifting off spirituality - terrible marketing emails.",
+   "body": "I received an email from this company to renew my annual subscription, the subject line said “Your SOUL deserves 40% off”\nit felt absolutely disgusting and i canceled my subscription. There are better apps out there that are free. My “soul” needs Jesus not discounts.",
+   "version": "3.87.1",
+   "id": "Abide-011",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-07-14",
+   "rating": 3,
+   "title": "",
+   "body": "Although our family really loves the abide app, we really wish there were more new kids sleep stories. There hasn't been a new story for the kids in a very long time. Otherwise, the app is wonderful.",
+   "version": "3.73.0",
+   "id": "Abide-012",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-04",
+   "rating": 1,
+   "title": "WHY??",
+   "body": "so like every time i see a new meditation or music its free right? i listen to it and then BAM. its locked. i dont know why they have to make everything paid for! its not fair to the ppl who had it for free! let us have new stuff to!",
+   "version": "3.86.0",
+   "id": "Abide-013",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-07-02",
+   "rating": 3,
+   "title": "Need more new content",
+   "body": "New content used to be released more often. Now, not so much.",
+   "version": "3.86.0",
+   "id": "Abide-014",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-06-20",
+   "rating": 1,
+   "title": "So incredibly didrespectful",
+   "body": "The app gives you an opportunity to set the amount of time you want on your devotional. 5 minutes. 10 minutes. 15 minutes. 20 minutes. Etc.\n\nIf you set the app for five minutes, frequently it will go 7 1/2 or eight minutes. It really does not care what you are trying to do and how much time you have. They will go with what they want to do. Kind of like a preacher who runs Long every single Sunday by 20 minutes because “the spirit led him“. That’s great, but this is an app that’s specific to settings for length.\n\nIt’s extremely disrespectful to the users time. They can edit it down and do a hard cut off at the designated time. Or at least within 5 to 10 seconds of it.\n\nIf you do it daily, this happens at least 3 to 4 days a week, so it’s not an isolated situation.",
+   "version": "3.86.0",
+   "id": "Abide-015",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-16",
+   "rating": 2,
+   "title": "",
+   "body": "hard to manage account! I want to cancel auto renew. I have not been able to figure it out! Their directions I found online.Do not work.",
+   "version": "3.71.3",
+   "id": "Abide-016",
+   "categories": [
+    "C02"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-12",
+   "rating": 2,
+   "title": "",
+   "body": "Like the program, but not the incessant ask for money!! Follow-up... somebody \"responded\" to my rating and said \"contact us to improve your experience.\" But, left no way to contact them. I'm a paid subscriber and they still ask for donations constantly.",
+   "version": "3.71.3",
+   "id": "Abide-017",
+   "categories": [
+    "C05",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-06",
+   "rating": 1,
+   "title": "",
+   "body": "I immediately uninstalled it when I got to the very end and finally see that you charge something like $39.95 after something like one week. It really tells a lot about who YOU are that you're not willing to tell people up front what they are signing up for before they install the app. Shame on you.",
+   "version": null,
+   "id": "Abide-018",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-06-05",
+   "rating": 1,
+   "title": "",
+   "body": "DO NOT DOWNLOAD THIS APP. NOT a pleasant experience. FOR YEARS, I always have my phone on do not disturb at night, with all my volumes off. This app took over my phone volume at full blast and set a secret alarm within the app to go off at sunrise that I didn't set. I had just downloaded it the other day and hadn't had a chance to use it yet. This is NOT a trustworthy app. I finally had to uninstall the app to make an extremely overly loud high pitching chiming alarm that woke up my family. 😡",
+   "version": "3.70.4",
+   "id": "Abide-019",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-30",
+   "rating": 1,
+   "title": "",
+   "body": "I'm using the 7 day free trial. That said, I don't have full access. I select something with a lock on it and it wants me to subscribe all over again. So within an hour of doing the free trial I unsubscribed. I'm so glad that there's a free trial because I would feel ripped off. It seems to me, by reading reviews that Abide has questionable practices, my opinion because of the experience.",
+   "version": "3.70.4",
+   "id": "Abide-020",
+   "categories": [
+    "C01",
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-28",
+   "rating": 1,
+   "title": "",
+   "body": "They have not updated the children's stories",
+   "version": "3.70.4",
+   "id": "Abide-021",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-24",
+   "rating": 3,
+   "title": "Enjoyed the morning devotions",
+   "body": "Updated\n\nEnjoyed the morning devotions but didn’t use the evening devotions. I would rather a 2-5 minute devotion but the minimum is 15. Too much for me. I don’t want to fall asleep to words I don’t consciously hear.\n\nI don’t feel comfortable with some of the readers but I don’t want to name names. Praying God intercedes and gives them discernment and wisdom.",
+   "version": "3.84.1",
+   "id": "Abide-022",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-05-22",
+   "rating": 1,
+   "title": "Cancel",
+   "body": "Another  app with a subscription service I didn’t catch. I don’t use this app and never got a reminder and I  can’t find customer support on the app. I don’t trust apps like this. Please give me an email to get a refund (kudl_98@ yahoo. I regret I ever downloaded this app.",
+   "version": "3.84.1",
+   "id": "Abide-023",
+   "categories": [
+    "C02",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-19",
+   "rating": 1,
+   "title": "",
+   "body": "Loud notification played when my phone was on vibrate. Killing app did not work. normal silence interface did not work. Literally had to restart my phone. Just use normal notification apis please!",
+   "version": "3.70.4",
+   "id": "Abide-024",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-14",
+   "rating": 3,
+   "title": "",
+   "body": "I really liked this app and used it every night, but they have recently locked all of the sleep stories, so now there is no point.",
+   "version": "3.68.2",
+   "id": "Abide-025",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-13",
+   "rating": 2,
+   "title": "",
+   "body": "Ive used this app for years off and on. Why all of a sudden majority of the meditations are locked for premium? Not to mention as soon as you open the app you are automatically taken to a pop up to donate which is irritating because then you get another pop up on buying premium. Everything is already expensive as it is right now.",
+   "version": "3.68.2",
+   "id": "Abide-026",
+   "categories": [
+    "C04",
+    "C05",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-09",
+   "rating": 1,
+   "title": "",
+   "body": "I would love to have this app. I can't pay for it though. I go on You Tube and listen to the same ones over and over. I love to hear Tyler's voice telling stores or just talking in general. Between GOD and his voice I drift off to sleep everynight calm and relaxed. Please make a free app. I want to hear and learn from the app. Please.",
+   "version": null,
+   "id": "Abide-027",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-03",
+   "rating": 1,
+   "title": "",
+   "body": "Paid for premium annual access, now I have NO ACCESS!!",
+   "version": "3.68.2",
+   "id": "Abide-028",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-05-01",
+   "rating": 1,
+   "title": "",
+   "body": "So much free information, sleep meditation, prayers, anything you can possibly find on YouTube. As a Christian looking for a honest app to help me grow in my faith, then this app wont provide a free version. When an app requires a \"free trial\", in my book, that is not very Christian. If this app is all that it claims, then Christians that have the means would have no problem paying for this app. The fact that the app requires to enter you credit card info, has nothing to do with Christ!",
+   "version": "3.68.2",
+   "id": "Abide-029",
+   "categories": [
+    "C05",
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-28",
+   "rating": 2,
+   "title": "Can never find topic that is advertised when I click your push notifications",
+   "body": "[Updating a previous very positive review now that my count of devotions heard is up to over 700…(1), I have in 2026 and today still, 4/28/26 been having a  problem a year that an interesting sounding push notification topic  comes up on my iPhone 16e, but when I follow it, it leads to a menu of devotions, and week long study series, —none of which are the subject teased in the notification—Can you have it link directly to the devotion it is advertising? Or at least allow us to search your crammed-full menu? I have a Bible reading plan with my paper Bible I’m lucky to keep up, so I don’t use the “sign up for a week of …” come-ons, really. So my use of the app has fallen significantly though I’m still paying for it, hopefully someone else is gaining satisfaction from the typically well done meditations. Though the breathing and relaxation really doesn’t suit me if I listen in the AM, and I find it all kinda “new age” \n\nPrevious review: Have just lost a paper journal yet again in my house, so the times I’ve “written in my journal” here are also of importance in the wee hours, not bedtime, when I can contemplate & have energy to write at the same time. Have copied some to notes in my iPhone, which I’ve had one of for almost a decade - so maybe more secure than paper? For now anyway. \n(2) Just having listened to the Jenn Stoltzfus / Tyler Bods “I am Loved” devotion, I used it as springboard, with a screenshot of your starry night graphic, on FB; having recalled my Dad using that phrase (1) time to me in my life (we were not a family where “I love you” was said, ever, either: though a good upbringing otherwise.) My suggestion: one problem I have in the Roman’s 8:35-39 journey, which is likely all of our lifetime journals, to see if God ever leaves us, is not the danger / deprivation / illness / storms struggle, nor the power of angels or anything created, except MYSELF. Perhaps it shows narcissism but that scripture leaves put one created thing which I constantly fear WILL show God will or has left me or that I’ve been fooling myself I’m loved: MY OWN FAILURE, amplified by Satan’s semi-true or true accusations… Perhaps a devotion where the pilgrim passes THAT created hurdle would be good. Yeah, I know Paul did address it when he said he was the “chiefest of sinners” but I think we are all, in our failures, and disappointments in ourselves, capable of feeling we are a special case, and even “Chiefer” than Paul… I bet some devotions of this nature will be coming ! You demonstrate God’s power & constancy very well of COURSE. Thanks again",
+   "version": "3.82.0",
+   "id": "Abide-030",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-04-25",
+   "rating": 1,
+   "title": "",
+   "body": "they have great stuff but no clear instructions on how to shut off their background music and alarm when it went off",
+   "version": null,
+   "id": "Abide-031",
+   "categories": [
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-04-03",
+   "rating": 2,
+   "title": "Paid",
+   "body": "It’s so frustrating that paid premium stuff have overtaken almost everything. I’m not one to compare but this is why I love the Bible app I just wished they included stuff like this into their app so we don’t have to keep installing and installing. I’m 17 in college and I’m wrestling with my faith. Someone recommended this app to me nd based on the 4.9 rating I caved. It’s just so irritating because I don’t have a job as I am a full time student. You barely have access to anything unless you pay a price. I understand if it was worldly stuff but I honestly believe resources for the kingdom should be free to the public. It’s so frustrating. I just don’t understand.",
+   "version": "3.81.0",
+   "id": "Abide-032",
+   "categories": [
+    "C04",
+    "C03"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-29",
+   "rating": 3,
+   "title": "Slow DOWN",
+   "body": "The app would be soooo much better if the reader would slowww way down and include pauses.  That is what makes people sleepy",
+   "version": "3.80.1",
+   "id": "Abide-033",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-22",
+   "rating": 2,
+   "title": "Ouvir",
+   "body": "Preciso que seja em português",
+   "version": "3.80.1",
+   "id": "Abide-034",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-18",
+   "rating": 2,
+   "title": "Good App However…",
+   "body": "I signed up for the free 7 day trial, and cancelled next day and was still charged for the year. The app may be great but the free trial is not.",
+   "version": "3.79.0",
+   "id": "Abide-035",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-03-17",
+   "rating": 3,
+   "title": "Need more new items",
+   "body": "For the cost there is not enough new sleep stories.  Plus it is Easter in 2 weeks and no new items .  I am disappointed.  I may end my subscription .",
+   "version": "3.79.0",
+   "id": "Abide-036",
+   "categories": [
+    "C14",
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-16",
+   "rating": 3,
+   "title": "",
+   "body": "I want to give u five stars (not to be rude AT ALL) but I really hope u take more stuff out of premium so we have more options more people would probably come more so please consider it. God bless you. (ps I listen to ur stuff on YouTube thank you for the help)",
+   "version": null,
+   "id": "Abide-037",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-14",
+   "rating": 3,
+   "title": "",
+   "body": "Why do I get a pop up offer to subscribe after I already paid for an annual subscription?",
+   "version": "3.65.0",
+   "id": "Abide-038",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 2,
+   "title": "",
+   "body": "I love the stories, especially the kids, however, the app is extremely difficult to work with. It crashes or freezes every time you try to find something or take any action, and it's difficult to navigate. I find it especially difficult to get to the kids section, which is what I mainly use it for.",
+   "version": "3.65.0",
+   "id": "Abide-039",
+   "categories": [
+    "C11",
+    "C15"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-12",
+   "rating": 3,
+   "title": "",
+   "body": "I started listening to Abide sleep meditations on Spotify. decided to jump in and buy the subscription. the content is wonderful, and the voice overs are excellent. however, there are problems with the app, especially related to The Sleep timer. the sleep meditations keep going after their set time. it wakes me up.",
+   "version": "3.64.9",
+   "id": "Abide-040",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-03-11",
+   "rating": 3,
+   "title": "",
+   "body": "This would be a great app but it's way too glitchy to justify a subscription. The biggest problem was that voice playback stops every time my screen locks (but not background music) I have tried every fix and work around for this on my phone including getting AI to suggest various android fixes, all to no avail. So reluctantly I've had to cancel free trial and uninstall. I would consider using it again in the future if these issues are addressed though.",
+   "version": "3.64.9",
+   "id": "Abide-041",
+   "categories": [
+    "C12",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-20",
+   "rating": 2,
+   "title": "To many donate promps",
+   "body": "I like the app, I even have a subscription and use it daily. It’s a great little guided prayer app. I just wish it wouldn’t beg me for donations every single time I open it. Sometimes it prompts me multiple times. It’s super annoying.",
+   "version": "3.77.0",
+   "id": "Abide-042",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-19",
+   "rating": 2,
+   "title": "Cannot login!",
+   "body": "I used to use this app with my mom when i was little. It relaxed me and helped me sleep. Unfortunately, I downloaded it for myself recently because I have been having trouble sleeping and getting nightmares. It tells me that I already have an account that I was not aware of. When I press forgot password it doesn’t send the email!",
+   "version": "3.77.0",
+   "id": "Abide-043",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-17",
+   "rating": 2,
+   "title": "",
+   "body": "Overall the app is great but recently it started just stopping during prayer ... when you use the back button it takes you completely out of the app instead of back to the home screen or previous screen as before",
+   "version": "3.63.4",
+   "id": "Abide-044",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-13",
+   "rating": 3,
+   "title": "",
+   "body": "I used to love this app when I first downloaded it 4 years ago, but it's become so buggy while simultaneously asking me to pay for a premium membership. In fact, it's the premium membership prompts that make the app so bad. The alarm reminder for my morning meditation continues to play over the actual meditation itself and won't turn off. I also can't ever back out of the app properly, which makes it constantly play noise even when I'm not using it. Not a relaxing time with the Lord.",
+   "version": "3.63.03",
+   "id": "Abide-045",
+   "categories": [
+    "C11",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-02-09",
+   "rating": 2,
+   "title": "",
+   "body": "Please stop trying to turn Abide into the Tyler Boss show. There are other narrators who do a better job. Variety is the spice of life. This App has been very disappointing since Guideposts got their hands on it. It is no longer updated on a regular basis. Such a shame. Ruinaton of what was once a great product. This is an update on 02/08/2026. Time to cancel my subscription.",
+   "version": "3.63.03",
+   "id": "Abide-046",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-02-02",
+   "rating": 2,
+   "title": "Ads asking for more money even with a paid subscription",
+   "body": "Your last response to this unacceptable behavior was insincere. You don’t care about pandering, or you’d have already stopped pushing upon everyone. Asking me to contact support, which is a slow clumsy system by the way, is tone deaf to what paying customers expect—an ad free experience. You also have no idea how much customers already tithe and support global programs. Knock it off! Guideposts leadership: get your act together. Contact me to set up a face to face. I’ll guide you to operational clarity.",
+   "version": "3.76.0",
+   "id": "Abide-047",
+   "categories": [
+    "C05",
+    "C17"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-31",
+   "rating": 3,
+   "title": "Worse than I Remembered",
+   "body": "I ended a subscription to this app but then decided to try it again this year. It is now burdened by multiple popups within 10 minutes by of use.  There are some great narrators  and good content but I will not be renewing.",
+   "version": "3.76.0",
+   "id": "Abide-048",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-29",
+   "rating": 1,
+   "title": "not inspired",
+   "body": "the content doesn't explain what they adk you to confess sins over. unbiblical and not of God.",
+   "version": "3.76.0",
+   "id": "Abide-049",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-25",
+   "rating": 1,
+   "title": "Misleading Free Trail",
+   "body": "The app says that you can try for free for 7 days. But actually charges you and dos not refund. Beware signing up for the free tria.",
+   "version": "3.76.0",
+   "id": "Abide-050",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2026-01-12",
+   "rating": 1,
+   "title": "Way too restrictive",
+   "body": "Absolutely no access to any sleep music whatsoever without a subscription.",
+   "version": "3.74.2",
+   "id": "Abide-051",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-11",
+   "rating": 3,
+   "title": "",
+   "body": "I want to use this app, but it does not work with my Google Pixel 10. The sound is choppy and distracting, like constant buffering. I was able to use it better on my iPad, but that is not as convenient or useful for me. I regularly use the Calm app, and Abide seems like a comparable Christian alternative. I wish it worked, and will consider trying again when the Pixel glitch is fixed.",
+   "version": "3.60.10",
+   "id": "Abide-052",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-09",
+   "rating": 2,
+   "title": "No Captions",
+   "body": "It’s a great app, but is missing captions or transcriptions to read the prayers - excluding deaf and hard of hearing persons from enjoying this app. Major miss on the developers part. Can’t recommend.",
+   "version": "3.74.2",
+   "id": "Abide-053",
+   "categories": [
+    "C16"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2026-01-06",
+   "rating": 3,
+   "title": "Good meditations",
+   "body": "This app has good meditations.  I don’t use the sleep stories. I wish you could give feedback about the readers, as for example one has a very distracting accent that makes it difficult for me to pay attention, and one talks super fast, but others are very good.  Also, this app is pretty expensive, if I am paying a premium for an app, I don't like it that every time I open it there is a pop-up asking me to make a donation that I have to exit out of.",
+   "version": "3.74.2",
+   "id": "Abide-054",
+   "categories": [
+    "C03",
+    "C05",
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2026-01-04",
+   "rating": 3,
+   "title": "",
+   "body": "It's decent, but you have to pay to use sleep sounds.",
+   "version": "3.60.10",
+   "id": "Abide-055",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-12-30",
+   "rating": 2,
+   "title": "",
+   "body": "$10 a month for a sleep app? Too expensive. edit: The comment does not change my review. $2 ($5 absolute max) a month. Way overpriced for something that is to help somebody fall asleep. MMOs are $13 a month, for hours upon hours a day. Nightsounds is free, but I dont want to give my kid internet access to play it. Honestly, I installed it, saw the price, and uninstalled it.",
+   "version": null,
+   "id": "Abide-056",
+   "categories": [
+    "C03"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-12-18",
+   "rating": 3,
+   "title": "",
+   "body": "Something is wrong with the sleep timer. It crashes out after 40 mins. I hope it gets fixed before the next update because the content is still good. 🙁. Re-installed the app as well.",
+   "version": null,
+   "id": "Abide-057",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-12-16",
+   "rating": 3,
+   "title": "Mediocre",
+   "body": "I’ve paid for premium for the last 2 years and I’m highly disappointed that in that time there have been 5 or so new sleep stories for my children. And half of the ones they already have on there are not suitable for sleep. They are noisy with sudden screaming from animal characters or the intro music or “HELLO” when it repeats after 20 mins being so loud it startles the kids awake. Who came up with that?\n\nI was looking forward to Christmas and thought surely they’ll have new sleep stories or meditations but no, not a single new sleep story. In fact there hasn’t been more than 3 new sleep stories in MONTHS. What am I even paying $100 a year for at this point? \n\nThe app itself is glitchy. You will see for yourself when you use it. That alone is annoying and not ideal for what’s supposed to be a nice calming app. \n\nThey are constantly peddling various things that of 0 interest to me with no new stories. \n\nIt’s obvious to me that the developers put no effort into this app anymore.\n\nNot worth the money for premium and pointless without paying for premium. Lose-lose situation here.",
+   "version": "3.74.1",
+   "id": "Abide-058",
+   "categories": [
+    "C14",
+    "C03",
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-12-12",
+   "rating": 1,
+   "title": "Awful.",
+   "body": "Not happy. I am going to cancel my service.  Nothing wants to work in your app tonight. WHAT IS GOING ON!! ?????",
+   "version": "3.74.0",
+   "id": "Abide-059",
+   "categories": [
+    "C11",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-11-23",
+   "rating": 2,
+   "title": "A once Great app.",
+   "body": "Sad. Was great. Now 90% is locked behind premium. I was even paying for premium because it was fair to me. But now like 20% is free. Something has changed. Guess it’s time to look for a different app.",
+   "version": "3.73.0",
+   "id": "Abide-060",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-11-12",
+   "rating": 2,
+   "title": "Was daily user.",
+   "body": "I was using this app daily for the free meditation in the morning as I get ready for work. I have been barely getting by so I can’t afford to subscribe. Then one day I am stuck behind a screen asking to set up an account and I can’t play anything anymore. I also can’t share them with my family and promote the app. Sad. Farewell.",
+   "version": "3.71.0",
+   "id": "Abide-061",
+   "categories": [
+    "C04",
+    "C15"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-11-11",
+   "rating": 3,
+   "title": "Updates are disappointing",
+   "body": "This latest update seems to have changed the ambient background sounds. There are only three options now and nothing that seems anywhere close to what was offered before. I’ve used the app for years and it seems like the updates are taking things away, not adding to features. Much less sleep story releases now as well. Super disappointing overall.",
+   "version": "3.71.0",
+   "id": "Abide-062",
+   "categories": [
+    "C04",
+    "C14"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-10-31",
+   "rating": 2,
+   "title": "",
+   "body": "sad that the only free sleep stories are just ads for subscription.. might have paid if i could have heard an example.. looking elsewhere",
+   "version": null,
+   "id": "Abide-063",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-10-29",
+   "rating": 2,
+   "title": "",
+   "body": "would like to give 5 stars but everytime i open the app i get prompted to donate and when U x out it closes the app entirely and I have to reopen it. i have a paid membership. please fix. I did reach out to support but no response and it's still doing it.",
+   "version": "3.58.16",
+   "id": "Abide-064",
+   "categories": [
+    "C11",
+    "C05",
+    "C17"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-10-27",
+   "rating": 3,
+   "title": "",
+   "body": "This app didn't think it was connected to the internet. .. Which it was. I tried both WiFi and data, nothing.  It was just able to take two different email addresses and successfully create two accounts but after that it failed over and over.",
+   "version": "3.56.7",
+   "id": "Abide-065",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "ca",
+   "date": "2025-10-24",
+   "rating": 1,
+   "title": "Cancelled due to all the pop up ads",
+   "body": "I once enjoyed this app until I had to keep closing popup windows. \n\nDelete.",
+   "version": "3.69.0",
+   "id": "Abide-066",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-10-24",
+   "rating": 3,
+   "title": "",
+   "body": "Cost is not up front. You need to go through setting up preferences before they hit you with the \"free trial\" thing. Update: I appreciate the reply, and must have missed on the initial description where it stated the cost. Thank you.",
+   "version": null,
+   "id": "Abide-067",
+   "categories": [
+    "C01"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-22",
+   "rating": 3,
+   "title": "New",
+   "body": "Need newer meditation from favorites",
+   "version": "3.69.0",
+   "id": "Abide-068",
+   "categories": [
+    "C14"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-20",
+   "rating": 1,
+   "title": "App doesn’t work anymore",
+   "body": "My wife and I used to use this app daily! Not sure what happened recently, but the app will not load properly. No background noise. Noises are available and it’s very laggy. Please fix it!",
+   "version": "3.69.0",
+   "id": "Abide-069",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-15",
+   "rating": 1,
+   "title": "Waste",
+   "body": "A lot of great topics but unfortunately EVERYTHING I need or want you have to pay for. So with that being said I will stick with YouTube where it’s FREE!!",
+   "version": "3.68.4",
+   "id": "Abide-070",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-09",
+   "rating": 3,
+   "title": "Amazing App but…",
+   "body": "Don’t get me wrong as a fellow Christian I absolutely love this app and the narrators in it the sleep stories always help me but really everything in this app you have to pay for.. just make the whole app for buying at this point there’s no options for people who can’t afford not asking for everything to be free but atleast some variety would be nice..",
+   "version": "3.68.4",
+   "id": "Abide-071",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "gb",
+   "date": "2025-10-08",
+   "rating": 3,
+   "title": "Love it - but please stop with the ads after meditations",
+   "body": "I really love this app, and would have even considered buying a subscription, but the way of advertising has truly put me off.\n\nIt is absolutely not right that after finishing a meditation, and being told to spend as much time you like before God, you are hit with a loud, grating advertisement for the latest Bible plan. I understand the need to gain subscribers and to advertise, but please keep this to visual ads rather than interrupting people when they are trying to pray.",
+   "version": "3.68.4",
+   "id": "Abide-072",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-10-07",
+   "rating": 3,
+   "title": "",
+   "body": "I enjoyed this app daily while using it on my Pixel 6a, but recently upgraded to a Pixel 10 and the audio is constantly choppy. I haven't been using it much anymore and hope the issue will get resolved soon.",
+   "version": "3.56.7",
+   "id": "Abide-073",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-06",
+   "rating": 2,
+   "title": "Why the change",
+   "body": "I was wanting to listen to my meditation like I always do but now you have to pay for it and it just makes me sad this meditation helps me through the night and now I can’t use it",
+   "version": "3.68.3",
+   "id": "Abide-074",
+   "categories": [
+    "C04"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-06",
+   "rating": 1,
+   "title": "Locked",
+   "body": "I woke up this morning to do my daily time with God .. I opened Abide to see that the daily meditation is now locked.. really?!?!?… I am disappointed… $$$$$$ is the norm… I am surprised u r not charging me just to open your app.. it reminds me when Jesus went into to temple to see it was being used for a profit… shall b  looking for another free devotional and deleting this one😟😔",
+   "version": "3.68.3",
+   "id": "Abide-075",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-10-05",
+   "rating": 1,
+   "title": "All about money!",
+   "body": "This was my favorite meditation app, I used every night after I prayed until I go on to see that they locked everything so you have to pay, I will not be paying!",
+   "version": "3.68.3",
+   "id": "Abide-076",
+   "categories": [
+    "C04",
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-29",
+   "rating": 2,
+   "title": "",
+   "body": "Honestly, I was about to buy the year. I loved the app so much. until one morning, the meditation was essentially saying You have to repent of your sins to receive the holy Spirit and when you sin, you won't be blessed, so you need to think about all your sins so God can be with you again. such a bummer to have such damning bad theology. I was so hopeful for this app too. I am bummed. but I guess I'll cancel my trial. no need to feed my soul wrong teachings about Christ.",
+   "version": "3.56.6",
+   "id": "Abide-077",
+   "categories": [
+    "C06"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 1,
+   "title": "Stopped working can’t sign in",
+   "body": "After years of being a premium subscriber I’ve been unable to log in and use the app the last two days, now all of my streak data is lost and worse - I’ve lost access to the meditations I depend on each day.",
+   "version": "3.68.1",
+   "id": "Abide-078",
+   "categories": [
+    "C11",
+    "C10"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 1,
+   "title": "App Crash",
+   "body": "The app crashed yesterday.  This morning crashed again.  Staring there was a leak and to change the password.  Which states its temp unavailable!!!",
+   "version": "3.68.1",
+   "id": "Abide-079",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 3,
+   "title": "Disappointed",
+   "body": "I have used Abide with my wife for years. Over the last year, it seems you can not open the without having to get through a pop up window.  Some are to sell product- I find this annoying and unnecessary for a devotional",
+   "version": "3.68.1",
+   "id": "Abide-080",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 3,
+   "title": "Not working",
+   "body": "Why is your app not working? I have deleted and reinstalled and even tried to reset my password.",
+   "version": "3.68.1",
+   "id": "Abide-081",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 2,
+   "title": "",
+   "body": "The app isn't working for me! I Uninstaller and reinstalled. I can't get past the login page, it gives me an error message. This is my favorite app, it helps me so much! I'm devastated 😭",
+   "version": null,
+   "id": "Abide-082",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-24",
+   "rating": 2,
+   "title": "",
+   "body": "Not free that's why. Uninstall now Then why does it continue to ask me to join? Doesn't matter. There should be 2 separate apps, one free and the other pay. 🥺",
+   "version": "3.53.2",
+   "id": "Abide-083",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 3,
+   "title": "Hmmm",
+   "body": "This has been amazing until today. I can’t log in. The screen is blank and even though I have a paid subscription it can’t log me in…….",
+   "version": "3.68.1",
+   "id": "Abide-084",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 1,
+   "title": "Not allowing me to log in",
+   "body": "I’m new to the app and was excited for a Christian app that I could use mid day. The app is not working. I’ve tried logging in again and it continues to fail. I’m not interested in investing in an app that’s not going to work.",
+   "version": "3.68.1",
+   "id": "Abide-085",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 1,
+   "title": "App Problem  -",
+   "body": "I have used Abide for years and have loved it with a 5 Star reading. I depend on this App every day and especially use the sleep app at night. But today, when I opened the app, nothing appeared and there is nothing to tap on to get into meditation or anything love. You changed the App and now I can’t get into anything. Fix it back the way it was, keeping it simple and easy or I will have to cancel my subscription. Thank you!",
+   "version": "3.68.1",
+   "id": "Abide-086",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 1,
+   "title": "What a great loss!",
+   "body": "I have had this application downloaded for years since it was first developed. I used it daily under the free version, until this morning. The app does not let me sign in neither phone nor iPad and I have the latest iOS version. I believe the moment the developers strayed away from being an inspiration and a resource to those in need of a daily devotional and chose to become a money making business by charging Christians for its use via subscription, the entire apps initial purpose and meaning of what abide means went to the garbage. What would Jesus say about your greed!What a great loss!!!!",
+   "version": "3.68.1",
+   "id": "Abide-087",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 1,
+   "title": "There’s a glitch!",
+   "body": "I love my app, but now I can’t access it!  It first started with the music, then the whole app blanked out!  I can’t access it on any of my devices!  Delete my app please fix!",
+   "version": "3.68.1",
+   "id": "Abide-088",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-23",
+   "rating": 1,
+   "title": "",
+   "body": "its too glitchy. every time I tried to do a meditation, it pauses evey few seconds. i tried uninstalling and reinstalling and still the problem persists. just doesn't create the right mood to relax when its pausing every few seconds. annoying",
+   "version": null,
+   "id": "Abide-089",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-19",
+   "rating": 3,
+   "title": "Adverts ruin meditation",
+   "body": "Fantastic meditations with lovely voices and sounds and sleep stories however, the daily meditations come with constant reminders to upgrade at the end of the meditation right when you’re relaxed =deleted.",
+   "version": "3.67.0",
+   "id": "Abide-090",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-19",
+   "rating": 1,
+   "title": "",
+   "body": "I enjoy Abide content that I receive in emails so I decided to get the app. It was glitchy and terrible from the second I downloaded it. I tried updating my phone, deleting then re-adding the app, but nothing worked. There were these super annoying stoppages and mini glitches every few seconds, making it impossible to have an immersive experience or fall asleep to it. It's too bad because I'm sure I would have enjoyed the content if it would have worked.",
+   "version": null,
+   "id": "Abide-091",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-09-15",
+   "rating": 1,
+   "title": "",
+   "body": "I am new to Abide, and I wanted to like this app. However, the audio is breaking all the time on my Google Pixel 10 Pro XL. I have just paid for the annual subscription, but the app is not useful and is bothering me every time I use it.",
+   "version": "3.55.5",
+   "id": "Abide-092",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-09-12",
+   "rating": 1,
+   "title": "USING THE WORD OF GOD FOR MONEY IS DIABOLICAL",
+   "body": "THIS APP SHOULD BE 100% FREE??? DONT START MAKING ME PAY JUST TO LISTEN TO THE BIBLE ARE YALL OUT OF YOUR MIND??? THIS IS INSANE AND YOUR TEAM SHOULD BE ASHAMED OF YOURSELVES🤦‍♂️",
+   "version": "3.67.0",
+   "id": "Abide-093",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-08-23",
+   "rating": 2,
+   "title": "",
+   "body": "Only good for meditation or if you need to be led in your prayers. NIV translation ONLY in Bible reading others in meditations. whole Bible \"content\" but no plans. listening to the Bible plays one chapter and then stops, unless 🔁 is pressed. app does not remember where you left off, but there is Recently Played. I guess this is to be expected from a guideposts product. more milk than meat. If you need the features I mentioned, check out YouVersion's Bible app by Life Church.",
+   "version": "3.52.2",
+   "id": "Abide-094",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-08-09",
+   "rating": 1,
+   "title": "Having issues with the app",
+   "body": "Just downloaded the app and nothing is working",
+   "version": "3.65.0",
+   "id": "Abide-095",
+   "categories": [
+    "C11"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-08-09",
+   "rating": 1,
+   "title": "",
+   "body": "I was charged $42.79 and I dont know why I want a refund.",
+   "version": "3.51.4",
+   "id": "Abide-096",
+   "categories": [
+    "C01",
+    "C02"
+   ]
+  },
+  {
+   "platform": "iOS",
+   "country": "us",
+   "date": "2025-08-04",
+   "rating": 3,
+   "title": "I never give low ratings",
+   "body": "I got this at a time I was having severe anxiety problems and it helped me through that period. My problem is getting prompts once a day to give someone else a subscription. It’s an unnecessary and repetitive notification every day.",
+   "version": "3.64.2",
+   "id": "Abide-097",
+   "categories": [
+    "C05"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-07-17",
+   "rating": 2,
+   "title": "",
+   "body": "A few problems exist: 1. Logging into the app needs to be improved; It seems that one voice talks over another on occasion. 2. The whole Bible isn't included with the app. 3. I wish there was a way for me to reflect on each Bible meditation that I do each day. (i.e. a journal of some sort). These weaknesses need to be improved in order for listeners to get the most out of the app.",
+   "version": "3.50.1",
+   "id": "Abide-098",
+   "categories": [
+    "C11",
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-07-10",
+   "rating": 1,
+   "title": "",
+   "body": "Installed app then uninstalled but get emails everyday. Stop sending them!!",
+   "version": null,
+   "id": "Abide-099",
+   "categories": [
+    "C13"
+   ]
+  },
+  {
+   "platform": "GooglePlay",
+   "country": "us",
+   "date": "2025-06-26",
+   "rating": 1,
+   "title": "",
+   "body": "This is not advertised as a Catholic app and I purchased the app because I thought it was a Christian app. When I requested a refund within 24hrs of purchase I was not only declined but met with a nasty response. Deceptive marketing. Will not honor the desire to close the account. My review was also removed so I am posting again. Please be aware that prayers are to Mary and other saints other Catholic practices. The entire app is Catholic centered.",
+   "version": null,
+   "id": "Abide-100",
+   "categories": [
+    "C07",
+    "C02"
+   ]
+  }
+ ]
+}

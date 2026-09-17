@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Selah Daily",
+    "slug": "selah-daily",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.tg.selahdaily",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#1E2A44",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.POST_NOTIFICATIONS",
+        "com.android.vending.BILLING"
+      ],
+      "allowBackup": false,
+      "predictiveBackGestureEnabled": false
+    },
+    "ios": {
+      "bundleIdentifier": "com.tg.selahdaily",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "Selah Daily can add a reminder to your calendar two days before your free trial ends, so you are never charged by surprise.",
+        "NSCalendarsFullAccessUsageDescription": "Selah Daily can add a reminder to your calendar two days before your free trial ends, so you are never charged by surprise.",
+        "NSRemindersUsageDescription": "Used only if you choose to add the trial-end reminder.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#1E2A44",
+          "imageWidth": 180
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#1E2A44"
+        }
+      ],
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "Selah Daily adds a reminder two days before your free trial ends."
+        }
+      ],
+      "expo-sqlite",
+      "expo-dev-client",
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "rcAndroidKey": "",
+      "rcIosKey": "",
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+<meta charset="utf-8"><title>Selah Daily 스토어 목업</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;1,6..72,500;1,6..72,600&family=Figtree:wght@400;600;700;800&display=swap">
+<style>
+:root{
+  --bg:#F4F2EE; --ink:#1B2233; --muted:#5E6577; --line:#DDDAD2;
+  --navy:#1E2A44; --navy2:#2C3B5E; --amber:#E9A84B; --plum:#241C36; --paper:#FFFDF9; --soft:#F1EEE8; --yt:#FF0000;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#121520; --ink:#EDEAE3; --muted:#A5A9B8; --line:#2C3142; }}
+:root[data-theme="dark"]{ --bg:#121520; --ink:#EDEAE3; --muted:#A5A9B8; --line:#2C3142; }
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;font-size:15px;line-height:1.5;padding-inline:20px;padding-block:28px}
+h1{font-weight:800;font-size:1.7rem;margin:0 0 6px;text-wrap:balance}
+.lede{color:var(--muted);max-width:66ch;margin:0 0 22px}
+h2{font-size:1.05rem;font-weight:700;margin:34px 0 10px}
+.note{font-size:.88rem;color:var(--muted);max-width:70ch}
+.strip{display:flex;gap:14px;overflow-x:auto;padding-bottom:12px}
+.panel{flex:none;width:300px;height:640px;background:var(--navy);color:#fff;border-radius:18px;padding:26px 20px 0;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;overflow:hidden;position:relative;isolation:isolate}
+.panel.photo{padding:0;justify-content:flex-end;align-items:stretch}
+.panel.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+.panel.photo .veil{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,26,44,0) 35%,rgba(20,26,44,.78) 75%,rgba(20,26,44,.92))}
+.panel.photo .txt{padding:0 22px 28px}
+.panel h3{font-weight:800;font-size:1.55rem;line-height:1.12;text-align:center;margin:0;text-wrap:balance}
+.panel h3 em{font-family:Newsreader,Georgia,serif;font-style:italic;font-weight:500;color:var(--amber);font-size:1.15em}
+.panel.photo h3{text-align:left;font-size:1.75rem}
+.panel .sub{text-align:center;font-size:.9rem;opacity:.85;margin:8px 0 0;max-width:24ch}
+.panel.photo .sub{text-align:left;max-width:none;opacity:.9}
+.promise{margin:14px 0 0;font-size:.82rem;line-height:1.75;text-align:left}
+.promise b{color:var(--amber);font-weight:700}
+.top{position:absolute;top:0;left:0;right:0;height:46%;overflow:hidden}
+.top img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.top::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,42,68,0) 55%,var(--navy) 100%)}
+.panel.split{padding-top:308px}
+.panel.split h3{position:relative}
+.dev{margin-top:auto;width:236px;height:470px;background:#0B0E18;border-radius:34px 34px 0 0;padding:8px 8px 0;box-sizing:border-box;box-shadow:0 -6px 30px rgba(0,0,0,.35);position:relative}
+.dev.short{height:300px}
+.scr{background:var(--paper);color:#1B2233;border-radius:26px 26px 0 0;height:100%;position:relative;overflow:hidden;font-size:11px}
+.scr.dark{background:#171326;color:#fff}
+.sbar{display:flex;justify-content:space-between;padding:8px 16px 0;font-weight:700;font-size:10px;position:relative;z-index:2}
+.island{position:absolute;top:6px;left:50%;transform:translateX(-50%);width:66px;height:18px;background:#0B0E18;border-radius:12px;z-index:3}
+.body{padding:12px 14px 0;position:relative;z-index:2}
+.seg{display:flex;background:#EDE9E1;border-radius:10px;padding:3px;margin-bottom:10px}
+.seg span{flex:1;text-align:center;padding:5px 0;border-radius:8px;font-weight:600;color:#5E6577}
+.seg span.on{background:#fff;color:#1E2A44;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.scr.dark .seg{background:rgba(255,255,255,.12)} .scr.dark .seg span{color:rgba(255,255,255,.7)} .scr.dark .seg span.on{background:rgba(255,255,255,.18);color:#fff}
+.days{display:flex;justify-content:space-between;margin:4px 0 10px}
+.days i{font-style:normal;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:9px;font-weight:700;color:#5E6577;border:1.5px solid #DDDAD2}
+.days i.done{background:#1E2A44;color:#fff;border-color:#1E2A44}
+.days i.today{border-color:#E9A84B;color:#1E2A44}
+.hero{position:relative;border-radius:12px;overflow:hidden;height:118px;margin-bottom:10px;color:#fff}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero div{position:absolute;inset:0;padding:10px 12px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(20,26,44,.8))}
+.hero .lbl{font-size:8px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;font-weight:700}
+.hero .v{font-family:Newsreader,Georgia,serif;font-size:13.5px;line-height:1.3;margin-top:2px}
+.row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #EDE9E1}
+.row b{font-weight:600}
+.row small{color:#5E6577;display:block;font-size:9px}
+.scr.dark .row{border-color:rgba(255,255,255,.12)} .scr.dark .row small{color:rgba(255,255,255,.65)}
+.tabs{position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-around;padding:8px 0 12px;border-top:1px solid #EDE9E1;background:#fff;font-size:8px;color:#8A90A6;font-weight:600;z-index:2}
+.tabs span.on{color:#1E2A44}
+.tabs span::before{content:"";display:block;width:16px;height:16px;border-radius:5px;background:currentColor;opacity:.25;margin:0 auto 3px}
+.scr.dark .tabs{background:#171326;border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.5)} .scr.dark .tabs span.on{color:#fff}
+.btn{display:block;text-align:center;background:#1E2A44;color:#fff;border-radius:10px;padding:9px;font-weight:700;margin-top:10px}
+.btn.amber{background:#E9A84B;color:#1B2233}
+.btn.ghost{background:#EDE9E1;color:#1E2A44}
+.btn.glass{background:rgba(255,255,255,.18);color:#fff;backdrop-filter:blur(6px)}
+.btn.yt{background:#FF0000;color:#fff}
+.ring{width:150px;height:150px;border-radius:50%;margin:14px auto 6px;background:conic-gradient(#E9A84B 0 62%,#EDE9E1 62% 100%);display:grid;place-items:center}
+.ring div{width:124px;height:124px;border-radius:50%;background:#FFFDF9;display:grid;place-items:center;font-family:Newsreader,Georgia,serif;font-size:32px;font-variant-numeric:tabular-nums;color:#1E2A44}
+.chk{display:flex;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid #EDE9E1}
+.chk i{width:14px;height:14px;border:1.5px solid #1E2A44;border-radius:4px;flex:none}
+.chk i.on{background:#1E2A44}
+.swipe{display:flex;align-items:stretch;border-radius:10px;overflow:hidden;margin:6px 0}
+.swipe .t{flex:1;padding:9px 10px;background:#fff;font-weight:600}
+.swipe .a{background:#2E8B57;color:#fff;padding:9px 10px;font-size:9px;font-weight:700;display:grid;place-items:center}
+.full{position:absolute;inset:0;z-index:0}
+.full img{width:100%;height:100%;object-fit:cover}
+.full::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,12,30,.15),rgba(15,12,30,.75))}
+.amen{font-family:Newsreader,Georgia,serif;font-style:italic;font-weight:600;font-size:2.4rem;line-height:1;text-align:center;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.lock{position:absolute;inset:0;color:#fff;display:flex;flex-direction:column;align-items:center;padding-top:44px;z-index:2}
+.lock .time{font-weight:800;font-size:44px;letter-spacing:-1px;text-shadow:0 2px 10px rgba(0,0,0,.4)}
+.lock .noti{margin-top:26px;width:86%;background:rgba(255,255,255,.16);backdrop-filter:blur(8px);border-radius:14px;padding:10px 12px;font-size:10px}
+.lock .noti b{display:block;font-size:11px}
+.inapp{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start}
+.inapp .dev{margin:0;height:430px;border-radius:34px;padding:8px}
+.inapp .scr{border-radius:26px}
+.price{display:flex;justify-content:space-between;align-items:center;border:1.5px solid #DDDAD2;border-radius:10px;padding:8px 10px;margin-bottom:8px}
+.price.sel{border-color:#1E2A44}
+.price small{display:block;color:#5E6577;font-size:9px}
+.map{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:10px}
+.map figure{margin:0;font-size:.78rem;color:var(--muted)}
+.map img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:10px;display:block;margin-bottom:4px}
+</style>
+
+<h1>Selah Daily — 스토어 목업 3차 (제공 이미지 적용)</h1>
+<p class="lede">보내주신 이미지 5장을 스토어 패널과 앱 화면에 넣었습니다. 일출 창가(②)와 현관 기도(①)를 대표 화면으로, 밤 창가(④)는 저녁 모드, 호수 빛줄기(⑤)는 아멘 화면, 따뜻한 빛의 기도(③)는 기도제목 패널에 썼습니다. 개념 시연입니다.</p>
+
+<div class="strip">
+
+<!-- 1 hero photo ② -->
+<div class="panel photo">
+  <img src="img/ref_2.jpg" alt=""><div class="veil"></div>
+  <div class="txt">
+    <h3>Five minutes<br>with God,<br><em>before the day</em><br>starts.</h3>
+    <p class="promise"><b>No account.</b> &nbsp;<b>No ads.</b><br>Your prayers stay on your phone.</p>
+  </div>
+</div>
+
+<!-- 2 split photo ① + Today -->
+<div class="panel split">
+  <div class="top"><img src="img/ref_1.jpg" alt=""></div>
+  <h3><em>One verse.</em><br>Your prayers. Worship.</h3>
+  <div class="dev short"><div class="scr">
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div class="seg"><span class="on">Morning</span><span>Evening</span></div>
+      <div class="days"><i class="done">M</i><i class="done">T</i><i class="done">W</i><i class="today">T</i><i>F</i><i>S</i><i>S</i></div>
+      <div class="hero"><img src="img/ref_2.jpg" alt=""><div><span class="lbl">Today · Psalm 46:10</span><span class="v">“Be still, and know that I am God.”</span></div></div>
+      <a class="btn amber">Start today's routine · 5 min</a>
+    </div>
+  </div></div>
+</div>
+
+<!-- 3 Pray -->
+<div class="panel">
+  <h3><em>Step two.</em><br>Pray through your list.</h3>
+  <p class="sub">Three minutes. Vibration only. Nothing leaves the phone.</p>
+  <div class="dev"><div class="scr">
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div class="ring"><div>2:41</div></div>
+      <div class="chk"><i class="on"></i><span>Mom's surgery on Friday</span></div>
+      <div class="chk"><i class="on"></i><span>Patience with the twins</span></div>
+      <div class="chk"><i></i><span>Dana's job search</span></div>
+      <a class="btn ghost">Pause</a>
+    </div>
+    <div class="tabs"><span>Today</span><span class="on">Prayers</span><span>Journal</span><span>Settings</span></div>
+  </div></div>
+</div>
+
+<!-- 4 Answered, photo ③ top -->
+<div class="panel split">
+  <div class="top"><img src="img/ref_3.jpg" alt="" style="object-position:center 20%"></div>
+  <h3>Keep track of<br><em>answered</em> prayers.</h3>
+  <div class="dev short"><div class="scr">
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div style="font-weight:800;font-size:14px;margin-bottom:6px">My prayers</div>
+      <div class="swipe"><div class="t">Mom's surgery on Friday<small style="display:block;color:#5E6577;font-weight:400">prayed 12 days</small></div><div class="a">ANSWERED</div></div>
+      <div class="row"><span><b>Patience with the twins</b><small>prayed 31 days</small></span><span>›</span></div>
+      <div class="row"><span><b>Church roof fund</b><small>answered · Aug 3</small></span><span style="color:#2E8B57">✓</span></div>
+    </div>
+  </div></div>
+</div>
+
+<!-- 5 Evening mode, photo ④ -->
+<div class="panel" style="background:var(--plum)">
+  <h3>An <em>evening</em> routine,<br>for when the day is done.</h3>
+  <p class="sub">Same three steps. Darker screen. One reminder at the time you pick.</p>
+  <div class="dev"><div class="scr dark">
+    <div class="full"><img src="img/ref_4.jpg" alt=""></div>
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div class="seg"><span>Morning</span><span class="on">Evening</span></div>
+      <div style="margin-top:120px">
+        <div style="font-size:8px;letter-spacing:.08em;font-weight:700;opacity:.8">TONIGHT · PSALM 4:8</div>
+        <div style="font-family:Newsreader,Georgia,serif;font-size:14px;line-height:1.35;margin:4px 0 10px">“In peace I will both lie down and sleep, for You alone, O LORD, make me dwell in safety.”</div>
+        <a class="btn glass">Begin evening routine</a>
+      </div>
+    </div>
+    <div class="tabs"><span class="on">Today</span><span>Prayers</span><span>Journal</span><span>Settings</span></div>
+  </div></div>
+</div>
+
+<!-- 6 Amen + YouTube, photo ⑤ -->
+<div class="panel">
+  <h3><em>Step three.</em><br>Close with worship.</h3>
+  <p class="sub">One tap opens the YouTube app. Music plays there, not here.</p>
+  <div class="dev"><div class="scr dark">
+    <div class="full"><img src="img/ref_5.jpg" alt=""></div>
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body" style="text-align:center;padding-top:110px">
+      <div class="amen">Amen.</div>
+      <div style="font-size:10px;opacity:.85;margin-top:8px">Day 5 · 3 prayers · 3 min</div>
+      <div style="margin:22px 0 4px;font-size:9px;font-weight:700;letter-spacing:.08em;opacity:.8">MORNING PLAYLIST</div>
+      <a class="btn yt">▶ Open in YouTube</a>
+      <a class="btn glass">Done for today</a>
+    </div>
+  </div></div>
+</div>
+
+<!-- 7 Lock screen reminder over photo ④ dimmed -->
+<div class="panel" style="background:#0F0C1E">
+  <h3>A reminder that<br>doesn't <em>nag.</em></h3>
+  <p class="sub">One notification a day. Miss a day? One grace pass a week.</p>
+  <div class="dev"><div class="scr dark">
+    <div class="full"><img src="img/ref_5.jpg" alt="" style="filter:brightness(.7)"></div>
+    <div class="lock">
+      <div style="font-size:11px;opacity:.85">Thursday, September 17</div>
+      <div class="time">6:20</div>
+      <div class="noti"><b>Selah Daily</b>Morning routine · Psalm 46:10 is waiting. 5 min.</div>
+    </div>
+  </div></div>
+</div>
+
+</div>
+
+<h2>앱 안에서만 보여주는 화면</h2>
+<div class="inapp">
+  <div class="dev"><div class="scr">
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div style="font-weight:800;font-size:14px;margin:6px 0 10px">Keep the routine free.<br>Add the journal.</div>
+      <div class="price"><span><b>Monthly</b><small>cancel any time</small></span><b>$3.99</b></div>
+      <div class="price sel"><span><b>Yearly</b><small>$2.08 a month</small></span><b>$24.99</b></div>
+      <div class="price"><span><b>Lifetime</b><small>one payment</small></span><b>$59.99</b></div>
+      <p style="font-size:9.5px;color:#5E6577;line-height:1.5;margin:8px 0 0">7-day trial ends <b>Oct 1, 2026</b> — we remind you on Sep 29. Today's routine, 20 prayers and your streak stay free, always.</p>
+      <a class="btn amber">Start trial · then $3.99/mo</a>
+      <a class="btn ghost">Not now</a>
+    </div>
+  </div></div>
+  <div class="dev"><div class="scr">
+    <div class="island"></div><div class="sbar"><span>9:41</span><span>●●● ᯤ ▮</span></div>
+    <div class="body">
+      <div style="font-weight:800;font-size:15px;margin:6px 0 10px">Settings</div>
+      <div class="row"><span><b>Manage or cancel subscription</b><small>opens App Store</small></span><span>↗</span></div>
+      <div class="row"><span><b>Reminder time</b><small>6:20 AM · 9:30 PM</small></span><span>›</span></div>
+      <div class="row"><span><b>Export prayers</b><small>JSON file, share sheet</small></span><span>›</span></div>
+      <div class="row"><span><b>Privacy</b><small>No account. Nothing leaves this phone.</small></span><span>›</span></div>
+      <div class="row"><span><b>About</b><small>Non-denominational · BSB (public domain)</small></span><span>›</span></div>
+    </div>
+    <div class="tabs"><span>Today</span><span>Prayers</span><span>Journal</span><span class="on">Settings</span></div>
+  </div></div>
+</div>
+
+<h2>이미지 배치표</h2>
+<div class="map">
+  <figure><img src="img/ref_2.jpg" alt="">② 일출 창가 → 1번 패널 전면, Today 카드 배경</figure>
+  <figure><img src="img/ref_1.jpg" alt="">① 현관 기도 → 2번 패널 상단</figure>
+  <figure><img src="img/ref_3.jpg" alt="">③ 따뜻한 빛 기도 → 4번 패널 상단(응답 기록)</figure>
+  <figure><img src="img/ref_4.jpg" alt="">④ 밤 창가 → 저녁 모드 화면 배경</figure>
+  <figure><img src="img/ref_5.jpg" alt="">⑤ 호수 빛줄기 → 아멘 화면·잠금화면 배경</figure>
+</div>
+<p class="note">첨부로만 보내주신 2장(아시아 여성 일출 창가, 아치 너머 일출)은 파일로 받지 못해 미적용. 디자인소스 폴더에 넣어 주시면 ②와 교체하거나 온보딩 첫 화면에 쓰겠습니다. 인물 사진은 AI 생성물이므로 스토어 제출 전 실제 촬영본으로 교체를 권합니다.</p>
