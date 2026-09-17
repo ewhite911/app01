@@ -3,6 +3,23 @@
 하루 5분 기도 루틴 앱. 말씀 한 구절(BSB, 퍼블릭 도메인) → 내 기도제목으로 3분 기도 → 아멘 → 공식 YouTube 앱의 찬양 재생목록으로 마무리.
 계정·서버·AI·광고·앱 내 오디오·스트릭 없음. 기도제목은 기기 안(SQLite)에만 저장.
 
+## Running it on a phone
+
+Expo Go on the phone, one command on the computer:
+
+```
+npm run go        # start the dev server for Expo Go
+npm run go:fresh  # pull the latest code, clear the cache, then start
+```
+
+Scan the QR with the iPhone camera (Expo Go's own scanner on Android). The
+phone and the computer must be on the same Wi-Fi. `--offline` is deliberate:
+it keeps Expo from checking accounts, which is what makes Expo Go ask for a
+login that matches the CLI.
+
+Purchases run in mock mode in Expo Go, so the trial, the thank-you screen and
+cancelling can all be exercised without any store setup.
+
 ## 화면 4개
 | 화면 | 파일 | 내용 |
 |---|---|---|

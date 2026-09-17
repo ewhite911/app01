@@ -30,6 +30,8 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
+    "go": "expo start --go --offline",
+    "go:fresh": "git pull && expo start --go --offline -c",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
