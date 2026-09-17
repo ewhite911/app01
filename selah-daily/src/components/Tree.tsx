@@ -101,9 +101,16 @@ export function Tree({
   /** Fruit appears from the young-tree stage, and only for members. */
   const fruit = isMember && index >= 3;
 
+  /**
+   * The drawing grid is always 100 x 100, but early stages only use the bottom of it.
+   * Cropping to the used part keeps a seed from reserving a screen of empty sky.
+   */
+  const boxHeight = size * [0.34, 0.46, 0.62, 0.86, 1][index];
+
   return (
     <View style={{ alignItems: 'center' }} accessibilityLabel={`${stage.name}. ${count} days completed.`}>
-      <View style={{ width: size, height: size }}>
+      <View style={{ width: size, height: boxHeight, overflow: 'hidden' }}>
+        <View style={{ position: 'absolute', left: 0, bottom: 0, width: size, height: size }}>
         {/* ground */}
         <View
           style={{
@@ -190,6 +197,7 @@ export function Tree({
             <View style={[styles.fruit, { width: 5 * u, height: 5 * u, borderRadius: 2.5 * u, left: 58 * u, top: (index >= 4 ? 34 : 36) * u }]} />
           </>
         )}
+        </View>
       </View>
 
       {showCaption && (

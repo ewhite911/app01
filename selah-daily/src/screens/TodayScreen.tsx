@@ -88,7 +88,7 @@ export default function TodayScreen({ navigation }: any) {
         <Text style={styles.hint}>Read it slowly. Once is enough.</Text>
         <Button title={done ? 'Pray again' : "I've read it"} onPress={() => setStep('pray')} variant="amber" />
         <View style={styles.treeCard}>
-          <Tree count={count} size={110} isMember={active} memberSince={since} />
+          <Tree count={count} size={128} isMember={active} memberSince={since} />
         </View>
       </ScrollView>
     );
@@ -170,7 +170,7 @@ export default function TodayScreen({ navigation }: any) {
 }
 
 const styles = StyleSheet.create({
-  container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg, flexGrow: 1 },
+  container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg },
   treeCard: { alignItems: 'center', paddingTop: space.md, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.line },
   eyebrow: { fontSize: 12, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
   card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 240, justifyContent: 'flex-end' },
