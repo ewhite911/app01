@@ -4,6 +4,7 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Text } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { initDb } from './src/db';
 import { initPurchases } from './src/purchases';
 import { SubProvider } from './src/subContext';
@@ -49,16 +50,18 @@ export default function App() {
     initPurchases().catch(() => {});
   }, []);
   return (
-    <SubProvider>
-      <NavigationContainer theme={theme}>
-        <Stack.Navigator>
-          <Stack.Screen name="Main" component={Tabs} options={{ headerShown: false }} />
-          <Stack.Screen name="Paywall" component={PaywallScreen} options={{ presentation: 'modal', title: '' , headerShadowVisible: false }} />
-          <Stack.Screen name="ThankYou" component={ThankYouScreen} options={{ presentation: 'modal', headerShown: false, gestureEnabled: false }} />
-          <Stack.Screen name="HowItsRun" component={HowItsRunScreen} options={{ title: '', headerShadowVisible: false }} />
-        </Stack.Navigator>
-      </NavigationContainer>
-      <StatusBar style="dark" />
-    </SubProvider>
+    <SafeAreaProvider>
+      <SubProvider>
+        <NavigationContainer theme={theme}>
+          <Stack.Navigator>
+            <Stack.Screen name="Main" component={Tabs} options={{ headerShown: false }} />
+            <Stack.Screen name="Paywall" component={PaywallScreen} options={{ presentation: 'modal', title: '' , headerShadowVisible: false }} />
+            <Stack.Screen name="ThankYou" component={ThankYouScreen} options={{ presentation: 'modal', headerShown: false, gestureEnabled: false }} />
+            <Stack.Screen name="HowItsRun" component={HowItsRunScreen} options={{ title: '', headerShadowVisible: false }} />
+          </Stack.Navigator>
+        </NavigationContainer>
+        <StatusBar style="dark" />
+      </SubProvider>
+    </SafeAreaProvider>
   );
 }

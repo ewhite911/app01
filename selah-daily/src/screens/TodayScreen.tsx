@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Alert, ImageBackground, Linking, ScrollView, StyleSheet, Text, View, Vibration, Pressable } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button } from '../components/ui';
 import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
 import { verseForToday } from '../verses';
@@ -19,6 +20,7 @@ const amenBg = require('../../assets/images/amen.jpg');
 export default function TodayScreen({ navigation }: any) {
   const verse = verseForToday();
   const { active } = useSub();
+  const insets = useSafeAreaInsets();
   const since = memberSince();
   const [step, setStep] = useState<Step>('verse');
   const [done, setDone] = useState(false);
@@ -76,7 +78,7 @@ export default function TodayScreen({ navigation }: any) {
 
   if (step === 'verse') {
     return (
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
         <Text style={styles.eyebrow}>{done ? 'TODAY · DONE' : 'TODAY'}</Text>
         <ImageBackground source={verseBg} style={styles.card} imageStyle={styles.cardImg}>
           <View style={styles.veil} />
@@ -94,7 +96,7 @@ export default function TodayScreen({ navigation }: any) {
 
   if (step === 'pray') {
     return (
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
         <Text style={styles.eyebrow}>PRAY</Text>
         <Text style={styles.timer}>{mm}:{ss}</Text>
         <Text style={styles.hint}>Vibration only. Nothing leaves your phone.</Text>
@@ -137,7 +139,12 @@ export default function TodayScreen({ navigation }: any) {
   return (
     <ImageBackground source={amenBg} style={styles.amenBg}>
       <View style={styles.amenVeil} />
-      <ScrollView contentContainerStyle={styles.amenInner}>
+      <ScrollView
+        contentContainerStyle={[
+          styles.amenInner,
+          { paddingTop: insets.top + space.lg, paddingBottom: insets.bottom + space.lg },
+        ]}
+      >
         <Text style={styles.amen}>Amen.</Text>
         <Text style={styles.amenSub}>
           {checked.size} prayer{checked.size === 1 ? '' : 's'} · {Math.round((TIMER_SECONDS - Math.max(seconds, 0)) / 60)} min

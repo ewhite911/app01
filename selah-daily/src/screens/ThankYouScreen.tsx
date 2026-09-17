@@ -5,6 +5,7 @@
  */
 import React from 'react';
 import { ImageBackground, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button } from '../components/ui';
 import { Tree } from '../components/Tree';
 import { memberSince, routineCount } from '../db';
@@ -15,12 +16,18 @@ import { colors, space } from '../theme';
 const bg = require('../../assets/images/amen.jpg');
 
 export default function ThankYouScreen({ navigation }: any) {
+  const insets = useSafeAreaInsets();
   const since = memberSince() ?? new Date();
 
   return (
     <ImageBackground source={bg} style={styles.bg}>
       <View style={styles.veil} />
-      <ScrollView contentContainerStyle={styles.inner}>
+      <ScrollView
+        contentContainerStyle={[
+          styles.inner,
+          { paddingTop: insets.top + space.lg, paddingBottom: insets.bottom + space.lg },
+        ]}
+      >
         <Text style={styles.title}>{thankYou.title}</Text>
         <Text style={styles.body}>{thankYou.body}</Text>
         <View style={{ height: space.lg }} />

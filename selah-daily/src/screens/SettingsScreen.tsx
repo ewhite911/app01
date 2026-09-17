@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Alert, Linking, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as FileSystem from 'expo-file-system/legacy';
 import * as Sharing from 'expo-sharing';
 import { Row } from '../components/ui';
@@ -14,6 +15,7 @@ import { colors, config, radius, space, type } from '../theme';
 
 export default function SettingsScreen({ navigation }: any) {
   const { active, trialEnd, refresh } = useSub();
+  const insets = useSafeAreaInsets();
   const saved = getSetting('reminder_time');
   const since = memberSince();
   const [enabled, setEnabled] = useState(!!saved);
@@ -71,7 +73,7 @@ export default function SettingsScreen({ navigation }: any) {
     : 'Not a member';
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
       <Text style={type.h1}>Settings</Text>
 
       <Text style={styles.section}>MEMBERSHIP</Text>
