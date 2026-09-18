@@ -1,0 +1,124 @@
+<!doctype html><meta charset="utf-8">
+<title>Selah Daily — the three minutes</title>
+<style>
+  /* Values copied from src/theme.ts and src/screens/TodayScreen.tsx. */
+  :root{--bg:#FFFDF9;--ink:#1B2233;--muted:#5E6577;--line:#E6E2DA;--navy:#1E2A44;--amber:#E9A84B;--white:#fff;--soft:#EDE9E1}
+  *{box-sizing:border-box;margin:0}
+  body{background:#2b2b31;font:14px -apple-system,"Segoe UI",Roboto,sans-serif;padding:28px;display:flex;gap:22px;flex-wrap:wrap;justify-content:center}
+  .phone{width:390px;height:844px;background:var(--bg);border-radius:44px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+  .safe{padding:59px 24px 24px;display:flex;flex-direction:column;gap:16px;flex:1}
+  .eyebrow{font-size:12px;letter-spacing:1.5px;font-weight:700;color:var(--muted)}
+  .h2{font-size:18px;font-weight:700;color:var(--ink)}
+  .body{font-size:16px;color:var(--ink)}
+  .small{font-size:13px;color:var(--muted)}
+  .intro{background:var(--soft);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px}
+  .irow{display:flex;gap:10px;align-items:flex-start}
+  .inum{width:24px;height:24px;border-radius:12px;background:var(--navy);color:#fff;font-size:13px;font-weight:700;text-align:center;line-height:24px;flex:none}
+  .btn{padding:14px 16px;border-radius:12px;text-align:center;font-size:16px;font-weight:700;background:var(--navy);color:#fff}
+  .btn.ghost{background:var(--soft);color:var(--navy)}
+  .btn.amber{background:var(--amber);color:var(--ink)}
+  .dots{display:flex;justify-content:center;gap:10px;margin-top:10px}
+  .d{width:8px;height:8px;border-radius:4px;background:var(--line)}
+  .d.past{background:var(--navy);opacity:.35}
+  .d.now{background:var(--navy);width:26px}
+  .ptitle{font-size:32px;font-weight:700;text-align:center;color:var(--ink);margin-top:16px}
+  .pline{font-size:13px;color:var(--muted);text-align:center;line-height:20px;padding:0 16px}
+  .still{text-align:center;margin-top:36px;padding:0 16px}
+  .squote{font-size:20px;line-height:30px;font-style:italic;color:var(--ink)}
+  .sref{color:var(--muted);font-size:12px;letter-spacing:1px;margin-top:10px}
+  .check{display:flex;gap:10px;align-items:center;padding:10px 0;border-bottom:.5px solid var(--line)}
+  .box{width:22px;height:22px;border-radius:6px;border:2px solid var(--navy);flex:none}
+  .box.on{background:var(--navy)}
+  .timer{font-size:30px;font-weight:700;text-align:center;color:var(--muted);margin-top:24px;font-variant-numeric:tabular-nums}
+  .hint{font-size:13px;color:var(--muted);text-align:center}
+  .spacer{flex:1;min-height:24px}
+  .thanks{margin-top:24px;background:var(--soft);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px}
+  .thead{font-size:11px;letter-spacing:1.5px;font-weight:700;color:var(--muted)}
+  .trow{display:flex;gap:10px;align-items:flex-start}
+  .tmark{color:#2E8B57;font-size:16px;font-weight:700;line-height:22px}
+  .cap{color:#bbb;text-align:center;font-size:12px;margin-top:8px;letter-spacing:.5px}
+  figure{margin:0}
+</style>
+<figure>
+<div class="phone"><div class="safe">
+  <div class="eyebrow">PRAY</div>
+  <div class="intro">
+    <div class="h2">Three minutes, in three parts.</div>
+    <div class="irow"><div class="inum">1</div><div><div class="body">Be still.</div><div class="small">Nothing to do for a minute. Let your shoulders down.</div></div></div>
+    <div class="irow"><div class="inum">2</div><div><div class="body">Bring your people.</div><div class="small">Tap the ones you carried in here.</div></div></div>
+    <div class="irow"><div class="inum">3</div><div><div class="body">Give thanks.</div><div class="small">One thing from today. It does not have to be a big one.</div></div></div>
+    <div class="small" style="margin-top:6px">Each one arrives on its own. A short buzz when it does.</div>
+  </div>
+  <div class="spacer"></div>
+  <div class="btn">Start 3 minutes</div>
+  <div class="btn ghost">Amen</div>
+</div></div>
+<figcaption class="cap">before starting</figcaption>
+</figure>
+
+<figure>
+<div class="phone"><div class="safe">
+  <div class="eyebrow">PRAY</div>
+  <div class="dots"><div class="d now"></div><div class="d"></div><div class="d"></div></div>
+  <div class="ptitle">Be still.</div>
+  <div class="pline">Nothing to do for a minute. Let your shoulders down.</div>
+  <div class="still">
+    <div class="squote">“Be still and know that I am God.”</div>
+    <div class="sref">Psalm 46:10 · BSB</div>
+  </div>
+  <div class="spacer"></div>
+  <div class="timer">2:41</div>
+  <div class="hint">Vibration only. Nothing leaves your phone.</div>
+  <div style="height:16px"></div>
+  <div class="btn ghost">Pause</div>
+  <div style="height:10px"></div>
+  <div class="btn amber">Amen</div>
+</div></div>
+<figcaption class="cap">minute 1</figcaption>
+</figure>
+
+<figure>
+<div class="phone"><div class="safe">
+  <div class="eyebrow">PRAY</div>
+  <div class="dots"><div class="d past"></div><div class="d now"></div><div class="d"></div></div>
+  <div class="ptitle">Bring your people.</div>
+  <div class="pline">Tap the ones you carried in here.</div>
+  <div style="margin-top:8px">
+    <div class="check"><div class="box on"></div><div class="body">Dad's scan on Thursday</div></div>
+    <div class="check"><div class="box on"></div><div class="body">The Millers next door</div></div>
+    <div class="check"><div class="box"></div><div class="body">Patience with Emma</div></div>
+    <div class="check"><div class="box"></div><div class="body">That the shop makes rent this month</div></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="timer">1:22</div>
+  <div class="hint">Vibration only. Nothing leaves your phone.</div>
+  <div style="height:16px"></div>
+  <div class="btn ghost">Pause</div>
+  <div style="height:10px"></div>
+  <div class="btn amber">Amen</div>
+</div></div>
+<figcaption class="cap">minute 2</figcaption>
+</figure>
+
+<figure>
+<div class="phone"><div class="safe">
+  <div class="eyebrow">PRAY</div>
+  <div class="dots"><div class="d past"></div><div class="d past"></div><div class="d now"></div></div>
+  <div class="ptitle">Give thanks.</div>
+  <div class="pline">One thing from today. It does not have to be a big one.</div>
+  <div class="thanks">
+    <div class="thead">ALREADY ANSWERED</div>
+    <div class="trow"><div class="tmark">&#10003;</div><div><div class="body">Mom's biopsy came back clear</div><div class="small">8/14/2026</div></div></div>
+    <div class="trow"><div class="tmark">&#10003;</div><div><div class="body">Jesse got the apprenticeship</div><div class="small">7/2/2026</div></div></div>
+    <div class="trow"><div class="tmark">&#10003;</div><div><div class="body">We found a church we can walk to</div><div class="small">5/19/2026</div></div></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="timer">0:14</div>
+  <div class="hint">Vibration only. Nothing leaves your phone.</div>
+  <div style="height:16px"></div>
+  <div class="btn ghost">Pause</div>
+  <div style="height:10px"></div>
+  <div class="btn amber">Amen</div>
+</div></div>
+<figcaption class="cap">minute 3</figcaption>
+</figure>

@@ -142,3 +142,56 @@ export const transfer = {
   importDone: 'Added.',
   importBad: 'That file is not a Selah Daily export.',
 };
+
+/**
+ * The three minutes.
+ *
+ * The routine used to be one countdown from 3:00 with the prayer list sitting
+ * under it, which is a stopwatch with a Bible verse on the front page. The app
+ * does one thing, so that one thing has to actually lead: three named minutes
+ * that arrive on their own. Same three minutes, same single feature.
+ *
+ * Nothing here scolds and nothing here counts. A minute that is missed is just
+ * a minute.
+ */
+export const pray = {
+  eyebrow: 'PRAY',
+
+  /** Shown before the timer starts, so the three minutes are known in advance. */
+  introTitle: 'Three minutes, in three parts.',
+  introNote: 'Each one arrives on its own. A short buzz when it does.',
+  start: 'Start 3 minutes',
+  skip: 'Amen',
+
+  phases: [
+    {
+      key: 'still',
+      title: 'Be still.',
+      line: 'Nothing to do for a minute. Let your shoulders down.',
+      quote: '“Be still and know that I am God.”',
+      ref: 'Psalm 46:10',
+    },
+    {
+      key: 'people',
+      title: 'Bring your people.',
+      line: 'Tap the ones you carried in here.',
+      empty: 'Nothing on your list yet. Say their names anyway.',
+    },
+    {
+      key: 'thanks',
+      title: 'Give thanks.',
+      line: 'One thing from today. It does not have to be a big one.',
+      empty: 'Nothing marked answered yet. Thank Him for today anyway.',
+    },
+  ] as { key: string; title: string; line: string; quote?: string; ref?: string; empty?: string }[],
+
+  /** Heading over the answered requests shown in the third minute. */
+  answered: 'Already answered',
+
+  pause: 'Pause',
+  resume: 'Resume',
+  amen: 'Amen',
+  /** Once the three minutes are up and the timer has stopped. */
+  over: 'That is the three minutes. Stay as long as you like.',
+  quiet: 'Vibration only. Nothing leaves your phone.',
+};

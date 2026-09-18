@@ -3,15 +3,18 @@ import { Alert, ImageBackground, Linking, ScrollView, StyleSheet, Text, View, Vi
 import { useFocusEffect } from '@react-navigation/native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button, Scrim } from '../components/ui';
-import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
+import { activePrayers, answeredPrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
 import { verseForToday } from '../verses';
 import { purchaseMode } from '../purchases';
 import { Tree } from '../components/Tree';
 import { useSub } from '../subContext';
+import { pray } from '../copy';
 import { colors, config, radius, space, type } from '../theme';
 
 type Step = 'verse' | 'pray' | 'amen';
-const TIMER_SECONDS = 180;
+/** One minute per part. The three parts are the three minutes. */
+const PHASE_SECONDS = 60;
+const TIMER_SECONDS = PHASE_SECONDS * pray.phases.length;
 
 // IMAGE SLOT: verse card backgrounds (see docs/이미지_프롬프트_실사감.md #01 and #02)
 const verseMorningBg = require('../../assets/images/verse_morning.jpg');
@@ -34,15 +37,35 @@ export default function TodayScreen({ navigation }: any) {
   const hour = new Date().getHours();
   const evening = override ?? (hour >= 18 || hour < 5);
   const [prayers, setPrayers] = useState<Prayer[]>([]);
+  const [answered, setAnswered] = useState<Prayer[]>([]);
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const [seconds, setSeconds] = useState(TIMER_SECONDS);
   const [running, setRunning] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const lastPhase = useRef(0);
+
+  const elapsed = TIMER_SECONDS - seconds;
+  const started = running || seconds < TIMER_SECONDS;
+  const phaseIndex = Math.min(Math.max(Math.floor(elapsed / PHASE_SECONDS), 0), pray.phases.length - 1);
+  const phase = pray.phases[phaseIndex];
+
+  // A short buzz when a part hands over, so the phone can stay face down.
+  useEffect(() => {
+    if (!started) {
+      lastPhase.current = 0;
+      return;
+    }
+    if (phaseIndex !== lastPhase.current) {
+      lastPhase.current = phaseIndex;
+      Vibration.vibrate(40);
+    }
+  }, [phaseIndex, started]);
 
   useFocusEffect(
     useCallback(() => {
       setDone(routineDoneToday());
       setPrayers(activePrayers());
+      setAnswered(answeredPrayers());
       setCount(routineCount());
     }, [])
   );
@@ -119,41 +142,100 @@ export default function TodayScreen({ navigation }: any) {
   if (step === 'pray') {
     return (
       <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
-        <Text style={styles.eyebrow}>PRAY</Text>
-        <Text style={styles.timer}>{mm}:{ss}</Text>
-        <Text style={styles.hint}>Vibration only. Nothing leaves your phone.</Text>
-        <View style={{ height: space.md }} />
-        {prayers.length === 0 ? (
-          <Text style={[type.small, { textAlign: 'center' }]}>
-            No prayer requests yet. Add some in the Prayers tab, or just pray.
-          </Text>
+        <Text style={styles.eyebrow}>{pray.eyebrow}</Text>
+
+        {!started ? (
+          <>
+            <View style={styles.intro}>
+              <Text style={type.h2}>{pray.introTitle}</Text>
+              {pray.phases.map((ph, i) => (
+                <View key={ph.key} style={styles.introRow}>
+                  <Text style={styles.introNum}>{i + 1}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text style={type.body}>{ph.title}</Text>
+                    <Text style={type.small}>{ph.line}</Text>
+                  </View>
+                </View>
+              ))}
+              <Text style={[type.small, styles.introNote]}>{pray.introNote}</Text>
+            </View>
+            <View style={{ flex: 1, minHeight: space.lg }} />
+            <Button title={pray.start} onPress={() => setRunning(true)} />
+            <Button title={pray.skip} onPress={finishPrayer} variant="ghost" />
+          </>
         ) : (
-          prayers.map((p) => {
-            const on = checked.has(p.id);
-            return (
-              <Pressable
-                key={p.id}
-                onPress={() => {
-                  const next = new Set(checked);
-                  on ? next.delete(p.id) : next.add(p.id);
-                  setChecked(next);
-                }}
-                style={styles.check}
-              >
-                <View style={[styles.box, on && styles.boxOn]} />
-                <Text style={[type.body, { flex: 1 }]}>{p.text}</Text>
-              </Pressable>
-            );
-          })
+          <>
+            <View style={styles.dots}>
+              {pray.phases.map((ph, i) => (
+                <View key={ph.key} style={[styles.dot, i === phaseIndex && styles.dotNow, i < phaseIndex && styles.dotPast]} />
+              ))}
+            </View>
+
+            <Text style={styles.phaseTitle}>{phase.title}</Text>
+            <Text style={styles.phaseLine}>{phase.line}</Text>
+
+            {phase.key === 'still' && (
+              <View style={styles.still}>
+                <Text style={styles.stillQuote}>{phase.quote}</Text>
+                <Text style={styles.stillRef}>{phase.ref} · BSB</Text>
+              </View>
+            )}
+
+            {phase.key === 'people' &&
+              (prayers.length === 0 ? (
+                <Text style={[type.small, { textAlign: 'center', marginTop: space.md }]}>{phase.empty}</Text>
+              ) : (
+                prayers.map((p) => {
+                  const on = checked.has(p.id);
+                  return (
+                    <Pressable
+                      key={p.id}
+                      onPress={() => {
+                        const next = new Set(checked);
+                        on ? next.delete(p.id) : next.add(p.id);
+                        setChecked(next);
+                      }}
+                      accessibilityRole="checkbox"
+                      accessibilityState={{ checked: on }}
+                      style={styles.check}
+                    >
+                      <View style={[styles.box, on && styles.boxOn]} />
+                      <Text style={[type.body, { flex: 1 }]}>{p.text}</Text>
+                    </Pressable>
+                  );
+                })
+              ))}
+
+            {phase.key === 'thanks' &&
+              (answered.length === 0 ? (
+                <Text style={[type.small, { textAlign: 'center', marginTop: space.md }]}>{phase.empty}</Text>
+              ) : (
+                <View style={styles.thanks}>
+                  <Text style={styles.thanksHead}>{pray.answered}</Text>
+                  {answered.map((p) => (
+                    <View key={p.id} style={styles.thanksRow}>
+                      <Text style={styles.thanksMark}>✓</Text>
+                      <View style={{ flex: 1 }}>
+                        <Text style={type.body}>{p.text}</Text>
+                        <Text style={type.small}>{new Date(p.answered_at!).toLocaleDateString()}</Text>
+                      </View>
+                    </View>
+                  ))}
+                </View>
+              ))}
+
+            <View style={{ flex: 1, minHeight: space.lg }} />
+            <Text style={styles.timer}>{mm}:{ss}</Text>
+            <Text style={styles.hint}>{seconds <= 0 ? pray.over : pray.quiet}</Text>
+
+            <View style={{ height: space.md }} />
+            {seconds > 0 && (
+              <Button title={running ? pray.pause : pray.resume} onPress={() => setRunning(!running)} variant="ghost" />
+            )}
+            <View style={{ height: space.sm }} />
+            <Button title={pray.amen} onPress={finishPrayer} variant="amber" />
+          </>
         )}
-        <View style={{ height: space.lg }} />
-        {!running && seconds === TIMER_SECONDS ? (
-          <Button title="Start 3 minutes" onPress={() => setRunning(true)} />
-        ) : (
-          <Button title={running ? 'Pause' : 'Resume'} onPress={() => setRunning(!running)} variant="ghost" />
-        )}
-        <View style={{ height: space.sm }} />
-        <Button title="Amen" onPress={finishPrayer} variant="amber" />
       </ScrollView>
     );
   }
@@ -200,7 +282,33 @@ const styles = StyleSheet.create({
   veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.25)' },
   ref: { color: colors.amber, fontWeight: '700', fontSize: 12, letterSpacing: 1, marginBottom: space.sm },
   hint: { ...type.small, textAlign: 'center' },
-  timer: { fontSize: 64, fontWeight: '800', textAlign: 'center', color: colors.navy, fontVariant: ['tabular-nums'] },
+  timer: { fontSize: 30, fontWeight: '700', textAlign: 'center', color: colors.muted, fontVariant: ['tabular-nums'], marginTop: space.lg },
+
+  // Before the timer starts: the three minutes, named in advance.
+  intro: { backgroundColor: colors.soft, borderRadius: radius.lg, padding: space.md, gap: space.sm },
+  introRow: { flexDirection: 'row', alignItems: 'flex-start', gap: space.sm },
+  introNum: {
+    width: 24, height: 24, borderRadius: 12, textAlign: 'center', lineHeight: 24,
+    backgroundColor: colors.navy, color: colors.white, fontSize: 13, fontWeight: '700', overflow: 'hidden',
+  },
+  introNote: { marginTop: space.xs },
+
+  // Which minute is running. Three dots, no numbers, nothing to read.
+  dots: { flexDirection: 'row', justifyContent: 'center', gap: space.sm, marginTop: space.sm },
+  dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: colors.line },
+  dotPast: { backgroundColor: colors.navy, opacity: 0.35 },
+  dotNow: { backgroundColor: colors.navy, width: 26 },
+
+  phaseTitle: { fontSize: 32, fontWeight: '700', textAlign: 'center', color: colors.ink, marginTop: space.md },
+  phaseLine: { ...type.small, textAlign: 'center', lineHeight: 20, paddingHorizontal: space.md },
+
+  still: { alignItems: 'center', marginTop: space.xl, paddingHorizontal: space.md },
+  thanks: { marginTop: space.lg, backgroundColor: colors.soft, borderRadius: radius.lg, padding: space.md, gap: space.sm },
+  thanksHead: { fontSize: 11, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
+  thanksRow: { flexDirection: 'row', alignItems: 'flex-start', gap: space.sm },
+  thanksMark: { color: colors.green, fontSize: 16, fontWeight: '700', lineHeight: 22 },
+  stillQuote: { ...type.verse, color: colors.ink, textAlign: 'center' },
+  stillRef: { color: colors.muted, fontSize: 12, letterSpacing: 1, marginTop: space.sm },
   check: { flexDirection: 'row', alignItems: 'center', gap: space.sm, paddingVertical: space.sm, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.line },
   box: { width: 22, height: 22, borderRadius: 6, borderWidth: 2, borderColor: colors.navy },
   boxOn: { backgroundColor: colors.navy },

@@ -43,6 +43,19 @@ export function activePrayers(): Prayer[] {
   );
 }
 
+/**
+ * The most recently answered requests, newest first.
+ *
+ * Used by the third minute, where "give thanks" needs something to be thankful
+ * for on the screen rather than only the instruction to be.
+ */
+export function answeredPrayers(limit = 3): Prayer[] {
+  return db.getAllSync<Prayer>(
+    'SELECT * FROM prayers WHERE answered_at IS NOT NULL ORDER BY answered_at DESC LIMIT ?',
+    [limit]
+  );
+}
+
 export function addPrayer(text: string) {
   db.runSync('INSERT INTO prayers (text, created_at) VALUES (?, ?)', [
     text.trim(),
