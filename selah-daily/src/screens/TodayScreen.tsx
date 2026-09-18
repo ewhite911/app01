@@ -121,7 +121,7 @@ export default function TodayScreen({ navigation }: any) {
           imageStyle={styles.cardImg}
         >
           <View style={styles.veil} />
-          <Scrim />
+          <Scrim heightRatio={0.55} max={0.7} />
           <Text style={styles.ref}>{verse.ref} · BSB</Text>
           <Text style={type.verse}>“{verse.text}”</Text>
         </ImageBackground>
@@ -140,12 +140,16 @@ export default function TodayScreen({ navigation }: any) {
   }
 
   if (step === 'pray') {
+    // The timer and the buttons live outside the scroll view. A long prayer
+    // list used to push Amen off the bottom of the screen, which put the one
+    // button the whole routine ends on somewhere you had to go looking for.
     return (
-      <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
+      <View style={[styles.prayRoot, { paddingTop: insets.top + space.lg, paddingBottom: insets.bottom + space.md }]}>
         <Text style={styles.eyebrow}>{pray.eyebrow}</Text>
 
         {!started ? (
           <>
+            <ScrollView contentContainerStyle={styles.prayScroll}>
             <View style={styles.intro}>
               <Text style={type.h2}>{pray.introTitle}</Text>
               {pray.phases.map((ph, i) => (
@@ -159,12 +163,16 @@ export default function TodayScreen({ navigation }: any) {
               ))}
               <Text style={[type.small, styles.introNote]}>{pray.introNote}</Text>
             </View>
-            <View style={{ flex: 1, minHeight: space.lg }} />
-            <Button title={pray.start} onPress={() => setRunning(true)} />
-            <Button title={pray.skip} onPress={finishPrayer} variant="ghost" />
+            </ScrollView>
+            <View style={styles.prayFoot}>
+              <Button title={pray.start} onPress={() => setRunning(true)} />
+              <View style={{ height: space.sm }} />
+              <Button title={pray.skip} onPress={finishPrayer} variant="ghost" />
+            </View>
           </>
         ) : (
           <>
+            <ScrollView contentContainerStyle={styles.prayScroll}>
             <View style={styles.dots}>
               {pray.phases.map((ph, i) => (
                 <View key={ph.key} style={[styles.dot, i === phaseIndex && styles.dotNow, i < phaseIndex && styles.dotPast]} />
@@ -224,19 +232,20 @@ export default function TodayScreen({ navigation }: any) {
                 </View>
               ))}
 
-            <View style={{ flex: 1, minHeight: space.lg }} />
-            <Text style={styles.timer}>{mm}:{ss}</Text>
-            <Text style={styles.hint}>{seconds <= 0 ? pray.over : pray.quiet}</Text>
-
-            <View style={{ height: space.md }} />
-            {seconds > 0 && (
-              <Button title={running ? pray.pause : pray.resume} onPress={() => setRunning(!running)} variant="ghost" />
-            )}
-            <View style={{ height: space.sm }} />
-            <Button title={pray.amen} onPress={finishPrayer} variant="amber" />
+            </ScrollView>
+            <View style={styles.prayFoot}>
+              <Text style={styles.timer}>{mm}:{ss}</Text>
+              <Text style={styles.hint}>{seconds <= 0 ? pray.over : pray.quiet}</Text>
+              <View style={{ height: space.md }} />
+              {seconds > 0 && (
+                <Button title={running ? pray.pause : pray.resume} onPress={() => setRunning(!running)} variant="ghost" />
+              )}
+              <View style={{ height: space.sm }} />
+              <Button title={pray.amen} onPress={finishPrayer} variant="amber" />
+            </View>
           </>
         )}
-      </ScrollView>
+      </View>
     );
   }
 
@@ -275,14 +284,17 @@ export default function TodayScreen({ navigation }: any) {
 
 const styles = StyleSheet.create({
   container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg, flexGrow: 1 },
+  prayRoot: { flex: 1, paddingHorizontal: space.lg, backgroundColor: colors.bg },
+  prayScroll: { paddingBottom: space.md, flexGrow: 1 },
+  prayFoot: { paddingTop: space.sm },
   treeCard: { alignItems: 'center', marginTop: 'auto', paddingTop: space.lg, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.line },
   eyebrow: { fontSize: 12, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
-  card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 300, justifyContent: 'flex-end' },
+  card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 340, justifyContent: 'flex-end' },
   cardImg: { borderRadius: radius.lg },
-  veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.25)' },
+  veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.12)' },
   ref: { color: colors.amber, fontWeight: '700', fontSize: 12, letterSpacing: 1, marginBottom: space.sm },
   hint: { ...type.small, textAlign: 'center' },
-  timer: { fontSize: 30, fontWeight: '700', textAlign: 'center', color: colors.muted, fontVariant: ['tabular-nums'], marginTop: space.lg },
+  timer: { fontSize: 30, fontWeight: '700', textAlign: 'center', color: colors.muted, fontVariant: ['tabular-nums'] },
 
   // Before the timer starts: the three minutes, named in advance.
   intro: { backgroundColor: colors.soft, borderRadius: radius.lg, padding: space.md, gap: space.sm },

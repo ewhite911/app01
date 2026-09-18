@@ -1,0 +1,3 @@
+# Raw frames and recordings from capture.js. The composed sheet and the video
+# it copies out (real_screens.png, three_minutes.webm) are kept; these are not.
+real/
