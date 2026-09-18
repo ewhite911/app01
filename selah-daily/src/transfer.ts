@@ -83,6 +83,12 @@ export type TransferPayload = {
   routine_log: { day: string; completed_at: string }[];
 };
 
+export class TransferError extends Error {
+  constructor(public kind: 'not-found' | 'bad-code' | 'network' | 'setup') {
+    super(kind);
+  }
+}
+
 async function rpc<T>(fn: string, body: Record<string, unknown>): Promise<T> {
   const key = config.supabasePublishableKey;
   const headers: Record<string, string> = {
@@ -100,7 +106,15 @@ async function rpc<T>(fn: string, body: Record<string, unknown>): Promise<T> {
     headers,
     body: JSON.stringify(body),
   });
-  if (!res.ok) throw new Error(`transfer/${fn} ${res.status}`);
+  if (!res.ok) {
+    // 404 means the function is not there, 401/403 that the key was refused.
+    // Both are setup, not connectivity, and saying "check your connection" for
+    // either sends whoever is installing this looking in the wrong place.
+    if (res.status === 404 || res.status === 401 || res.status === 403) {
+      throw new TransferError('setup');
+    }
+    throw new TransferError('network');
+  }
   return (await res.json()) as T;
 }
 
@@ -127,12 +141,6 @@ export async function createTransfer(): Promise<{ code: string; count: number }>
   return { code, count: payload.prayers.length };
 }
 
-export class TransferError extends Error {
-  constructor(public kind: 'not-found' | 'bad-code' | 'network') {
-    super(kind);
-  }
-}
-
 /**
  * Claim a code: fetch the sealed blob, decrypt it here, and add everything to
  * this phone's list. Nothing already on this phone is removed — a transfer only
@@ -145,8 +153,8 @@ export async function claimTransfer(input: string): Promise<{ prayers: number; d
   let blob: string | null;
   try {
     blob = await rpc<string | null>('claim_transfer', { p_id: await rowIdFor(raw) });
-  } catch {
-    throw new TransferError('network');
+  } catch (e) {
+    throw e instanceof TransferError ? e : new TransferError('network');
   }
   if (!blob) throw new TransferError('not-found');
 

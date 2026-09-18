@@ -32,8 +32,9 @@ export default function TransferScreen({ navigation }: any) {
       setCode(c);
       setMode('send');
       if (count === 0) Alert.alert(transfer.emptyTitle, transfer.emptyBody);
-    } catch {
-      Alert.alert(transfer.failTitle, transfer.networkBody);
+    } catch (e) {
+      const kind = e instanceof TransferError ? e.kind : 'network';
+      Alert.alert(transfer.failTitle, kind === 'setup' ? transfer.setupBody : transfer.networkBody);
     } finally {
       setBusy(false);
     }
@@ -50,7 +51,13 @@ export default function TransferScreen({ navigation }: any) {
       const kind = e instanceof TransferError ? e.kind : 'network';
       Alert.alert(
         transfer.failTitle,
-        kind === 'not-found' ? transfer.notFoundBody : kind === 'bad-code' ? transfer.badCodeBody : transfer.networkBody
+        kind === 'not-found'
+          ? transfer.notFoundBody
+          : kind === 'bad-code'
+          ? transfer.badCodeBody
+          : kind === 'setup'
+          ? transfer.setupBody
+          : transfer.networkBody
       );
     } finally {
       setBusy(false);

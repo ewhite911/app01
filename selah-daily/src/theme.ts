@@ -37,7 +37,7 @@ export const config = {
   supportEmail: 'support@example.com',
   // Phone-to-phone transfer. Leave either blank and the feature hides itself:
   // a build with no server configured never contacts one. See supabase/README.md.
-  supabaseUrl: '',
+  supabaseUrl: 'https://gxkkdcsufummkgvzurkh.supabase.co',
   /**
    * The publishable key, which is meant to ship inside the app — anyone can read
    * it out of the APK, and the schema is built on that assumption: the table is

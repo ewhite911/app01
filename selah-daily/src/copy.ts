@@ -115,6 +115,12 @@ export const transfer = {
     'Start again on the old phone for a fresh code.',
   badCodeBody: 'Check the code on the old phone and type it again.',
   networkBody: 'Could not reach the transfer service. Check the connection and try again.',
+  // Not the person's problem — the build is misconfigured. Say so, so nobody
+  // spends the evening restarting their router.
+  setupBody:
+    'The transfer service turned this phone away. This is a setup problem in the app, not something ' +
+    'you did — the database functions may not be installed, or the key in this build may be wrong. ' +
+    'Settings has a file export that works with no server at all.',
 
   emptyTitle: 'Nothing to carry yet',
   emptyBody: 'This phone has no prayers on it. The code still works, it just has nothing in it.',
