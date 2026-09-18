@@ -1,0 +1,179 @@
+<!doctype html><meta charset="utf-8">
+<style>
+:root{
+  --bg:#FFFDF9; --ink:#1B2233; --muted:#5E6577; --line:#E6E2DA;
+  --navy:#1E2A44; --navyDeep:#141C30; --amber:#E9A84B; --green:#2E8B57;
+  --yt:#FF0000; --white:#fff; --soft:#EDE9E1;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#2b2b2b;font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:28px;display:flex;gap:26px;align-items:flex-start}
+.wrap{width:390px}
+.cap{color:#ddd;font-size:13px;font-weight:700;letter-spacing:.4px;margin-bottom:8px}
+.phone{width:390px;height:844px;border-radius:26px;overflow:hidden;position:relative;background:var(--bg);box-shadow:0 8px 30px rgba(0,0,0,.5)}
+.status{height:44px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 22px 6px;font-size:13px;font-weight:600;color:var(--ink)}
+.status.dark{color:#fff}
+.body{padding:24px;display:flex;flex-direction:column;gap:16px;position:absolute;inset:44px 0 78px 0}
+.eyebrow{font-size:12px;letter-spacing:1.5px;font-weight:700;color:var(--muted)}
+.card{border-radius:18px;overflow:hidden;padding:24px;min-height:300px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;background-size:cover;background-position:center}
+.veil{position:absolute;inset:0;background:rgba(20,26,44,.25)}
+.scrim{position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to bottom,rgba(20,26,44,0) 0%,rgba(20,26,44,.12) 35%,rgba(20,26,44,.42) 65%,rgba(20,26,44,.92) 100%)}
+.ref{position:relative;color:var(--amber);font-weight:700;font-size:12px;letter-spacing:1px;margin-bottom:10px}
+.verse{position:relative;font-size:20px;line-height:30px;color:#fff;font-style:italic}
+.hint{font-size:13px;color:var(--muted);text-align:center}
+.btn{padding:14px 16px;border-radius:12px;text-align:center;font-size:16px;font-weight:700}
+.amber{background:var(--amber);color:var(--ink)}
+.navy{background:var(--navy);color:#fff}
+.ghost{background:var(--soft);color:var(--navy)}
+.ytb{background:var(--yt);color:#fff}
+.treeCard{align-items:center;display:flex;flex-direction:column;margin-top:auto;padding-top:24px;border-top:1px solid var(--line)}
+.tree{position:relative;overflow:hidden}
+.grid{position:absolute;left:0;bottom:0}
+.tname{font-size:15px;font-weight:700;text-align:center;margin-top:10px}
+.tcap{font-size:12px;text-align:center}
+.tabs{position:absolute;left:0;right:0;bottom:0;height:78px;background:#fff;border-top:1px solid var(--line);display:flex}
+.tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:11px;color:var(--muted)}
+.tab.on{color:var(--navy)}
+.tab .ic{font-size:18px}
+.amen{position:absolute;inset:0;background-size:cover;background-position:center}
+.amenVeil{position:absolute;inset:0;background:rgba(15,12,30,.55)}
+.amenInner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;gap:10px}
+.amenBig{font-size:48px;font-style:italic;font-weight:600;color:#fff;text-align:center}
+.amenSub{color:#fff;opacity:.85;text-align:center;font-size:14px}
+.amenNote{color:#fff;opacity:.8;font-size:12px;text-align:center}
+h1{font-size:26px;font-weight:800;color:var(--ink);line-height:1.25}
+.lede{font-size:16px;color:var(--muted);line-height:1.5}
+.priceBox{border:2px solid var(--navy);border-radius:18px;padding:24px;text-align:center}
+.price{font-size:32px;font-weight:800;color:var(--navy)}
+.small{font-size:13px;color:var(--muted)}
+.pledge{border-left:3px solid var(--amber);padding-left:10px;font-size:13px;color:var(--ink);line-height:1.45}
+.legal{font-size:11px;color:var(--muted);line-height:1.45;margin-top:16px}
+.ty{position:absolute;inset:0;background-size:cover;background-position:center}
+.tyVeil{position:absolute;inset:0;background:rgba(15,12,30,.62)}
+.tyInner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+.tyTitle{font-size:40px;font-weight:700;font-style:italic;color:#fff;text-align:center}
+.tyBody{font-size:16px;line-height:25px;color:#fff;opacity:.92;text-align:center;margin-top:16px}
+.plaque{border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:4px 16px;color:#fff;opacity:.9;font-size:12px;margin-top:16px}
+</style>
+<script>
+const IMG='file:///home/user/app01/selah-daily/assets/images/';
+const TREE='file:///home/user/app01/selah-daily/assets/tree/';
+const KEYS=['seed','sprout','seedling','young','water'];
+const BOX={seed:.2,sprout:.34,seedling:.56,young:.84,water:1};
+function plate(size,index,tone,member){
+  const k=KEYS[index]; if(k==='water') return null;
+  const f=(member&&k==='young')?k+'_fruit':k;
+  const src=TREE+f+(tone==='dark'?'_dark':'')+'.png';
+  return `<div style="position:relative;overflow:hidden;width:${size}px;height:${size*BOX[k]}px">`
+       + `<img src="${src}" style="position:absolute;left:0;bottom:${-size*0.14}px;width:${size}px;height:${size}px;object-fit:contain">`
+       + `</div>`;
+}
+const RATIO=[.34,.46,.62,.86,1];
+const leaf='#3E8E5A', leafDeep='#2E6B46', stem='#6B5A3E', bark='#5A4A34';
+function tree(size, index, tone){
+  const u=size/100, h=size*RATIO[index];
+  const soil = tone==='dark' ? 'rgba(255,255,255,0.22)' : '#EDE9E1';
+  let inner='';
+  inner += `<div style="position:absolute;left:${8*u}px;right:${8*u}px;top:${82*u}px;height:${4*u}px;border-radius:${2*u}px;background:${soil}"></div>`;
+  if(index===0) inner += `<div style="position:absolute;width:${7*u}px;height:${5*u}px;border-radius:${3.5*u}px;left:${46.5*u}px;top:${78*u}px;background:#E9A84B"></div>`;
+  if(index>=1){
+    const top = index>=3?44:index===2?52:64;
+    inner += `<div style="position:absolute;left:${48.5*u}px;width:${3.6*u}px;top:${top*u}px;bottom:${16*u}px;border-radius:${1.5*u}px;background:${index>=3?bark:stem}"></div>`;
+  }
+  const L=(sz,side,top)=>{const w=sz*u,h=w*.55,a=`${h}px`,b=`${h*.15}px`;
+    const br = side===1?`${a} ${b} ${a} ${b}`:`${b} ${a} ${b} ${a}`;
+    return `<div style="position:absolute;top:${top*u}px;left:${side===1?49*u:(51-sz)*u}px;width:${w}px;height:${h}px;background:${side===1?leaf:leafDeep};border-radius:${br};transform:rotate(${side===1?-18:18}deg)"></div>`};
+  if(index===1) inner += L(16,1,62)+L(16,-1,68);
+  if(index===2) inner += L(20,1,50)+L(20,-1,58)+L(16,1,68);
+  return `<div class="tree" style="width:${size}px;height:${h}px"><div class="grid" style="width:${size}px;height:${size}px">${inner}</div></div>`;
+}
+const STAGES=[['A seed','Small enough to lose in your hand.','3 more days to a sprout.'],
+              ['A sprout','Something has broken through.','4 more days to a seedling.']];
+window.addEventListener('DOMContentLoaded',()=>{
+  document.querySelectorAll('[data-tree]').forEach(el=>{
+    const [size,index,tone]=el.dataset.tree.split(',');
+    const i=+index, s=+size;
+    const fg = tone==='dark'?'#fff':'#1B2233', sub = tone==='dark'?'rgba(255,255,255,.85)':'#5E6577';
+    const full = el.dataset.detail !== 'name';
+    el.innerHTML = (plate(s,i,tone,false) || tree(s,i,tone))
+      + `<div class="tname" style="color:${fg}">${STAGES[i][0]}</div>`
+      + (full ? `<div class="tcap" style="color:${sub}">${STAGES[i][1]}</div>`
+              + `<div class="tcap" style="color:${sub};margin-top:2px">${STAGES[i][2]}</div>` : '');
+  });
+  document.querySelectorAll('[data-bg]').forEach(el=>{ el.style.backgroundImage=`url('${IMG}${el.dataset.bg}')`; });
+});
+</script>
+
+<div class="wrap"><div class="cap">1 · Today — morning card</div><div class="phone">
+  <div class="status"><span>9:41</span><span>▮▮▮ ◗ 82</span></div>
+  <div class="body">
+    <div class="eyebrow">TODAY</div>
+    <div class="card" data-bg="verse_morning.jpg">
+      <div class="veil"></div><div class="scrim"></div>
+      <div class="ref">PSALM 37:23 · BSB</div>
+      <div class="verse">“The steps of a man are ordered by the LORD who takes delight in his journey.”</div>
+    </div>
+    <div class="hint">Read it slowly. Once is enough.</div>
+    <div class="btn amber">I've read it</div>
+    <div class="treeCard" data-tree="150,0,light" data-detail="name"></div>
+  </div>
+  <div class="tabs"><div class="tab on"><span class="ic">☀</span>Today</div><div class="tab"><span class="ic">♡</span>Prayers</div><div class="tab"><span class="ic">⚙</span>Settings</div></div>
+</div></div>
+
+<div class="wrap"><div class="cap">2 · Today — evening card (hold to flip)</div><div class="phone">
+  <div class="status"><span>19:20</span><span>▮▮▮ ◗ 74</span></div>
+  <div class="body">
+    <div class="eyebrow">TODAY</div>
+    <div class="card" data-bg="verse_evening.jpg">
+      <div class="veil"></div><div class="scrim"></div>
+      <div class="ref">PSALM 37:23 · BSB</div>
+      <div class="verse">“The steps of a man are ordered by the LORD who takes delight in his journey.”</div>
+    </div>
+    <div class="hint">Read it slowly. Once is enough.<br>[test: hold the card to see the morning image]</div>
+    <div class="btn amber">I've read it</div>
+    <div class="treeCard" data-tree="150,0,light" data-detail="name"></div>
+  </div>
+  <div class="tabs"><div class="tab on"><span class="ic">☀</span>Today</div><div class="tab"><span class="ic">♡</span>Prayers</div><div class="tab"><span class="ic">⚙</span>Settings</div></div>
+</div></div>
+
+<div class="wrap"><div class="cap">3 · Amen</div><div class="phone">
+  <div class="amen" data-bg="amen.jpg"></div><div class="amenVeil"></div>
+  <div class="status dark"><span>9:44</span><span>▮▮▮ ◗ 82</span></div>
+  <div class="amenInner">
+    <div class="amenBig">Amen.</div>
+    <div class="amenSub">3 prayers · 3 min</div>
+    <div style="height:14px"></div>
+    <div data-tree="150,1,dark" style="display:flex;flex-direction:column;align-items:center"></div>
+    <div style="height:14px"></div>
+    <div class="btn ytb" style="align-self:stretch">▶&nbsp; Close with worship on YouTube</div>
+    <div class="amenNote">Opens the YouTube app. Music plays there, not here.</div>
+    <div class="btn ghost" style="align-self:stretch;margin-top:8px">Done for today</div>
+  </div>
+</div></div>
+
+<div class="wrap"><div class="cap">4 · Membership (variant A)</div><div class="phone">
+  <div class="status"><span>9:41</span><span>▮▮▮ ◗ 82</span></div>
+  <div class="body">
+    <h1>Your prayers are free. Keeping it that way costs $3.99 a month.</h1>
+    <div class="lede">No ads, no investors, no account. Members are the only thing that keeps this app running — and keeps it free for everyone who can't pay.</div>
+    <div class="priceBox"><div class="price">$3.99 / month</div><div class="small">7-day free trial · cancel any time</div></div>
+    <div class="pledge">Trial ends <b>9/25/2026</b>. We remind you 2 days before, and you can add it to your calendar. Cancel in Settings → Membership. No questions asked.</div>
+    <div class="btn amber">Become a member · $3.99/month</div>
+    <div class="small" style="text-align:center">Unlimited requests and answered-prayer history included. Cancel any time.</div>
+    <div class="btn ghost">Not now</div>
+    <div class="legal">Payment is charged to your store account at the end of the trial. The membership renews monthly at $3.99 / month unless cancelled at least 24 hours before the period ends.<br>[Test build: purchases are simulated locally.]</div>
+  </div>
+</div></div>
+
+<div class="wrap"><div class="cap">5 · Thank you (after joining)</div><div class="phone">
+  <div class="ty" data-bg="amen.jpg"></div><div class="tyVeil"></div>
+  <div class="status dark"><span>9:45</span><span>▮▮▮ ◗ 82</span></div>
+  <div class="tyInner">
+    <div class="tyTitle">Thank you.</div>
+    <div class="tyBody">This app has no ads, no investors, and one person making it. Members like you are the reason it exists and stays free for everyone else.</div>
+    <div style="height:24px"></div>
+    <div data-tree="140,1,dark" style="display:flex;flex-direction:column;align-items:center"></div>
+    <div class="plaque">Member since 9/18/2026</div>
+    <div style="height:36px"></div>
+    <div class="btn amber" style="align-self:stretch">Back to today</div>
+  </div>
+</div></div>

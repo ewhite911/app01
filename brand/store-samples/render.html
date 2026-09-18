@@ -1,0 +1,104 @@
+<!doctype html><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#111;font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.sheet{width:1080px;height:1920px;position:relative;overflow:hidden;background:#1F2D4D;color:#fff}
+.sheet + .sheet{margin-top:40px}
+.pad{padding:92px 80px 0}
+.head{font-family:Georgia,"Times New Roman",serif;font-size:76px;line-height:1.14;letter-spacing:-.5px}
+.sub{font-size:34px;line-height:1.45;color:#C9D2E4;margin-top:28px}
+.amber{color:#F2B441}
+.rule{width:96px;height:6px;background:#F2B441;border-radius:3px;margin:38px 0 0}
+.frame{position:absolute;left:50%;transform:translateX(-50%);bottom:-60px;width:620px;height:1240px;border-radius:52px;background:#0d1322;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.screen{width:100%;height:100%;border-radius:40px;overflow:hidden;background:#FFFDF9;position:relative}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.photoveil{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(31,45,77,.30) 0%,rgba(31,45,77,.55) 46%,rgba(31,45,77,.96) 100%)}
+.pcontent{position:absolute;left:0;right:0;bottom:0;padding:110px 80px 120px}
+/* miniature of the real Today screen */
+.mini{position:absolute;inset:0;background:#FFFDF9;display:flex;flex-direction:column}
+.mst{height:56px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 30px 8px;font-size:17px;font-weight:600;color:#1B2233}
+.mbody{flex:1;padding:32px;display:flex;flex-direction:column;gap:21px}
+.meye{font-size:16px;letter-spacing:2px;font-weight:700;color:#5E6577}
+.mcard{border-radius:24px;overflow:hidden;padding:32px;height:400px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;background-size:cover;background-position:center}
+.mveil{position:absolute;inset:0;background:rgba(20,26,44,.25)}
+.mscrim{position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to bottom,rgba(20,26,44,0),rgba(20,26,44,.12) 35%,rgba(20,26,44,.42) 65%,rgba(20,26,44,.92))}
+.mref{position:relative;color:#E9A84B;font-weight:700;font-size:16px;letter-spacing:1.4px;margin-bottom:13px}
+.mverse{position:relative;font-size:27px;line-height:40px;color:#fff;font-style:italic}
+.mhint{font-size:17px;color:#5E6577;text-align:center}
+.mbtn{padding:19px;border-radius:16px;text-align:center;font-size:21px;font-weight:700;background:#E9A84B;color:#1B2233}
+.mtree{margin-top:auto;padding-top:32px;border-top:1px solid #E6E2DA;display:flex;flex-direction:column;align-items:center}
+.mtabs{height:104px;background:#fff;border-top:1px solid #E6E2DA;display:flex}
+.mtab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:15px;color:#5E6577}
+.mtab.on{color:#1E2A44}
+.mtab .ic{font-size:24px}
+.tname{font-size:20px;font-weight:700;color:#1B2233;margin-top:13px}
+.tcap{font-size:16px;color:#5E6577}
+</style>
+<script>
+const IMG='file:///home/user/app01/selah-daily/assets/images/';
+const BR='file:///home/user/app01/brand/';
+const RATIO=[.34,.46,.62,.86,1];
+const leaf='#3E8E5A',leafDeep='#2E6B46',stem='#6B5A3E';
+function tree(size,index){
+  const u=size/100,h=size*RATIO[index];let inner='';
+  inner+=`<div style="position:absolute;left:${8*u}px;right:${8*u}px;top:${82*u}px;height:${4*u}px;border-radius:${2*u}px;background:#EDE9E1"></div>`;
+  if(index===0)inner+=`<div style="position:absolute;width:${7*u}px;height:${5*u}px;border-radius:${3.5*u}px;left:${46.5*u}px;top:${78*u}px;background:#E9A84B"></div>`;
+  if(index>=1)inner+=`<div style="position:absolute;left:${48.5*u}px;width:${3.6*u}px;top:${64*u}px;bottom:${16*u}px;border-radius:${1.8*u}px;background:${stem}"></div>`;
+  const L=(sz,side,top)=>{const w=sz*u,hh=w*.55,a=`${hh}px`,b=`${hh*.15}px`;
+    return `<div style="position:absolute;top:${top*u}px;left:${side===1?49*u:(51-sz)*u}px;width:${w}px;height:${hh}px;background:${side===1?leaf:leafDeep};border-radius:${side===1?`${a} ${b} ${a} ${b}`:`${b} ${a} ${b} ${a}`};transform:rotate(${side===1?-18:18}deg)"></div>`};
+  if(index===1)inner+=L(16,1,62)+L(16,-1,68);
+  return `<div style="position:relative;overflow:hidden;width:${size}px;height:${h}px"><div style="position:absolute;left:0;bottom:0;width:${size}px;height:${size}px">${inner}</div></div>`;
+}
+addEventListener('DOMContentLoaded',()=>{
+  document.querySelectorAll('[data-bg]').forEach(e=>e.style.backgroundImage=`url('${IMG}${e.dataset.bg}')`);
+  document.querySelectorAll('[data-brand]').forEach(e=>e.style.backgroundImage=`url('${BR}${e.dataset.brand}')`);
+  document.querySelectorAll('[data-tree]').forEach(e=>{const [s,i]=e.dataset.tree.split(',');
+    e.innerHTML=tree(+s,+i)+`<div class="tname">A mustard seed</div><div class="tcap">The smallest of all seeds.</div>`;});
+});
+</script>
+
+<!-- P1 : headline + device -->
+<div class="sheet">
+  <div class="pad">
+    <div class="head">One verse.<br>Your prayers.<br><span class="amber">Three minutes.</span></div>
+    <div class="rule"></div>
+    <div class="sub">That is the whole app. No feed to scroll.</div>
+  </div>
+  <div class="frame"><div class="screen"><div class="mini">
+    <div class="mst"><span>9:41</span><span>▮▮▮ ◗</span></div>
+    <div class="mbody">
+      <div class="meye">TODAY</div>
+      <div class="mcard" data-bg="verse_morning.jpg">
+        <div class="mveil"></div><div class="mscrim"></div>
+        <div class="mref">PSALM 37:23 · BSB</div>
+        <div class="mverse">“The steps of a man are ordered by the LORD who takes delight in his journey.”</div>
+      </div>
+      <div class="mhint">Read it slowly. Once is enough.</div>
+      <div class="mbtn">I've read it</div>
+      <div class="mtree" data-tree="180,0"></div>
+    </div>
+    <div class="mtabs"><div class="mtab on"><span class="ic">☀</span>Today</div><div class="mtab"><span class="ic">♡</span>Prayers</div><div class="mtab"><span class="ic">⚙</span>Settings</div></div>
+  </div></div></div>
+</div>
+
+<!-- P5 : photo panel with a person -->
+<div class="sheet">
+  <div class="photo" data-brand="feature_truck_16x9.jpg"></div>
+  <div class="photoveil"></div>
+  <div class="pcontent">
+    <div class="head">Before the day<br>starts.</div>
+    <div class="rule"></div>
+    <div class="sub">In the truck, on the steps, at the kitchen counter.<br>Wherever you already stop for a minute.</div>
+  </div>
+</div>
+
+<!-- P6 : privacy claim over a person -->
+<div class="sheet">
+  <div class="photo" data-brand="landing_steps_16x9.jpg" style="background-position:78% center;filter:brightness(1.25) contrast(1.05)"></div>
+  <div class="photoveil" style="background:linear-gradient(to bottom,rgba(31,45,77,.12) 0%,rgba(31,45,77,.35) 42%,rgba(31,45,77,.94) 100%)"></div>
+  <div class="pcontent">
+    <div class="head">No account.<br><span class="amber">No ads.</span></div>
+    <div class="rule"></div>
+    <div class="sub">Your prayers are written to a file on your phone and stay there. There is nothing to sign up for.</div>
+  </div>
+</div>

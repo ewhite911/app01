@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import { Alert, FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button } from '../components/ui';
 import { addPrayer, deletePrayer, listPrayers, markAnswered, Prayer } from '../db';
 import { colors, config, radius, space, type } from '../theme';
@@ -10,6 +11,7 @@ export default function PrayersScreen({ navigation }: any) {
   const [items, setItems] = useState<Prayer[]>([]);
   const [text, setText] = useState('');
   const { active } = useSub();
+  const insets = useSafeAreaInsets();
 
   const reload = () => setItems(listPrayers());
   useFocusEffect(useCallback(reload, []));
@@ -37,10 +39,10 @@ export default function PrayersScreen({ navigation }: any) {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { paddingTop: insets.top + space.lg }]}>
       <Text style={type.h1}>My prayers</Text>
       <Text style={type.small}>
-        {active ? 'Unlimited requests · answered history kept' : `${activeCount} of ${config.freePrayerLimit} free requests`}
+        {active ? 'Member · unlimited requests, answered history kept' : `${activeCount} of ${config.freePrayerLimit} free requests`}
       </Text>
       <View style={styles.addRow}>
         <TextInput
@@ -56,7 +58,9 @@ export default function PrayersScreen({ navigation }: any) {
       </View>
       {atLimit && (
         <Pressable onPress={() => navigation.navigate('Paywall')}>
-          <Text style={styles.limit}>Free list is full. Unlimited requests are {config.priceLabel}.</Text>
+          <Text style={styles.limit}>
+            The free list of {config.freePrayerLimit} is full. Members get unlimited requests · {config.priceLabel}.
+          </Text>
         </Pressable>
       )}
       <FlatList

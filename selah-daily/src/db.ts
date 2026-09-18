@@ -43,6 +43,19 @@ export function activePrayers(): Prayer[] {
   );
 }
 
+/**
+ * The most recently answered requests, newest first.
+ *
+ * Used by the third minute, where "give thanks" needs something to be thankful
+ * for on the screen rather than only the instruction to be.
+ */
+export function answeredPrayers(limit = 3): Prayer[] {
+  return db.getAllSync<Prayer>(
+    'SELECT * FROM prayers WHERE answered_at IS NOT NULL ORDER BY answered_at DESC LIMIT ?',
+    [limit]
+  );
+}
+
 export function addPrayer(text: string) {
   db.runSync('INSERT INTO prayers (text, created_at) VALUES (?, ?)', [
     text.trim(),
@@ -126,4 +139,14 @@ export function importAll(data: { prayers?: Prayer[]; routine_log?: { day: strin
       ]);
     }
   });
+}
+
+/** The date this phone first became a member. Set once; never cleared on cancel. */
+export function memberSince(): Date | null {
+  const v = getSetting('member_since');
+  return v ? new Date(v) : null;
+}
+
+export function markMemberSince(d = new Date()) {
+  if (!getSetting('member_since')) setSetting('member_since', d.toISOString());
 }

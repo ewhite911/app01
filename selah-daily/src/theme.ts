@@ -27,10 +27,37 @@ export const config = {
   appName: 'Selah Daily',
   // Replace with the real playlist ID from the YouTube channel. Only a link is used — nothing plays in-app.
   youtubePlaylistId: 'PLxxxxxxxxxxxxxxxxxxxx',
+  price: '$3.99',
   priceLabel: '$3.99 / month',
   trialDays: 7,
-  freePrayerLimit: 10,
+  /** Free active requests. Raised 10 → 30: what is given free is never taken back later. */
+  freePrayerLimit: 30,
+  /** Paywall wording: 'A' = support framing (default), 'B' = feature framing. See src/copy.ts. */
+  paywallVariant: 'A' as 'A' | 'B',
+  /**
+   * Hide the affordances that only exist for testing — the long-press hint on
+   * the verse card, the "test build" line — so store screenshots do not carry
+   * instructions meant for whoever is reviewing the build.
+   *
+   * Set by `EXPO_PUBLIC_SHOWCASE=1` when capturing. It changes nothing a
+   * shipped build does: a store build has a real purchase key and is not in
+   * mock mode, so none of that UI is drawn there anyway.
+   */
+  showcase: process.env.EXPO_PUBLIC_SHOWCASE === '1',
   supportEmail: 'support@example.com',
-  privacyUrl: 'https://example.com/privacy',
-  termsUrl: 'https://example.com/terms',
+  // Phone-to-phone transfer. Leave either blank and the feature hides itself:
+  // a build with no server configured never contacts one. See supabase/README.md.
+  supabaseUrl: 'https://gxkkdcsufummkgvzurkh.supabase.co',
+  /**
+   * The publishable key, which is meant to ship inside the app — anyone can read
+   * it out of the APK, and the schema is built on that assumption: the table is
+   * closed to this role and only two functions are reachable. The secret key is
+   * never used here and must never be put in this file.
+   */
+  supabasePublishableKey: 'sb_publishable_0F86AtdXSqR-mJnyKLDFeQ_0eaJ1xFg',
+  /** Hours a sealed transfer survives on the server before it is deleted unread. */
+  transferHours: 24,
+  // Served by GitHub Pages from /docs on main. Enable Pages in the repo settings to make these live.
+  privacyUrl: 'https://ewhite911.github.io/app01/privacy.html',
+  termsUrl: 'https://ewhite911.github.io/app01/terms.html',
 };
