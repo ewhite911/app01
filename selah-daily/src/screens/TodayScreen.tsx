@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button, Scrim } from '../components/ui';
 import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
 import { verseForToday } from '../verses';
+import { purchaseMode } from '../purchases';
 import { Tree } from '../components/Tree';
 import { useSub } from '../subContext';
 import { colors, config, radius, space, type } from '../theme';
@@ -12,8 +13,9 @@ import { colors, config, radius, space, type } from '../theme';
 type Step = 'verse' | 'pray' | 'amen';
 const TIMER_SECONDS = 180;
 
-// IMAGE SLOT: morning verse background (see docs/이미지_가이드_및_프롬프트.md → "오늘 화면 말씀 카드 배경")
-const verseBg = require('../../assets/images/verse_morning.jpg');
+// IMAGE SLOT: verse card backgrounds (see docs/이미지_프롬프트_실사감.md #01 and #02)
+const verseMorningBg = require('../../assets/images/verse_morning.jpg');
+const verseEveningBg = require('../../assets/images/verse_evening.jpg');
 // IMAGE SLOT: amen background
 const amenBg = require('../../assets/images/amen.jpg');
 
@@ -25,6 +27,12 @@ export default function TodayScreen({ navigation }: any) {
   const [step, setStep] = useState<Step>('verse');
   const [done, setDone] = useState(false);
   const [count, setCount] = useState(0);
+  // Evening card after 18:00 and before 05:00. In a test build the card can be
+  // long-pressed to flip between the two, so the photographs can be reviewed
+  // without waiting for the clock. The override is absent from a store build.
+  const [override, setOverride] = useState<boolean | null>(null);
+  const hour = new Date().getHours();
+  const evening = override ?? (hour >= 18 || hour < 5);
   const [prayers, setPrayers] = useState<Prayer[]>([]);
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const [seconds, setSeconds] = useState(TIMER_SECONDS);
@@ -80,13 +88,26 @@ export default function TodayScreen({ navigation }: any) {
     return (
       <ScrollView contentContainerStyle={[styles.container, { paddingTop: insets.top + space.lg }]}>
         <Text style={styles.eyebrow}>{done ? 'TODAY · DONE' : 'TODAY'}</Text>
-        <ImageBackground source={verseBg} style={styles.card} imageStyle={styles.cardImg}>
+        <Pressable
+          onLongPress={purchaseMode === 'mock' ? () => setOverride(!evening) : undefined}
+          delayLongPress={400}
+        >
+        <ImageBackground
+          source={evening ? verseEveningBg : verseMorningBg}
+          style={styles.card}
+          imageStyle={styles.cardImg}
+        >
           <View style={styles.veil} />
           <Scrim />
           <Text style={styles.ref}>{verse.ref} · BSB</Text>
           <Text style={type.verse}>“{verse.text}”</Text>
         </ImageBackground>
-        <Text style={styles.hint}>Read it slowly. Once is enough.</Text>
+        </Pressable>
+        <Text style={styles.hint}>
+          {purchaseMode === 'mock'
+            ? `Read it slowly. Once is enough.  [test: hold the card to see the ${evening ? 'morning' : 'evening'} image]`
+            : 'Read it slowly. Once is enough.'}
+        </Text>
         <Button title={done ? 'Pray again' : "I've read it"} onPress={() => setStep('pray')} variant="amber" />
         <View style={styles.treeCard}>
           <Tree count={count} size={128} isMember={active} memberSince={since} />
