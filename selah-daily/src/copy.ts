@@ -76,3 +76,63 @@ export const tree = {
   connect: 'Stay connected. Keep growing.', // John 15
   memberBadge: (since: Date) => `Member since ${since.toLocaleDateString()}`,
 };
+
+/**
+ * Moving a list to a new phone.
+ *
+ * Every word here has to be true, because the privacy line elsewhere in the app
+ * makes a promise and this is the one place the app leaves the phone. So: the
+ * person starts it, the contents are sealed before they go, and the server
+ * keeps nothing past a day.
+ */
+export const transfer = {
+  title: 'Move to a new phone',
+  lede:
+    'Your prayers live on this phone and nowhere else. To carry them to another one, ' +
+    'this phone seals them with a code and holds them for a day. Only the code opens them.',
+
+  sendTitle: 'This is my old phone',
+  sendBody: 'Seal this list and get a code to type into the new phone.',
+  receiveTitle: 'This is my new phone',
+  receiveBody: 'I have a code from my old phone.',
+
+  sendHint: (hours: number) =>
+    `Type this into the new phone within ${hours} hours. It works once, then it is gone. ` +
+    'Keep this phone as it is until the new one has everything.',
+  copied: 'The code is on your clipboard.',
+
+  entryLabel: 'Transfer code from your old phone',
+  receiveHint: 'Ten characters. Dashes and capitals do not matter.',
+
+  doneTitle: 'They made it.',
+  doneBody: (prayers: number, days: number) =>
+    `${prayers} ${prayers === 1 ? 'prayer' : 'prayers'} and ${days} ${days === 1 ? 'day' : 'days'} of your streak are on this phone now. ` +
+    'Nothing that was already here was removed.',
+
+  failTitle: "That didn't work",
+  notFoundBody:
+    'No sealed list is waiting on that code. It may have expired, or it may already have been brought over to another phone. ' +
+    'Start again on the old phone for a fresh code.',
+  badCodeBody: 'Check the code on the old phone and type it again.',
+  networkBody: 'Could not reach the transfer service. Check the connection and try again.',
+
+  emptyTitle: 'Nothing to carry yet',
+  emptyBody: 'This phone has no prayers on it. The code still works, it just has nothing in it.',
+
+  privacy: (hours: number) =>
+    `What crosses is locked before it leaves this phone, and the key never leaves it — the code is the key. ` +
+    `Nobody running the service can read it. It is deleted the moment the new phone takes it, and after ${hours} hours either way. ` +
+    'Prefer no server at all? Settings has a file export that does the same job by hand.',
+
+  /** Settings row. */
+  rowTitle: 'Move to a new phone',
+  rowBody: 'Carry your prayers across with a code',
+
+  importTitle: 'Import from a file',
+  importBody: 'Load a JSON export back in',
+  importConfirm: (prayers: number, days: number) =>
+    `This file holds ${prayers} ${prayers === 1 ? 'prayer' : 'prayers'} and ${days} ${days === 1 ? 'day' : 'days'} of streak. ` +
+    'They will be added to what is already on this phone. Nothing is removed.',
+  importDone: 'Added.',
+  importBad: 'That file is not a Selah Daily export.',
+};

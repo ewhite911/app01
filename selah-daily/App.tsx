@@ -14,6 +14,7 @@ import PaywallScreen from './src/screens/PaywallScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import ThankYouScreen from './src/screens/ThankYouScreen';
 import HowItsRunScreen from './src/screens/HowItsRunScreen';
+import TransferScreen from './src/screens/TransferScreen';
 import { colors } from './src/theme';
 
 initDb();
@@ -58,6 +59,7 @@ export default function App() {
             <Stack.Screen name="Paywall" component={PaywallScreen} options={{ presentation: 'modal', title: '' , headerShadowVisible: false }} />
             <Stack.Screen name="ThankYou" component={ThankYouScreen} options={{ presentation: 'modal', headerShown: false, gestureEnabled: false }} />
             <Stack.Screen name="HowItsRun" component={HowItsRunScreen} options={{ title: '', headerShadowVisible: false }} />
+            <Stack.Screen name="Transfer" component={TransferScreen} options={{ title: '', headerShadowVisible: false }} />
           </Stack.Navigator>
         </NavigationContainer>
         <StatusBar style="dark" />

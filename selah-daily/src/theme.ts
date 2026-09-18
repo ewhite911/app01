@@ -35,6 +35,12 @@ export const config = {
   /** Paywall wording: 'A' = support framing (default), 'B' = feature framing. See src/copy.ts. */
   paywallVariant: 'A' as 'A' | 'B',
   supportEmail: 'support@example.com',
+  // Phone-to-phone transfer. Leave either blank and the feature hides itself:
+  // a build with no server configured never contacts one. See supabase/README.md.
+  supabaseUrl: '',
+  supabaseAnonKey: '',
+  /** Hours a sealed transfer survives on the server before it is deleted unread. */
+  transferHours: 24,
   // Served by GitHub Pages from /docs on main. Enable Pages in the repo settings to make these live.
   privacyUrl: 'https://ewhite911.github.io/app01/privacy.html',
   termsUrl: 'https://ewhite911.github.io/app01/terms.html',

@@ -4,13 +4,15 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as FileSystem from 'expo-file-system/legacy';
 import * as Sharing from 'expo-sharing';
+import * as DocumentPicker from 'expo-document-picker';
 import { Row } from '../components/ui';
-import { exportAll, getSetting, memberSince } from '../db';
+import { exportAll, importAll, getSetting, memberSince } from '../db';
 import { cancelDailyReminder, scheduleDailyReminder, cancelTrialEndReminder } from '../notifications';
 import { openManageSubscription, purchaseMode } from '../purchases';
 import { removeTrialEndEvent } from '../calendar';
 import { useSub } from '../subContext';
-import { howItsRun, makerNote } from '../copy';
+import { transferEnabled } from '../transfer';
+import { howItsRun, makerNote, transfer } from '../copy';
 import { colors, config, radius, space, type } from '../theme';
 
 export default function SettingsScreen({ navigation }: any) {
@@ -62,6 +64,40 @@ export default function SettingsScreen({ navigation }: any) {
     await FileSystem.writeAsStringAsync(path, JSON.stringify(data, null, 2));
     if (await Sharing.isAvailableAsync()) await Sharing.shareAsync(path, { mimeType: 'application/json', dialogTitle: 'Export prayers' });
     else Alert.alert('Saved', path);
+  };
+
+  /**
+   * Read a JSON export back in. It adds; it never replaces. Someone importing
+   * the wrong file should end up with too much, not with an empty list.
+   */
+  const importJson = async () => {
+    const picked = await DocumentPicker.getDocumentAsync({
+      type: ['application/json', 'text/plain', '*/*'],
+      copyToCacheDirectory: true,
+    });
+    if (picked.canceled || !picked.assets?.length) return;
+
+    let data: { prayers?: any[]; routine_log?: any[] };
+    try {
+      data = JSON.parse(await FileSystem.readAsStringAsync(picked.assets[0].uri));
+      if (!Array.isArray(data.prayers) && !Array.isArray(data.routine_log)) throw new Error('shape');
+    } catch {
+      Alert.alert(transfer.failTitle, transfer.importBad);
+      return;
+    }
+
+    const prayers = data.prayers?.length ?? 0;
+    const days = data.routine_log?.length ?? 0;
+    Alert.alert(transfer.importTitle, transfer.importConfirm(prayers, days), [
+      { text: 'Cancel', style: 'cancel' },
+      {
+        text: 'Add them',
+        onPress: () => {
+          importAll(data);
+          Alert.alert(transfer.importDone, transfer.doneBody(prayers, days));
+        },
+      },
+    ]);
   };
 
   const memberStatus = active
@@ -133,11 +169,31 @@ export default function SettingsScreen({ navigation }: any) {
       )}
 
       <Text style={styles.section}>YOUR DATA</Text>
+      {transferEnabled && (
+        <Pressable onPress={() => navigation.navigate('Transfer')}>
+          <Row>
+            <View style={{ flex: 1 }}>
+              <Text style={type.body}>{transfer.rowTitle}</Text>
+              <Text style={type.small}>{transfer.rowBody}</Text>
+            </View>
+            <Text style={styles.chev}>›</Text>
+          </Row>
+        </Pressable>
+      )}
       <Pressable onPress={exportJson}>
         <Row>
-          <View>
+          <View style={{ flex: 1 }}>
             <Text style={type.body}>Export prayers (JSON)</Text>
             <Text style={type.small}>Share sheet · keep it anywhere you like</Text>
+          </View>
+          <Text style={styles.chev}>›</Text>
+        </Row>
+      </Pressable>
+      <Pressable onPress={importJson}>
+        <Row>
+          <View style={{ flex: 1 }}>
+            <Text style={type.body}>{transfer.importTitle}</Text>
+            <Text style={type.small}>{transfer.importBody}</Text>
           </View>
           <Text style={styles.chev}>›</Text>
         </Row>
@@ -146,8 +202,11 @@ export default function SettingsScreen({ navigation }: any) {
         <View style={{ flex: 1 }}>
           <Text style={type.body}>Privacy</Text>
           <Text style={type.small}>
-            No account, no analytics. Your prayers stay on this phone unless you export them. Only the membership
-            check talks to the store.
+            No account, no analytics. Your prayers stay on this phone.
+            {transferEnabled
+              ? ' The one exception is a move to a new phone: you start it, what crosses is locked with a code only you have, and it is deleted within a day.'
+              : ''}{' '}
+            Only the membership check talks to the store.
           </Text>
         </View>
       </Row>

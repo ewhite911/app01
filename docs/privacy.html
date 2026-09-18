@@ -15,12 +15,14 @@
 </header>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 17 September 2026 · applies to Selah Daily version 1.0</p>
+  <p class="updated">Last updated 18 September 2026 · applies to Selah Daily version 1.0</p>
 
   <div class="callout">
-    Selah Daily has no user accounts and no servers of its own. Your verses, your prayer
-    requests and your routine history are written to a database file on your phone and stay
-    there unless you export them yourself.
+    Selah Daily has no user accounts. Your verses, your prayer requests and your routine
+    history are written to a database file on your phone and stay there. There is exactly one
+    way they leave it, and you have to start it yourself: moving your list to a new phone.
+    Even then, what crosses is locked with a code that never leaves your phone, and it is
+    deleted within 24 hours.
   </div>
 
   <h2>Who is responsible</h2>
@@ -50,9 +52,42 @@
     </tr>
   </table>
   <p>
-    None of this is uploaded, backed up to our systems, or shared. There is no sign-up,
+    None of this is uploaded on its own, and none of it is shared. There is no sign-up,
     no login, no email collection and no advertising identifier. The app contains no
-    analytics or crash-reporting SDK, so no usage data is sent anywhere.
+    analytics or crash-reporting SDK, so no usage data is sent anywhere. The single
+    exception is the transfer described below, which only ever runs when you ask for it.
+  </p>
+
+  <h2>Moving to a new phone</h2>
+  <p>
+    Settings &rarr; <em>Move to a new phone</em> is the one feature that sends anything off
+    your device. It is worth being exact about what happens, because the rest of this policy
+    depends on it staying narrow.
+  </p>
+  <ul>
+    <li>
+      Your old phone makes a ten-character code and uses it to derive an AES-256-GCM key.
+      Your prayers and routine history are encrypted <em>on the phone</em> with that key.
+    </li>
+    <li>
+      Only the encrypted result and a one-way hash of the code are sent to our transfer
+      service, which runs on <a href="https://supabase.com/privacy" rel="noopener">Supabase</a>.
+      The code itself and the key are never sent. Nobody operating the service — including us
+      — can read what is stored there.
+    </li>
+    <li>
+      Your new phone sends the same one-way hash, receives the encrypted block, and decrypts
+      it locally with the code you typed in.
+    </li>
+    <li>
+      The stored block is deleted the moment a phone claims it, and in any case 24 hours
+      after it was created. It is never used for anything else, and no record of the transfer
+      is kept.
+    </li>
+  </ul>
+  <p>
+    If you would rather nothing touched a server at all, Settings &rarr; <em>Export prayers</em>
+    and <em>Import from a file</em> do the same job with a file you move yourself.
   </p>
 
   <h2>Permissions the app asks for</h2>
@@ -89,10 +124,15 @@
       your phone's share sheet. Where that file goes after that is your choice.
     </li>
     <li>
+      <strong>Import.</strong> Settings &rarr; Import from a file reads a JSON export back in.
+      It adds to what is on the phone; it never replaces it.
+    </li>
+    <li>
       <strong>Delete.</strong> Uninstalling the app deletes the database with it. Individual
       requests can be deleted in the app by holding an item and choosing Delete.
-      Because nothing is stored on our side, there is nothing for us to delete for you and
-      no deletion request to file.
+      Nothing about you is stored on our side once a transfer expires or is claimed, so there
+      is nothing for us to delete for you and no deletion request to file. If you started a
+      transfer and changed your mind, simply do not use the code: it expires within 24 hours.
     </li>
   </ul>
 
