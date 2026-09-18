@@ -34,11 +34,13 @@
   },
   "scripts": {
     "go": "expo start --go --offline",
-    "go:fresh": "git pull && expo start --go --offline -c",
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "go:fresh": "git pull && npm install && expo start --go --offline -c",
+    "start": "expo start --go --offline",
+    "android": "expo start --go --offline --android",
+    "ios": "expo start --go --offline --ios",
+    "web": "expo start --offline --web",
+    "dev": "expo start --dev-client",
+    "check": "tsc --noEmit"
   },
   "private": true
 }
