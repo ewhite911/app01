@@ -12,7 +12,7 @@ const P = config.price;
 export const paywallA = {
   title: `Your prayers are free. Keeping it that way costs ${P} a month.`,
   body:
-    'No ads, no investors, no account. Members are the only thing that keeps this app running — ' +
+    'No ads, no investors, no account. Members are the only thing keeping this app running — ' +
     "and keeps it free for everyone who can't pay.",
   cta: `Become a member · ${P}/month`,
   fine: 'Unlimited requests and answered-prayer history included. Cancel any time.',
@@ -41,19 +41,19 @@ export const thankYou = {
 export const howItsRun = {
   title: 'How this app is run',
   facts: [
-    ['No ads', 'Not now, not later. Nothing in this app is sold to anyone else.'],
-    ['No investors', 'Nobody is waiting on this app to grow. It only has to pay for itself.'],
+    ['No ads', 'Not now, not later. Nothing in this app gets sold to anyone else.'],
+    ['No investors', "Nobody's waiting on this app to grow. It only has to pay for itself."],
     ['The store keeps 15%', `Of every ${P}, Google or Apple takes 15% before it reaches the maker.`],
     ['One person', 'One person writes the code, picks the verses and answers support mail.'],
   ] as [string, string][],
   useOfMoney:
-    'What is left covers the store accounts, the developer fees and the hours that go into the next update.',
-  pledgeTitle: 'Four things that will not change',
+    "What's left covers the store accounts, the developer fees and the hours that go into the next update.",
+  pledgeTitle: "Four things that won't change",
   pledge: [
-    'What is free today stays free. The free list will not be made smaller later.',
-    'No ads will be added to this app.',
-    'Your prayers are not sold, shared or uploaded. They stay on this phone.',
-    'Cancelling takes three taps, and you will never be asked why.',
+    "What's free today stays free. The free list won't get smaller later.",
+    'Ads will never be added to this app.',
+    "Your prayers aren't sold, shared or uploaded. They stay on this phone.",
+    "Cancelling takes three taps, and you'll never be asked why.",
   ],
 };
 
@@ -97,29 +97,29 @@ export const transfer = {
   receiveBody: 'I have a code from my old phone.',
 
   sendHint: (hours: number) =>
-    `Type this into the new phone within ${hours} hours. It works once, then it is gone. ` +
+    `Type this into the new phone within ${hours} hours. It works once, then it's gone. ` +
     'Keep this phone as it is until the new one has everything.',
   copied: 'The code is on your clipboard.',
 
   entryLabel: 'Transfer code from your old phone',
-  receiveHint: 'Ten characters. Dashes and capitals do not matter.',
+  receiveHint: "Ten characters. Dashes and capitals don't matter.",
 
   doneTitle: 'They made it.',
   doneBody: (prayers: number, days: number) =>
     `${prayers} ${prayers === 1 ? 'prayer' : 'prayers'} and ${days} ${days === 1 ? 'day' : 'days'} of your streak are on this phone now. ` +
-    'Nothing that was already here was removed.',
+    'Nothing that was already here got removed.',
 
   failTitle: "That didn't work",
   notFoundBody:
-    'No sealed list is waiting on that code. It may have expired, or it may already have been brought over to another phone. ' +
+    "No sealed list is waiting on that code. It's either expired, or it's already been brought over to another phone. " +
     'Start again on the old phone for a fresh code.',
   badCodeBody: 'Check the code on the old phone and type it again.',
-  networkBody: 'Could not reach the transfer service. Check the connection and try again.',
+  networkBody: "Couldn't reach the transfer service. Check the connection and try again.",
   // Not the person's problem — the build is misconfigured. Say so, so nobody
   // spends the evening restarting their router.
   setupBody:
     'The transfer service turned this phone away. This is a setup problem in the app, not something ' +
-    'you did — the database functions may not be installed, or the key in this build may be wrong. ' +
+    'you did — the database functions may not be installed, or the key in this build is wrong. ' +
     'Settings has a file export that works with no server at all.',
 
   emptyTitle: 'Nothing to carry yet',
@@ -127,7 +127,7 @@ export const transfer = {
 
   privacy: (hours: number) =>
     `What crosses is locked before it leaves this phone, and the key never leaves it — the code is the key. ` +
-    `Nobody running the service can read it. It is deleted the moment the new phone takes it, and after ${hours} hours either way. ` +
+    `Nobody running the service can read it. It's deleted the moment the new phone takes it, and after ${hours} hours either way. ` +
     'Prefer no server at all? Settings has a file export that does the same job by hand.',
 
   /** Settings row. */
@@ -138,7 +138,7 @@ export const transfer = {
   importBody: 'Load a JSON export back in',
   importConfirm: (prayers: number, days: number) =>
     `This file holds ${prayers} ${prayers === 1 ? 'prayer' : 'prayers'} and ${days} ${days === 1 ? 'day' : 'days'} of streak. ` +
-    'They will be added to what is already on this phone. Nothing is removed.',
+    "They'll be added to what's already on this phone. Nothing gets removed.",
   importDone: 'Added.',
   importBad: 'That file is not a Selah Daily export.',
 };
@@ -180,7 +180,7 @@ export const pray = {
     {
       key: 'thanks',
       title: 'Give thanks.',
-      line: 'One thing from today. It does not have to be a big one.',
+      line: "One thing from today. It doesn't have to be a big one.",
       empty: 'Nothing marked answered yet. Thank Him for today anyway.',
     },
   ] as { key: string; title: string; line: string; quote?: string; ref?: string; empty?: string }[],
@@ -192,6 +192,6 @@ export const pray = {
   resume: 'Resume',
   amen: 'Amen',
   /** Once the three minutes are up and the timer has stopped. */
-  over: 'That is the three minutes. Stay as long as you like.',
+  over: "That's the three minutes. Stay as long as you like.",
   quiet: 'Vibration only. Nothing leaves your phone.',
 };

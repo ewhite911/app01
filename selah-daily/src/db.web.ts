@@ -54,10 +54,13 @@ export function initDb() {
   add('Jesse got the apprenticeship', 240, 61, 78);
   add('We found a church we can walk to', 300, 52, 122);
 
-  // Thirty-one finished routines: enough to be at the last stage of the tree,
-  // with a gap in the middle, because nobody's month is unbroken.
-  for (let i = 40; i >= 0; i--) {
-    if (i === 17 || i === 18 || i === 25) continue;
+  // Twenty-one finished routines, with a gap in the middle because nobody's
+  // month is unbroken. That lands on the young tree, which is the last stage
+  // that has a real botanical plate — the tree planted by water still falls
+  // back to the drawing, and the drawing is not something to put in a store
+  // listing. Raise this once those two plates arrive.
+  for (let i = 23; i >= 0; i--) {
+    if (i === 12 || i === 13 || i === 19) continue;
     const d = new Date(Date.now() - i * 86400000);
     routine.push({ day: todayKey(d), completed_at: d.toISOString() });
   }

@@ -40,72 +40,90 @@ const SETS = [
 
 const PANELS = [
   {
-    shot: '01_today',
+    // A person, not a screen. The opener is the panel a store shows first in a
+    // search result, and a photograph of somebody praying in a work truck says
+    // what this app is faster than any screenshot of it can.
+    photo: 'feature_truck_16x9.jpg',
+    focus: '38% 30%',
     mark: true,
-    head: 'Three minutes.\nThat is the whole app.',
-    sub: 'A verse, the people you carry, and thanks.\nThen you get on with your day.',
+    head: "Some mornings\nthree minutes is\nall you've got.",
+    sub: "That's the whole app.",
   },
   {
     shot: '02_intro',
-    head: 'Be still.\nBring your people.\nGive thanks.',
-    sub: 'Each minute arrives on its own.\nYou are led through it, not timed.',
+    head: 'It walks you through it.',
+    sub: 'Be still. Bring your people. Give thanks.\nA minute each, and it moves on by itself.',
   },
   {
     shot: '04_people',
-    head: 'The names you carry,\nin front of you.',
-    sub: 'The second minute belongs to them.',
+    head: 'Minute two is for them.',
+    sub: "Your list turns up right when you need it,\nand nowhere else in the app.",
   },
   {
     shot: '05_thanks',
-    head: 'See what was\nanswered.',
-    sub: 'Every request you mark answered is kept.\nA year from now it is still there.',
+    head: "You'll remember\nwhat He did.",
+    sub: "Mark a prayer answered and it stays put.\nScroll back next year — it's still there.",
   },
   {
     shot: '06_amen',
     head: 'It grows on the days\nyou show up.',
-    sub: 'It never wilts and it never goes backwards.\nThere is no streak to lose.',
+    sub: "No streak to break. It never goes backwards,\nand it never scolds you for missing one.",
   },
   {
-    // No phone. Settings is the honest illustration of this and it is a wall of
-    // 13pt text that turns to grey mush at the size a store renders a panel.
+    photo: 'landing_steps_16x9.jpg',
+    focus: '70% 42%',
     head: 'No ads.\nNo account.\nNo investors.',
-    sub: 'Members pay $3.99 a month.\nThat is what keeps it free\nfor everyone who cannot.\n\nNo one else is paying for\nyour attention here.',
+    sub: "Members pay $3.99 a month.\nThat's what keeps it free\nfor the people who can't.",
     big: true,
   },
 ];
 
+const FONTS = {
+  figtree: fs.readFileSync(path.join(__dirname, 'fonts', 'Figtree-800.woff2')).toString('base64'),
+  newsreader: fs.readFileSync(path.join(__dirname, 'fonts', 'Newsreader-400.woff2')).toString('base64'),
+};
+
 const page = (p, set) => {
   // Proportions taken off the reference listings: a headline that is genuinely
   // large, a quieter serif line under it, and nothing between them but space.
-  // No rule — that category leans on whitespace, and a divider makes a panel
-  // look busier than it is at the size a store renders one.
-  const head = Math.round(set.w * 0.086);
+  const head = Math.round(set.w * (p.big ? 0.086 : 0.078));
   const sub = Math.round(set.w * 0.042);
   const phoneW = Math.round(set.w * 0.72);
+  const photo = p.photo
+    ? `url(data:image/jpeg;base64,${fs.readFileSync(path.join(__dirname, p.photo)).toString('base64')})`
+    : null;
   const body = p.shot
     ? `<div class="phone"><img src="data:image/png;base64,${fs.readFileSync(path.join(IN, p.shot + '.png')).toString('base64')}"></div>`
     : '';
   return `<!doctype html><meta charset=utf-8><style>
+  @font-face{font-family:Figtree;font-weight:800;src:url(data:font/woff2;base64,${FONTS.figtree}) format('woff2')}
+  @font-face{font-family:Newsreader;font-weight:400;src:url(data:font/woff2;base64,${FONTS.newsreader}) format('woff2')}
   *{margin:0;box-sizing:border-box}
   body{width:${set.w}px;height:${set.h}px;overflow:hidden;position:relative;
     background:linear-gradient(172deg,#26355A,#141C30 70%);
-    display:flex;flex-direction:column;align-items:center;
-    font-family:-apple-system,"Segoe UI",Roboto,sans-serif;color:#FFFDF9}
-  .mark{font-size:${Math.round(sub * 0.92)}px;font-weight:700;
-        letter-spacing:${Math.round(set.w * 0.007)}px;text-transform:uppercase;opacity:.6;
+    display:flex;flex-direction:column;align-items:center;color:#FFFDF9}
+  ${photo ? `.bg{position:absolute;inset:0;background-image:${photo};background-size:cover;
+      background-position:${p.focus};filter:saturate(.9)}
+    .veil{position:absolute;inset:0;background:
+      linear-gradient(180deg,rgba(12,17,30,.82) 0%,rgba(12,17,30,.55) 42%,rgba(12,17,30,.72) 100%)}` : ''}
+  .mark,h1,.sub,.foot{position:relative;z-index:2}
+  .mark{font-family:Figtree,sans-serif;font-size:${Math.round(sub * 0.9)}px;font-weight:800;
+        letter-spacing:${Math.round(set.w * 0.007)}px;text-transform:uppercase;opacity:.75;
         padding-top:${Math.round(set.h * 0.075)}px}
-  h1{font-size:${head}px;line-height:1.14;font-weight:800;text-align:center;
-     letter-spacing:-${Math.round(set.w * 0.0018)}px;white-space:pre-line;
-     padding:${Math.round(set.h * (p.mark ? 0.028 : 0.115))}px ${Math.round(set.w * 0.06)}px 0}
-  .sub{font-family:Georgia,"Times New Roman",serif;
+  h1{font-family:Figtree,sans-serif;font-size:${head}px;line-height:1.14;font-weight:800;
+     text-align:center;letter-spacing:-${Math.round(set.w * 0.0016)}px;white-space:pre-line;
+     padding:${Math.round(set.h * (p.mark ? 0.028 : 0.115))}px ${Math.round(set.w * 0.06)}px 0;
+     text-shadow:${photo ? '0 2px 24px rgba(0,0,0,.55)' : 'none'}}
+  .sub{font-family:Newsreader,Georgia,serif;
        font-size:${p.big ? Math.round(sub * 1.15) : sub}px;line-height:1.5;text-align:center;
-       white-space:pre-line;opacity:.85;
+       white-space:pre-line;opacity:.9;
        padding:${Math.round(set.h * 0.026)}px ${Math.round(set.w * 0.09)}px 0;
+       text-shadow:${photo ? '0 2px 18px rgba(0,0,0,.5)' : 'none'};
        ${p.big ? `flex:1;display:flex;align-items:center;justify-content:center;padding-bottom:${Math.round(set.h * 0.06)}px` : ''}}
   .foot{position:absolute;bottom:${Math.round(set.h * 0.06)}px;left:0;right:0;text-align:center;
-        font-size:${Math.round(sub * 0.92)}px;font-weight:700;opacity:.5;
+        font-family:Figtree,sans-serif;font-size:${Math.round(sub * 0.9)}px;font-weight:800;opacity:.6;
         letter-spacing:${Math.round(set.w * 0.007)}px;text-transform:uppercase}
-  .phone{position:absolute;left:50%;transform:translateX(-50%);
+  .phone{position:absolute;left:50%;transform:translateX(-50%);z-index:2;
     top:${Math.round(set.h * 0.395)}px;width:${phoneW}px;
     border-radius:${Math.round(phoneW * 0.1)}px ${Math.round(phoneW * 0.1)}px 0 0;
     overflow:hidden;
@@ -113,6 +131,7 @@ const page = (p, set) => {
     box-shadow:0 ${Math.round(set.h * 0.008)}px ${Math.round(set.h * 0.045)}px rgba(0,0,0,.55)}
   .phone img{width:100%;display:block}
   </style>
+  ${photo ? '<div class="bg"></div><div class="veil"></div>' : ''}
   ${p.mark ? '<div class="mark">Selah Daily</div>' : ''}
   <h1>${p.head}</h1><div class="sub">${p.sub}</div>
   ${body}
