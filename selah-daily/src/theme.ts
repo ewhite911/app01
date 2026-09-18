@@ -34,6 +34,16 @@ export const config = {
   freePrayerLimit: 30,
   /** Paywall wording: 'A' = support framing (default), 'B' = feature framing. See src/copy.ts. */
   paywallVariant: 'A' as 'A' | 'B',
+  /**
+   * Hide the affordances that only exist for testing — the long-press hint on
+   * the verse card, the "test build" line — so store screenshots do not carry
+   * instructions meant for whoever is reviewing the build.
+   *
+   * Set by `EXPO_PUBLIC_SHOWCASE=1` when capturing. It changes nothing a
+   * shipped build does: a store build has a real purchase key and is not in
+   * mock mode, so none of that UI is drawn there anyway.
+   */
+  showcase: process.env.EXPO_PUBLIC_SHOWCASE === '1',
   supportEmail: 'support@example.com',
   // Phone-to-phone transfer. Leave either blank and the feature hides itself:
   // a build with no server configured never contacts one. See supabase/README.md.

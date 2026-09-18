@@ -244,7 +244,7 @@ export default function SettingsScreen({ navigation }: any) {
       </View>
 
       <Text style={[type.small, { marginTop: space.md }]}>
-        Selah Daily v1.0 · {purchaseMode === 'mock' ? 'test build' : 'store build'}
+        Selah Daily v1.0{purchaseMode === 'mock' && !config.showcase ? ' · test build' : ''}
       </Text>
     </ScrollView>
   );

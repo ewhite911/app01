@@ -127,7 +127,7 @@ export default function TodayScreen({ navigation }: any) {
         </ImageBackground>
         </Pressable>
         <Text style={styles.hint}>
-          {purchaseMode === 'mock'
+          {purchaseMode === 'mock' && !config.showcase
             ? `Read it slowly. Once is enough.  [test: hold the card to see the ${evening ? 'morning' : 'evening'} image]`
             : 'Read it slowly. Once is enough.'}
         </Text>
