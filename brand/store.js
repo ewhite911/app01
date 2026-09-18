@@ -69,48 +69,54 @@ const PANELS = [
     // No phone. Settings is the honest illustration of this and it is a wall of
     // 13pt text that turns to grey mush at the size a store renders a panel.
     head: 'No ads.\nNo account.\nNo investors.',
-    sub: 'Members pay $3.99 a month.\nThat is what keeps it free\nfor everyone who cannot.',
+    sub: 'Members pay $3.99 a month.\nThat is what keeps it free\nfor everyone who cannot.\n\nNo one else is paying for\nyour attention here.',
     big: true,
   },
 ];
 
 const page = (p, set) => {
-  const head = Math.round(set.w * 0.068);
-  const sub = Math.round(set.w * 0.035);
-  // The phone runs off the bottom edge. Only the top of it is on the panel, so
-  // the headline gets real room and the panel reads as a window rather than a
-  // product shot.
-  const phoneW = Math.round(set.w * 0.66);
+  // Proportions taken off the reference listings: a headline that is genuinely
+  // large, a quieter serif line under it, and nothing between them but space.
+  // No rule — that category leans on whitespace, and a divider makes a panel
+  // look busier than it is at the size a store renders one.
+  const head = Math.round(set.w * 0.086);
+  const sub = Math.round(set.w * 0.042);
+  const phoneW = Math.round(set.w * 0.72);
   const body = p.shot
     ? `<div class="phone"><img src="data:image/png;base64,${fs.readFileSync(path.join(IN, p.shot + '.png')).toString('base64')}"></div>`
     : '';
   return `<!doctype html><meta charset=utf-8><style>
   *{margin:0;box-sizing:border-box}
   body{width:${set.w}px;height:${set.h}px;overflow:hidden;position:relative;
-    background:linear-gradient(175deg,#233150,#141C30 62%);
+    background:linear-gradient(172deg,#26355A,#141C30 70%);
     display:flex;flex-direction:column;align-items:center;
     font-family:-apple-system,"Segoe UI",Roboto,sans-serif;color:#FFFDF9}
-  .mark{font-size:${Math.round(sub * 1.15)}px;font-weight:700;letter-spacing:${Math.round(set.w * 0.006)}px;
-        text-transform:uppercase;opacity:.65;padding-top:${Math.round(set.h * 0.052)}px}
-  h1{font-size:${head}px;line-height:1.18;font-weight:800;text-align:center;letter-spacing:-1px;
-     white-space:pre-line;padding:${Math.round(set.h * (p.mark ? 0.022 : 0.062))}px ${Math.round(set.w * 0.07)}px 0}
-  .rule{width:${Math.round(set.w * 0.085)}px;height:${Math.max(3, Math.round(set.w * 0.005))}px;
-        border-radius:99px;background:#E9A84B;margin:${Math.round(set.h * 0.024)}px 0}
-  .sub{font-family:Georgia,"Times New Roman",serif;font-size:${p.big ? Math.round(sub * 1.35) : sub}px;
-       line-height:1.55;text-align:center;white-space:pre-line;opacity:.88;
-       padding:0 ${Math.round(set.w * 0.1)}px;
-       ${p.big ? `flex:1;display:flex;align-items:center;justify-content:center;padding-bottom:${Math.round(set.h * 0.1)}px` : ''}}
+  .mark{font-size:${Math.round(sub * 0.92)}px;font-weight:700;
+        letter-spacing:${Math.round(set.w * 0.007)}px;text-transform:uppercase;opacity:.6;
+        padding-top:${Math.round(set.h * 0.075)}px}
+  h1{font-size:${head}px;line-height:1.14;font-weight:800;text-align:center;
+     letter-spacing:-${Math.round(set.w * 0.0018)}px;white-space:pre-line;
+     padding:${Math.round(set.h * (p.mark ? 0.028 : 0.115))}px ${Math.round(set.w * 0.06)}px 0}
+  .sub{font-family:Georgia,"Times New Roman",serif;
+       font-size:${p.big ? Math.round(sub * 1.15) : sub}px;line-height:1.5;text-align:center;
+       white-space:pre-line;opacity:.85;
+       padding:${Math.round(set.h * 0.026)}px ${Math.round(set.w * 0.09)}px 0;
+       ${p.big ? `flex:1;display:flex;align-items:center;justify-content:center;padding-bottom:${Math.round(set.h * 0.06)}px` : ''}}
+  .foot{position:absolute;bottom:${Math.round(set.h * 0.06)}px;left:0;right:0;text-align:center;
+        font-size:${Math.round(sub * 0.92)}px;font-weight:700;opacity:.5;
+        letter-spacing:${Math.round(set.w * 0.007)}px;text-transform:uppercase}
   .phone{position:absolute;left:50%;transform:translateX(-50%);
-    top:${Math.round(set.h * 0.355)}px;width:${phoneW}px;
-    border-radius:${Math.round(phoneW * 0.085)}px ${Math.round(phoneW * 0.085)}px 0 0;
+    top:${Math.round(set.h * 0.395)}px;width:${phoneW}px;
+    border-radius:${Math.round(phoneW * 0.1)}px ${Math.round(phoneW * 0.1)}px 0 0;
     overflow:hidden;
-    border:${Math.max(2, Math.round(set.w * 0.004))}px solid #2E3A57;border-bottom:0;
-    box-shadow:0 ${Math.round(set.h * 0.01)}px ${Math.round(set.h * 0.04)}px rgba(0,0,0,.6)}
+    border:${Math.max(3, Math.round(set.w * 0.007))}px solid #46557E;border-bottom:0;
+    box-shadow:0 ${Math.round(set.h * 0.008)}px ${Math.round(set.h * 0.045)}px rgba(0,0,0,.55)}
   .phone img{width:100%;display:block}
   </style>
   ${p.mark ? '<div class="mark">Selah Daily</div>' : ''}
-  <h1>${p.head}</h1><div class="rule"></div><div class="sub">${p.sub}</div>
-  ${body}`;
+  <h1>${p.head}</h1><div class="sub">${p.sub}</div>
+  ${body}
+  ${p.big ? '<div class="foot">Selah Daily</div>' : ''}`;
 };
 
 (async () => {
