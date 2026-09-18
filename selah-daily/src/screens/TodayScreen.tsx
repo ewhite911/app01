@@ -110,7 +110,7 @@ export default function TodayScreen({ navigation }: any) {
         </Text>
         <Button title={done ? 'Pray again' : "I've read it"} onPress={() => setStep('pray')} variant="amber" />
         <View style={styles.treeCard}>
-          <Tree count={count} size={128} isMember={active} memberSince={since} />
+          <Tree count={count} size={150} isMember={active} memberSince={since} />
         </View>
       </ScrollView>
     );
@@ -192,10 +192,10 @@ export default function TodayScreen({ navigation }: any) {
 }
 
 const styles = StyleSheet.create({
-  container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg },
-  treeCard: { alignItems: 'center', paddingTop: space.md, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.line },
+  container: { padding: space.lg, gap: space.md, backgroundColor: colors.bg, flexGrow: 1 },
+  treeCard: { alignItems: 'center', marginTop: 'auto', paddingTop: space.lg, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.line },
   eyebrow: { fontSize: 12, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
-  card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 240, justifyContent: 'flex-end' },
+  card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 300, justifyContent: 'flex-end' },
   cardImg: { borderRadius: radius.lg },
   veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.25)' },
   ref: { color: colors.amber, fontWeight: '700', fontSize: 12, letterSpacing: 1, marginBottom: space.sm },

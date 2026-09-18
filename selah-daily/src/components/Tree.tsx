@@ -40,22 +40,27 @@ const leafDeep = '#2E6B46';
 const stem = '#6B5A3E';
 const bark = '#5A4A34';
 
-/** A single leaf: a rounded wedge, mirrored by `side`. */
+/**
+ * A single leaf. Two opposite corners fully rounded and the other two nearly
+ * square gives the pointed-oval shape; the tilt keeps it from reading as a flag.
+ */
 function Leaf({ u, size, side, top }: { u: number; size: number; side: -1 | 1; top: number }) {
   const w = size * u;
+  const h = w * 0.55;
   return (
     <View
       style={{
         position: 'absolute',
         top: top * u,
-        left: side === 1 ? 50 * u : (50 - size) * u,
+        left: side === 1 ? 49 * u : (51 - size) * u,
         width: w,
-        height: w * 0.6,
+        height: h,
         backgroundColor: side === 1 ? leaf : leafDeep,
-        borderTopLeftRadius: side === 1 ? w : 2,
-        borderBottomRightRadius: side === 1 ? w : 2,
-        borderTopRightRadius: side === 1 ? 2 : w,
-        borderBottomLeftRadius: side === 1 ? 2 : w,
+        borderTopLeftRadius: side === 1 ? h : h * 0.15,
+        borderBottomRightRadius: side === 1 ? h : h * 0.15,
+        borderTopRightRadius: side === 1 ? h * 0.15 : h,
+        borderBottomLeftRadius: side === 1 ? h * 0.15 : h,
+        transform: [{ rotate: side === 1 ? '-18deg' : '18deg' }],
       }}
     />
   );
@@ -157,7 +162,7 @@ export function Tree({
             style={{
               position: 'absolute',
               left: 48.5 * u,
-              width: 3 * u,
+              width: 3.6 * u,
               top: (index >= 3 ? 44 : index === 2 ? 52 : 64) * u,
               bottom: 16 * u,
               borderRadius: 1.5 * u,
