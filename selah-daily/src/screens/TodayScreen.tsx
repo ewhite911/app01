@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Alert, ImageBackground, Linking, ScrollView, StyleSheet, Text, View, Vibration, Pressable } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Button } from '../components/ui';
+import { Button, Scrim } from '../components/ui';
 import { activePrayers, bumpPrayed, markRoutineDone, routineDoneToday, Prayer, routineCount, memberSince } from '../db';
 import { verseForToday } from '../verses';
 import { Tree } from '../components/Tree';
@@ -82,6 +82,7 @@ export default function TodayScreen({ navigation }: any) {
         <Text style={styles.eyebrow}>{done ? 'TODAY · DONE' : 'TODAY'}</Text>
         <ImageBackground source={verseBg} style={styles.card} imageStyle={styles.cardImg}>
           <View style={styles.veil} />
+          <Scrim />
           <Text style={styles.ref}>{verse.ref} · BSB</Text>
           <Text style={type.verse}>“{verse.text}”</Text>
         </ImageBackground>
@@ -175,7 +176,7 @@ const styles = StyleSheet.create({
   eyebrow: { fontSize: 12, letterSpacing: 1.5, fontWeight: '700', color: colors.muted },
   card: { borderRadius: radius.lg, overflow: 'hidden', padding: space.lg, minHeight: 240, justifyContent: 'flex-end' },
   cardImg: { borderRadius: radius.lg },
-  veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.55)' },
+  veil: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(20,26,44,0.25)' },
   ref: { color: colors.amber, fontWeight: '700', fontSize: 12, letterSpacing: 1, marginBottom: space.sm },
   hint: { ...type.small, textAlign: 'center' },
   timer: { fontSize: 64, fontWeight: '800', textAlign: 'center', color: colors.navy, fontVariant: ['tabular-nums'] },
