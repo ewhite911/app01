@@ -1,5 +1,5 @@
 /**
- * The growing tree: mustard seed (Matthew 13) → tree planted by water (Psalm 1).
+ * The growing tree, Psalm 1 from end to end: a seed to a tree planted by water.
  *
  * Rules agreed in docs/결정사항_및_다음작업.md §2-7:
  *  - It grows with completed routines and NEVER wilts, dies or goes backwards.
@@ -21,7 +21,9 @@ export type Stage = {
 };
 
 export const STAGES: Stage[] = [
-  { key: 'seed', name: 'A mustard seed', caption: 'The smallest of all seeds.', min: 0 },
+  // Not "a mustard seed": black mustard is an annual herb, and a mustard seed
+  // cannot grow into the tree planted by water. One plant, one passage.
+  { key: 'seed', name: 'A seed', caption: 'Small enough to lose in your hand.', min: 0 },
   { key: 'sprout', name: 'A sprout', caption: 'Something has broken through.', min: 3 },
   { key: 'seedling', name: 'A seedling', caption: 'Roots first, branches later.', min: 7 },
   { key: 'young', name: 'A young tree', caption: 'It holds its own weight now.', min: 14 },

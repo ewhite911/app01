@@ -75,7 +75,7 @@ function tree(size, index, tone){
   if(index===2) inner += L(20,1,50)+L(20,-1,58)+L(16,1,68);
   return `<div class="tree" style="width:${size}px;height:${h}px"><div class="grid" style="width:${size}px;height:${size}px">${inner}</div></div>`;
 }
-const STAGES=[['A mustard seed','The smallest of all seeds.','3 more days to a sprout.'],
+const STAGES=[['A seed','Small enough to lose in your hand.','3 more days to a sprout.'],
               ['A sprout','Something has broken through.','4 more days to a seedling.']];
 window.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('[data-tree]').forEach(el=>{
