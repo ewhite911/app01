@@ -32,7 +32,7 @@ import { config } from './theme';
 const ALPHABET = '0123456789ABCDEFGHJKMNPQRSTVWXYZ';
 const CODE_LENGTH = 10;
 
-export const transferEnabled = !!config.supabaseUrl && !!config.supabaseAnonKey;
+export const transferEnabled = !!config.supabaseUrl && !!config.supabasePublishableKey;
 
 /** A fresh code, grouped for reading aloud: `K7QP-M2XD-4R`. */
 export function newTransferCode(): string {
@@ -84,13 +84,20 @@ export type TransferPayload = {
 };
 
 async function rpc<T>(fn: string, body: Record<string, unknown>): Promise<T> {
+  const key = config.supabasePublishableKey;
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    apikey: key,
+  };
+  // A legacy `anon` key is a JWT and PostgREST wants it in Authorization too.
+  // The newer `sb_publishable_` keys are not JWTs: putting one in Authorization
+  // makes the gateway try to verify it as a token and answer 401. So the header
+  // goes on only for the old shape.
+  if (key.startsWith('eyJ')) headers.Authorization = `Bearer ${key}`;
+
   const res = await fetch(`${config.supabaseUrl}/rest/v1/rpc/${fn}`, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      apikey: config.supabaseAnonKey,
-      Authorization: `Bearer ${config.supabaseAnonKey}`,
-    },
+    headers,
     body: JSON.stringify(body),
   });
   if (!res.ok) throw new Error(`transfer/${fn} ${res.status}`);

@@ -7,18 +7,26 @@ moment the new phone reads it.
 ## Setting it up
 
 1. Supabase dashboard → **SQL Editor** → New query → paste `schema.sql` → Run.
-2. **Project Settings → API**. Copy the **Project URL** and the **anon public**
-   key into `src/theme.ts`:
+2. **Project Settings → API Keys**. Copy the **Project URL** and the
+   **publishable** key into `src/theme.ts`:
 
    ```ts
    supabaseUrl: 'https://xxxxxxxxxxxx.supabase.co',
-   supabaseAnonKey: 'eyJhbGciOi...',
+   supabasePublishableKey: 'sb_publishable_...',
    ```
 
-   Leave either one blank and the feature disappears from the app — no screen,
-   no network call. The file export in Settings still moves a list across.
+   An older project may show a legacy `anon` key instead; either works. They go
+   in the same field, and `rpc()` in `src/transfer.ts` picks the right headers:
+   the publishable key travels on `apikey` alone, because it is not a JWT and the
+   gateway answers 401 to anything non-JWT in `Authorization`. A legacy `anon`
+   key is a JWT and gets both headers.
 
-3. The `service_role` key is never used by the app. Do not put it in the repo.
+   Leave either setting blank and the feature disappears from the app — no
+   screen, no network call. The file export in Settings still moves a list
+   across.
+
+3. The **secret** key (`sb_secret_...`, formerly `service_role`) bypasses RLS
+   entirely. The app never uses it. It must never go in this repo or in a build.
 
 ## What the server can and cannot see
 

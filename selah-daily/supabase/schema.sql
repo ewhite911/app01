@@ -46,7 +46,8 @@ begin
     raise exception 'bad id';
   end if;
   -- A prayer list is a few kilobytes. The cap is what stops the table being
-  -- used as free file storage by anyone who reads the anon key out of the app.
+  -- used as free file storage by anyone who reads the publishable key out of
+  -- the app.
   if p_payload is null or length(p_payload) > 1048576 then
     raise exception 'bad payload';
   end if;

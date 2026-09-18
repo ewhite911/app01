@@ -38,7 +38,13 @@ export const config = {
   // Phone-to-phone transfer. Leave either blank and the feature hides itself:
   // a build with no server configured never contacts one. See supabase/README.md.
   supabaseUrl: '',
-  supabaseAnonKey: '',
+  /**
+   * The publishable key, which is meant to ship inside the app — anyone can read
+   * it out of the APK, and the schema is built on that assumption: the table is
+   * closed to this role and only two functions are reachable. The secret key is
+   * never used here and must never be put in this file.
+   */
+  supabasePublishableKey: 'sb_publishable_0F86AtdXSqR-mJnyKLDFeQ_0eaJ1xFg',
   /** Hours a sealed transfer survives on the server before it is deleted unread. */
   transferHours: 24,
   // Served by GitHub Pages from /docs on main. Enable Pages in the repo settings to make these live.
