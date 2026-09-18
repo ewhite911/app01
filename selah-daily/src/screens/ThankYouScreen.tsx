@@ -31,7 +31,7 @@ export default function ThankYouScreen({ navigation }: any) {
         <Text style={styles.title}>{thankYou.title}</Text>
         <Text style={styles.body}>{thankYou.body}</Text>
         <View style={{ height: space.lg }} />
-        <Tree count={routineCount()} size={140} tone="dark" isMember memberSince={since} showCaption={false} />
+        <Tree count={routineCount()} size={140} tone="dark" isMember memberSince={since} detail="none" />
         <View style={styles.plaque}>
           <Text style={styles.plaqueText}>Member since {since.toLocaleDateString()}</Text>
         </View>

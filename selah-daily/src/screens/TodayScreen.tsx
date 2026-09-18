@@ -110,7 +110,7 @@ export default function TodayScreen({ navigation }: any) {
         </Text>
         <Button title={done ? 'Pray again' : "I've read it"} onPress={() => setStep('pray')} variant="amber" />
         <View style={styles.treeCard}>
-          <Tree count={count} size={150} isMember={active} memberSince={since} />
+          <Tree count={count} size={150} isMember={active} memberSince={since} detail="name" />
         </View>
       </ScrollView>
     );

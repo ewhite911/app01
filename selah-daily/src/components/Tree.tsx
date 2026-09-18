@@ -89,14 +89,21 @@ export function Tree({
   tone = 'light',
   isMember = false,
   memberSince = null,
-  showCaption = true,
+  detail = 'full',
 }: {
   count: number;
   size?: number;
   tone?: 'light' | 'dark';
   isMember?: boolean;
   memberSince?: Date | null;
-  showCaption?: boolean;
+  /**
+   * 'name' is the daily path: the drawing and what it is, nothing else. The
+   * whole app is three minutes, and a paragraph under the tree every morning
+   * is three lines in the way of it — the "N more days" line especially, which
+   * is the streak pressure this app does not do.
+   * 'full' is for the moments someone arrives at once: Amen, and thank-you.
+   */
+  detail?: 'name' | 'full' | 'none';
 }) {
   const { stage, index, next, toNext } = stageFor(count);
   const u = size / 100; // 100 × 100 drawing grid
@@ -205,13 +212,17 @@ export function Tree({
         </View>
       </View>
 
-      {showCaption && (
+      {detail !== 'none' && (
         <View style={{ alignItems: 'center', marginTop: space.sm, paddingHorizontal: space.md }}>
           <Text style={[styles.name, { color: fg }]}>{stage.name}</Text>
-          <Text style={[styles.caption, { color: sub }]}>{stage.caption}</Text>
-          <Text style={[styles.caption, { color: sub, marginTop: 2 }]}>
-            {next ? `${toNext} more ${toNext === 1 ? 'day' : 'days'} to ${next.name.toLowerCase()}.` : treeCopy.connect}
-          </Text>
+          {detail === 'full' && (
+            <>
+              <Text style={[styles.caption, { color: sub }]}>{stage.caption}</Text>
+              <Text style={[styles.caption, { color: sub, marginTop: 2 }]}>
+                {next ? `${toNext} more ${toNext === 1 ? 'day' : 'days'} to ${next.name.toLowerCase()}.` : treeCopy.connect}
+              </Text>
+            </>
+          )}
           {isMember && memberSince && (
             <View style={[styles.plaque, tone === 'dark' && { borderColor: 'rgba(255,255,255,0.5)' }]}>
               <Text style={[styles.plaqueText, { color: sub }]}>{treeCopy.memberBadge(memberSince)}</Text>

@@ -82,10 +82,11 @@ window.addEventListener('DOMContentLoaded',()=>{
     const [size,index,tone]=el.dataset.tree.split(',');
     const i=+index, s=+size;
     const fg = tone==='dark'?'#fff':'#1B2233', sub = tone==='dark'?'rgba(255,255,255,.85)':'#5E6577';
+    const full = el.dataset.detail !== 'name';
     el.innerHTML = tree(s,i,tone)
       + `<div class="tname" style="color:${fg}">${STAGES[i][0]}</div>`
-      + `<div class="tcap" style="color:${sub}">${STAGES[i][1]}</div>`
-      + `<div class="tcap" style="color:${sub};margin-top:2px">${STAGES[i][2]}</div>`;
+      + (full ? `<div class="tcap" style="color:${sub}">${STAGES[i][1]}</div>`
+              + `<div class="tcap" style="color:${sub};margin-top:2px">${STAGES[i][2]}</div>` : '');
   });
   document.querySelectorAll('[data-bg]').forEach(el=>{ el.style.backgroundImage=`url('${IMG}${el.dataset.bg}')`; });
 });
@@ -102,7 +103,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     </div>
     <div class="hint">Read it slowly. Once is enough.</div>
     <div class="btn amber">I've read it</div>
-    <div class="treeCard" data-tree="150,0,light"></div>
+    <div class="treeCard" data-tree="150,0,light" data-detail="name"></div>
   </div>
   <div class="tabs"><div class="tab on"><span class="ic">☀</span>Today</div><div class="tab"><span class="ic">♡</span>Prayers</div><div class="tab"><span class="ic">⚙</span>Settings</div></div>
 </div></div>
@@ -118,7 +119,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     </div>
     <div class="hint">Read it slowly. Once is enough.<br>[test: hold the card to see the morning image]</div>
     <div class="btn amber">I've read it</div>
-    <div class="treeCard" data-tree="150,0,light"></div>
+    <div class="treeCard" data-tree="150,0,light" data-detail="name"></div>
   </div>
   <div class="tabs"><div class="tab on"><span class="ic">☀</span>Today</div><div class="tab"><span class="ic">♡</span>Prayers</div><div class="tab"><span class="ic">⚙</span>Settings</div></div>
 </div></div>

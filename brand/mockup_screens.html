@@ -98,10 +98,11 @@ addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('[data-tree]').forEach(e=>{
     const [s,i,tone,mem]=e.dataset.tree.split(',');const idx=+i;
     const fg=tone==='dark'?'#fff':'#1B2233',sub=tone==='dark'?'rgba(255,255,255,.85)':'#5E6577';
+    const full=e.dataset.detail!=='name';
     e.innerHTML=tree(+s,idx,tone,mem==='1')
       +`<div class="tname" style="color:${fg}">${ST[idx][0]}</div>`
-      +`<div class="tcap" style="color:${sub}">${ST[idx][1]}</div>`
-      +`<div class="tcap" style="color:${sub};margin-top:2px">${ST[idx][2]}</div>`
+      +(full?`<div class="tcap" style="color:${sub}">${ST[idx][1]}</div>`
+            +`<div class="tcap" style="color:${sub};margin-top:2px">${ST[idx][2]}</div>`:'')
       +(mem==='1'?`<div class="plaque" style="color:${sub};border-color:${tone==='dark'?'rgba(255,255,255,.5)':'#E6E2DA'}">Member since 9/18/2026</div>`:'');
   });
 });
@@ -232,7 +233,7 @@ addEventListener('DOMContentLoaded',()=>{
   </div>
   <div class="hint">Read it slowly. Once is enough.</div>
   <div class="btn amber">I've read it</div>
-  <div class="treeCard" data-tree="150,3,light,1"></div>
+  <div class="treeCard" data-tree="150,3,light,1" data-detail="name"></div>
  </div>
  <div class="tabs"><div class="tab on"><span class="ic">☀</span>Today</div><div class="tab"><span class="ic">♡</span>Prayers</div><div class="tab"><span class="ic">⚙</span>Settings</div></div>
 </div></div>
