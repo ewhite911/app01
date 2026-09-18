@@ -8,7 +8,7 @@
  *  - Drawn with plain views, so it needs no image files and no extra dependency.
  */
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 import { colors, space } from '../theme';
 import { tree as treeCopy } from '../copy';
 
@@ -36,6 +36,33 @@ export function stageFor(count: number): { stage: Stage; index: number; next: St
   const next = index < STAGES.length - 1 ? STAGES[index + 1] : null;
   return { stage: STAGES[index], index, next, toNext: next ? next.min - count : 0 };
 }
+
+/**
+ * The drawn plant below is the fallback. Where a plate exists it is used
+ * instead: two-ink botanical drawings, all on one 1024 canvas with the ground
+ * line at 82%, so the plant grows in place instead of jumping between stages.
+ * `_dark` is the same plate with the navy ink lifted to the app's off-white,
+ * for the screens that sit on a dark photograph.
+ */
+type Plate = { light: number; dark: number; lightFruit?: number; darkFruit?: number };
+const PLATES: Record<Stage['key'], Plate | null> = {
+  seed: { light: require('../../assets/tree/seed.png'), dark: require('../../assets/tree/seed_dark.png') },
+  sprout: { light: require('../../assets/tree/sprout.png'), dark: require('../../assets/tree/sprout_dark.png') },
+  seedling: { light: require('../../assets/tree/seedling.png'), dark: require('../../assets/tree/seedling_dark.png') },
+  young: {
+    light: require('../../assets/tree/young.png'),
+    dark: require('../../assets/tree/young_dark.png'),
+    lightFruit: require('../../assets/tree/young_fruit.png'),
+    darkFruit: require('../../assets/tree/young_fruit_dark.png'),
+  },
+  // The tree planted by water is still drawn; its plates have not arrived.
+  water: null,
+};
+
+/** Visible height of a plate, as a fraction of its square canvas. */
+const PLATE_BOX: Record<Stage['key'], number> = {
+  seed: 0.2, sprout: 0.34, seedling: 0.56, young: 0.84, water: 1,
+};
 
 const leaf = '#3E8E5A';
 const leafDeep = '#2E6B46';
@@ -116,14 +143,29 @@ export function Tree({
   const fruit = isMember && index >= 3;
 
   /**
-   * The drawing grid is always 100 x 100, but early stages only use the bottom of it.
+   * The grid is always 100 x 100, but early stages only use the bottom of it.
    * Cropping to the used part keeps a seed from reserving a screen of empty sky.
    */
-  const boxHeight = size * [0.34, 0.46, 0.62, 0.86, 1][index];
+  const plate = PLATES[stage.key];
+  const boxHeight = size * (plate ? PLATE_BOX[stage.key] : [0.34, 0.46, 0.62, 0.86, 1][index]);
+  const plateSource = plate
+    ? tone === 'dark'
+      ? (fruit && plate.darkFruit) || plate.dark
+      : (fruit && plate.lightFruit) || plate.light
+    : null;
 
   return (
     <View style={{ alignItems: 'center' }} accessibilityLabel={`${stage.name}. ${count} days completed.`}>
       <View style={{ width: size, height: boxHeight, overflow: 'hidden' }}>
+        {plateSource ? (
+          // The plate's ground line sits at 82% of its canvas; drop it so the
+          // line lands just above the bottom of the visible box.
+          <Image
+            source={plateSource}
+            style={{ position: 'absolute', left: 0, bottom: -size * 0.14, width: size, height: size }}
+            resizeMode="contain"
+          />
+        ) : (
         <View style={{ position: 'absolute', left: 0, bottom: 0, width: size, height: size }}>
         {/* ground */}
         <View
@@ -212,6 +254,7 @@ export function Tree({
           </>
         )}
         </View>
+        )}
       </View>
 
       {detail !== 'none' && (

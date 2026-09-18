@@ -67,6 +67,17 @@ h2{font-size:18px;font-weight:700;color:var(--ink)}
 </style>
 <script>
 const IMG='file:///home/user/app01/selah-daily/assets/images/';
+const TREE='file:///home/user/app01/selah-daily/assets/tree/';
+const KEYS=['seed','sprout','seedling','young','water'];
+const BOX={seed:.2,sprout:.34,seedling:.56,young:.84,water:1};
+function plate(size,index,tone,member){
+  const k=KEYS[index]; if(k==='water') return null;
+  const f=(member&&k==='young')?k+'_fruit':k;
+  const src=TREE+f+(tone==='dark'?'_dark':'')+'.png';
+  return `<div style="position:relative;overflow:hidden;width:${size}px;height:${size*BOX[k]}px">`
+       + `<img src="${src}" style="position:absolute;left:0;bottom:${-size*0.14}px;width:${size}px;height:${size}px;object-fit:contain">`
+       + `</div>`;
+}
 const R=[.34,.46,.62,.86,1], leaf='#3E8E5A',leafDeep='#2E6B46',stem='#6B5A3E',bark='#5A4A34';
 const ST=[['A seed','Small enough to lose in your hand.','3 more days to a sprout.'],
           ['A sprout','Something has broken through.','4 more days to a seedling.'],
@@ -99,7 +110,7 @@ addEventListener('DOMContentLoaded',()=>{
     const [s,i,tone,mem]=e.dataset.tree.split(',');const idx=+i;
     const fg=tone==='dark'?'#fff':'#1B2233',sub=tone==='dark'?'rgba(255,255,255,.85)':'#5E6577';
     const full=e.dataset.detail!=='name';
-    e.innerHTML=tree(+s,idx,tone,mem==='1')
+    e.innerHTML=(plate(+s,idx,tone,mem==='1') || tree(+s,idx,tone,mem==='1'))
       +`<div class="tname" style="color:${fg}">${ST[idx][0]}</div>`
       +(full?`<div class="tcap" style="color:${sub}">${ST[idx][1]}</div>`
             +`<div class="tcap" style="color:${sub};margin-top:2px">${ST[idx][2]}</div>`:'')
